@@ -7,12 +7,15 @@
 - 브랜드 옆 돋보기를 클릭하면 브랜드조회 팝업창이 열린다.찾고자하는 브랜드명(혹은 브랜드ID)를 입력하면 관련된 목록이 출력된다.
 - 아이콘은 상/하단 합쳐서 2개까지만 가능하다. 2개초과시 insert할 때, 유효성체크를 거쳐 alert이 뜬다.
 - 키워드는 insert시 콤마(,)로 짤라서 테이블에 넣는다.
+
 ## 상품분류정보
 ![tb_product2](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm2.gif)
 - 필수값으로, 최소 하나의 상품분류는 등록되어 있어야한다.기준상품분류 라디오버튼 미체크 시 insert할 때, 유효성체크를 거쳐 alert이 뜬다.
+
 ## 상품가격정보
 ![tb_price](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm3.gif)
 - 정상가와 판매가 입력 시 두 금액의 차를 계산해서 할인율을 알려준다.
+
 ## 상품옵션정보
 ![tb_option](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm4.gif)
 - 예시를 들자면,
@@ -22,11 +25,13 @@
 -쿼리-TB_PRODUCT_OPTION_DETAIL    빨강, 파랑, 250, 255 등
 -쿼리-TB_PRODUCT_OPTION_STOCK      빨강:250 10개,   파랑:255 20개 
 위와 같이 insert된다.
+
 ## 관련상품정보
 ![tb_connection_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm5.gif)
 - 관련상품(있음)을 체크하면 관련상품목록조회 팝업창을 띄울수 있는 관련상품추가 버튼이 생성된다.
 - <검색 시> -분류선택,업체,상품명,상품코드,브랜드,판매상태,상품가격,전시여부,승인기간, 업체중지상품제외 검색조건에 따라 관련된 목록이 출력된다.
 - 여러 개 체크가 가능하다.
+
 ## 정보고시정보
 ![tb_ftc_information](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm6.gif)
 -
@@ -49,7 +54,29 @@
 ## delete
 ![tb_board4](https://github.com/YeJinAhn/crewmate-internship/blob/main/board4(delete).gif)
 
-#네파 홈페이지
-#FAQ관리
+# 네파 홈페이지
+## FAQ관리
+### 메인화면
 ![faqList](https://github.com/YeJinAhn/crewmate-internship/blob/main/FAQ.jpg)
-#회원가입
+- 1.고객센터 메인화면
+-FAQ의 TOP10리스트 노출
+- 2.FAQ 유형을 선택하면 해당 유형에 대한 FAQ리스트가 나타난다.
+-선택한 분류유형명이 아래 표시
+- 3.FAQ리스트를 선택하면 해당 리스트가 펼쳐져 답변을 볼 수 있다.
+-다시 Tab하면 닫힘 
+### 검색결과
+![faqSearch](https://github.com/YeJinAhn/crewmate-internship/blob/main/FAQ(search).jpg)
+- 검색창에 입력한 키워드에 대한 검색결과 리스팅
+- 검색결과 및 건수 표시
+- 검색결과 시 tab 버튼은 전체로 고정
+
+## 회원가입
+### 통합회원 가입 여부 확인
+![totalLoginYn](https://github.com/YeJinAhn/crewmate-internship/blob/main/회원가입여부.jpg)
+- 통합회원가입 첫 화면으로 기존 회원 가입여부를 체크할 수 있는 화면
+1.이름 입력한
+2.휴대폰번호 입력란
+3.이름 입력란이 비어있을 경우 alert
+4.휴대폰번호가 비어있을 경우 alert
+5.[확인]버튼 클릭 시, 통합회원으로 가입되어 있거나, 가입정보가 없을 경우 화면에서 결과정보가 나타난다.
+6.[확인] 버튼 클릭 시, 통합회원이 아닌 기존회원가입 정보로 확인이 되면 '기존 회원 가입 확인'화면이 나타난다.
