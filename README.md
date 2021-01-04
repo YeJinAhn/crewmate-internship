@@ -2,22 +2,22 @@
 # 상품등록
 -(v체크 되어있는것은 필수값으로, 미입력 시 insert되지 않는다.)
 ## 상품기본정보
-![tb_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm1.gif)
+![tb_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm1.gif)
 - 셀렉트박스를 누르면 해당리스트가 나온다(해당리스트는 DB조회를 거친다-데이터가 바뀔 수 있기 때문에)
 - 브랜드 옆 돋보기를 클릭하면 브랜드조회 팝업창이 열린다.찾고자하는 브랜드명(혹은 브랜드ID)를 입력하면 관련된 목록이 출력된다.
 - 아이콘은 상/하단 합쳐서 2개까지만 가능하다. 2개초과시 insert할 때, 유효성체크를 거쳐 alert이 뜬다.
 - 키워드는 insert시 콤마(,)로 짤라서 테이블에 넣는다.
 
 ## 상품분류정보
-![tb_product2](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm2.gif)
+![tb_product2](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm2.gif)
 - 필수값으로, 최소 하나의 상품분류는 등록되어 있어야한다.기준상품분류 라디오버튼 미체크 시 insert할 때, 유효성체크를 거쳐 alert이 뜬다.
 
 ## 상품가격정보
-![tb_price](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm3.gif)
+![tb_price](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm3.gif)
 - 정상가와 판매가 입력 시 두 금액의 차를 계산해서 할인율을 알려준다.
 
 ## 상품옵션정보
-![tb_option](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm4.gif)
+![tb_option](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm4.gif)
 - 예시를 들자면,
 -같은 신발이지만 사이즈별, 색상별이 있고     사이즈, 색상의 조합만큼 재고가 생성됩니다. 
 -재고별로 수량이 있습니다.
@@ -117,7 +117,7 @@
 <br />
 3.멤버십 카드 이용약관 
 
-![agreement2](https://github.com/YeJinAhn/crewmate-internship/blob/main/agreement2.jpg)
+![agreement2](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/agreement2.jpg)
 - 멤버십카드 이용약관 
 - 개인정보 수집 및 이용 동의
 - 마케팅 개인정보 활용 동의 
