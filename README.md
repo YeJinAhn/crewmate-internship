@@ -27,37 +27,37 @@
 위와 같이 insert된다.
 
 ## 관련상품정보
-![tb_connection_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm5.gif)
+![tb_connection_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm5.gif)
 - 관련상품(있음)을 체크하면 관련상품목록조회 팝업창을 띄울수 있는 관련상품추가 버튼이 생성된다.
 - <검색 시> -분류선택,업체,상품명,상품코드,브랜드,판매상태,상품가격,전시여부,승인기간, 업체중지상품제외 검색조건에 따라 관련된 목록이 출력된다.
 - 여러 개 체크가 가능하다.
 
 ## 정보고시정보
-![tb_ftc_information](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm6.gif)
+![tb_ftc_information](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm6.gif)
 -
 -
 -
 ## 상품이미지정보 & 상품상세정보
-![tb_product_image](https://github.com/YeJinAhn/crewmate-internship/blob/main/productForm7.gif)
+![tb_product_image](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm7.gif)
 - 필수값인 대표이미지는 첫번째 이미지와 같다.
 
 # 공지사항 관리
 ## 검색조건
-![tb_board1](https://github.com/YeJinAhn/crewmate-internship/blob/main/board1(검색조건).gif)
+![tb_board1](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/board1(검색조건).gif)
 - 제목 혹은 내용을 선택해서 검색하고 싶은 단어를 입력하면 관련된 제목(혹은 내용)이 출력된다.
 - 등록일자는 시작일자가 종료일자보다 기간이 뒤면 검색이 되지 않는다.
 ## insert
-![tb_board2](https://github.com/YeJinAhn/crewmate-internship/blob/main/board2(insert).gif)
+![tb_board2](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/board2(insert).gif)
 ## update
-![tb_board3](https://github.com/YeJinAhn/crewmate-internship/blob/main/board3(update).gif)
+![tb_board3](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/board3(update).gif)
 - 수정하고자 하는 공지사항을 누르면 등록자ID/등록일시가 보여지고, 조회수가 1 증가한다.
 ## delete
-![tb_board4](https://github.com/YeJinAhn/crewmate-internship/blob/main/board4(delete).gif)
+![tb_board4](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/board4(delete).gif)
 
 # 네파 홈페이지
 ## FAQ관리
 ### 메인화면
-![faqList](https://github.com/YeJinAhn/crewmate-internship/blob/main/FAQ.jpg)
+![faqList](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/FAQ.jpg)
 - 1.고객센터 메인화면
 - FAQ의 TOP10리스트 노출
 - 2.FAQ 유형을 선택하면 해당 유형에 대한 FAQ리스트가 나타난다.
@@ -66,14 +66,14 @@
 - 다시 Tab하면 닫힘 
 
 ### 검색결과
-![faqSearch](https://github.com/YeJinAhn/crewmate-internship/blob/main/FAQ(search).jpg)
+![faqSearch](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/FAQ(search).jpg)
 - 검색창에 입력한 키워드에 대한 검색결과 리스팅
 - 검색결과 및 건수 표시
 - 검색결과 시 tab 버튼은 전체로 고정
 
 ## 회원가입
 ### 통합회원 가입 여부 확인
-![totalLoginYn](https://github.com/YeJinAhn/crewmate-internship/blob/main/회원가입여부.jpg)
+![totalLoginYn](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/회원가입여부.jpg)
 - 통합회원가입 첫 화면으로 기존 회원 가입여부를 체크할 수 있는 화면
 <br />
 1.이름 입력란
@@ -89,7 +89,7 @@
 6.[확인] 버튼 클릭 시, 통합회원이 아닌 기존회원가입 정보로 확인이 되면 '기존 회원 가입 확인'화면이 나타난다.
 
 ### 회원가입 여부 확인 결과 (기존 회원 정보가 없을 경우)
-![newLoginYn1](https://github.com/YeJinAhn/crewmate-internship/blob/main/신규가입1.jpg)
+![newLoginYn1](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/신규가입1.jpg)
 - 통합회원가입 첫 화면에서 기존 회원 가입여부 결과 화면으로 체크시 동일한 정보가 없을 경우, 화면
 <br /> 
 1.회원정보가 모두 입력되어 있고 일치하는 회원정보가 없을 경우 나타나는 정보를 [다시 조회]하거나, [통합회원 신규가입]으로 유도할 수 있다. 
@@ -98,7 +98,7 @@
 
 
 ### 회원가입 여부 확인 결과 (회원 정보가 통합회원인 경우)
-![newLoginYn2](https://github.com/YeJinAhn/crewmate-internship/blob/main/신규가입3.jpg)
+![newLoginYn2](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/신규가입3.jpg)
 - 입력한 회원정보가 이미 통합회원으로 가입되어 있는 경우, NEPA 통합회원으로 로그인 유도하는 화면이 나타난다.
 <br /> 
 4.[로그인] 통합회원 로그인 화면으로 이동
@@ -108,7 +108,7 @@
 6.[비밀번호 찾기] 회원 비밀번호 찾기 화면으로 이동
 
 ### 약관동의
-![agreement1](https://github.com/YeJinAhn/crewmate-internship/blob/main/agreement1.jpg)
+![agreement1](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/agreement1.jpg)
 - 통합회원 가입 시 1. 회원약관 동의화면으로 회원이용약관, 개인정보동의 체크 화면이 함께 나타나는 화면
 <br /> 
 1.네파몰 쇼핑몰 이용약관
@@ -130,18 +130,18 @@
 *확인 사항 : 마케팅 개인정보 활용 동의(선택)문구 확인
 
 ### 본인인증
-![본인인증](https://github.com/YeJinAhn/crewmate-internship/blob/main/본인인증.jpg)
+![본인인증](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/본인인증.jpg)
 - 본인인증은 아직 구현되지 않아, 본인인증 클릭 시 3.회원정보 입력 페이지로 이동한다. 
 
 ### 회원정보 입력
-![signup1](https://github.com/YeJinAhn/crewmate-internship/blob/main/signup1.jpg)
+![signup1](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/signup1.jpg)
 - 통합회원 가입 시 3. 회원정보입력 화면으로 회원의 기본정보를 입력할 수 있는 화면  
 - 필수 정보 : 아이디, 비밀번호, 비밀번호 확인, 주소
 - 선택정보 : 이메일 
 - 부가정보 : 결혼 여부, 결혼기념일, 직업, 관심분야 
 
 ### 가입완료
-![success](https://github.com/YeJinAhn/crewmate-internship/blob/main/signup2.jpg)
+![success](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/signup2.jpg)
 - 통합회원 가입 시 3. 회원정보입력이 정상적으로 완료되어 회원가입이 완료되면 나타나는 화면 
 - [NEPA Mall 홈으로 가기] 버튼을 누르면 네파 메인 페이지로 이동한다. 
 - [로그인하기] 버튼을 누르면 로그인 페이지로 이동한다. 
