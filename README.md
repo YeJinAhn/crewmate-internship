@@ -1,4 +1,4 @@
-# <<crewmate-internship>>
+# <crewmate-internship>
 # 상품등록
 - (v체크 되어있는것은 필수값으로, 미입력 시 insert되지 않는다.)
 ### [상품기본정보]
