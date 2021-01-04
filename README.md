@@ -54,8 +54,8 @@
 ### [삭제-delete]
 ![tb_board4](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/board4(delete).gif)
 
-# 네파 홈페이지
-## FAQ관리
+# *네파 홈페이지*
+# FAQ관리
 ### [메인화면]
 ![faqList](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/FAQ.jpg)
 - 1.고객센터 메인화면
