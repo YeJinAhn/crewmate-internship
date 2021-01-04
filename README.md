@@ -58,12 +58,13 @@
 ## FAQ관리
 ### 메인화면
 ![faqList](https://github.com/YeJinAhn/crewmate-internship/blob/main/FAQ.jpg)
-- 1.고객센터 메인화면
--FAQ의 TOP10리스트 노출
-- 2.FAQ 유형을 선택하면 해당 유형에 대한 FAQ리스트가 나타난다.
--선택한 분류유형명이 아래 표시
-- 3.FAQ리스트를 선택하면 해당 리스트가 펼쳐져 답변을 볼 수 있다.
--다시 Tab하면 닫힘 
+- 1. 고객센터 메인화면
+- FAQ의 TOP10리스트 노출
+- 2. FAQ 유형을 선택하면 해당 유형에 대한 FAQ리스트가 나타난다.
+<br />
+- 선택한 분류유형명이 아래 표시
+- 3. FAQ리스트를 선택하면 해당 리스트가 펼쳐져 답변을 볼 수 있다.
+- 다시 Tab하면 닫힘 
 ### 검색결과
 ![faqSearch](https://github.com/YeJinAhn/crewmate-internship/blob/main/FAQ(search).jpg)
 - 검색창에 입력한 키워드에 대한 검색결과 리스팅
@@ -74,9 +75,41 @@
 ### 통합회원 가입 여부 확인
 ![totalLoginYn](https://github.com/YeJinAhn/crewmate-internship/blob/main/회원가입여부.jpg)
 - 통합회원가입 첫 화면으로 기존 회원 가입여부를 체크할 수 있는 화면
-1.이름 입력한
+<br />
+1.이름 입력란
+<br />
 2.휴대폰번호 입력란
+<br />
 3.이름 입력란이 비어있을 경우 alert
+<br />
 4.휴대폰번호가 비어있을 경우 alert
+<br />
 5.[확인]버튼 클릭 시, 통합회원으로 가입되어 있거나, 가입정보가 없을 경우 화면에서 결과정보가 나타난다.
+<br />
 6.[확인] 버튼 클릭 시, 통합회원이 아닌 기존회원가입 정보로 확인이 되면 '기존 회원 가입 확인'화면이 나타난다.
+
+### 회원가입 여부 확인 결과 (기존 회원 정보가 없을 경우)
+![newLoginYn1](https://github.com/YeJinAhn/crewmate-internship/blob/main/신규가입1.jpg)
+- 통합회원가입 첫 화면에서 기존 회원 가입여부 결과 화면으로 체크시 동일한 정보가 없을 경우, 화면
+<br /> 
+1.회원정보가 모두 입력되어 있고 일치하는 회원정보가 없을 경우 나타나는 정보를 [다시 조회]하거나, [통합회원 신규가입]으로 유도할 수 있다. 
+<br />
+2.[통합회원 신규가입] 버튼을 누르면 회원가입의 첫 화면인 1. 회원 약관 동의 화면으로 이동한다.
+
+
+### 회원가입 여부 확인 결과 (회원 정보가 통합회원인 경우)
+![newLoginYn2](https://github.com/YeJinAhn/crewmate-internship/blob/main/신규가입3.jpg)
+
+### 약관동의
+![agreement1](https://github.com/YeJinAhn/crewmate-internship/blob/main/agreement1.jpg)
+
+![agreement2](https://github.com/YeJinAhn/crewmate-internship/blob/main/agreement2.jpg)
+
+### 본인인증
+![본인인증](https://github.com/YeJinAhn/crewmate-internship/blob/main/본인인증.jpg)
+
+### 회원정보 입력
+![signup1](https://github.com/YeJinAhn/crewmate-internship/blob/main/signup1.jpg)
+
+### 가입완료
+![success](https://github.com/YeJinAhn/crewmate-internship/blob/main/signup2.jpg)
