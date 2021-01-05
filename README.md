@@ -1,4 +1,34 @@
 # *crewmate-internship*
+# 인턴기간 : 2020-10-05 ~ 2021-01-04
+<br />
+# Development environment (개발 환경)
+<table>
+ <tr>
+   <td><b>Development tools</b></td>
+   <td>STS</td>
+ </tr>
+ <tr>
+   <td><b>DBMS</b></td>
+   <td> Oracle -SQL Developer</td> 
+ </tr>
+ <tr>
+   <td><b>Server</b></td>
+   <td>Apache Tomcat 8.5</td> 
+ </tr>
+ <tr>
+   <td><b>language</b></td>
+   <td>Java, HTML5, CSS3, javascript, JQuery, MyBatis, Spring</td> 
+ </tr>
+ <tr>
+  <td><b>Design</b></td>
+  <td>Responsive Web</td> 
+ </tr>
+
+</table>
+
+<br/>
+
+
 # 상품등록
 - (v체크 되어있는것은 필수값으로, 미입력 시 insert되지 않는다.)
 ### [상품기본정보]
