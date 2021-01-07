@@ -1,0 +1,377 @@
+@import "/resources/css/brand_common_front.css";
+
+.wrap.nepa-wrap, .wrap.kids-wrap, .wrap.isen-wrap{min-width: 1100px; padding-top:84px; background-color:#fff;}
+/* visualarea */
+.main-visualarea-wrap{width:auto; max-width:100%; height:auto;}
+
+/* visualarea nepa */
+.visual-nepa .inner-visual-wrap{max-width:1920px; height:auto; margin:auto; overflow:hidden;}
+.visual-nepa .inner-visual-dimmed{position: absolute; width:251px; height: 100%; background: #000; right: 0; top: 0; opacity: 0.5; filter: alpha(opacity=0.5); -ms-filter: "alpha(opacity=0.5)"; -khtml-opacity: 0.5; -moz-opacity: 0.5;}
+.visual-nepa .visual-list{position:relative; width:100%; height:465px; overflow:hidden;}
+.visual-nepa .visual-list .visual{width:100%; height: 465px; position:absolute; overflow: hidden;}
+.visual-nepa .visual-list .visual a {position: relative; display: block; width: 100%; height: 100%; overflow: hidden;}
+.visual-nepa .visual-list .visual img {position: absolute; left: 50%; margin-left: -836px;}
+.visual-nepa .visual-list.one-banner .visual img {position: absolute; left: 50%; margin-left: -960px;}
+.visual-nepa .visual-list .visual .youtube{width: 857px; padding-right: 492px; background: #000; text-align: center;}
+.visual-nepa .visual-page-wrap{position:absolute; z-index:30; right:250px; top:0; width:492px; height:465px; background-color:rgba(23,62,53,0.85);}
+.visual-nepa .visual-page-wrap:after{content:''; display:block; position:absolute; z-index:31; left:-20px; top:45%; border-right:20px solid rgba(23,62,53,0.85); border-top:20px solid transparent; border-bottom:20px solid transparent;}
+.visual-nepa .inner-text-wrap{position:relative; width:492px; height:465px; overflow:hidden;}
+.visual-nepa .inner-text-wrap .visual-text-list{width:9999px; height:465px; overflow:hidden;}
+.visual-nepa .inner-text-wrap .visual-text-list li{position:absolute; width:492px; height:465px;}
+/* 180117 KJH : 배너가 1개인 경우 노출되도록 임시 수정 */
+/*.visual-nepa .inner-visual-dimmed, .visual-nepa .visual-page-wrap {display: none;}*/
+
+
+.visual-nepa .page-group{position:absolute; z-index:40; right:13px; bottom:27px;}
+.visual-nepa .page-group > button{vertical-align:middle;}
+.visual-nepa .page-group > span{}
+.visual-nepa .button-visual-prev,
+.visual-nepa .button-visual-next,
+.visual-nepa .button-visual-playstop{display:inline-block; width:35px; height:35px; border:0; outline:0; background-repeat:no-repeat; background-position:0 0; background-color:transparent; cursor:pointer;}
+
+
+.visual-nepa .button-visual-prev span,
+.visual-nepa .button-visual-next span,
+.visual-nepa .button-visual-playstop span{visibility:hidden; position:absolute; z-index:1; left:0; top:0; font-size:0;}
+
+.visual-nepa .button-visual-prev{background-image:url(/resources/images/brand_nepa/main/front_brand_main_btn_prev.png);}
+.visual-nepa .button-visual-next{background-image:url(/resources/images/brand_nepa/main/front_brand_main_btn_next.png);}
+.visual-nepa .button-visual-playstop{background-image:url(/resources/images/brand_nepa/main/front_brand_main_btn_play.png); background-position:0 -35px; }
+.visual-nepa .button-visual-playstop.play {background-image:url(/resources/images/brand_nepa/main/front_brand_main_btn_play.png); background-position:0 0; }
+.visual-nepa .page-now{display:inline-block; height:auto; vertical-align:bottom; font-size:40px; color:#fff; font-weight:700;}
+.visual-nepa .page-divider{display:inline-block; height:auto; padding:0 0px; vertical-align:bottom; font-size:18px;}
+.visual-nepa .page-total{display:inline-block; height:auto; vertical-align:bottom; font-size:21px; color:#a1d4cb; font-weight:400;}
+
+/* visual isen */
+.visual-isen .inner-visual-wrap{min-width: 1100px; max-width:1920px; height:auto; margin:auto; overflow:hidden;}
+.visual-isen .visual-list{position:relative; width:100%; height:426px; overflow:hidden;}
+.visual-isen .visual-list .visual{width:100%; height: 426px; position:absolute; overflow: hidden;}
+.visual-isen .visual-list .visual a {position: relative; display: block; width: 100%; height: 100%; overflow: hidden;}
+.visual-isen .visual-list .visual img {position: absolute; left: 50%; margin-left: -743px;}
+.visual-isen .visual-list.one-banner .visual img {position: absolute; left: 50%; margin-left: -960px;}
+.visual-isen .visual-page-wrap{display: none; position:absolute; z-index:30; right:0px; top:0; width:434px; height:426px; background:url(/resources/images/brand_isen/main/front_brand_isen_bg_page.png) 0 0 repeat;}
+.visual-isen .inner-text-wrap{position:relative; width:492px; height:465px; overflow:hidden;}
+.visual-isen .inner-text-wrap .visual-text-list{width:9999px; height:465px; overflow:hidden;}
+.visual-isen .inner-text-wrap .visual-text-list li{float:left; width:492px; height:465px;}
+
+.visual-isen .page-group{position:absolute; z-index:40; left:0px; top:0px; padding:76px 0 0 28px;}
+.visual-isen .page-group > button{vertical-align:middle; background-color:transparent; cursor:pointer;}
+.visual-isen .page-group > span{/*font-family:"Noto Sans KR";*/font-weight: 500;}
+.visual-isen .button-visual-prev{position:absolute; z-index:41; left:-46px; top:210px; width:19px; height:26px; padding:0; border:0; outline:0;}
+.visual-isen .button-visual-next{position:absolute; z-index:41; left:27px; top:210px; width:19px; height:26px; padding:0; border:0; outline:0;}
+.visual-isen .button-visual-playstop{position:relative; top:7px; display:inline-block; width:35px; height:35px; border:0; outline:0; background-repeat:no-repeat; background-position:0 0; background-color:transparent; cursor:pointer;}
+
+.visual-isen .button-visual-prev span,
+.visual-isen .button-visual-next span,
+.visual-isen .button-visual-playstop span{visibility:hidden; position:absolute; z-index:1; left:0; top:0; font-size:0;}
+
+.visual-isen .button-visual-prev{background-image:url(/resources/images/brand_isen/main/front_brand_isen_page_prev.png);}
+.visual-isen .button-visual-next{background-image:url(/resources/images/brand_isen/main/front_brand_isen_page_next.png);}
+.visual-isen .button-visual-playstop{background-image:url(/resources/images/brand_nepa/main/front_brand_main_btn_play.png); background-position:0 -35px;}
+.visual-isen .button-visual-playstop.play{background-image:url(/resources/images/brand_nepa/main/front_brand_main_btn_play.png); background-position:0 0;}
+.visual-isen .page-now{display:inline-block; height:auto; vertical-align:bottom; font-size:48px; color:#fff; font-weight:300;}
+.visual-isen .page-divider{display:inline-block; height:auto; padding:0px 5px 2px 5px; vertical-align:bottom; font-size:15px; color:#fff; font-weight:200;}
+.visual-isen .page-total{display:inline-block; height:auto; vertical-align:bottom; font-size:20px; color:#fff; font-weight:300;}
+
+/* visual kids */
+.visual-kids {height: 530px;}
+.visual-kids .inner-visual-wrap{min-width: 1100px; max-width:1920px; height:auto; margin:auto; overflow:hidden;}
+.visual-kids .visual-list{position:relative; width:100%; height:530px; overflow:hidden;}
+.visual-kids .visual-list .visual{width:100%; height:530px; position:absolute;}
+.visual-kids .visual-list .visual a {position: relative; display: block; width: 100%; height: 100%; overflow: hidden;}
+.visual-kids .visual-list .visual img {position: absolute; left: 50%; margin-left: -960px;}
+.visual-kids .visual-page-wrap{width:1100px; height:530px; margin: -530px auto 0;}
+.visual-kids .visual-page-wrap{width:550px; height:530px; margin: -530px auto 0; float: right; right: 210px;}
+.visual-kids .inner-text-wrap {position:relative; width:492px; height:465px; overflow:hidden;}
+.visual-kids .inner-text-wrap .visual-text-list{width:9999px; height:465px; overflow:hidden;}
+.visual-kids .inner-text-wrap .visual-text-list li{float:left; width:492px; height:465px;}
+.visual-kids .page-group{position:absolute; z-index:50; right: 0; top:0; width:173px; height: 494px;}
+.visual-kids .page-group > button{vertical-align:middle; background-color:transparent; cursor:pointer;}
+.visual-kids .page-group > span{font-family:Myriad Pro;}
+.visual-kids .button-visual-prev{position:absolute; z-index:43; left:38px; top:217px; width:21px; height:16px; padding:0; border:0; outline:0;}
+.visual-kids .button-visual-next{position:absolute; z-index:43; right:41px; top:233px; width:21px; height:16px; padding:0; border:0; outline:0;}
+.visual-kids .button-visual-playstop{position:absolute; top:215px; left:67px; display:inline-block; width:35px; height:35px; border:0; outline:0; background-repeat:no-repeat; background-position:0 0; background-color:transparent; cursor:pointer;}
+.visual-kids .page-group, .visual-kids .page-image-group {display: none;}
+
+
+
+
+
+
+.visual-kids .button-visual-prev span,
+.visual-kids .button-visual-next span,
+.visual-kids .button-visual-playstop span{visibility:hidden; position:absolute; z-index:1; left:0; top:0; font-size:0;}
+
+.visual-kids .button-visual-prev{background-image:url(/resources/images/brand_kids/main/front_brand_kids_page_prev.png);}
+.visual-kids .button-visual-next{background-image:url(/resources/images/brand_kids/main/front_brand_kids_page_next.png);}
+.visual-kids .button-visual-playstop{background-image:url(/resources/images/brand_isen/main/front_brand_main_btn_play.png); background-position:0 -35px;}
+.visual-kids .button-visual-playstop.play{background-image:url(/resources/images/brand_isen/main/front_brand_main_btn_play.png); background-position:0 0;}
+.visual-kids .page-now{position:absolute; z-index:42; left:0; top:155px; display:block; width:100%; height:auto; text-align:center; font-size:70px; color:#fff; font-weight:700; line-height:70px;}
+.visual-kids .page-total{position:absolute; z-index:42; left:0; top:253px; display:block; width:100%; height:auto; text-align:center; font-size:36px; color:#fff; font-weight:700; opacity: 0.34; filter:alpha(opacity=34);  /* For IE 5-7 */}
+.visual-kids .page-image-group{position:absolute; z-index:50; right: 0; bottom: 36px; width:173px; height:183px; overflow: hidden;}
+.visual-kids .page-image-group .thumb-list{width:100%; height:auto;}
+.visual-kids .page-image-group .thumb-list li{position:absolute; z-index:51; left:0; top:0; display:block; width:173px; height:183px;}
+.visual-kids .page-image-group .thumb-list li img{max-width:100%;}
+.visual-kids .page-image-group .thumb-list li a:after{content:''; position:absolute; z-index:52; left:0; top:0; width:100%; height:100%; background:url(/resources/images/brand_kids/main/front_brand_kids_bg_page.png) 0 0 repeat;}
+
+
+/*슬라이드 css 수정 2019.08.29*/
+.visual-kids {height: 465px;}
+.visual-kids .visual-list{height:465px;}
+.visual-kids .visual-list .visual{height:465px;}
+.visual-kids .visual-page-wrap {position: absolute; left: 50%; top: 0; width: 1100px; height:0; margin-left: -550px; margin-top:0; float:none; right:auto;}
+.visual-kids .page-group{position:absolute; z-index:50; right: 0; top:0; width:100%; height:0;}
+.visual-kids .page-group > span{display:none; font-family:Myriad Pro;}
+.visual-kids .button-visual-prev{position:absolute; z-index:43; left:-50px; top:207px; width:51px; height:51px; padding:0; border:0; outline:0; background-image:url(http://img.nepamall.com/resources/images/brand_nepa/main/front_brand_page_prev.png);}
+.visual-kids .button-visual-next{position:absolute; z-index:43; right:-50px; top:207px; width:51px; height:51px; padding:0; border:0; outline:0; background-image:url(http://img.nepamall.com/resources/images/brand_nepa/main/front_brand_page_next.png);}
+.visual-kids .button-visual-playstop{display:none; background-image:url(/resources/images/brand_isen/main/front_brand_main_btn_play.png); background-position:0 -35px;}
+.kids-lookbook-wrap .lookbook-box.pos1 {top:0 !important;}
+
+
+/* content main  */
+.main-content-wrap{width:auto; max-width:100%; height:auto;}
+.main-content-wrap .inner-wrap{width:1100px; height:auto; margin:auto; padding-bottom:70px;}
+.main-content-wrap .inner-wrap img{max-width:100%; height:auto;}
+.main-content-wrap .inner-wrap .title-box{margin-bottom:40px;}
+.main-content-wrap .inner-wrap:after{display:block; position:absolute; z-index:1; background-color:#f5f5f5; background-repeat:no-repeat; background-position:0 0; content:'';}
+.main-content-wrap button{cursor:pointer;}
+.main-content-wrap .text-box{z-index:21;}
+.main-content-wrap .text-box .title{font-size:15px; font-weight:700; color:#1e5548;}
+.main-content-wrap .text-box .subtext{margin-top:13px; font-size:13px; font-weight:400; color:#888; line-height:1.5;}
+.main-content-wrap .text-box .button-box{margin-top:25px;}
+.main-content-wrap .btn-link-playlist,
+.main-content-wrap .btn-link-detailview{width:140px; height:27px; padding:0 10px; background:url(/resources/images/brand_nepa/main/front_brand_main_icon_more.png) right center no-repeat; border:1px solid #bfbfbf; color:#1b1b1b; font-size:11px; line-height:inherit; text-align:left;}
+div + .main-content-wrap.main-lookbook{margin-top:70px;}
+.main-content-wrap + .main-content-wrap{margin-top:70px;}
+
+.main-content-wrap.main-lookbook .inner-wrap{padding:0  0 0 600px; width:500px;}
+.main-content-wrap.main-lookbook .inner-wrap:after{right:-80px; top:0; width:498px; height:590px; background-color:#f4f4f4; z-index:1;}
+.main-content-wrap.main-lookbook .inner-wrap * {z-index:2;}
+.main-content-wrap.main-lookbook .title-box{padding-top:50px;}
+.main-content-wrap.main-lookbook .main-img-box1 a,
+.main-content-wrap.main-lookbook .main-img-box2 a{position:relative; z-index:3;}
+.main-content-wrap.main-lookbook .main-img-box1{position:absolute; left:0; top:0; width:498px; height:590px;}
+.main-content-wrap.main-lookbook .main-img-box1 img {width:100%; height:100%;}
+.main-content-wrap.main-lookbook .main-img-box1:before {content:''; display:block; position:absolute; bottom:-100px; right:0; width:86px; height:63px; background:url(/resources/image/content/nepa/main/img_lookbook_1.png) no-repeat;}
+.main-content-wrap.main-lookbook .main-img-box1:after {content:''; display:block; position:absolute; left:-10px; top:-10px; width:82px; height:610px; background-color:#1e5548;}
+.main-content-wrap.main-lookbook .main-img-box2 {width:498px; height:385px;}
+.main-content-wrap.main-lookbook .main-img-box2 img {width:100%; height:100%;}
+.main-content-wrap.main-lookbook .main-img-box2:before {content:''; display:block; position:absolute; top:-100px; right:0; width:86px; height:63px; background:url(/resources/image/content/nepa/main/img_lookbook_2.png) no-repeat;}
+.main-content-wrap.main-lookbook .main-img-box2:after {content:''; display:block; position:absolute; left:-10px; bottom:-10px; width:518px; height:92px; background-color:#1e5548;}
+.main-content-wrap.main-lookbook .text-box{margin:0 0 103px;}
+.main-content-wrap.main-lookbook .jump-link-box {display:none;}
+.main-content-wrap.main-lookbook .text-box .title{}
+.main-content-wrap.main-lookbook .text-box .subtext{}
+
+.main-content-wrap.bg_gray {margin-top:80px; background-color:#f4f4f4;}
+.main-content-wrap.bg_gray .inner-wrap {padding:70px 0; overflow:hidden;}
+.main-content-wrap.bg_gray .inner-wrap > div {width:481px; height:442px; padding:32px 21px; background-color:#fff;}
+.main-content-wrap.bg_gray .inner-wrap .main-tvcf {float:left;}
+.main-content-wrap.bg_gray .inner-wrap .main-adgallery {float:right;}
+.main-content-wrap.bg_gray .inner-wrap .title-box {margin:33px 0 27px;}
+.main-content-wrap.bg_gray .text-box .button-box {margin-top:0; position:absolute; bottom:10px; right:10px;}
+
+.main-content-wrap.main-tvcf .inner-wrap{height:322px;}
+.main-content-wrap.main-tvcf .inner-wrap:after{right:0; bottom:0; width:962px; height:266px;}
+.main-content-wrap.main-tvcf .title-box{left:0; top:0;}
+.main-content-wrap.main-tvcf .text-box{position:absolute; z-index:22; left:623px; top:111px;}
+.main-content-wrap.main-tvcf .video-box{position:absolute; z-index:21; left:84px; top:0; width:481px; height:267px;}
+
+/* 2017.08.02 추가 */
+.main-content-wrap.main-adgallery .inner-wrap{height:315px;}
+.main-content-wrap.main-adgallery .inner-wrap:after{right:0; top:30px; width:100%; height:247px;}
+.main-content-wrap.main-adgallery .title-box{top:0; left:505px;}
+.main-content-wrap.main-adgallery .text-box{position:absolute; z-index:22; left:625px; top:80px;}
+.main-content-wrap.main-adgallery .img-box {width:475px;height:315px;}
+
+/*  ===== S : 2018.04.30 csr,outdoor 위치변경 */
+.main-content-wrap.main-csr .title-box{padding-top:47px;}
+.main-content-wrap.main-csr .text-box{width:600px;}
+.main-content-wrap.main-csr .text-box .button-box {margin:35px 0 53px;}
+.main-content-wrap.main-csr .img-box{position:absolute; right:0;top:0;width:475px;height:315px;}
+.main-content-wrap.main-csr .img-box:after {content:''; display:block; position:absolute; left:-10px; top:-10px; width:100px; height:335px; background-color:#1e5548; z-index:1;}
+.main-content-wrap.main-csr .img-box a {position:relative; z-index:2;}
+
+.main-content-wrap.main-outdoor {background:url(/resources/image/content/nepa/main/img_outdoor_1.jpg) no-repeat 50% 100%;}
+.main-content-wrap.main-outdoor .inner-wrap{width:570px; padding-left:530px;}
+.main-content-wrap.main-outdoor .text-box .button-box {margin-top:35px;}
+.main-content-wrap.main-outdoor .img-box{position:absolute;left: 0;top: 0;width:450px;height:360px;}
+.main-content-wrap.main-outdoor .img-box:after {content:''; display:block; position:absolute; left:-10px; bottom:-10px; width:470px; height:100px; background-color:#1e5548; z-index:1;}
+.main-content-wrap.main-outdoor .img-box a {position:relative; z-index:2;}
+
+.main-content-wrap.main-outdoor .list-box ul{padding:50px 0 0; overflow:hidden;}
+.main-content-wrap.main-outdoor .list-box ul li{float:left;}
+.main-content-wrap.main-outdoor .list-box ul li + li{margin-left:30px;}
+.main-content-wrap.main-outdoor .list-box ul li .outdoor-txt{display:block; margin-bottom:10px; font-size:14px; font-weight:bold; line-height:1; color:#1e5548;}
+.main-content-wrap.main-outdoor .list-box ul li .outdoor-img{display:block; width:65px; height:65px; overflow:hidden;}
+
+/*  ===== E: 2018.04.30 csr,outdoor 위치변경 */
+.main-content-wrap.main-community .inner-wrap{padding-bottom:0; background:url(/resources/image/content/nepa/main/img_community_2.png) no-repeat 782px 0 ;}
+.main-content-wrap.main-community .img-box{padding-top:29px;}
+.main-content-wrap.main-community .list-box{position:absolute; left:355px; top:132px;}
+
+.list-box.sns-list ul{overflow:hidden;}
+.list-box.sns-list ul li{float:left; width:165px;}
+.list-box.sns-list ul li + li{margin-left:20px;}
+.list-box.sns-list .sns-text-box{margin-top:15px; line-height:19px; color:#888; font-size:13px;}
+.list-box.sns-list .sns-text-box a{color:#888;}
+.list-box.sns-list .sns-icon-box{margin-top:20px;}
+
+/*
+.list-box.sns-list .sns-img{display:block; width:165px; height:165px; overflow:hidden;}
+.list-box.sns-list .sns-icon{display:block; width:132px; height:27px; padding-left:33px; margin-top:20px; line-height:27px; background-image:url(/resources/images/brand_nepa/main/front_brand_main_icon_sns.png); background-repeat:no-repeat; font-weight:700; font-size:13px;}
+.list-box.sns-list .sns-icon.facebook{background-position:0 0; color:#3b5999;}
+.list-box.sns-list .sns-icon.blog{background-position:0 -27px; color:#ff6204;}
+.list-box.sns-list .sns-icon.instargram{background-position:0 -54px; color:#3f739b;}
+.list-box.sns-list .sns-icon.youtube{background-position:0 -81px; color:#ce1312;}
+.list-box.sns-list .sns-subtext{display:block; width:165px; margin-top:15px; font-size:12px; color:#888; line-height:1.5;}
+*/
+
+/* ----------------------------------- */
+/* ISENBERG MAIN */
+/* ----------------------------------- */
+
+/* ISENBERG MAIN LOOKBOOK */
+.isen-lookbook-wrap{width:1100px; height:auto; margin:auto; overflow:hidden; margin-top:50px;}
+.isen-lookbook-wrap .lookbook-show-box{float:left; width:743px; height:460px;}
+.isen-lookbook-wrap .lookbook-show-box .show-list{float:left; position:relative; z-index:20; width:173px; height:460px; background-color:#ff673c; /*background-image:url(/resources/images/brand_isen/main/front_brand_isen_main_icon_vs.png); background-repeat:no-repeat; background-position:center center;*/}
+.isen-lookbook-wrap .lookbook-show-box .show-list .show-model{width:100%;}
+.isen-lookbook-wrap .lookbook-show-box .show-list .show-model li{display:block; position:absolute; z-index:21; width:100%; height:auto; text-align:center; cursor: pointer;}
+.isen-lookbook-wrap .lookbook-show-box .show-list .show-model li a{display:block; width:107px; height:107px; margin:auto;  border-radius:107px; -webkit-border-radius:107px; -moz-border-radius:107px; overflow:hidden;}
+.isen-lookbook-wrap .lookbook-show-box .show-list .show-model li p{margin-top:15px; font-size:13px; font-weight:700; color:#110000; text-align:center;}
+.isen-lookbook-wrap .lookbook-show-box .show-list .show-model .md1{left:0px; top:50px;}
+.isen-lookbook-wrap .lookbook-show-box .show-list .show-model .md2{left:0px; bottom:50px;}
+.isen-lookbook-wrap .lookbook-show-box .show-box{float:left; width:570px; height:460px;}
+.isen-lookbook-wrap .lookbook-show-box .show-box img{max-width:100%;}
+
+.isen-lookbook-wrap .lookbook-show-list{float:right; padding-top:54px; width:317px; height:auto;}
+.isen-lookbook-wrap .lookbook-show-list .title{font-size:36px; color:#000; text-transform:uppercase;}
+.isen-lookbook-wrap .lookbook-show-list .show-list{width:317px; height:auto; margin-top:40px; overflow:hidden;}
+.isen-lookbook-wrap .lookbook-show-list .show-list li{display:block; float:left; width:77px; height:77px; margin:0 20px 20px 0; cursor: pointer;}
+.isen-lookbook-wrap .lookbook-show-list .show-list li img{max-width:100%;}
+.isen-lookbook-wrap .lookbook-show-list .show-list li a{position:relative; display:block; width:77px; height:77px; overflow:hidden;}
+.isen-lookbook-wrap .lookbook-show-list .show-list li a:hover:after,
+.isen-lookbook-wrap .lookbook-show-list .show-list li.here a:after{content:''; display:block; position:absolute; z-index:20; left:0; top:0; width:100%; height:100%; background:url(/resources/images/brand_isen/main/front_brand_isen_main_overbox.png) 0 0 no-repeat;}
+
+.isen-lookbook-wrap .lookbook-show-list .subtitle{margin-top:40px; font-size:15px; color:#ff4612; text-transform: uppercase;}
+.isen-lookbook-wrap .lookbook-show-list .subtext{margin-top:15px; font-size:13px; color:#888; line-height:18px; text-transform: uppercase;}
+
+
+/* ISENBERG MAIN CF */
+.isen-cf-wrap{width:1100px; height:auto; margin:auto; overflow:hidden; margin-top:50px;}
+.isen-cf-wrap .cf-show-box{float:left; width:536px; height:480px;}
+.isen-cf-wrap .show-list{width:auto; max-width:100%; height:auto;}
+.isen-cf-wrap .show-list ul{overflow:hidden; height:auto;}
+.isen-cf-wrap .show-list li{float:left;}
+.isen-cf-wrap .show-list li + li{float:right;}
+.isen-cf-wrap .show-list .title{margin-top:54px; font-size:36px; color:#000; }
+.isen-cf-wrap .show-list .subtitle{margin-top:40px; font-size:15px; color:#ff4612;}
+.isen-cf-wrap .show-list .subtext{margin-top:15px; font-size:13px; font-weight:400; color:#888;}
+.isen-cf-wrap .cf-video-box{float:right; width:533px; height:auto;}
+
+/* ISENBERG MAIN SNS */
+.isen-sns-wrap{width:1100px; height:auto; margin:auto; overflow:hidden; margin-top:50px;}
+.isen-sns-wrap .sns-group-box{float:left; width:346px; height:auto;}
+.isen-sns-wrap div + .sns-group-box{margin-left:30px;}
+.isen-sns-wrap .sns-box{width:100%; height:auto;}
+.isen-sns-wrap .sns-box + .sns-box{margin-top:60px;}
+.isen-sns-wrap .sns-box .img-box{}
+.isen-sns-wrap .sns-box .img-box img{max-width:100%;}
+.isen-sns-wrap .sns-box .hashtag-box{margin-top:10px; width:100%; height:auto; font-size:14px; font-weight:700; line-height:27px;}
+.isen-sns-wrap .sns-box .hashtag-box .hashtag{display:block; width:auto; max-width:100%; height:auto; padding-right:30px;}
+.isen-sns-wrap .sns-box .hashtag-box .icon-img{position:absolute; z-index:1; right:0; top:0;}
+.isen-sns-wrap .sns-box .text-box{margin-top:10px; font-size:13px; color:#666; line-height:18px;}
+.isen-sns-wrap .sns-box .text-box a{color:#666;}
+.isen-sns-wrap .sns-box.sns-facebook .hashtag-box{color:#3b5998;}
+.isen-sns-wrap .sns-box.sns-blog .hashtag-box{color:#f86119;}
+.isen-sns-wrap .sns-box.sns-instargram .hashtag-box{color:#3a4162;}
+.isen-sns-wrap .sns-box.sns-youtube .hashtag-box{color:#d83434;}
+
+.isen-sns-wrap .sns-box.sns-facebook .hashtag-box a{color:#3b5998;}
+.isen-sns-wrap .sns-box.sns-blog .hashtag-box a{color:#f86119;}
+.isen-sns-wrap .sns-box.sns-instargram .hashtag-box a{color:#3a4162;}
+.isen-sns-wrap .sns-box.sns-youtube .hashtag-box a{color:#d83434;}
+
+
+/* ----------------------------------- */
+/* NEPA KIDS MAIN */
+/* ----------------------------------- */
+.kids-lookbook-wrap{width:1100px; height:721px; margin:auto;}
+.kids-lookbook-wrap .lookbook-show-box{width:auto; max-width:100%; height:654px;}
+.kids-lookbook-wrap .lookbook-box{position:absolute; z-index:20; width:370px; height:476px;}
+.kids-lookbook-wrap .lookbook-box.pos1{left:-45px; top:0; width:1114px; height:721px;}
+.kids-lookbook-wrap .lookbook-box.pos2{left:390px; top:0;}
+.kids-lookbook-wrap .lookbook-box.pos3{right:0; top:202px; width:302px; height:auto;}
+.kids-lookbook-wrap .lookbook-box.pos4{z-index:21; right:0; bottom:0; width:443px; height:295px; border-left:20px solid #fff; border-top:20px solid #fff;}
+
+.kids-lookbook-wrap .lookbook-box .title{font-size:26px; font-weight:700; color:#333333;}
+.kids-lookbook-wrap .lookbook-box .subtext{font-size:12px; color:#888; padding:25px 0 20px 0; line-height:20px; vertical-align:top;}
+.kids-lookbook-wrap .lookbook-box .desc-text1{position:absolute; z-index:22; left:45px; bottom: 110px; font-size:12px; color:#888;}
+.kids-lookbook-wrap .lookbook-deco{position:absolute; z-index:10; left:721px; top:-5px; width:171px; height:auto;}
+/* kids cf main */
+.kids-cf-wrap{width:1100px; height:505px; margin:auto;}
+.cf-title-box{padding-top:96px;}
+.cf-title-box .title{font-size:26px; color:#333; font-weight:700;}
+.cf-title-box .subtext{margin-top:30px; font-size:12px; color:#888; line-height:20px;}
+.cf-show-box{position:absolute; z-index:20; left:0; top:0; width:100%; height:100%;}
+.cf-show-box .show-video{position:absolute; z-index:21; left:273px; top:145px; width:497px; height:300px;}
+.cf-show-box .text-group{position:absolute; z-index:22; right:25px; top:231px; width:274px; height:auto;}
+.cf-show-box .text-group .subtext{font-size:12px; color:#fff;}
+.cf-show-box .text-group .title{margin-top:30px; font-size:20px; font-weight:700; color:#fff; line-height:30px;}
+.cf-show-box .show-deco1,
+.cf-show-box .show-deco2,
+.cf-show-box .show-deco3{position:absolute; z-index:20;}
+.cf-show-box .show-deco1{left:322px; top:-5px; width:174px; height:150px;}
+.cf-show-box .show-deco2{right:0; bottom:0; width:564px; height:414px;}
+.cf-show-box .show-deco3{left:0px; bottom:58px;}
+/* kids community main */
+.kids-community-wrap{width:1100px; height:594px; margin:auto; margin-top:130px;}
+.kids-community-wrap .community-img-box{height:100%;}
+.kids-community-wrap .community-img-box img {position: absolute; bottom: 150px;}
+.kids-community-wrap .community-title-box{position:absolute; z-index:22; left:554px; top:59px; width:257px; height:auto;}
+.kids-community-wrap .community-title-box .title{font-size:26px; font-weight:700; color:#333; text-transform:uppercase;}
+.kids-community-wrap .community-title-box .subtext{margin-top:30px; font-size:12px; color:#888; line-height:20px;}
+
+
+.kids-community-wrap .community-new-box{position:absolute; z-index:22; right:0; top:59px; width:260px; height:253px; background-color:#f0f3f3; font-size:0; letter-spacing:-5px;}
+.kids-community-wrap .community-new-box > div{letter-spacing:0;}
+.kids-community-wrap .community-new-box > p{letter-spacing:0;}
+.kids-community-wrap .community-new-box .title{padding:25px 0 0 25px; font-size:13px; color:#4a998f; font-weight:700;}
+.kids-community-wrap .community-new-box .datetext{font-size:12px; color:#888; padding-bottom:20px;}
+.kids-community-wrap .community-new-box .subtext-box{width:210px; height:auto; margin:auto; margin-top:25px; overflow:hidden;}
+.kids-community-wrap .community-new-box .subtext-list{width:9999px; height:125px; overflow:hidden;}
+.kids-community-wrap .community-new-box .subtext-list li{display:block; position: absolute; width:210px; height:125px;}
+
+.kids-community-wrap .community-new-box .subtext{font-size:13px; color:#333; line-height:20px;}
+.kids-community-wrap .community-new-box .button-group{position:absolute; z-index:1; right:20px; bottom:20px;}
+.kids-community-wrap .community-new-box button{display:inline-block; width:26px; height:26px; outline:0; border:1px solid #aaa; background-repeat:no-repeat; background-image:url(/resources/images/brand_kids/main/front_brand_kids_icon_page_arrow.png); background-color:transparent;}
+.kids-community-wrap .community-new-box button + button{border-left:0;}
+.kids-community-wrap .community-new-box .button-community-new-prev{background-position:0 0;}
+.kids-community-wrap .community-new-box .button-community-new-next{background-position:0 -28px;}
+/* 카카오스토리sns삭제 20200128 */
+.kids-community-wrap .community-sns-box{position:absolute; z-index:22; right:0; bottom:0; width:577px; height:260px; /* border-left:20px solid #fff; */ border-top:20px solid #fff;}
+.kids-community-wrap .community-sns-box:after{content:''; display:block; width:100%; height:auto; clear:both;}
+.kids-community-wrap .community-sns-box .sns-box1,
+.kids-community-wrap .community-sns-box .sns-box2{}
+.kids-community-wrap .community-sns-box .sns-box1{float:left; width:210px; height:210px; padding:25px;}
+.kids-community-wrap .community-sns-box .sns-box2{float:right; width:507px; height:210px; padding:25px;}
+.kids-community-wrap .community-sns-box .sns-box1.sns-mgt-28,
+.kids-community-wrap .community-sns-box .sns-box2.sns-mgt-28 {margin-left: 28px;}
+.kids-community-wrap .community-deco-box{position:absolute; z-index:20; left:737px; top:235px; width:79px; height:auto;}
+
+.kids-community-wrap .community-sns-box .sns-box{font-size:14px; font-weight:700;}
+.kids-community-wrap .community-sns-box .sns-kakao{background-color:#f0f3f3;}
+.kids-community-wrap .community-sns-box .sns-blog{background-color:#f4f1ed;}
+.kids-community-wrap .community-sns-box .sns-kakao .sns-box{color:#f5cc0b;}
+.kids-community-wrap .community-sns-box .sns-blog .sns-box{color:#ff7821;}
+.community-sns-box .cont-group{overflow:hidden; width:auto; max-width:100%; height:auto; margin-top:9px;}
+.community-sns-box .cont-group .img-box{float:left; height:188px; overflow:hidden;}
+.community-sns-box .cont-group .img-box img{max-width:100%; height:auto;}
+.community-sns-box .cont-group .icon-box{position:absolute; z-index:1; right:0; bottom:0;}
+.community-sns-box .cont-group .text-box{float:right; height:auto; font-size:13px; color:#333; line-height:20px; }
+.community-sns-box .sns-box1 .cont-group .img-box{width:90px;}
+.community-sns-box .sns-box1 .cont-group .text-box{width:110px;}
+
+.community-sns-box .sns-box2 .cont-group .img-box{width:180px;}
+.community-sns-box .sns-box2 .cont-group .text-box{width:307px;}
+

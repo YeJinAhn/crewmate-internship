@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Faq">
+    <sql id="selectFaqCode"> 
+         code_group
+       , code
+       , disp_no
+       , use_yn
+       , reg_no
+       , reg_dt
+       , mod_no
+       , mod_dt
+       , content
+       , name
+    </sql>
+    
+    <sql id="selectFaqContent">
+         content_no
+       , content_type
+       , parent_content_no
+       , reply_step
+       , use_yn
+       , disp_yn
+       , reg_no
+       , reg_dt
+       , mod_no
+       , mod_dt
+       , best_yn
+       , view_cnt
+       , vote_cnt
+       , content_group
+       , disp_no
+       , title
+       , content
+       , top_fix_yn
+    </sql>
+    
+    <select id="selectFaqCodeList" resultType="kr.co.crewmate.ojt.model.Code">
+         SELECT <include refid="selectFaqCode"/>
+           FROM code
+          WHERE use_yn='Y'
+          ORDER  BY disp_no ASC
+    </select>
+    
+    <sql id="selectFaqSearchCondition">
+        <if test="contentGroup == null and keyword ==  null or ''.equals(contentGroup) and ''.equals(keyword)">
+           <![CDATA[AND ROWNUM <=10]]>
+        </if>
+        <if test="contentGroup != null and !''.equals(contentGroup)">
+          AND  content.content_group = #{contentGroup}
+        </if>
+        <if test="keyword!=null and !''.equals(keyword)">
+         AND (content.title LIKE '%'||#{keyword}||'%'
+          OR content.content LIKE '%'||#{keyword}||'%')
+        </if>
+    </sql>
+    
+    
+    <select id="selectFaqContentList" parameterType="Content" resultType="kr.co.crewmate.ojt.model.Content">
+         SELECT   content.title
+               ,  content.content
+               ,  code.name
+           FROM   content content
+           JOIN   code code ON(content.content_group = code.code)
+          WHERE   content.use_yn = 'Y'
+          <include refid="selectFaqSearchCondition"/>
+          ORDER  BY view_cnt DESC
+    </select>    
+    
+</mapper>

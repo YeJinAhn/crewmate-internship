@@ -1,0 +1,29 @@
+/* override */
+body {background: #e7e7e7;}
+section.wrap section.contents-wrap .footer-wrap {background: transparent; padding-top: 6px;}
+/* override */
+
+.contents-inner.setting-list-wrap {}
+.contents-inner.setting-list-wrap .setting-list li {position: relative; min-height: 55px; padding: 0 10px; border-bottom: 1px solid #ddd;}
+.contents-inner.setting-list-wrap .setting-list li:last-child {border-bottom: 0;}
+.contents-inner.setting-list-wrap .setting-list li.login-info {min-height: 25px; padding: 15px 10px;}
+.contents-inner.setting-list-wrap .setting-list li.login-info span {color: #888; font-size: 1.6rem; line-height: 27px;}
+.contents-inner.setting-list-wrap .setting-list li.login-info .login-id {color: #28b18e;}
+.contents-inner.setting-list-wrap .setting-list li.login-info button {position: absolute; color: #555; min-width: 65px; height: 27px; background: #fff; border: 1px solid #555; font-size: 1.3rem; right: 10px;}
+.contents-inner.setting-list-wrap .setting-list li.toggle-radio-wrap {padding-bottom: 18px;}
+.contents-inner.setting-list-wrap .setting-list li.toggle-radio-wrap .title {position: relative; line-height: 30px;}
+.contents-inner.setting-list-wrap .setting-list li.toggle-radio-wrap .ui-toggle-checkbox {position: absolute; right: 0;}
+.contents-inner.setting-list-wrap .setting-list li.toggle-radio-wrap .title, .contents-inner.setting-list-wrap .setting-list li .btn-link {display: block; margin-top: 14px; font-size: 1.6rem; font-weight: 500;}
+.contents-inner.setting-list-wrap .setting-list li.toggle-radio-wrap .desc {display: block; color: #888; margin-top: 14px; padding-right: 50px; font-size: 1.3rem; line-height: 1.3;}
+.contents-inner.setting-list-wrap .setting-list li.toggle-radio-wrap .btn-geo-loc {display: inline-block; color: #27b18d; margin-top: 10px; padding: 0 13px 1px 0; border-bottom: 1px solid #27b18d; background:url(/resources/images/common/m_icon_btnarrow_mint.png) right center no-repeat; background-size:5px auto;}
+
+.contents-inner.setting-list-wrap .setting-list li .btn-link {height: 100%; margin: 0; background: url(/resources/images/common/m_icon_arrow_gray.png) no-repeat right center; background-size:8px auto; line-height: 55px;}
+
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li {position: relative; min-height: 24px;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li span {font-size: 1.1rem; line-height: 24px;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li .title {position: absolute; display: inline-block; color: #888; width: 52px;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li .version {display: block;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li .version {color: #333; padding-left: 52px;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li .version.lastest span {color: #28b18e;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li .version.lastest .btn-upadte {position: absolute; color: #ddd; min-width: 105px; height: 22px; background: #fff; border: 1px solid #ddd; font-size: 1.2rem; right: 0; line-height: 22px; text-align: center;}
+.contents-inner.setting-list-wrap + .footer-wrap .version-list li .version.lastest .btn-upadte.active {color: #28b18e; border-color: #28b18e;}

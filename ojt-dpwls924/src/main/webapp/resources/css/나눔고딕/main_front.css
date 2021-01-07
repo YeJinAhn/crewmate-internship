@@ -1,0 +1,139 @@
+@import "/resources/css/product_front.css";
+@import "/resources/css/brand_common_front.css"; /* brand common */
+@import "/resources/css/layer_popup_front.css"; /* layer-popup */
+
+.content-wrap .content-inner {padding: 0px 0px 0px 0px; overflow: hidden;}
+.button-page-circle{width:13px; height:13px; border:0; outline:0; background-image:url(/resources/images/main/front_button_main_paging.png); background-repeat:no-repeat; background-position:0 -13px; background-color:transparent; letter-spacing:0; cursor:pointer;}
+.button-page-circle.active{background-position:0 0;}
+
+
+.mall-products-wrap{width:auto; max-width:100%; height:auto; overflow:hidden;}
+.mall-products-wrap .main-banner-box{float:left; width:825px; height:825px;}
+.mall-products-wrap .product-banner-box{float:left; width:275px; height:825px;}
+.mall-products-wrap .brand-site-group{float:left; width:275px; height:275px; overflow:hidden;}
+.mall-products-wrap .product-advertisement{float:left; width:550px; height:275px;} /* tvcf 광고 */
+.mall-products-wrap .main-banner-box{width:825px;}
+
+/* brand site 영역 */
+.mall-products-wrap .brand-site-list{display:block; width:9999px; height:auto;}
+.mall-products-wrap .brand-site-list .list{position:absolute; left:0; top:0; display:block; width:275px; height:275px;}
+.mall-products-wrap .brand-paging{position:absolute; z-index:50; left:0; bottom:35px; width:100%; height:auto; text-align:center; font-size:0; letter-spacing:-5px;}
+.mall-products-wrap .brand-paging button + button{margin-left:2px;}
+
+/* 상단 큰 배너 영역 */
+.main-banner-box .banner-box{width:825px; height:550px; clear:both;}
+.main-banner-box .banner-box .banner-scroll-wrap {overflow: hidden;}
+.main-banner-box .banner-box .banner-scroll-box{width:825px; height:550px; overflow:hidden;}
+.main-banner-box .banner-box .banner-list{position:relative; width:825px; height:550px; }
+.main-banner-box .banner-box .banner-list .list{position:absolute; z-index:10; left:0; top:0; width:825px; height:550px;}
+.main-banner-box .banner-box .banner-scroll-paging{position:absolute; z-index:20; right:0; bottom:0; width:276px; height:274px; background:url(/resources/images/main/front_bg_main_collectionpage.png) 0 0 no-repeat;}
+.main-banner-box .banner-scroll-paging {display: none;}
+.main-banner-box .banner-scroll-paging > span{position:absolute; z-index:21;} 
+.main-banner-box .banner-scroll-paging > button{position:absolute; z-index:22; width:56px; height:56px; background-image:url(/resources/images/main/front_button_main_paging_arrow.png); background-repeat:no-repeat; outline:0; border:0; background-color:transparent;}
+.main-banner-box .banner-scroll-paging .page-now{left:158px; bottom:64px; font-size:40px; color:#fff; font-weight:400; font-family:Malgun Gothic, malgun gothic;}
+.main-banner-box .banner-scroll-paging .page-total{left:205px; bottom:80px; font-size:20px; font-weight:400; color:#b5b5b5;}
+.main-banner-box .banner-scroll-paging .button-banner-playstop{right:25px; top:178px; width:15px; height:15px; background-image:url(/resources/images/main/front_button_main_playstop.png); background-repeat:no-repeat; background-position:0 -15px;}
+.main-banner-box .banner-scroll-paging .button-banner-playstop.play{background-position:0 0;}
+.main-banner-box .banner-scroll-paging .button-banner-prev{left:89px; bottom:11px; background-position:0 -56px;}
+.main-banner-box .banner-scroll-paging .button-banner-next{right:14px; top:99px; background-position:0 0;}
+
+/* collection tab */
+.collection-brand-box.tab-wrap ul.tab-list {display: block; border-bottom: 1px solid #fff;}
+.collection-brand-box .tab-list li {float: left; list-style:none; background: #5b5b5b; border: 0px solid transparent; border-right: 1px solid #fff;}
+.collection-brand-box .tab-list li a {color: #fff; display: inline-block; padding:0; height:36px; line-height:36px; font-size: 14px; font-weight:700; text-align: center;}
+.collection-brand-box .tab-list li.nepa.active{background-color:#163e34;}
+.collection-brand-box .tab-list li.isen.active{background-color:#ff4612;}
+.collection-brand-box .tab-list li.kids.active{background-color:#ff8212;}
+.collection-brand-box .tab-list li.active {border: 0px solid transparent; background: #ff4612; border-right: 1px solid #fff; border-bottom: 0px solid transparent;}
+.collection-brand-box .tab-list li.active a {color: #fff; }
+.collection-brand-box .tab-list li.active + li {border-left: 0px solid #fff;}
+.collection-brand-box .tab-list li.last-col {border-left: 0px solid #fff; border-right: 0px solid #e2e2e2;}
+.collection-brand-box .tab-list li.active.last-col {border-right-color: #000;}
+.tab-wrap div.tab-container {display: block;}
+
+
+
+
+
+
+
+
+/* 상단 상품 영역 */
+/* main item list */
+.product-banner-box .item-list-wrap {}
+.product-banner-box .item-list-wrap .item-list {overflow: hidden;}
+.product-banner-box .item-list-wrap .item-list > li {float: left; width: 275px; height: 265px; margin-top:0px; padding-top:10px;}
+.product-banner-box .item-list-wrap .item-list > li + li{border-top:1px solid #f3f3f3;}
+.product-banner-box .item-list-wrap .item-list > li.first-row {margin-top: 0;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap {text-align: center; width:275px; height: 186px; margin:auto;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap.no-image {width: 255px; height: 166px;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap img{max-width:186px; height:auto;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap .rank {position: absolute; display: inline-block; color: #e7e7e7; width: auto; height: auto; padding: 0; background:none; text-align: right; font-size: 26px; font-family:"Noto Sans KR"; right:17px; top: 7px;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap img.back {display: none;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap:hover img.front {display: none;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap:hover img.back {display: inline;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap.no-image:hover img.front {display: inline;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap.no-image:hover img.back {display: none;}
+.product-banner-box .item-list-wrap .item-list li .image-wrap:hover .util-wrap {display: block;}
+.product-banner-box .item-list-wrap .item-list li .item-detail {margin-top:0px; text-align: center;}
+.product-banner-box .item-list-wrap .item-list li .item-detail > span, .item-list-wrap .item-list li .item-detail > span a {display:block; color: #666; font-weight: 400; padding: 0 5px;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .brand-name{margin-top:10px;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .brand-name {font-weight: 700;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .brand-name.nepa {color: #4a9281;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .brand-name.nepakids {color: #f3b100;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .brand-name.isenberg {color: #f26d1c;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .item-name {margin:8px 0 0 0; height:auto;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .item-code {margin-top: 4px;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .cost-wrap {margin-top: 10px;}
+.product-banner-box .item-list-wrap .item-list li .item-detail .cost-wrap .cost {margin-left: 5px; font-size: 14px; font-weight: 700;}
+
+
+
+/* best item */
+.best-products-wrap{width:auto; max-width:100%; height:auto; overflow:hidden;}
+.best-products-title-box{float:left; width:275px; height:276px;}
+.best-products-list-box{float:left; width:825px; height:244px; padding-top:32px;}
+.best-products-list-box .item-list-wrap {width:680px; height:244px; overflow:hidden; margin:auto;}
+.best-products-list-box .item-list-wrap .item-list {}
+.best-products-list-box .item-list-wrap .item-list > li {float: none; position:absolute; z-index:1; left:0; top:0; width: 170px; height: auto; margin-top:0px; padding-top:10px;}
+.best-products-list-box .item-list-wrap .item-list > li + li{border-top:0px solid #f3f3f3;}
+.best-products-list-box .item-list-wrap .item-list > li.first-row {margin-top: 0;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap {text-align: center; width:170px; height: 140px; margin:auto;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap.no-image {width: 150px; height: 120px;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap img{max-width:140px;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap .rank {position: absolute; display: inline-block; color: #e7e7e7; width: auto; height: auto; padding: 0; background:none; text-align: right; font-size: 26px; font-family:"Noto Sans KR"; right:17px; top: 7px;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap img.back {display: none;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap:hover img.front {display: none;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap:hover img.back {display: inline;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap.no-image:hover img.front {display: inline;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap.no-image:hover img.back {display: none;}
+.best-products-list-box .item-list-wrap .item-list li .image-wrap:hover .util-wrap {display: block;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail {margin-top:0px; text-align: center;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail > span, .item-list-wrap .item-list li .item-detail > span a {display:block; color: #666; font-weight: 400;}
+.item-list-wrap .item-list li .item-detail > span a {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .brand-name{margin-top:10px;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .brand-name {font-weight: 700;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .brand-name.nepa {color: #4a9281;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .brand-name.nepakids {color: #f3b100;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .brand-name.isenberg {color: #f26d1c;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .item-name {margin:8px 0 0 0; height:auto;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .item-code {margin-top: 4px;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .cost-wrap {margin-top: 10px;}
+.best-products-list-box .item-list-wrap .item-list li .item-detail .cost-wrap .cost {margin-left: 5px; font-size: 14px; font-weight: 700;}
+.best-products-list-box > button{position:absolute; z-index:1; width:42px; height:42px; background-image:url(/resources/images/main/front_button_main_paging_rarrow.png); background-repeat:no-repeat; background-color:transparent; border:0; outline:0; cursor:pointer;}
+.best-products-list-box .button-bestitem-prev{left:22px; top:117px;}
+.best-products-list-box .button-bestitem-next{right:22px; top:117px;}
+.button-bestitem-prev{background-position:0 -42px;}
+.button-bestitem-next{background-position:0 0;}
+
+.brand-collection-wrap{margin-top:1px; width:auto; max-width:100%; height:auto; overflow:hidden;}
+.brand-collection-wrap .collection-brand-box{float:left; width:825px; height:825px;}
+.brand-collection-wrap .collection-banner-box{float:left; width:275px; height:825px;}
+.brand-collection-wrap .collection-banner-box .banner-group{display: none;}
+.brand-collection-wrap .collection-banner-box .banner-group.active{display: block;}
+
+/* main mall sns */
+.mall-sns-wrap{width:auto; max-width:100%; height:343px;}
+.mall-sns-wrap ul {overflow:hidden; height:auto;}
+.mall-sns-wrap ul li{float:left; width:274px; height:343px; border-right:1px solid #f4f4f4;}
+.mall-sns-wrap ul li.last{width:275px; border-right:0;}

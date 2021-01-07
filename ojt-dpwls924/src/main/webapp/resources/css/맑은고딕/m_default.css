@@ -1,0 +1,70 @@
+@import "/resources/vendors/normalize/css/normalize.css";
+/*@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";*/
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: local("☺"),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: local("☺"),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: local("☺"),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+}
+
+/*! reset */
+fieldset, img {border:0}
+body, html, legend {color:#000}
+html {background:#fff; font-size:10px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+article, aside, audio, blockquote, body, canvas, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, input, legend, li, mark, menu, nav, ol, p, pre, section, summary, td, textarea, th, time, ul, video {margin:0; padding:0}
+body {width: 100%; color: #000; background-color:#fff; font-size: 10px; font-family: "Noto Sans KR",  Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif; line-height:1}
+div {position: relative;}
+img {vertical-align:middle}
+button, input, select, textarea {margin:0; font-size:100%; vertical-align:middle}
+button {vertical-align: top;}
+table {border-spacing:0; border-collapse:collapse; table-layout: fixed;}
+address, caption, cite, code, dfn, em, strong, th, var {font-style:normal;}
+strong {font-weight: 700;}
+ol, ul{list-style:none}
+caption, th {text-align:left}
+h1, h2, h3, h4, h5, h6, pre {font-weight:400; font-size:100%; line-height:1; font-family:  "Noto Sans KR",  Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif; }
+caption, hr, legend {width:0; height:0; font-size:1px; text-indent:-9999rem; line-height:0; margin:0; padding:0; border:0; }
+hr {display:none; }
+a, a:active, a:focus, a:hover, a:link, a:visited {color:#000; font-size:100%; text-decoration:none;}
+a, button, a:focus, button:focus, a:active, button:active{outline: 0; font-family: "Noto Sans KR", Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif;}
+/**/
+input:not([type=checkbox]):not([type=radio]), select, textarea {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-appearance: none; -webkit-border-radius: 0;}
+input:not([type=checkbox]):not([type=radio]), select, textarea {height:50px; padding:0 10px; font-size:1.5rem; border:1px solid #dedede;}
+textarea{width: 100%; max-width: 100%; min-height: 50px; padding: 10px; font-family: "Noto Sans KR",  Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif;}
+
+select{background-color:#fff; background-image:url(/resources/images/common/m_icon_select_arrow_darkgray.png); background-repeat:no-repeat; background-position:right center; background-size:25px auto;}
+
+
+
+@media all and (min-width: 320px) {
+    html, body {font-size: 9px;}
+    .m320-letter1 {letter-spacing: -1px;}
+    button.m320-letter1 {padding-left: 2px; padding-right: 2px;}
+    .btn-verify-wrap .btn-verify-ipin {letter-spacing: -1px;}
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 3) {
+    html, body {font-size: 11px;}
+}

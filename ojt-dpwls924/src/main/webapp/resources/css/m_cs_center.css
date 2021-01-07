@@ -1,0 +1,192 @@
+/* 검색영역 */
+.contents-inner .search-wrap .search-text {padding-right: 65px;}
+.contents-inner .search-wrap .search-text input[type=text] {width: 100%;}
+.contents-inner .search-wrap .search-text .btn-search {position: absolute; color: #fff; width: 60px; height: 50px; padding: 0; background: #333; border: 1px solid #333; right: 0; top: 0; font-size: 1.4rem;}
+.contents-inner .search-wrap .search-text .btn-search .icon {display: inline-block; width: 12px; height: 13px; margin-right: 5px; background: url(/resources/images/common/m_icon_search.png) no-repeat 0 0; background-size: 12px 13px; vertical-align: middle;}
+/* 검색영역 */
+
+/* 멤버십 */
+.contents-inner .membership-wrap {}
+.contents-inner .membership-wrap .membership-info {padding: 20px 10px 16px;}
+.contents-inner .membership-wrap .membership-info .title {display: block; color: #333; font-size: 1.6rem; font-weight: 500;}
+.contents-inner .membership-wrap .membership-info .list-bullet li {color: #666; font-size: 1.1rem;}
+/*.contents-inner .membership-wrap .membership-info .list-bullet li + li {margin-top: 3px;}*/
+.contents-inner .membership-wrap .membership-info .list-bullet li ul {margin-top: 3px;}
+.contents-inner .membership-wrap .membership-info .list-bullet li li {color: #888; background: none; margin-top: 0; padding: 0;}
+.contents-inner .membership-wrap .membership-info .title + .list-bullet {margin-top: 18px;}
+.contents-inner .membership-wrap .membership-info .list-bullet + .title {margin-top: 25px;}
+
+.contents-inner .membership-wrap .membership-info .card-img-wrap {margin-top: 15px;}
+.contents-inner .membership-wrap .membership-info .card-img-wrap img {width: 100%;}
+.contents-inner .membership-wrap .membership-info .card-img-wrap + p {margin-top: 15px; line-height: 1.5; font-size: 1.1rem;}
+
+.contents-inner .membership-wrap .membership-info.sub-info {background: #f7f7f7; border: 1px solid #ddd; border-left: 0; border-right: 0;}
+.contents-inner .membership-wrap .membership-info.sub-info .title {color: #46b498; min-height: 29px; padding-left: 35px; background-repeat: no-repeat; background-size: 29px; background-position: left center; line-height: 29px;}
+.contents-inner .membership-wrap .membership-info.sub-info .icon-mileage {background-image: url(/resources/images/cs_center/m_icon_membership_mileage.png);}
+.contents-inner .membership-wrap .membership-info.sub-info .icon-duration {background-image: url(/resources/images/cs_center/m_icon_membership_duration.png);}
+
+.contents-inner .membership-wrap .membership-info.grade-info {}
+.contents-inner .membership-wrap .membership-info.grade-info .list-bullet > li {color: #333;}
+.contents-inner .membership-wrap .membership-info.grade-info .list-bullet table td {color: #666;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .title {margin-top: 26px; padding-left: 48px; min-height: 45px; background-repeat: no-repeat; background-position: left top; background-size: 38px 45px;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-normal .title {margin-top: 20px; background-image: url(/resources/images/cs_center/m_icon_membership_normal.png);}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-best .title {background-image: url(/resources/images/cs_center/m_icon_membership_best.png);}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-vip .title {background-image: url(/resources/images/cs_center/m_icon_membership_vip.png);}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .grade-name {display: block;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-normal .title .grade-name {color: #61709d;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-best .title .grade-name {color: #40a98e;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-vip .title .grade-name {color: #eea62c;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .grade-required {display: inline-block; margin-top: 7px; font-size: 1.1rem; font-weight: 400; line-height: 1.5;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .grade-required span {display: block;}
+.contents-inner .membership-wrap .membership-info.grade-info .text-highlight {color: #61709d !important;}
+/* 멤버십 */
+
+/* FAQ */
+.contents-inner .faq-wrap .faq-type-wrap {margin-top: 10px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list {overflow: hidden;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li {position: relative; float: left; width: 50%; height:40px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li .btn {position: absolute; color: #333; width: 100%; height: 100%; background: transparent; border: 0; font-size: 1.2rem; z-index: 20;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li:before {content: ""; position: absolute; display: block; width: 100%; height: 41px; background: #f7f7f7; border: 1px solid #ddd; left: 0; top: 0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li:nth-child(even):before {margin: 0; left: -1px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li.last:before {height: 40px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li.active:before {background: #fff; border-color: #28b18e; z-index: 10;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li.active .btn {color: #28b18e;}
+.contents-inner .faq-wrap .faq-list .icon {position: absolute; display: inline-block; width: 20px; height: 20px; background-repeat: no-repeat; background-size: 20px; background-position: left top;}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-title .icon {background-image: url(/resources/images/cs_center/m_icon_faq_q.png);}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-title .title {font-size: 1.4rem; line-height: 1.4;}
+.contents-inner .faq-wrap .faq-list .fold-item.active .fold-title .icon {background-position: left bottom;}
+.contents-inner .faq-wrap .faq-list .fold-item.active .fold-title .title {font-weight: 500;}
+.contents-inner .faq-wrap .faq-list .fold-item .contents-wrap {padding: 0 30px;}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-contents .icon {background-image: url(/resources/images/cs_center/m_icon_faq_a.png);}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-contents .desc {color: #333; font-size: 1.4rem; line-height: 1.4;}
+/* FAQ */
+
+/* 매장찾기 */
+.contents-inner .find-store-wrap {}
+.contents-inner .find-store-wrap .search-wrap {background: #e7e7e7;}
+.contents-inner .find-store-wrap .search-wrap .search-type {overflow: hidden;}
+.contents-inner .find-store-wrap .search-wrap .search-type select {float: left; width: 49%;}
+.contents-inner .find-store-wrap .search-wrap .search-type select + select {margin-left: 2%;}
+.contents-inner .find-store-wrap .search-wrap .search-type + .search-text {margin-top: 5px;}
+
+.contents-inner .find-store-wrap .contents .result-sort-wrap {}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap {overflow: hidden;}
+/* 2017.08.16 KJH 매장 찾기 이젠벅 주석 처리로 width 32% -> 49% */
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap button {float: left; width: 49%;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap button + button {margin-left: 2%;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn {background: #fff; height: 40px; border: 1px solid #ddd; font-size: 1.4rem;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-nepa {color: #30806e;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-isen {color: #ff4612;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-kids {color: #ff8212;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-nepa.active {border-color: #30806e;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-isen.active {border-color: #ff4612;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-kids.active {border-color: #ff8212;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap + .sort-type {margin-top: 10px;}
+
+.contents-inner .find-store-wrap .store-result-wrap {margin-top: 10px; border-top: 1px solid #e5e5e5;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list {}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li {position: relative; padding: 10px 55px 10px 0; border-bottom: 1px solid #e5e5e5;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li:last-child {border: 0;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li span {display: block; color: #888; font-size: 1.1rem; overflow: hidden; white-space:nowrap; word-wrap: break-word; text-overflow: ellipsis;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li span.store-addr{line-height:1.3rem;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li span + span {margin-top: 8px;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li .store-detail {display: block; min-height: 28px; margin-right: 5px; padding-right: 28px; padding-left: 10px; background: url(/resources/images/common/m_icon_pos.png) no-repeat right center; background-size: 23px 29px;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li .store-detail span.store-name {color: #000; font-size: 1.4rem;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li .btn-call {position: absolute; display: inline-block; width: 45px; height: 100%; background: url(/resources/images/common/m_icon_btn_call.png) no-repeat center; background-size: 28px; right: 5px; top: 0; font-size: 0;}
+
+.contents-inner .store-detail-wrap .map-box {min-height: 250px;}
+.contents-inner .store-detail-wrap .map-box #map {height: 100%;}
+.contents-inner .store-detail-wrap .store-info-list li {position: relative; padding-left: 78px; background-position: 0 9px; font-size: 1.4rem;}
+.contents-inner .store-detail-wrap .store-info-list .title {position: absolute; display: inline-block; color: #333; width: 60px; left: 8px; top: 0; line-height: 1.5;}
+.contents-inner .store-detail-wrap .store-info-list .desc {display: block; color: #666; line-height: 1.5;}
+.contents-inner .store-detail-wrap .store-info-list .info-addr {min-height: 28px;}
+.contents-inner .store-detail-wrap .store-info-list .info-addr span {display: block; padding-right: 45px;}
+.contents-inner .store-detail-wrap .store-info-list .btn-call {position: absolute; display: inline-block; width: 45px; height: 100%; min-height: 28px; background: url(/resources/images/common/m_icon_btn_call.png) no-repeat center; background-size: 28px; right: 5px; top: 0; font-size: 0;}
+/* 매장찾기 */
+
+/* 이용약관, 개인정보취급방침 */
+.policy-wrap .policy-list li {color: #666;}
+.policy-wrap .policy-list > li > span {font-size:1.3rem; color:#333; line-height: 1.5; font-weight: 500;}
+.policy-wrap .policy-list > li > span.desc {color: #666; font-weight: 400;}
+.policy-wrap .policy-list > li span + ul > li {margin-top:5px; font-size:1.3rem; line-height:1.6rem;}
+.policy-wrap .policy-list > li span + ul > li span {color:#888; font-size:1.3rem; font-weight: 500;}
+.policy-wrap .policy-list ol {list-style-type:decimal; width:100%; height:auto; padding:0 10px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.policy-wrap .policy-list ol > li {width:100%; height:auto; margin-left:5px; list-style:decimal; margin-top:5px; font-size:1.3rem; color:#666; line-height:1.6rem;}
+.policy-wrap .policy-list > li + li {margin-top:15px;}
+.policy-wrap .policy-text {font-size:1.3rem; line-height:1.6rem; color:#888;}
+.policy-wrap .policy-table {width:100%; height:auto; border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; border-collapse:inherit; border-spacing:0;}
+.policy-wrap .policy-table th {padding:1rem 0.5rem; font-size:1.3rem; color:#555; font-weight:400; text-align:center; background-color:#f0f0f0;}
+.policy-wrap .policy-table td {padding:1rem 0.5rem; font-size:1.3rem; line-height:1.5rem; color:#888; font-weight:400; background-color:#fff;}
+.policy-wrap .policy-table tr + tr th {border-top:1px solid #ddd;}
+.policy-wrap .policy-table tr + tr td {border-top:1px solid #ddd;}
+.policy-wrap div + .policy-table, .policy-wrap p + .policy-table {margin-top:10px;}
+/* 이용약관, 개인정보취급방침 */
+
+/* 멤버십혜택 개선 */
+.new_membership_wrap {margin-bottom:10px; padding:0 15px 55px; box-sizing:border-box; line-height:1; color:#666; background:#fff;}
+.new_membership_wrap img {width:100%;}
+.new_membership_wrap .visual_title {margin:0 -15px; border-top:5px solid #fff;}
+.new_membership_wrap .content_title {padding-top:40px; margin-bottom:10px; font-weight:bold; font-size:17px; color:#666;}
+
+.new_membership_wrap .tab_wrap .tab_list:after {content:''; display:block; clear:both;}
+.new_membership_wrap .tab_wrap .tab_list li {float:left; width:20%;}
+.new_membership_wrap .tab_wrap .tab_list li a {display:block;}
+.new_membership_wrap .tab_wrap .tab_list li a .on,
+.new_membership_wrap .tab_wrap .tab_list li.on a .off {display:none;}
+.new_membership_wrap .tab_wrap .tab_list li.on a .on {display:block;}
+.new_membership_wrap .tab_wrap .tab_cont>div {display:none;}
+.new_membership_wrap .grade_title {margin-bottom:5px; padding:18px 10px; border-top:1px solid #fff; background-color:#f7f7f7;}
+.new_membership_wrap .grade_title span {display:block; font-weight:bold; font-size:13px;}
+.new_membership_wrap .grade_title span+span {padding-top:3px; font-weight:normal;}
+
+.new_membership_wrap .table_member {width:100%; border-top:2px solid #666; border-bottom:1px solid #bcbcbc;}
+.new_membership_wrap .table_member th {padding:13px 0; text-align:center; border:1px solid #bcbcbc; border-left:none; border-bottom:none; background-color:#f7f7f7; font-weight:bold; font-size:12px; color:#666;}
+.new_membership_wrap .table_member th span {display:inline-block; padding-top:2px; font-weight:normal; font-size:10px; line-height:12px;}
+.new_membership_wrap .table_member thead th:last-child {border-right:none;}
+.new_membership_wrap .table_member tbody th.sub {background-color:#fafafa;}
+.new_membership_wrap .table_member td {padding:13px 5%; border:1px solid #bcbcbc; border-left:none; border-bottom:none; /* text-align:center; */ font-weight:normal; font-size:11px; color:#666; box-sizing:border-box;}
+.new_membership_wrap .table_member td:last-child {border-right:none;}
+.new_membership_wrap .table_member .dashed_line th,
+.new_membership_wrap .table_member .dashed_line td {border-top-style:dashed;}
+.new_membership_wrap .table_member.align_center td {text-align:center; padding:13px 0;}
+.new_membership_wrap .table_member .cp_wrap {display:table; width:100%;}
+.new_membership_wrap .table_member .coupon {display:table-cell; width:60px; height:30px; text-indent:-9999px; background:url('http://img.nepamall.com/resources/image/content/nepa/etc/membership_coupon.png') no-repeat; background-size:300px 90px; vertical-align:middle;}
+.new_membership_wrap .table_member .coupon.type1_1 {background-position:0 0;}
+.new_membership_wrap .table_member .coupon.type1_2 {background-position:-60px 0;}
+.new_membership_wrap .table_member .coupon.type1_3 {background-position:-120px 0;}
+.new_membership_wrap .table_member .coupon.type2_1 {background-position:0 -30px;}
+.new_membership_wrap .table_member .coupon.type2_2 {background-position:-60px -30px;}
+.new_membership_wrap .table_member .coupon.type2_3 {background-position:-120px -30px;}
+.new_membership_wrap .table_member .coupon.type2_4 {background-position:-180px -30px;}
+.new_membership_wrap .table_member .coupon.type2_5 {background-position:-240px -30px;}
+.new_membership_wrap .table_member .coupon.type3_1 {background-position:0 -60px;}
+.new_membership_wrap .table_member .coupon.type3_2 {background-position:-60px -60px;}
+.new_membership_wrap .table_member .desc {display:table-cell; width:calc(100% - 60px); padding-left:10%; vertical-align:middle;}
+.new_membership_wrap .table_member .gift {display:table-cell; width:60px; height:48px; background:url('http://img.nepamall.com/resources/image/content/nepa/etc/membership_m_ico_gift.png') no-repeat; background-size:60px 48px;}
+
+.new_membership_wrap .btn_link {display:inline-block; padding:0 5px; height:18px; line-height:18px; margin-top:5px; font-size:10px; text-align:center; background-color:#163e35; color:#fff;}
+.new_membership_wrap .btn_link:after {content:''; display:inline-block; width:3px; height:5px; margin-left:5px; background:url('http://img.nepamall.com/resources/image/content/nepa/etc/membership_m_ico_arrow.png') no-repeat; background-size:3px 5px; vertical-align:middle;}
+
+.new_membership_wrap .refer {font-size:10px;}
+.new_membership_wrap .table_desc {margin-bottom:30px; padding-top:10px; font-size:11px; color:#666;}
+.new_membership_wrap .desc_list li {padding-left:6px; text-indent:-6px; font-size:11px; line-height:16px;}
+.new_membership_wrap .desc_list li:before {content:''; display:inline-block; width:3px; height:1px; margin-right:3px; background-color:#666; vertical-align:middle;}
+.new_membership_wrap .desc_list li+li {margin-top:2px;}
+.new_membership_wrap .desc_list li .reference {color:#a9a9a9;}
+.new_membership_wrap .table_member+.desc_list {padding-top:5px;}
+.new_membership_wrap .fw_normal td {font-weight:normal;}
+.new_membership_wrap .tooltip_info+.tooltip_info {margin-top:15px;}
+.new_membership_wrap .tooltip_info strong {display:block; margin-bottom:5px; font-weight:bold; font-size:11px;}
+.new_membership_wrap .tooltip_info .desc_list+strong {padding-top:7px;}
+.new_membership_wrap .tooltip_info .title {margin-bottom:10px; font-weight:bold; font-size:14px;}
+.new_membership_wrap .tooltip_info .title:before {content:''; display:inline-block; width:2px; height:12px; margin-right:5px; vertical-align:bottom; background-color:#006666;}
+.new_membership_wrap .tooltip_info .btn_tooltip {display:inline-block; margin-left:7px; text-decoration:underline; font-size:10px; color:#006666;cursor:pointer;}
+.new_membership_wrap .tooltip_info .box_tooltip {display:none; margin-bottom:20px; padding:12px 14px; border:1px solid #bfbfbf;}
+.new_membership_wrap .fc_green {font-weight:bold; color:#006666;}
+.new_membership_wrap .fc_nepa {vertical-align:bottom; font-weight:bold; font-size:11px; color:#006666;}
+.new_membership_wrap .em_text {padding-top:4px; font-size:11px; color:#006666;}
+
+@media screen and (max-width:320px){
+    .new_membership_wrap .table_member td {padding:13px 3%;}
+    .new_membership_wrap .table_member .desc {padding-left:10px;}
+}

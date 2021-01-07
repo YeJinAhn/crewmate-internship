@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Option">
+
+
+    <insert id="insertProductOptionMaster" parameterType="ProductOptionMaster">
+        /*Option.insertProductOptionMaster*/
+        INSERT INTO tb_product_option_master(
+                  prdt_code
+                , optn_mstr_id
+                , optn_mstr_name
+                , optn_mstr_order)
+         VALUES(
+                   #{prdtCode}
+                 , #{optnMstrId}
+                 , #{optnMstrName}
+                 , #{optnMstrOrder}
+                )  
+    </insert>
+    
+    <insert id="insertProductOptionDetail" parameterType="ProductOptionDetail">
+        INSERT INTO tb_product_option_detail(
+                  prdt_code
+                , optn_mstr_id
+                , optn_id
+                , optn_value
+                , optn_order
+                , optn_amt)
+        VALUES(
+                  #{prdtCode}
+                , #{optnMstrId}
+                , #{optnId}
+                , #{optnValue}
+                , #{optnOrder}
+                , #{optnAmt}
+               )
+    </insert>
+    
+    <insert id="insertProductOptionStock" parameterType="ProductOptionStock">
+        INSERT INTO tb_product_option_stock(
+                  prdt_code
+                , stock_seq
+                , stock_count
+                , sell_count
+                , disp_yn
+                , del_yn)
+        VALUES(
+                  #{prdtCode}
+                , #{stockSeq}
+                , #{stockCount}
+                , #{sellCount}
+                , #{dispYn}
+                , #{delYn}
+               )
+    </insert>
+    
+    <insert id="insertProductOptionSelect" parameterType="ProductOptionSelect">
+        INSERT INTO tb_product_option_select(
+                  prdt_code
+                , optn_mstr_id
+                , optn_id
+                , stock_seq)
+        VALUES(
+                  #{prdtCode}
+                , #{optnMstrId}
+                , #{optnId}
+                , #{stockSeq}
+               )
+    </insert>
+
+</mapper>

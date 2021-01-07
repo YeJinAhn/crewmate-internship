@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Practice">
+
+    <select id="selectFAQPrntFaq" resultType="kr.co.crewmate.ojt.model.FAQ">
+       SELECT   cnsl_class_id
+              , prnt_cnsl_class_id
+              , cnsl_class_name
+              , disp_order
+         FROM tb_counsel_class
+        WHERE prnt_cnsl_class_id = '00'
+          AND use_yn='Y'
+        ORDER BY disp_order ASC    
+    </select>
+    
+    <select id="selectFAQChildFaq" parameterType="FAQ" resultType="kr.co.crewmate.ojt.model.FAQ">
+        SELECT   cnsl_class_id
+               , prnt_cnsl_class_id
+               , cnsl_class_name
+               , disp_order
+          FROM tb_counsel_class
+         WHERE prnt_cnsl_class_id=#{prntCnslClassId}
+           AND use_yn='Y'
+         ORDER BY disp_order ASC
+    </select>
+
+
+</mapper>

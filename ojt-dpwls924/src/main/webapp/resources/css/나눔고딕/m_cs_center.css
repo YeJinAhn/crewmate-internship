@@ -1,0 +1,122 @@
+/* 검색영역 */
+.contents-inner .search-wrap .search-text {padding-right: 65px;}
+.contents-inner .search-wrap .search-text input[type=text] {width: 100%;}
+.contents-inner .search-wrap .search-text .btn-search {position: absolute; color: #fff; width: 60px; height: 50px; padding: 0; background: #333; border: 1px solid #333; right: 0; top: 0; font-size: 1.4rem;}
+.contents-inner .search-wrap .search-text .btn-search .icon {display: inline-block; width: 12px; height: 13px; margin-right: 5px; background: url(/resources/images/common/m_icon_search.png) no-repeat 0 0; background-size: 12px 13px; vertical-align: middle;}
+/* 검색영역 */
+
+/* 멤버십 */
+.contents-inner .membership-wrap {}
+.contents-inner .membership-wrap .membership-info {padding: 20px 10px 16px;}
+.contents-inner .membership-wrap .membership-info .title {display: block; color: #333; font-size: 1.6rem; font-weight: 500;}
+.contents-inner .membership-wrap .membership-info .list-bullet li {color: #666; font-size: 1.1rem;}
+/*.contents-inner .membership-wrap .membership-info .list-bullet li + li {margin-top: 3px;}*/
+.contents-inner .membership-wrap .membership-info .list-bullet li ul {margin-top: 3px;}
+.contents-inner .membership-wrap .membership-info .list-bullet li li {color: #888; background: none; margin-top: 0; padding: 0;}
+.contents-inner .membership-wrap .membership-info .title + .list-bullet {margin-top: 18px;}
+.contents-inner .membership-wrap .membership-info .list-bullet + .title {margin-top: 25px;}
+
+.contents-inner .membership-wrap .membership-info .card-img-wrap {margin-top: 15px;}
+.contents-inner .membership-wrap .membership-info .card-img-wrap img {width: 100%;}
+.contents-inner .membership-wrap .membership-info .card-img-wrap + p {margin-top: 15px; line-height: 1.5; font-size: 1.1rem;}
+
+.contents-inner .membership-wrap .membership-info.sub-info {background: #f7f7f7; border: 1px solid #ddd; border-left: 0; border-right: 0;}
+.contents-inner .membership-wrap .membership-info.sub-info .title {color: #46b498; min-height: 29px; padding-left: 35px; background-repeat: no-repeat; background-size: 29px; background-position: left center; line-height: 29px;}
+.contents-inner .membership-wrap .membership-info.sub-info .icon-mileage {background-image: url(/resources/images/cs_center/m_icon_membership_mileage.png);}
+.contents-inner .membership-wrap .membership-info.sub-info .icon-duration {background-image: url(/resources/images/cs_center/m_icon_membership_duration.png);}
+
+.contents-inner .membership-wrap .membership-info.grade-info {}
+.contents-inner .membership-wrap .membership-info.grade-info .list-bullet > li {color: #333;}
+.contents-inner .membership-wrap .membership-info.grade-info .list-bullet table td {color: #666;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .title {margin-top: 26px; padding-left: 48px; min-height: 45px; background-repeat: no-repeat; background-position: left top; background-size: 38px 45px;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-normal .title {margin-top: 20px; background-image: url(/resources/images/cs_center/m_icon_membership_normal.png);}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-best .title {background-image: url(/resources/images/cs_center/m_icon_membership_best.png);}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-vip .title {background-image: url(/resources/images/cs_center/m_icon_membership_vip.png);}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .grade-name {display: block;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-normal .title .grade-name {color: #61709d;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-best .title .grade-name {color: #40a98e;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-vip .title .grade-name {color: #eea62c;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .grade-required {display: inline-block; margin-top: 7px; font-size: 1.1rem; font-weight: 400; line-height: 1.5;}
+.contents-inner .membership-wrap .membership-info.grade-info .grade-info-wrap .grade-required span {display: block;}
+.contents-inner .membership-wrap .membership-info.grade-info .text-highlight {color: #61709d !important;}
+/* 멤버십 */
+
+/* FAQ */
+.contents-inner .faq-wrap .faq-type-wrap {margin-top: 10px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list {overflow: hidden;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li {position: relative; float: left; width: 50%; height:40px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li .btn {position: absolute; color: #333; width: 100%; height: 100%; background: transparent; border: 0; font-size: 1.2rem; z-index: 20;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li:before {content: ""; position: absolute; display: block; width: 100%; height: 41px; background: #f7f7f7; border: 1px solid #ddd; left: 0; top: 0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li:nth-child(even):before {margin: 0; left: -1px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li.last:before {height: 40px;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li.active:before {background: #fff; border-color: #28b18e; z-index: 10;}
+.contents-inner .faq-wrap .faq-type-wrap .faq-type-list li.active .btn {color: #28b18e;}
+.contents-inner .faq-wrap .faq-list .icon {position: absolute; display: inline-block; width: 20px; height: 20px; background-repeat: no-repeat; background-size: 20px; background-position: left top;}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-title .icon {background-image: url(/resources/images/cs_center/m_icon_faq_q.png);}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-title .title {font-size: 1.4rem; line-height: 1.4;}
+.contents-inner .faq-wrap .faq-list .fold-item.active .fold-title .icon {background-position: left bottom;}
+.contents-inner .faq-wrap .faq-list .fold-item.active .fold-title .title {font-weight: 500;}
+.contents-inner .faq-wrap .faq-list .fold-item .contents-wrap {padding: 0 30px;}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-contents .icon {background-image: url(/resources/images/cs_center/m_icon_faq_a.png);}
+.contents-inner .faq-wrap .faq-list .fold-item .fold-contents .desc {color: #333; font-size: 1.4rem; line-height: 1.4;}
+/* FAQ */
+
+/* 매장찾기 */
+.contents-inner .find-store-wrap {}
+.contents-inner .find-store-wrap .search-wrap {background: #e7e7e7;}
+.contents-inner .find-store-wrap .search-wrap .search-type {overflow: hidden;}
+.contents-inner .find-store-wrap .search-wrap .search-type select {float: left; width: 49%;}
+.contents-inner .find-store-wrap .search-wrap .search-type select + select {margin-left: 2%;}
+.contents-inner .find-store-wrap .search-wrap .search-type + .search-text {margin-top: 5px;}
+
+.contents-inner .find-store-wrap .contents .result-sort-wrap {}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap {overflow: hidden;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap button {float: left; width: 32%;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap button + button {margin-left: 2%;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn {background: #fff; height: 40px; border: 1px solid #ddd; font-size: 1.4rem;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-nepa {color: #30806e;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-isen {color: #ff4612;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-kids {color: #ff8212;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-nepa.active {border-color: #30806e;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-isen.active {border-color: #ff4612;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap .btn-kids.active {border-color: #ff8212;}
+.contents-inner .find-store-wrap .contents .result-sort-wrap .btn-wrap + .sort-type {margin-top: 10px;}
+
+.contents-inner .find-store-wrap .store-result-wrap {margin-top: 10px; border-top: 1px solid #e5e5e5;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list {}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li {position: relative; padding: 10px 55px 10px 0; border-bottom: 1px solid #e5e5e5;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li:last-child {border: 0;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li span {display: block; color: #888; font-size: 1.1rem; overflow: hidden; white-space:nowrap; word-wrap: break-word; text-overflow: ellipsis;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li span.store-addr{line-height:1.3rem;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li span + span {margin-top: 8px;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li .store-detail {display: block; min-height: 28px; margin-right: 5px; padding-right: 28px; padding-left: 10px; background: url(/resources/images/common/m_icon_pos.png) no-repeat right center; background-size: 23px 29px;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li .store-detail span.store-name {color: #000; font-size: 1.4rem;}
+.contents-inner .find-store-wrap .store-result-wrap .store-result-list li .btn-call {position: absolute; display: inline-block; width: 45px; height: 100%; background: url(/resources/images/common/m_icon_btn_call.png) no-repeat center; background-size: 28px; right: 5px; top: 0; font-size: 0;}
+
+.contents-inner .store-detail-wrap .map-box {min-height: 250px;}
+.contents-inner .store-detail-wrap .map-box #map {height: 100%;}
+.contents-inner .store-detail-wrap .store-info-list li {position: relative; padding-left: 78px; background-position: 0 9px; font-size: 1.4rem;}
+.contents-inner .store-detail-wrap .store-info-list .title {position: absolute; display: inline-block; color: #333; width: 60px; left: 8px; top: 0; line-height: 1.5;}
+.contents-inner .store-detail-wrap .store-info-list .desc {display: block; color: #666; line-height: 1.5;}
+.contents-inner .store-detail-wrap .store-info-list .info-addr {min-height: 28px;}
+.contents-inner .store-detail-wrap .store-info-list .info-addr span {display: block; padding-right: 45px;}
+.contents-inner .store-detail-wrap .store-info-list .btn-call {position: absolute; display: inline-block; width: 45px; height: 100%; min-height: 28px; background: url(/resources/images/common/m_icon_btn_call.png) no-repeat center; background-size: 28px; right: 5px; top: 0; font-size: 0;}
+/* 매장찾기 */
+
+/* 이용약관, 개인정보취급방침 */
+.policy-wrap .policy-list li {color: #666;}
+.policy-wrap .policy-list > li > span {font-size:1.3rem; color:#333; line-height: 1.5; font-weight: 500;}
+.policy-wrap .policy-list > li > span.desc {color: #666; font-weight: 400;}
+.policy-wrap .policy-list > li span + ul > li {margin-top:5px; font-size:1.3rem; line-height:1.6rem;}
+.policy-wrap .policy-list > li span + ul > li span {color:#888; font-size:1.3rem; font-weight: 500;}
+.policy-wrap .policy-list ol {list-style-type:decimal; width:100%; height:auto; padding:0 10px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.policy-wrap .policy-list ol > li {width:100%; height:auto; margin-left:5px; list-style:decimal; margin-top:5px; font-size:1.3rem; color:#666; line-height:1.6rem;}
+.policy-wrap .policy-list > li + li {margin-top:15px;}
+.policy-wrap .policy-text {font-size:1.3rem; line-height:1.6rem; color:#888;}
+.policy-wrap .policy-table {width:100%; height:auto; border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; border-collapse:inherit; border-spacing:0;}
+.policy-wrap .policy-table th {padding:1rem 0.5rem; font-size:1.3rem; color:#555; font-weight:400; text-align:center; background-color:#f0f0f0;}
+.policy-wrap .policy-table td {padding:1rem 0.5rem; font-size:1.3rem; line-height:1.5rem; color:#888; font-weight:400; background-color:#fff;}
+.policy-wrap .policy-table tr + tr th {border-top:1px solid #ddd;}
+.policy-wrap .policy-table tr + tr td {border-top:1px solid #ddd;}
+.policy-wrap div + .policy-table, .policy-wrap p + .policy-table {margin-top:10px;}
+/* 이용약관, 개인정보취급방침 */

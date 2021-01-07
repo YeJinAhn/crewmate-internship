@@ -1,0 +1,6 @@
+.popup-wrap {height: calc(100% - 2px); border: 1px solid #004d43;}
+.popup-header {height: 14px; padding: 14px 19px; background: #004d43; color: #fff; font-size: 15px; font-weight: 700;}
+.popup-contents {height: calc(100% - 74px); padding: 16px 19px; overflow-y: auto;}
+.popup-contents > h2, .popup-contents form > h2 {display: inline-block; font-size: 22px; font-weight: 700;}
+.popup-contents > h2 + .table-form-wrap, .popup-contents > h2 + .table-list-wrap, .popup-contents form > h2 + .table-form-wrap, .popup-contents form > h2 + .table-list-wrap {margin-top: 20px;}
+.popup-contents > .btn-wrap, .popup-contents form > .btn-wrap {margin-top: 20px; text-align: right;}

@@ -1,0 +1,233 @@
+@charset "utf-8";
+.form-login .form-type1 { padding: 1.785em 0 0.357em; border: 0; }
+.form-login .form-type1 .wrap { margin: 0; }
+.form-login .btn-center { margin: 0; }
+.form-login .btn-center .btn-type1 { display: block; width: 100%; }
+.form-login .btn-center .btn-type1 button, .form-login .btn-center .btn-type1 a { padding: 0; width: 100%; }
+.form-login .link-list { margin: 0.714em 0 2.142em; }
+.form-login .link-list:after { content: ""; display: block; clear: both; }
+.form-login .link-list li { float: left; width: 32%; margin: 0 0 0 2%; }
+.form-login .link-list li .btn-type4 { display: block; }
+.form-login .link-list li .btn-type4 a { width: 100%; padding: 0; font-weight: normal; }
+.form-login .link-list li:first-child { margin: 0; }
+.login-ing { margin: 2.143em 1.071em 1.071em 1.071em; padding: 4.444em 0 0; padding: 8em 0 0\9; text-align: center; background: url(http://imagem.nepa.co.kr/resources/img/logo_login.png) no-repeat 50% 0; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.429rem; line-height: 1.333; background-size: 9.4rem 4.8rem; }
+@media only screen and (max-width:639px) {
+.form-login .link-list li .btn-type4 a { font-size: 0.857em; line-height: 3.166; }
+.login-ing { padding: 5.5em 0 0; font-size: 1.143rem; }
+}
+.mes-playground { margin: 2.142em 0; padding: 0 0 40%; text-align: center; background: url(http://imagem.nepa.co.kr/resources/img/visual/playground.png) no-repeat 50% 100%; background-size: contain; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; padding-bottom: 450px\9; }
+.mes-playground>strong { display: inline-block; padding: 0 1em; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; color: #fff; font-size: 2.857em; text-shadow: 0.075em 0.075em 0.125em #666; font-weight: 800; color: #666 \9; }
+.mes-playground>span { display: block; margin: 1em 0 0; ; font-size: 1.714em; color: #173e35; }
+@media only screen and (max-width:767px) {
+.mes-playground { margin-top: 0; padding: 0 0 60%; }
+.mes-playground>strong { font-size: 2.142em; line-height: 2; }
+.mes-playground>span { font-size: 1.142em; }
+}
+@media only screen and (max-width:480px) {
+.mes-playground { margin-top: 0; padding: 0 0 80%; }
+.mes-playground>strong { display: block; padding: 1em 0; line-height: 1.2; }
+}
+.icon-aid { padding-left: 1.3em; background: url(http://imagem.nepa.co.kr/resources/img/icon_aid.png) no-repeat 0 1em; }
+.icon-aid2 { padding-left: 1.95em; background: url(http://imagem.nepa.co.kr/resources/img/icon_aid2.png) no-repeat 0 1em; }
+.icon-aid3 { padding-left: 2em; background: url(http://imagem.nepa.co.kr/resources/img/icon_aid3.png) no-repeat 0 1em; }
+.icon-aid4 { padding-left: 1.75em; background: url(http://imagem.nepa.co.kr/resources/img/icon_aid4.png) no-repeat 0 1em; }
+.icon-aid5 { padding-left: 1.5em; background: url(http://imagem.nepa.co.kr/resources/img/icon_aid5.png) no-repeat 0 1em; }
+.icon-aid6 { padding-left: 1.6em; background: url(http://imagem.nepa.co.kr/resources/img/icon_aid6.png) no-repeat 0 1em; }
+.transport1 { color: #0070c0; }
+.transport2 { color: #01b150; }
+.transport3 { color: #f4771c; }
+.list-step { width: 100%; overflow: hidden; background: #c5b60e url(http://imagem.nepa.co.kr/resources/img/bg_step01.gif) no-repeat 100% 0; background: -webkit-linear-gradient(left, #c5b60e, #003333); background: -o-linear-gradient(right, #c5b60e, #003333); background: -moz-linear-gradient(right, #c5b60e, #003333); background: linear-gradient(to right, #c5b60e, #003333); }
+.list-step li { position: relative; float: left; width: 20%; padding: 1em 2.57em 1em 0; margin-right: -2.57em; text-align: center; color: #fff; }
+.list-step li:after { display: block; position: absolute; right: 1.285em; top: 0; width: 2.57em; height: 5em; background: url(http://imagem.nepa.co.kr/resources/img/arr2_36x70_ffffff.png) no-repeat 100% 100%; content: ''; }
+.list-step li:last-child:after { display: none; }
+.list-step li span { display: block; font-weight: 600; line-height: 1.285; }
+@media only screen and (max-width:639px) {
+.list-step { background: -webkit-linear-gradient(#c5b60e, #003333); background: -o-linear-gradient(#c5b60e, #003333); background: -moz-linear-gradient(#c5b60e, #003333); background: linear-gradient(#c5b60e, #003333); }
+.list-step li { display: block; width: auto; float: none; margin: 0; text-align: left; padding: 0.5em 1em; border-top: 1px solid #fff; }
+.list-step li:first-child { border: none; }
+.list-step li:after { display: none; }
+.list-step li span { display: inline-block; padding-right: 0.357em; }
+}
+.visual-mark1 { position: relative; overflow: hidden; margin: 5em auto; width: 100%; }
+.visual-mark1 li { float: left; margin-left: 8%; width: 28%; }
+.visual-mark1 li:first-child { margin-left: 0; }
+.visual-mark1 li>div { position: relative; width: 100%; height: 0; padding: 0 0 100%; color: #fff; font-size: 2.143em; font-family: HelveticaNeue, Arial; background: #173e35; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; width: 191px\9; height: 191px\9; padding: 0%\9; }
+.visual-mark1 li>div span { position: absolute; left: 0; top: 50%; display: block; width: 100%; margin-top: -0.75em; text-align: center; *top:48%; }
+.visual-mark1:after, .visual-mark1:before { position: absolute; content: ""; display: block; top: 0; width: 6%; height: 100%; background: url(http://imagem.nepa.co.kr/resources/img/text_plus.png) no-repeat 0 50%; background-size: contain; }
+.visual-mark1:after { left: 29%; }
+.visual-mark1:before { left: 65%; }
+.visual-mark2 { margin-top: 1.429em; background: url(http://imagem.nepa.co.kr/resources/img/bg_recruit.png) no-repeat 50% 100%; width: 100%; height: 345px; }
+.visual-mark2 li { padding-top: 3.214em; line-height: 2.6; text-align: center; color: #fff; }
+.recruit2 .wrap { padding-top: 2.143em; }
+.recruit2 .wrap>li, .recruit3 .wrap>li { padding: 1.5%; border: 1px solid #dcdcdc; }
+.recruit2 .wrap>li>strong, .recruit3 .wrap>li>strong { text-align: left; padding: 0.5em 0 0.5em 1.25em; }
+.recruit2 .wrap .con, .recruit3 .wrap .con { border: none; }
+.recruit3 .wrap:after { content: ""; display: block; clear: both; }
+.recruit3 .wrap>li { float: left; width: 46.2%; margin: 1% 0 1% 1%; min-height: 9.571em; }
+.recruit3 .wrap>li:first-child { margin: 1% 0; }
+.recruit3 .wrap>li.box { overflow: hidden; margin: 1% 0; width: 97%; }
+@media only screen and (max-width:720px) {
+.recruit3 .wrap>li, .recruit3 .wrap>li:first-child { float: none; margin: 0 0 1.428em 0; width: auto; min-height: 0; }
+}
+@media only screen and (min-width:481px) and (max-width:767px) {
+.visual-mark1 { margin: 2.143em 0; }
+.visual-mark1 li>div { font-size: 1.286em; }
+}
+@media only screen and (max-width:480px) {
+.visual-mark1 { margin: 1.08em 0; }
+.visual-mark1 li>div { font-size: 1em; }
+.visual-mark2 { height: auto; background-size: 98% 100%; }
+.visual-mark2 li { padding-top: 1em; }
+.visual-mark2 li:first-child { padding-top: 2em; }
+}
+.icon-recruit { background: url(http://imagem.nepa.co.kr/resources/img/icon_recruit.png) no-repeat 50% 0; background-size: 66px 49px; }
+.icon-recruit2 { background: url(http://imagem.nepa.co.kr/resources/img/icon_recruit2.png) no-repeat 50% 0; background-size: 53px 49px; }
+.icon-recruit3 { background: url(http://imagem.nepa.co.kr/resources/img/icon_recruit3.png) no-repeat 50% 0; background-size: 43px 49px; }
+.icon-recruit4 { background: url(http://imagem.nepa.co.kr/resources/img/icon_recruit4.png) no-repeat 50% 0; background-size: 47px 49px; }
+.icon-recruit5 { background: url(http://imagem.nepa.co.kr/resources/img/icon_recruit5.png) no-repeat 50% 0; background-size: 40px 49px; }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.icon-recruit { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_recruit.png); }
+.icon-recruit2 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_recruit2.png); }
+.icon-recruit3 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_recruit3.png); }
+.icon-recruit4 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_recruit4.png); }
+.icon-recruit5 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_recruit5.png); }
+}
+.bg-mem { background: url(http://imagem.nepa.co.kr/resources/img/visual/visual_mem1.png) no-repeat 95% 100%; background-size: 45% auto; }
+.bg-mem .mes { width: 54%; padding: 0 0 10% 0; border-bottom: 1px solid #d9d9d9; z-index: 0 }
+.con-type10 .icon-mem1, .con-type10 .icon-mem2, .con-type10 .icon-mem3, .con-type10 .icon-mem4 { padding-top: 10.143em; }
+.con-type10 .icon-mem1 { background: url(http://imagem.nepa.co.kr/resources/img/icon_mem1.png) no-repeat center 0; }
+.con-type10 .icon-mem2 { background: url(http://imagem.nepa.co.kr/resources/img/icon_mem2.png) no-repeat center 0; }
+.con-type10 .icon-mem3 { background: url(http://imagem.nepa.co.kr/resources/img/icon_mem3.png) no-repeat center 0; }
+.con-type10 .icon-mem4 { background: url(http://imagem.nepa.co.kr/resources/img/icon_mem4.png) no-repeat center 0; }
+.section-box.half1 .mes-type3, .section-box.half2 .mes-type3 { height: 10.500em; }
+.section-box.half1 .mes-type3:after { display: inline-block; width: 1px; height: 100%; content: ''; vertical-align: middle; }
+.section-box.half2 .mes-type3 p:first-child { margin-bottom: 1.571em; }
+.section-box.half1 .mes-type3 p, .section-box.half2 .mes-type3 p { width: 98%; display: inline-block; vertical-align: middle; letter-spacing: -0.1em; }
+@media only screen and (min-width:768px) and (max-width:850px) {
+.section-box.half1 .mes-type3, .section-box.half2 .mes-type3 { height: 13.571em; }
+.br { display: inline; }
+}
+@media only screen and (max-width:767px) {
+.section-box.half1 .mes-type3, .section-box.half2 .mes-type3 { height: auto; }
+.bg-mem { background-position: center 100%; background-size: 100% auto; }
+.bg-mem .mes { width: 100%; padding-bottom: 70%; border: none; letter-spacing: -0.05em; }
+}
+@media only screen and (max-width:719px) {
+.con-type10 .icon-mem1 { background: url(http://imagem.nepa.co.kr/resources/img/640/icon_mem1.png) no-repeat center 0; }
+.con-type10 .icon-mem2 { background: url(http://imagem.nepa.co.kr/resources/img/640/icon_mem2.png) no-repeat center 0; }
+.con-type10 .icon-mem3 { background: url(http://imagem.nepa.co.kr/resources/img/640/icon_mem3.png) no-repeat center 0; }
+.con-type10 .icon-mem4 { background: url(http://imagem.nepa.co.kr/resources/img/640/icon_mem4.png) no-repeat center 0; }
+.con-type10 .icon-mem1, .con-type10 .icon-mem2 { margin-bottom: 10%; }
+.con-type10 .icon-mem1, .con-type10 .icon-mem2, .con-type10 .icon-mem3, .con-type10 .icon-mem4 { padding-top: 35%; background-size: 60% auto; }
+}
+@media \0screen\,screen\9 {
+.bg-mem { background-position: 95% 0; }
+.bg-mem .mes { width: 43%; }
+}
+.list-policy { overflow: hidden; margin: 2.5em 0; text-align: center; }
+.list-policy li { float: left; width: 49%; margin: 0 0 0 2%; padding: 11.5em 0 0; background: #fafafa; border: 1px solid #dddddd; background-repeat: no-repeat; background-position: 50% 30%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 48%\9; }
+.list-policy li:first-child { margin: 0; }
+.list-policy li.mobile { background-image: url(http://imagem.nepa.co.kr/resources/img/visual/policy_type1.png); }
+.list-policy li.ipin { background-image: url(http://imagem.nepa.co.kr/resources/img/visual/policy_type2.png); }
+.list-policy li span.infotxt { display:none; }
+@media only screen and (max-width:1024px) {
+.list-policy li { padding: 10.5em 0 0; }
+.list-policy li span.infotxt { display:block; font-size:0.85em; padding:2em 1em; line-height:normal; }
+}
+@media only screen and (max-width:479px) {
+.list-policy { margin: 1em 0; }
+.list-policy li { float: none; width: 100%; margin: 0 0 1em !important; }
+.list-policy li .btn-type1 { display: block; }
+.list-policy li .btn-type1 a { padding: 0; width: 100%; }
+}
+.list-banner1 { overflow: hidden; margin: 1em 0; }
+.list-banner1 li { float: left; width: 50%; }
+.list-banner1 li a { position: relative; display: block; width: 100%; height: 0; padding: 0 0 40%; height: 184px\9; padding: 0\9; }
+.list-banner1 li a img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.section-box .list-banner1 { margin: 0 -2.5em -2.5em; }
+@media only screen and (max-width:767px) {
+.section-box .list-banner1 { margin: 0 -1.428em -1.428em; }
+}
+@media only screen and (max-width:460px) {
+.list-banner1 li { float: none; width: 100%; }
+}
+.con-type2 .box-type2 { margin: 2.142em 0 0 0; }
+.con-type2 .txt { margin-bottom: 1.64em; }
+.con-type2 .con li strong { display: block; margin: 1.429em 0; font-weight: normal; }
+.con-type2 .con li>p, .con-type2 .con li .txt-type2>li { margin: 0.714em 0 0 0.714em; }
+.con-type2 table tbody tr td { vertical-align: middle; }
+.con-type2 .tbl1 tbody tr td, .con-type2 .tbl2 tbody tr td { width: 33.3%; }
+.con-type2 .tbl1 tbody tr td { text-align: left; }
+.con-type2 .tbl1 tbody tr td.text-c { text-align: center; }
+.con-type2 .tbl1 tbody tr td .txt-type2>li { margin: 0; }
+.con-type2 .tbl3 thead tr th { background: #f5f5f5; }
+.con-type2 .tbl3 tbody tr td { width: 50%; }
+.con-type2 .tbl4 tbody tr td { width: 20%; }
+.con-type2 .heading, .con-type2 .con li .heading { margin-top: 0; }
+.sitemap { margin: 30px 0 0; }
+.sitemap>ul { overflow: hidden; width: 100%; }
+.sitemap .con>li { overflow: hidden; float: left; margin: 0 2% 0 0; padding: 1.5em 1% 0 0; width: 32%; min-height: 77px; background: #fff; vertical-align: top; font-size: 16px; font-size: 1.143rem; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0 15px 0 0\9; width: 282px\9; height: 450px\9; *display:inline; *zoom:1; }
+.sitemap .con>li:nth-child(3n) { margin-right: 0; }
+.sitemap .con>li a { display: block; width: 100%; }
+.sitemap .con>li a:link, .sitemap .con>li a:hover, .sitemap .con>li a:visited, .sitemap .con>li a:active { color: #333; }
+.sitemap .con>li>strong>a:link, .sitemap .con>li>strong>a:hover, .sitemap .con>li>strong>a:visited, .sitemap .con>li>strong>a:active { color: #fff; text-decoration: none; }
+.sitemap .con>li>strong { position: relative; display: inline-block; margin: 0 0 0.714em; padding-right: 0.625em; width: 100%; text-align: right; font-size: 1.143em; line-height: 2.25; color: #fff; font-family: HelveticaNeue, Arial; font-weight: bold; background: #173e35; }
+.sitemap .con>li>strong>em { position: absolute; top: 8px; left: -3px; font-size: 2.18em; line-height: 1; }
+.sitemap .con>li li { margin: 3px 0; }
+.sitemap .con>li li li { margin: 0; }
+.sitemap .con>li li li a { padding: 0 0 0 10px; font-size: 14px; background: url(http://imagem.nepa.co.kr/resources/img/bar_5x1_999999.gif) no-repeat 0 0.857em; }
+.sitemap .con>li li li a:link, .sitemap .con>li li li a:visited, .sitemap .con>li li li a:active { color: #999; }
+@media only screen and (min-width:620px) and (max-width:919px) {
+.sitemap .con>li { margin: 0 1% 0 0 !important; width: 49%; padding: 1em 2% 0 0 !important; }
+.sitemap>ul>li:nth-child(2n) { margin-right: 0 !important; }
+}
+@media only screen and (max-width:619px) {
+.sitemap .con>li { margin: 0 !important; padding: 1em 2% 0 0 !important; width: 100%; min-height: 100%; }
+}
+.txt-tmp { margin: 1em 0; padding: 2em 1em; text-align: center; background: #f2f2f2; }
+.txt-tmp a { display: block; text-decoration: underline; }
+.wrap-aside .txt-tmp { margin: 0; background: none; }
+.view-event { margin: 0 auto; max-width: 920px; *max-width:940px; }
+.view-event .pc_img { display: block; *width:auto; }
+.view-event .mo_img { display: none; }
+.view-event .btn a img { *width:auto; }
+.view-event .section2 .btn a, .view-event .section3 .btn2 a, .view-event .list-sns>li a { display: block; }
+.view-event .section4 { width: 100%; }
+.view-event .section4 ul:after, .view-event .list-sns:after { content: ""; display: block; clear: both; }
+.view-event .section4 ul>li { float: left; width: 50%; }
+.view-event .section2 .tit, .view-event .section3, .view-event .sns { position: relative; }
+.view-event .section2 .btn { position: absolute; top: 78%; left: 18%; }
+.view-event .section3 .btn2 { position: absolute; top: 82%; left: 4%; }
+.view-event .list-sns { position: absolute; top: 0; right: 0; }
+.view-event .list-sns>li { float: left; }
+.view-event .list-sns>li a { display: block; width: 100%; }
+.pop-policy { margin: 2.142em 0; }
+.event-banner { position: relative; margin: 0 0 60px; width: 100%; }
+.event-banner .pc_img { display: block; }
+.event-banner .mo_img { display: none; }
+.event-banner>ul { position: absolute; bottom: 2.3%; left: 0; width: 94%; padding: 0 3%; }
+.event-banner>ul:after { content: ""; display: block; clear: both; }
+.event-banner>ul>li { float: left; padding-left: 1%; width: 32.6%; }
+.event-banner>ul>li:first-child { padding-left: 0; }
+.event-banner>ul>li a { display: block; width: 100%; }
+@media only screen and (max-width:640px) {
+.view-event .pc_img { display: none; }
+.view-event .mo_img { display: block; }
+.view-event .section4 ul>li { float: none; width: 100%; }
+.view-event .section2 .btn { position: absolute; top: 78%; left: 5%; }
+.view-event .section3 .btn2 { position: absolute; top: 82%; left: 4%; }
+.view-event .list-sns { width: 42%; }
+.view-event .list-sns>li { width: 33.3%; }
+.view-event .list-sns>li:first-child { width: 33.4%; }
+}
+@media only screen and (max-width:559px) {
+.event-banner .pc_img { display: none; }
+.event-banner .mo_img { display: block; }
+.event-banner>ul { position: absolute; bottom: 1%; left: 0; }
+.event-banner>ul>li { float: none; padding: 2% 0 0 0; width: 100%; }
+.event-banner>ul>li:first-child { float: none; padding: 0; width: 100%; }
+}
+@media only screen and (max-width:520px) {
+.view-event .section2 .btn { width: 35%; }
+.view-event .section3 .btn2 { width: 90%; }
+}

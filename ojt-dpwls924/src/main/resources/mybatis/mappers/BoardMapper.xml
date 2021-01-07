@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Board">
+
+
+    <sql id="selectBoard">
+        board_artcl_seq
+      , board_artcl_title
+      , board_artcl_cont
+      , hits
+      , rgst_dtm
+      , group_seq
+      , reply_order
+      , reply_depth
+      , prnt_artcl_seq
+      , writer
+      , board_id
+      , mdf_dtm
+      , del_yn
+    </sql>
+    
+    <sql id="selectBoardSearchCondition">
+        <if test="boardArtclTitle != null and !''.equals(boardArtclTitle)">
+        AND  board_artcl_title like '%' || #{boardArtclTitle} || '%'
+        </if>
+        <if test="boardArtclCont != null and !''.equals(boardArtclCont)">
+        AND  board_artcl_cont like '%' || #{boardArtclCont} || '%'
+        </if>
+        <if test="writer != null and !''.equals(writer)">
+        AND  writer = #{writer}
+        </if>
+        <if test="(strtDt != null and !''.equals(strtDt)) and (endDt != null and !''.equals(endDt))">
+        AND  rgst_dtm between to_date(#{strtDt}, 'yyyy-mm-dd') and to_date(#{endDt}, 'yyyy-mm-dd')+1 
+        </if>
+    </sql>
+
+
+    <select id="selectBoardList" parameterType="Board" resultType="Board">
+        /* BoardArticle.selectBoardArticleList */
+        <include refid="Base.pageHeader" /><!-- 반복되는 쿼리 묶기 -->
+        SELECT    <include refid="selectBoard" />
+          FROM    ojt_board
+         WHERE  board_id = #{boardId}
+                <include refid="selectBoardSearchCondition" />
+           AND  del_yn = 'N'
+         ORDER    BY board_artcl_seq DESC, reply_order ASC
+         <include refid="Base.pageFooter" />
+    </select>
+    
+    <!-- 해당게시글 클릭한 수 -->
+    <select id="selectBoardListCount" parameterType="Board" resultType="int">
+        /* BoardArticle.selectBoardListCount */
+        SELECT  count(*)
+          FROM  ojt_board
+         WHERE  board_id = #{boardId}
+                <include refid="selectBoardSearchCondition" />
+           AND  del_yn = 'N'
+    </select>
+    
+    <!-- 조회수 -->
+    <update id="updateBoardHits" parameterType="Board">
+        /* BoardArticle.updateBoardArticleHits */
+        UPDATE  ojt_board
+           SET  hits = hits + 1
+         WHERE  board_artcl_seq = #{boardArtclSeq}
+           AND  board_id = #{boardId}
+           AND  del_yn = 'N'
+    </update>
+    
+    <!-- 해당 게시글 하나 조회 -->
+    <select id="selectBoardOne" parameterType="int" resultType="Board">
+        /* BoardArticle.selectBoardOne */
+        SELECT  <include refid="selectBoard" />
+          FROM  ojt_board
+         WHERE  board_artcl_seq = #{boardArtclSeq}
+           AND  del_yn = 'N'
+    </select>
+    
+    <insert id="insertBoardReply" parameterType="Board">
+        /* BoardArticle.insertBoard */
+        INSERT INTO ojt_board (
+            board_artcl_seq
+          , board_artcl_title
+          , board_artcl_cont
+          , hits
+          , rgst_dtm
+          , group_seq
+          , reply_order
+          , reply_depth
+          , prnt_artcl_seq
+          , writer
+          , board_id
+          , mdf_dtm
+          , del_yn
+        ) VALUES (
+            BOARD_ARTCL_SEQ.NEXTVAL
+          , #{boardArtclTitle}
+          , #{boardArtclCont}
+          , DEFAULT
+          , SYSDATE
+          , #{groupSeq}
+          , 1
+          , 0
+          , #{prntArtclSeq}
+          , #{writer}
+          , #{boardId}
+          , SYSDATE
+          , 'N'
+        )
+    </insert>
+    
+    <update id="updateBoard" parameterType="Board">
+        /* BoardArticle.updateBoard */
+        UPDATE  ojt_board
+           SET  board_artcl_title = #{boardArtclTitle},
+                board_artcl_cont  = #{boardArtclCont},
+                mdf_dtm = SYSDATE
+         WHERE  board_artcl_seq = #{boardArtclSeq}
+           AND  board_id = #{boardId}
+           AND  del_yn = 'N'
+    </update>
+    
+    <!-- 게시글 삭제 -->
+    <update id="deleteBoard" parameterType="int">
+        UPDATE OJT_BOARD SET DEL_YN='Y'
+        WHERE BOARD_ARTCL_SEQ= #{boardArtclSeq}
+    </update>
+    
+   <!--  <delete id="deleteBoard" parameterType="int">
+        DELETE FROM OJT_BOARD WHERE BOARD_ARTCL_SEQ=#{boardArtclSeq};
+    </delete> -->
+</mapper>

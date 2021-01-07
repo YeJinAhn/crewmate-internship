@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views
+      suffix: .jsp
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@www.crewmate.co.kr:1521:ORCL
+    username: training
+    password: training
+    hikari:
+      maximum-pool-size: 10
+      max-lifetime: 1800000
+      auto-commit: false      read-only: true
+server:
+  port: 8088

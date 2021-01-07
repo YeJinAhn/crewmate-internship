@@ -1,0 +1,391 @@
+
+/* brand icon */
+.brand-icon{display:inline-block; padding:3px; font-size:0.7rem; font-weight:400; vertical-align:middle;}
+.brand-icon.isen{border:1px solid #ff4612; color:#ff4612;}
+.brand-icon.kids{border:1px solid #ff8212; color:#ff8212;}
+.brand-icon.nepa{border:1px solid #30806e; color:#30806e;}
+
+
+
+/* mypage - 찜리스트 상단 정보 */
+.mypage-wishlist-description{width:auto; max-width:100%; height:auto; padding:8px 10px; font-size:1.3rem; color:#333;}
+
+/* mypage - 찜리스트 상단 버튼 그룹 */
+.mypage-wishlist-buttons{width:auto; max-width:100%; height:auto; padding:8px 10px; border-top:1px solid #28b18e; background-color:#f1f1f1;}
+.mypage-wishlist-buttons .wishlist-total{width:55%; height:27px; line-height:27px; padding:0 0 0 20px; font-size:1.3rem; color:#28b18e; background-image:url(/resources/images/common/m_icon_mypage_wish.png); background-repeat:no-repeat; background-position:0 center; background-size:14px auto;}
+.mypage-wishlist-buttons .btn-wrap{position:absolute; z-index:1; right:10px; top:8px;}
+.mypage-wishlist-buttons .btn-wrap button{width:65px; height:27px; background-color:#fff;outline:0; border:1px solid #aaa; font-size:1.3rem; color:#666; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.mypage-wishlist-buttons .btn-wrap button + button{margin-left:3px;}
+
+/* mypage list - 찜리스트 */
+.mypage-wishlist-box{width:auto; max-width:100%; height:auto; }
+.m-mypage-ul-list.m-wishlist{border-top:1px solid #ddd;}
+.m-mypage-ul-list .list{width:100%; height:auto; padding:13px 10px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.m-mypage-ul-list.m-wishlist .list + .list{border-top:1px solid #ddd;}
+.m-mypage-ul-list.m-wishlist .list .list-title{width:100%; font-size:1.4rem;}
+
+.m-mypage-ul-list .list .list-title label,
+.m-mypage-ul-list .list .list-title span,
+.m-mypage-ul-list .list .list-title a{vertical-align:middle;}
+.m-mypage-ul-list .list .list-title label{padding:0 0 0 20px;}
+.m-mypage-ul-list .list .list-title a{display:inline-block; width:70%; height:auto; padding:1px 0; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.m-mypage-ul-list .list .list-title .brand-icon{margin:0 5px;}
+
+.m-wishlist .list-title + .list-contents{margin-top:10px;}
+.m-wishlist .list-contents{display:block; width:auto; max-width:100%; height:auto; padding:0 0 0 8%; overflow:hidden;}
+.m-wishlist .list-contents > div {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.m-wishlist .list-contents .product-img{float:left; width:29%; height:auto;}
+.m-wishlist .list-contents .product-img img{width:100%; height:auto;}
+.m-wishlist .list-contents .product-text{float:left; width:60%; height:auto; padding-top:15px; margin-left:3%;}
+.m-wishlist .list-contents .product-text > span{display:block;}
+.m-wishlist .list-contents .product-text .product-code-size{font-size:1.3rem; color:#666;}
+.m-wishlist .list-contents .product-text .product-code-size + .product-price{margin-top:12px;}
+.m-wishlist .list-contents .product-text .product-price{font-size:1.2rem; color:#aaa; text-decoration:line-through;}
+.m-wishlist .list-contents .product-text .product-price .won{font-size:0.9rem;}
+.m-wishlist .list-contents .product-text .product-discount-price{margin-top:5px; font-size:1.7rem; color:#333;}
+.m-wishlist .list-contents .product-text .product-discount-price .won{font-size:1.4rem;}
+
+.m-mypage-ul-list.empty-list{border-top:0px;}
+
+/* mypage product reviews */
+.m-products-reviews{}
+.m-products-reviews .list{padding:0;}
+.m-products-reviews .list + .list{border-top:1px solid #ddd;}
+.m-products-reviews .list-contents {width:auto; max-width:100%; height:auto; padding:23px 10px; overflow:hidden;}
+.m-products-reviews .list-contents > div{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.m-products-reviews .list-contents .product-img{float:left; width:30%; height:auto;}
+.m-products-reviews .list-contents .product-img img{width:100%; height:auto;}
+.m-products-reviews .list-contents .product-text{float:left; width:68%; height:auto; margin-left:2%;}
+/* 2017.02.21 정재요 - 상품 평점 추가 */
+.m-products-reviews .list-contents .product-text .product-review-score {display: inline-block; float: right; width: 200px; margin-right: -108px;}
+.m-products-reviews .list-contents .product-text .product-review-score div {display: inline-block; width: 80px; height: 16px; background: url(/resources/images/common/review_star.png) no-repeat 0 0; background-size: 80px 32px;}
+.m-products-reviews .list-contents .product-text .product-review-score div.review-score-star {left: -82px; background-position: 0 -16px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-50 div.review-score-star {width: 80px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-45 div.review-score-star {width: 72px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-40 div.review-score-star {width: 64px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-35 div.review-score-star {width: 56px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-30 div.review-score-star {width: 48px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-25 div.review-score-star {width: 40px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-20 div.review-score-star {width: 32px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-15 div.review-score-star {width: 24px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-10 div.review-score-star {width: 16px;}
+.m-products-reviews .list-contents .product-text .product-review-score.score-05 div.review-score-star {width: 8px;}
+/* // 2017.02.21 정재요 - 상품 평점 추가 */
+.m-products-reviews .list-contents .product-text .link-title{display:block; width:100%; height:auto; margin-top:7px; padding:1px 0; white-space:nowrap; text-overflow:ellipsis; -webkit-text-overflow:ellipsis; -moz-text-overflow:ellipsis; overflow:hidden; font-size:1.3rem;}
+.m-products-reviews .list-contents .product-text .product-code-size{font-size:1.1rem; color:#666; margin-top:7px;}
+.m-products-reviews .list-contents .review-text-title{
+    overflow: hidden; text-overflow: ellipsis; display:-webkit-box;
+    padding-right:1.2rem;
+    height:auto; max-height:3.2rem; margin-top:10px;
+    line-height:1.6rem;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+
+}
+
+/*
+.m-products-reviews .list-contents .review-text-title:before{position:absolute; z-index:20; display:block; content:'...'; right:0; bottom:0; width:1rem; height:auto; color:#333; font-size:1.1rem;}
+.m-products-reviews .list-contents .review-text-title:after{position:absolute; z-index:10; display:block; content:''; right:0; bottom:0; width:1.2rem; height:1.6rem; background-color:#fff;}
+*/
+.m-products-reviews .list-contents .btn-wrap{margin-top:12px;}
+
+/* 마이페이지 상품평 작성 버튼 */
+.button-write-reivew{height:25px; background-color:#fff; border:1px solid #28b18e; color:#28b18e; font-size:1.3rem;}
+.button-write-reivew span{display:inline-block; padding:2px 0 2px 18px; background-image:url(/resources/images/common/m_icon_mypage_reivew_write.png); background-repeat:no-repeat; background-position:0 center; background-size:14px auto;}
+
+/* mypage review tab */
+.tab-box.mypage-tab-reviews{}
+.tab-box.mypage-tab-reviews .tab-menu{}
+.tab-box.mypage-tab-reviews .tab-menu .tab{}
+.tab-box.mypage-tab-reviews .tab-menu .tab.here{}
+.tab-box.mypage-tab-reviews .tab-menu .tab.here a .count{color:#28b18e;}
+
+/* 내 상품평 보기 펼쳐보기 */
+.m-products-reviews .list.active .review-contents{display:block;}
+.review-contents{display:none; width:auto; max-width:100%; height:auto; padding:15px 10px; background-color:#f7f7f7; border-top:1px solid #ddd;}
+.review-contents .review-text{font-size:1.1rem; line-height:150%; color:#333;}
+.review-contents .review-img{width:auto; max-width:100%; height:auto; margin-top:10px;}
+.review-contents .review-img img{max-width:100%; height:auto;}
+.review-contents .btn-wrap{margin-top:10px;}
+.review-contents .btn-wrap button{height:36px; vertical-align:inherit; font-size:1.3rem !important;}
+
+/* review 작성 */
+.mypage-reivew-wrap{width:auto; max-width:100%; height:auto; padding:10px 10px 25px 10px;}
+.review-product-information{width:auto; max-width:100%; height:auto; overflow:hidden;}
+.review-product-information .review-info-table{width:100%; height:auto; border-collapse:collapse;}
+.review-product-information .review-info-table td.product-img{}
+.review-product-information .review-info-table td.product-img img{width:100%; max-width:100%; height:auto;}
+.review-product-information .review-info-table td.product-text{}
+.review-product-information .review-info-table td.product-text p,
+.review-product-information .review-info-table td.product-text a{display:block;}
+.review-product-information .review-info-table td.product-text .link-title{display:block; width:100%; height:auto; margin-top:7px; padding:1px 0; white-space:nowrap; text-overflow:ellipsis; -webkit-text-overflow:ellipsis; -moz-text-overflow:ellipsis; overflow:hidden; font-size:1.3rem;}
+.review-product-information .review-info-table td.product-text .product-code-size{ font-size:1.1rem; color:#aaa; margin-top:7px;}
+
+/*
+.review-product-information .product-img{float:left; width:35%; height:auto;}
+.review-product-information .product-img img{max-width:100%; width:100%; height:auto;}
+.review-product-information .product-text{float:left; width:63%; height:auto; margin-left:2%;}
+*/
+
+/* 2017.02.21 정재요 - 상품 평점 등록 */
+.review-score-box {width: auto; margin-bottom: 5px; padding: 10px; border: 1px solid #dedede;}
+.review-score-box p, .review-score-box div {display: inline-block;}
+.review-score-box .review-score-title {color: #333; font-size: 1.3rem;}
+.review-score-box .product-review-score {top: -3px; margin-left: 10px;}
+.review-score-box .product-review-score img {width: 19px; height: 17px;}
+.review-score-box .product-review-score a.on img.score-on, .review-score-box .product-review-score a.off img.score-off {display: inline-block;}
+.review-score-box .product-review-score a.on img.score-off, .review-score-box .product-review-score a.off img.score-on {display: none;}
+/* // 2017.02.21 정재요 - 상품 평점 등록 */
+
+.review-score-box .review_check_box {display: block;margin:5px 0;position: relative;height: 50px;}
+.review-score-box .review_check_box:after {content:'';display:block;clear:both;}
+.review-score-box .review_check_box .ui-radio{position:absolute; z-index:1; left:0; top:0; visibility:hidden;}
+.review-score-box .review_check_box .ui-radio + label{display:inline-block;height:0px;padding: 20px 5px 0 5px;line-height: 25px;background-image:url(/resources/images/common/m_icon_ui_radio.png);background-repeat: no-repeat;background-position: 50% bottom;background-size: 20px auto;font-size: 0.9rem;color:#333;/* width: 100%; */}
+.review-score-box .review_check_box .ui-radio:checked + label{background-position: 50% top;}
+.review-score-box .review_check_box .ui-radio + label + .ui-radio + label {margin-left: 25px;}
+.review-score-box .review_check_box .review-score-title{position: absolute;top: 17px;left: 0;}
+.review-score-box .review_check_box ul {position: absolute;left: 55px;top: 0; margin: 5px 0;display: table;width: calc(100% - 55px);}
+.review-score-box .review_check_box li {width: 80px;text-align: center;display: table-cell;}
+
+.review-file-box.review_detail_size {height:auto;}
+.review_detail_size{width: auto;max-width: 100%;border: 1px solid #dedede;padding: 10px;margin: 5px 0px 0px 0px;}
+.review_detail_size .detail_size_title {font-size:1.3rem;}
+.review_detail_size .form_box {margin-top:20px;font-size:1.2rem;color: #333;}
+.review_detail_size .form_box .info-box {margin-bottom:5px;}
+.review_detail_size .form_box .info-box .info-title {display:inline-block;width: 40%;}
+.review_detail_size .form_box .info-box .info-text input {width: 100px;height:40px; margin-right: 10px;}
+
+.review-write-box{width:auto; max-width:100%; height:auto; padding:10px; border:1px solid #dedede;}
+.review-write-box textarea{width:100%; height:115px; max-width:100%; max-height:115px; min-height:115px; border:0; outline:0; line-height:150%; font-size:1.3rem; color:#333;}
+.review-file-box{width:auto; max-width:100%; height:85px; border:1px solid #dedede; padding:10px; margin:5px 0px 0px 0px;}
+.review-file-box .file-upload-title{padding:1px 0 1px 20px; color:#333; font-size:1.3rem; background-image:url(/resources/images/common/m_icon_fileupload_photo.png); background-repeat:no-repeat; background-position:0 center; background-size:16px;}
+.review-file-box .add-file-wrap{left:10px; bottom:10px;}
+.review-file-box + .btn-wrap{margin-top:20px;}
+
+/* 1:1 문의 */
+.qna-list .date {display: block; color: #888; font-size: 1.1rem;}
+.qna-list .fold-title {cursor: pointer;}
+.qna-list .fold-title .status {position: absolute; display: inline-block; color: #888; width: 41px; height: 12px; padding: 5px; left: 10px; top: 50%; margin-top: -12px; border: 1px solid #888; text-align: center; font-weight: 500; line-height: 12px;}
+.qna-list .fold-title .status.complete {color: #28b18e; border-color: #28b18e;}
+.qna-list .fold-title .question-wrap {padding: 0 33px 0 61px;}
+.qna-list .fold-title .question-wrap .title {display: block; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; font-size: 1.4rem;}
+.qna-list .fold-title .question-wrap .date {margin-top: 8px;}
+.qna-list .fold-contents .question-wrap {display: block;}
+.qna-list .fold-contents .question-wrap .q-type {display: block; color: #28b18e; font-size: 1.3rem;}
+.qna-list .fold-contents .question-wrap .order-info {margin-top: 9px; line-height: 1.3;}
+.qna-list .fold-contents .question-wrap .order-info > span {display: block; color: #666; font-size: 1.1rem;}
+.qna-list .fold-contents .question-wrap .desc {display: inline-block; color: #333; margin-top: 9px; font-size: 1.3rem; line-height: 1.3;}
+.qna-list .fold-contents .question-wrap .desc + .btn-wrap {margin-top: 13px;}
+.qna-list .fold-contents .question-wrap .btn-wrap button {height: 37px; font-size: 1.3rem !important;}
+.qna-list .fold-contents .answer-wrap {background: url(/resources/images/common/m_icon_fold_reply.png) no-repeat 3px 10px; background-size: 11px 16px;}
+.qna-list .fold-contents .question-wrap + .answer-wrap {margin-top: 15px; padding: 15px 0 0 20px; border-top: 1px solid #ddd;}
+.qna-list .fold-contents .answer-wrap .text-answer {color: #333; font-size: 1.3rem; line-height: 1.3;}
+.qna-list .fold-contents .answer-wrap .date {margin-top: 13px;}
+
+.contents.qna-wrap {padding: 20px 10px 30px 10px !important;}
+.contents.qna-wrap .quesition-wrap {}
+.contents.qna-wrap .quesition-wrap select, .contents.qna-wrap .quesition-wrap input[type=text], .contents.qna-wrap .quesition-wrap textarea {width: 100%; margin-top: 7px;}
+.contents.qna-wrap .quesition-wrap select {margin-top: 0;}
+.contents.qna-wrap .quesition-wrap textarea {min-height: 118px;}
+.contents.qna-wrap .quesition-wrap .chk-wrap {margin-top: 14px;}
+.contents.qna-wrap .quesition-wrap .chk-wrap label {margin-right: 20px;}
+.contents.qna-wrap .quesition-wrap + .btn-wrap {margin-top: 20px;}
+/* 1:1 문의 */
+
+/* mypage 개인정보 수정 */
+.password-confirm-group{width:auto; max-width:100%; height:auto; margin-top:15px; padding-top:15px; border-top:1px solid #ddd;}
+.password-confirm-group input[type="text"]{}
+.password-confirm-group input[type="password"]{margin-top:5px;}
+.password-confirm-group + div{margin-top:10px;}
+
+.member-defaultinfo-wrap.mypage-personal-info{}
+.member-defaultinfo-wrap.mypage-personal-info .info-box{height:31px; line-height:31px;}
+.member-defaultinfo-wrap.mypage-personal-info .info-box + .info-box{margin-top:10px;}
+p + .info-birthday-type, div + .info-birthday-type{margin-top:15px;}
+.info-birthday-type + div{margin-top:10px;}
+.info-birthday-type{width:auto; max-width:100%; height:auto;}
+.info-birthday{width:auto; max-width:100%; height:auto; font-size:0;}
+.info-birthday select{width:32%;}
+.info-birthday select + select{width:33%; margin-left:1%;}
+.info-birthday + div{margin-top:5px;}
+.button-password-change{height:29px; border:1px solid #333333; background-color:#fff; font-size:1.3rem; color:#333; line-height:0;} /* 버튼 비밀번호 변경 */
+
+/* */
+.post-number-box{}
+.post-number-box input{width:66%; }
+.post-number-box button{width:33%;}
+
+/* mypage 회원 탈퇴 : 기타 사유 입력 */
+.reason-member-out{width:auto; max-width:100%; height:auto; margin-top:15px;}
+.reason-member-out + .member-out{margin-top:5px;}
+.member-out{display:none;}
+.member-out textarea{border:1px solid #dedede; max-width:100%; height:100px; max-height:100px; min-height:100px;}
+div + .checkbox-field{margin-top:10px;}
+.checkbox-field + .btn-wrap{margin-top:15px;}
+
+
+/* mypage main : 미로그인, 로그인 공통 */
+.mobilecard-wrap{position:absolute; z-index:30; left:0px; top:130px; width:100%; height:100%; -webkit-transition: top 0.5s; transition: top 0.5s;}
+.mobilecard-wrap.active{top:0; -webkit-transition: top 0.5s; transition: top 0.5s;}
+.mobilecard-wrap .inner-wrap{
+    width:auto; max-width:100%; height:182px; margin:10px 10px 0 10px; background-color:#fff;
+    -webkit-box-shadow:0 0 3px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 0 3px 1px rgba(0,0,0,0.2);
+    box-shadow:0 0 3px 1px rgba(0,0,0,0.2);
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+
+}
+
+.mobilecard-wrap .txt_active,
+.mobilecard-wrap.active .txt_mobile {display:none;}
+.mobilecard-wrap.active .txt_active {display:block;}
+
+.mobilecard-wrap .inner-wrap .title-text{ text-align:center; font-size:1.7rem; color:#333; font-weight:500;}
+.mobilecard-wrap .inner-wrap .title-text .my_blit {display:inline-block;width:23px;height:23px;margin-right:3px;background:url(/resources/images/icon/icon.png) no-repeat;background-size:200px;vertical-align:-5px;}
+.mobilecard-wrap .inner-wrap .title-text .blit_grade1 { background-position: 0px -144px;}
+.mobilecard-wrap .inner-wrap .title-text .blit_grade2 { background-position: -24px -144px;}
+.mobilecard-wrap .inner-wrap .title-text .blit_grade3 { background-position: -48px -144px;}
+.mobilecard-wrap .inner-wrap .title-text .blit_grade6 {height:21px;background-position: -72px -144px;}
+.mobilecard-wrap .inner-wrap .title-text .blit_grade7 {height:21px;background-position: -96px -144px;}
+.mobilecard-wrap .inner-wrap .title-text .new_blit_grade { margin-left:5px;vertical-align:-3px;}
+.mobilecard-wrap .inner-wrap .button-area{width:auto; max-width:100%; height:25px; text-align:center;}
+.mobilecard-wrap.active .inner-wrap .text-barcode{margin-top: 20px; line-height: 6rem;}
+.mobilecard-wrap .button-area button{width:59px; height:25px; background-image:url(/resources/images/common/m_icon_barcode_showhide.png); background-repeat:no-repeat; background-position:center top; background-size:59px auto; border:0; outline:0; background-color:#fff;}
+.mobilecard-wrap.active .button-area button{background-position:center bottom;}
+
+
+
+.mypage-login-information{width:auto; max-width:100%; height:182px; padding:10px; background-color:#2db390; overflow:hidden;}
+.mypage-login-information:after{content:''; clear:both; display:block; width:100%; height:1px;}
+.mypage-login-information .welcome-text{width:45%; float:left; height:29px; line-height:29px; text-align:left; color:#fff; font-size:1.4rem; font-weight:400;}
+.mypage-login-information .welcome-text span{font-weight:500;}
+.mypage-login-information.not-login{height:auto;}
+.mypage-login-information.not-login .welcome-text{float:left; width:45%;}
+.mypage-login-information .button-group{width:55%; height:auto; float:right; text-align:right;}
+.mypage-login-information .button-group .button-login,
+.mypage-login-information .button-group .button-join{width:90px; height:29px; padding: 0; background-color:#2db390; border:1px solid #fff; outline:0; font-size:1.1rem !important; color:#fff;}
+
+.mypage-login-information .user-grade-wrap{width:auto; max-width:100%; height:auto; padding-top:15px; margin-top:44px; border-top:1px solid rgba(255,255,255,0.3);}
+.mypage-login-information .user-grade-wrap:after{display:block; content:''; width:100%; height:1px; clear:both;}
+.mypage-login-information .grade-group,
+.mypage-login-information .point-group{float:left; width:50%; height:auto; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+
+.mypage-login-information .grade-group .grade-icon{width:100%; height:40px; background-repeat:no-repeat; background-size:auto 60px; background-position:center;}
+.mypage-login-information .grade-group .grade-icon_org{width:100%; height:35px; background-repeat:no-repeat; background-size:auto 35px; background-position:center 0;}
+.mypage-login-information .grade-group .grade-icon.grade1{background-image:url(/resources/images/common/m_new_icon_mypage_grade1.png);} /* 네파 다이아몬드 */
+.mypage-login-information .grade-group .grade-icon.grade2{background-image:url(/resources/images/common/m_new_icon_mypage_grade2.png);} /* 네파 플래티넘 */
+.mypage-login-information .grade-group .grade-icon.grade3{background-image:url(/resources/images/common/m_new_icon_mypage_grade3.png);} /* 네파 골드 */
+.mypage-login-information .grade-group .grade-icon.grade4{background-image:url(/resources/images/common/m_new_icon_mypage_grade4.png);} /* 네파 실버 */
+.mypage-login-information .grade-group .grade-icon.grade5{background-image:url(/resources/images/common/m_new_icon_mypage_grade5.png);} /* 네파 브론즈 */
+.mypage-login-information .grade-group .grade-icon_org.grade6{background-image:url(/resources/images/common/m_icon_mypage_grade4.png);} /* 임직원, 제휴사 */
+.mypage-login-information .grade-group .grade-icon_org.grade-stop{background-image:url(/resources/images/common/m_icon_mypage_grade_stop.png);} /* 일시정지 */
+.mypage-login-information .grade-group .sub-text{margin-top:5px; text-align:center; font-size:1.3rem; color:#fff;}
+
+.mypage-login-information .point-group{border-left:1px solid rgba(255,255,255,0.3);}
+.mypage-login-information .point-group .point-text{height:35px; font-size:2.6rem; font-weight:500; color:#fff; text-align:center;}
+.mypage-login-information .point-group .point-text span{font-size:1.2rem; font-weight:400;}
+.mypage-login-information .point-group .sub-text{margin-top:5px; text-align:center; font-size:1.3rem; color:#fff;}
+
+.mypage-login-information .grade4 .grade-group {width: 32%;}
+.mypage-login-information .grade4 .point-group {width: 68%;}
+.mypage-login-information .grade4 .point-group .point-text {position: relative; height: auto; font-size: 2rem; text-align: right;}
+.mypage-login-information .grade4 .point-group .point-text span {font-size: 1rem;}
+.mypage-login-information .grade4 .point-group .point-text span.sub-text {position: absolute; padding-left: 15px; font-size: 1.2rem; left: 15px;}
+.mypage-login-information .grade4 .point-group .point-text + .point-text {margin-top: 10px; padding-bottom: 5px;}
+
+.mypage-login-information .grade4 .point-group .point-text.residual span.sub-text {background: url(/resources/images/mypage/m_icon_residual.png) no-repeat left center; background-size: 12px;}
+.mypage-login-information .grade4 .point-group .point-text.mileage span.sub-text {background: url(/resources/images/mypage/m_icon_mileage.png) no-repeat left center; background-size: 12px;}
+.mypage-login-information .grade4 .point-group .point-text.coupon span.sub-text {background: url(/resources/images/mypage/m_icon_coupon.png) no-repeat left center; background-size: 12px;}
+
+
+.mypage-login-utilmenu{width:auto; max-width:100%; height:auto; border-top:1px solid #333;}
+.mypage-login-utilmenu .util-menu{display:block; width:auto; max-width:100%; height:auto; overflow:hidden;}
+.mypage-login-utilmenu .util-menu .utilm{float:left; width:33%; height:auto; padding:0px 0 10px 0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; border-bottom:1px solid #ddd;}
+.mypage-login-utilmenu .util-menu .utilm a{width:100%; height:100%; padding:0 0 0px 0; border:0; outline:0; background-color:#fff; vertical-align:top;}
+.mypage-login-utilmenu .util-menu .utilm a span{display:block;}
+.mypage-login-utilmenu .util-menu .utilm a .img-box{text-align:center;}
+.mypage-login-utilmenu .util-menu .utilm a img{max-width:100px;}
+.mypage-login-utilmenu .util-menu .utilm + .utilm{border-left:1px solid #ddd;}
+.mypage-login-utilmenu .util-menu .utilm .util-text{width:100%; height:auto; text-align:center; font-size:1.3rem; color:#666;}
+.mypage-login-utilmenu .util-menu .utilm:nth-child(3n){width:34%;}
+.mypage-login-utilmenu .util-menu .utilm:nth-child(3n) + .utilm{border-left:0;}
+
+
+.mypage-etc-menulist{width:auto; max-width:100%; height:auto; padding-top:10px; background-color:#e7e7e7;}
+.mypage-etc-menulist .etc-list{display:block; width:auto; max-width:100%; height:auto; background-color:#fff;}
+.mypage-etc-menulist .etc-list ~ .etc-list{margin-top:10px;}
+.mypage-etc-menulist .etc-list li{display:block; width:auto; max-width:100%; height:auto; padding:0 0px; border-bottom:1px solid #ddd;}
+.mypage-etc-menulist .etc-list .last{border-bottom:0;}
+.mypage-etc-menulist .etc-list button{width:100%; height:55px; padding:0 10px; border:0; outline:0; background-color:transparent; text-align:left; font-size:1.6rem; color:000; font-weight:500;}
+.mypage-etc-menulist .etc-list button{background-image:url(/resources/images/common/m_icon_mypage_btnarrow.png); background-repeat:no-repeat; background-position:right center; background-size:35px auto;}
+
+/* 마일리지 내역 */
+.point-information{width:auto; max-width:100%; height:auto; padding:15px 10px; background-color:#f6f6f6;}
+.point-information .point-field{width:auto; max-width:100%; height:auto;}
+.point-information .point-field:after{content:''; display:block; width:100%; height:1px; clear:both;}
+
+.point-information .point-field + .point-field{margin-top:10px;}
+
+.point-information .point-field .text-title,
+.point-information .point-field .text-point{width:50%; height:auto; float:left;}
+.point-information .point-field .text-title{color:#666; font-size:1.4rem;}
+.point-information .point-field .text-title span{color:#000; font-weight:500;}
+.point-information .point-field .text-point{text-align:right; font-size:1.4rem; color:#28b18e;}
+.point-information .point-field .text-point span{font-size:1.0rem;}
+.point-information .point-field ~ .point-field .text-title{font-size:1.2rem; color:#333;}
+.point-information .point-field ~ .point-field .text-point{font-size:1.3rem; color:#000;}
+
+
+
+.point-information + .button-term-group{border-top:1px solid #ddd;}
+
+.button-term-group{width:auto; max-width:100%; height:auto; padding:5px 10px;}
+.button-term-group:after{content:''; display:block; width:100%; height:1px; clear:both;}
+.button-term-group button{float:left; width:32%; height:38px; background-color:#fff; border:1px solid #ddd; color:#888; font-size:1.2rem;}
+.button-term-group button + button{margin-left:2%;}
+.button-term-group button.active{border:1px solid #28b18e; color:#28b18e;}
+
+.select_with_btn {padding:10px;font-size:1.2rem;border-top:1px solid #ddd;}
+.select_with_btn select {width:26%;height:30px;line-height:30px;font-size:1.4rem;border:0;}
+.select_with_btn button {float:right;height:30px;}
+
+.mileage-list-wrap{width:auto; max-width:100%; height:auto;}
+.mileage-list-wrap .mileage-list{width:100%; height:auto; table-layout:fixed;}
+.mileage-list-wrap .mileage-list td{padding:15px 0;border-top:1px solid #ddd;}
+.mileage-list-wrap .mileage-list .cont{}
+.mileage-list-wrap .mileage-list .cont .text-title{color:#000; font-weight:400; font-size:1.4rem;}
+.mileage-list-wrap .mileage-list .cont .text-title span{font-weight:500;}
+.mileage-list-wrap .mileage-list .cont .text-sub {margin-top:5px;font-size: 1.2rem;color:#333333;}
+.mileage-list-wrap .mileage-list .cont .text-date{margin-top:5px; color:#888; font-size:1.1rem;}
+.mileage-list-wrap .mileage-list .cont .text-date span {position:relative;display:inline-block;margin-right:10px;}
+.mileage-list-wrap .mileage-list .cont .text-date span:after {position:absolute;top:1px;right:-6px;content:'';display:block;width:1px;height: 9px;background:#aaaaaa;}
+.mileage-list-wrap .mileage-list .point{text-align:right; font-size:1.4rem;}
+.mileage-list-wrap .mileage-list .point-m .point{color:#e63243;}
+.mileage-list-wrap .mileage-list .point-p .point{color:#28b18e;}
+.mileage-list-wrap .mileage-list td:first-child{padding-left:10px;}
+.mileage-list-wrap .mileage-list td:last-child{padding-right:10px;}
+.mileage-list-wrap .mileage-list .list-empty td{padding:8.6rem 10px;}
+.mileage-list-wrap .mileage-list .list-empty td .img-box{width:auto; max-width:100%; height:auto; text-align:center;}
+.mileage-list-wrap .mileage-list .list-empty td .img-box img{max-width:100%;}
+.mileage-list-wrap .mileage-list .list-empty td .text-box{margin-top:1.8rem; text-align:center; font-size:1.5rem; color:#c2c2c2; font-weight:500;}
+
+.mileage-list-wrap .mileage-list.partner {}
+.mileage-list-wrap .mileage-list.partner .point {line-height: 1.3;}
+.mileage-list-wrap .mileage-list.partner .point > span {display: block; position: relative; text-align: left;}
+.mileage-list-wrap .mileage-list.partner .point > span span {position: absolute; right: 0;}
+.mileage-list-wrap .mileage-list.partner .point-m {color:#e63243;}
+.mileage-list-wrap .mileage-list.partner .point-p {color:#28b18e;}
+.mileage-list-wrap .mileage-list.partner .text-title .order-no {display: block; margin-top: 5px; font-size: 1.2rem;}
+
+
+@media all and (max-width: 360px) {
+    .mobilecard-wrap .inner-wrap .text-barcode {font-size: 3.5rem;}
+}
+@media all and (max-width: 320px) {
+    .mypage-wishlist-buttons .wishlist-total{width:49%; }
+    .mypage-login-information .grade4 .point-group .point-text + .point-text {margin-top: 15px;}
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BoardArticle">
+
+    <sql id="selectBoardArticle">
+        board_artcl_seq
+      , board_artcl_title
+      , board_artcl_cont
+      , hits
+      , rgst_dtm
+      , group_seq
+      , reply_order
+      , reply_depth
+      , prnt_artcl_seq
+      , wrtr_name
+      , board_id
+      , mdf_dtm
+      , del_yn
+    </sql>
+    
+    <sql id="selectBoradArticleSearchCondition">
+        <if test="boardArtclTitle != null and !''.equals(boardArtclTitle)">
+        AND  board_artcl_title like '%' || #{boardArtclTitle} || '%'
+        </if>
+        <if test="boardArtclCont != null and !''.equals(boardArtclCont)">
+        AND  board_artcl_cont like '%' || #{boardArtclCont} || '%'
+        </if>
+        <if test="wrtrName != null and !''.equals(wrtrName)">
+        AND  wrtr_name = #{wrtrName}
+        </if>
+        <if test="(strtDt != null and !''.equals(strtDt)) and (endDt != null and !''.equals(endDt))">
+        AND  rgst_dtm between to_date(#{strtDt}, 'yyyy-mm-dd') and to_date(#{endDt}, 'yyyy-mm-dd')+1 
+        </if>
+    </sql>
+
+
+    <select id="selectBoardArticleList" parameterType="BoardArticle" resultType="BoardArticle">
+        /* BoardArticle.selectBoardArticleList */
+        <include refid="Base.pageHeader" />
+        SELECT    <include refid="selectBoardArticle" />
+          FROM    tb_board_article
+         WHERE  board_id = #{boardId}
+                <include refid="selectBoradArticleSearchCondition" />
+           AND  del_yn = 'N'
+         ORDER    BY board_artcl_seq DESC, reply_order ASC
+         <include refid="Base.pageFooter" />
+    </select>
+    
+    <select id="selectBoardArticleListCount" parameterType="BoardArticle" resultType="int">
+        /* BoardArticle.selectBoardArticleListCount */
+        SELECT  count(*)
+          FROM  tb_board_article
+         WHERE  board_id = #{boardId}
+                <include refid="selectBoradArticleSearchCondition" />
+           AND  del_yn = 'N'
+    </select>
+    
+    <update id="updateBoardArticleHits" parameterType="BoardArticle">
+        /* BoardArticle.updateBoardArticleHits */
+        UPDATE  tb_board_article
+           SET  hits = hits + 1
+         WHERE  board_artcl_seq = #{boardArtclSeq}
+           AND  board_id = #{boardId}
+           AND  del_yn = 'N'
+    </update>
+    
+    <select id="selectBoardOne" parameterType="int" resultType="BoardArticle">
+        /* BoardArticle.selectBoardOne */
+        SELECT  <include refid="selectBoardArticle" />
+          FROM  tb_board_article
+         WHERE  board_artcl_seq = #{boardArtclSeq}
+           AND  del_yn = 'N'
+    </select>
+    
+    <insert id="insertBoardReply" parameterType="BoardArticle">
+        /* BoardArticle.insertBoard */
+        INSERT INTO tb_board_article (
+            board_artcl_seq
+          , board_artcl_title
+          , board_artcl_cont
+          , hits
+          , rgst_dtm
+          , group_seq
+          , reply_order
+          , reply_depth
+          , prnt_artcl_seq
+          , wrtr_name
+          , board_id
+          , mdf_dtm
+          , del_yn
+        ) VALUES (
+            BOARD_ARTCL_SEQ.NEXTVAL
+          , #{boardArtclTitle}
+          , #{boardArtclCont}
+          , DEFAULT
+          , SYSDATE
+          , #{groupSeq}
+          , 1
+          , 0
+          , #{prntArtclSeq}
+          , #{wrtrName}
+          , #{boardId}
+          , SYSDATE
+          , 'N'
+        )
+    </insert>
+    
+    <update id="updateBoard" parameterType="BoardArticle">
+        /* BoardArticle.updateBoard */
+        UPDATE  tb_board_article
+           SET  board_artcl_title = #{boardArtclTitle},
+                board_artcl_cont  = #{boardArtclCont},
+                mdf_dtm = SYSDATE
+         WHERE  board_artcl_seq = #{boardArtclSeq}
+           AND  board_id = #{boardId}
+           AND  del_yn = 'N'
+    </update>
+</mapper>

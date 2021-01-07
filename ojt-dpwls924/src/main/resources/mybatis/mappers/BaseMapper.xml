@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Base">
+    <!-- 
+            작성자 : kjh8877
+            작성일 : 2019.12.09  
+       기능    : 페이징 처리용 헤더
+     -->
+    <sql id="pageHeader">
+        SELECT T.* FROM (
+            SELECT T.*, ROWNUM AS ROWNUM_ FROM (
+    </sql>
+    
+    <!-- 
+            작성자 : kjh8877
+            작성일 : 2019.12.09
+            기능    : 페이징 처리용 푸터
+     -->
+    <sql id="pageFooter">
+            ) T WHERE ROWNUM &lt;= #{endRow}
+        ) T WHERE ROWNUM_ &gt;= #{startRow}
+    </sql>
+
+</mapper>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="FAQ">
+    <sql id="selectFaq">
+        faq_seq
+      , faq_title
+      , faq_cont
+      , rgst_dtm
+      , hit
+      , main_order
+      , shtct_name
+      , shtct_url
+      , last_mod_dtm
+      , write_admin_id
+      , last_mod_admin_id
+      , faq_class_id
+      , file_path
+    </sql>
+
+    <!-- 상위카테고리 -->
+    <select id="selectFaqCnslPrntList" resultType="kr.co.crewmate.ojt.model.FAQ">
+         SELECT   cnsl_class_id
+                , prnt_cnsl_class_id
+                , cnsl_class_name
+                , disp_order
+          FROM    tb_counsel_class
+         WHERE    prnt_cnsl_class_id = '00'
+           AND    use_yn='Y'
+         ORDER  BY disp_order ASC    
+    </select>
+    
+    <!-- 하위카테고리 -->
+    <select id="selectFaqCnslChildList" parameterType="FAQ" resultType="kr.co.crewmate.ojt.model.FAQ">
+         SELECT   cnsl_class_id
+                , prnt_cnsl_class_id
+                , cnsl_class_name
+                , disp_order
+           FROM   tb_counsel_class
+          WHERE   prnt_cnsl_class_id=#{prntCnslClassId}
+            AND   use_yn='Y'
+          ORDER  BY disp_order ASC 
+    </select>
+    
+    <sql id="searchCondition">
+      <if test="cnslClassId !=null and !''.equals(cnslClassId)">
+       AND faq_class_id = #{cnslClassId}
+      </if>
+      <if test="searchWord !=null and !''.equals(searchWord) and 'all'.equals(condition)">
+       AND (faq_title LIKE '%' || #{searchWord}||'%'
+        OR faq_cont LIKE '%' || #{searchWord} || '%')
+      </if>
+      <if test="searchWord !=null and !''.equals(searchWord) and 'title'.equals(condition)">
+       AND faq_title LIKE '%' || #{searchWord} || '%'
+      </if>
+      <if test="searchWord !=null and !''.equals(searchWord) and 'content'.equals(condition)">
+       AND faq_cont LIKE '%' || #{searchWord} || '%'
+      </if>
+    </sql>
+    
+    <select id="selectFaqList" parameterType="FAQ" resultType="kr.co.crewmate.ojt.model.FAQ">
+         <include refid="Base.pageHeader"/>
+         SELECT    faq_seq  
+                 , main_order 
+                 ,(SELECT LISTAGG(cnsl_class_name, '>') WITHIN GROUP(ORDER BY LEVEL DESC)
+                  FROM tb_counsel_class
+                  WHERE prnt_cnsl_class_id IS NOT null
+                  CONNECT BY PRIOR prnt_cnsl_class_id = cnsl_class_id
+                   START WITH cnsl_class_id = faq.faq_class_id) AS cnsl_class_name     
+                 , faq_title
+                 , write_admin_id
+                 , rgst_dtm
+           FROM    tb_faq_board faq
+          WHERE write_admin_id IS NOT NULL
+          <include refid ="searchCondition" />
+          ORDER BY rgst_dtm DESC
+          <include refid="Base.pageFooter"/>
+    </select>
+    
+    <select id="selectFaqListCount" resultType="int">
+         SELECT count(*)   
+           FROM    tb_faq_board
+          WHERE write_admin_id IS NOT NULL
+          <include refid="searchCondition" />
+          ORDER BY rgst_dtm DESC
+    </select>
+    
+    <select id="selectFaqOne" parameterType="int" resultType="kr.co.crewmate.ojt.model.FAQ">
+        SELECT <include refid="selectFaq" />
+          FROM tb_faq_board
+         WHERE faq_seq=#{data}
+    </select>
+    
+    <insert id="insertFaqReply" parameterType="FAQ">
+        INSERT INTO tb_faq_board(
+                  faq_seq
+                , faq_title
+                , faq_cont
+                , rgst_dtm
+                , hit
+                , main_order
+                , shtct_name
+                , shtct_url
+                , last_mod_dtm
+                , write_admin_id
+                , last_mod_admin_id
+                , faq_class_id
+                , file_path
+       )VALUES(
+                 FAQ_SEQ.NEXTVAL
+                 #{faqTitle}
+                 #{faqCont}
+                 SYSDATE
+                 #{hit}
+                 #{mainOrder}
+                 #{shtctName}
+                 #{shtctUrl}
+                 SYSDATE
+                 #{writeAdminId}
+                 #{lastModAdminId}
+                 #{faqClassId}
+                 #{filePath}
+        )
+    </insert>
+    <update id="updateFaq" parameterType="FAQ">
+        UPDATE tb_faq_board 
+           SET   faq_class_id = #{faqClassId}
+               , main_order = #{mainOrder}
+               , faq_title = #{faqTitle}
+               , faq_cont = #{faqCont}
+               , file_path = #{filePath}
+               , last_mod_admin_id = #{lastModAdminId}
+               , last_mod_dtm = SYSDATE
+         WHERE faq_seq = #{faqSeq}
+    </update>
+    
+    <update id="updateFaqHits" parameterType="FAQ">
+        UPDATE tb_faq_board
+           SET hit = hit+1
+         WHERE faq_seq = #{faqSeq}  
+    </update>
+    
+</mapper>

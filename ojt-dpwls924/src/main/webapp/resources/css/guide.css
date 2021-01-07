@@ -1,0 +1,3 @@
+h1.divider {font-size: 26px; font-weight: 700; padding-bottom: 10px; border-bottom: 2px solid #004d43;}
+h1.divider + div {margin-top: 10px;}
+div + h1.divider {margin-top: 40px;}

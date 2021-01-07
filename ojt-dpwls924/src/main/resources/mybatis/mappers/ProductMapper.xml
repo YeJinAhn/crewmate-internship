@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Category">
+    <!-- 업체 -->
+    <select id="selectVendorList" resultType="kr.co.crewmate.ojt.model.Vendor">
+        /*Category.selectVendorList*/
+        SELECT   c.vndr_cntrt_id
+               , v.vndr_id
+               , v.vndr_name
+               , c.vndr_cmsn_rate
+          FROM   tb_vendor v
+          JOIN   tb_vendor_contract c ON(v.vndr_id = c.vndr_id)
+<![CDATA[WHERE   SYSDATE>cntrt_start_dt 
+           AND   SYSDATE<cntrt_end_dt 
+           AND   v.vndr_join_stat_code='02']]>
+    </select>
+
+    <!-- 원산지 -->
+    <select id="selectOriginList" resultType="kr.co.crewmate.ojt.model.Origin">
+        /*Category.selectOriginList*/
+       SELECT   code_name AS codeName
+              , code_value AS codeValue
+              , code_order AS codeOrder
+         FROM   Tb_Code
+        WHERE   code_class = 'COO_CODE' 
+          AND   code_use_yn ='Y'
+        ORDER    BY code_order ASC
+    </select>
+
+    <!-- 상품 분류정보(상위) -->
+    <select id="selectCategoryParentInfo" resultType="kr.co.crewmate.ojt.model.Category">
+       /*Category.selectCategoryParentInfo*/
+       SELECT    ctgr_id AS ctgrId
+               , prnt_ctgr_id AS prntCtgrId
+               , ctgr_name AS ctgrName
+               , disp_order AS dispOrder
+          FROM   tb_category
+         WHERE   prnt_ctgr_id = '00' 
+           AND   use_yn='Y'
+         ORDER    BY disp_order ASC
+    </select>
+
+    <!-- 상품 분류정보(하위) -->
+    <select id="selectCategoryChildInfo" parameterType="String" resultType="kr.co.crewmate.ojt.model.Category">
+       /*Category.selectCategoryChildInfo*/
+       SELECT   ctgr_id AS ctgrId
+              , prnt_ctgr_id AS prntCtgrId
+              , ctgr_name AS ctgrName
+              , disp_order AS dispOrder
+         FROM   tb_category
+        WHERE   prnt_ctgr_id = #{prntCtgrId} 
+          AND   use_yn='Y'
+        ORDER    BY disp_order ASC
+    </select>
+    <!-- 상품 분류정보 추가 -->
+    <select id="selectCategoryAddList" parameterType="String" resultType="kr.co.crewmate.ojt.model.Category">   
+        /*Category.selectCategoryAddList*/
+        SELECT   ctgr_id
+                , (SELECT LISTAGG(ctgr_name, ' > ')  WITHIN GROUP(ORDER BY LEVEL DESC)
+                     FROM   tb_category
+                    WHERE   prnt_ctgr_id IS NOT null
+                  CONNECT BY PRIOR prnt_ctgr_id = CTGR_ID
+                    START WITH   ctgr_id = #{ctgrId}) AS ctgr_name
+          FROM   tb_category
+         WHERE   ctgr_id = #{ctgrId}
+           AND   use_yn = 'Y'
+       <!-- 
+       SELECT   ctgr_id AS ctgrId
+              , prnt_ctgr_id AS prntCtgrId
+              , ctgr_name AS ctgrName
+              , disp_order AS dispOrder
+         FROM   tb_category
+        WHERE   ctgr_id = #{ctgrId}
+          AND   use_yn='Y'
+        ORDER    BY disp_order ASC
+         -->
+    </select>
+
+    <!-- 정보 고시정보 -->
+    <select id="selectFtcInfo" resultType="kr.co.crewmate.ojt.model.FtcInfomation">
+       /*Category.selectFtcInfo*/
+       SELECT   ftc_info_seq AS ftcInfoSeq
+              , ftc_info_name AS ftcInfoName
+              , prnt_ftc_info_seq AS prntFtcInfoSeq
+         FROM   tb_ftc_information
+        WHERE   prnt_ftc_info_seq IS NULL
+          AND   use_yn ='Y'
+        ORDER    BY prnt_ftc_info_seq ASC
+    </select>
+    <!-- 정보 고시정보 하위 (textArea) -->
+    <select id="selectFtcInfoChild" parameterType="FtcInfomation" resultType="kr.co.crewmate.ojt.model.FtcInfomation">
+       /*Category.selectFtcInfoChild*/
+       SELECT   prnt_ftc_info_seq AS prntFtcInfoSeq
+              , ftc_info_seq AS ftcInfoSeq
+              , ftc_info_name AS ftcInfoName
+         FROM   tb_ftc_information
+        WHERE   prnt_ftc_info_seq=#{prntFtcInfoSeq}
+          AND   use_yn='Y'
+        ORDER    BY prnt_ftc_info_seq ASC 
+    </select>
+    <!-- 브랜드 팝업 -->
+    <sql id="selectBrandSearchCondition">
+        <if test="brandName != null and !''.equals(brandName)">
+         AND brand_name like '%' || #{brandName} || '%'
+        </if>
+        <if test="brandEngName != null and !''.equals(brandEngName)">
+        AND brand_eng_name like '%' || #{brandEngName} || '%'
+        </if>
+        <if test="brandId != null and !''.equals(brandId)">
+        AND brand_id = #{brandId}
+        </if>
+    </sql>
+    <select id="selectBrandPopupList" parameterType="Brand" resultType="kr.co.crewmate.ojt.model.Brand">
+       /*Category.selectBrandPopupList*/
+        <include refid="Base.pageHeader" />
+       SELECT   brand_id
+              , brand_name
+              , brand_eng_name
+              , prmm_yn
+         FROM   tb_brand
+        WHERE   brand_id IS NOT NULL
+        <include refid="selectBrandSearchCondition" />
+        ORDER    BY brand_name ASC
+        <include refid="Base.pageFooter" />
+    </select>
+
+    <select id="selectBrandPopupListCount" parameterType="Brand" resultType="int">
+        /*Category.selectBrandPopupListCount*/
+        SELECT  count(*)
+          FROM  tb_brand
+         WHERE  brand_id IS NOT NULL
+        <include refid="selectBrandSearchCondition" />
+    </select>
+
+    <select id="selectBrandName" parameterType="String" resultType="kr.co.crewmate.ojt.model.Brand">
+       /*Category.selectBrandName*/
+       SELECT   brand_name
+              , brand_id
+         FROM   tb_brand
+        WHERE   brand_id = #{brandId}
+    </select>
+    
+    <select id="selectProductSearch" parameterType="String" resultType="kr.co.crewmate.ojt.model.Product">
+       /*Category.selectProductSearch*/
+       SELECT   prdt_eng_name
+              , prdt_code     
+         FROM   TB_PRODUCT
+        WHERE   PRDT_CODE=#{prdtCode}             
+    </select> 
+    
+    <!-- 정렬 -->
+    <sql id="selectProductListOrder">
+        <if test="'orderByType1Asc'.equals(sortType)">
+             prdt_sell_price ASC
+        </if>
+        <if test="'orderByType1Desc'.equals(sortType)">
+             prdt_sell_price DESC   
+        </if>
+        <if test="'orderByType2Asc'.equals(sortType)">
+             prdt_sell_price ASC
+        </if>
+        <if test="'orderByType2Desc'.equals(sortType)">
+             prdt_sell_price DESC   
+        </if>
+        <if test="'orderByType3Asc'.equals(sortType)">
+             prdt_sell_price ASC
+        </if>
+        <if test="'orderByType3Desc'.equals(sortType)">
+             prdt_sell_price DESC   
+        </if>
+        <if test="'orderByType4Asc'.equals(sortType)">
+            prdt_sell_price ASC
+        </if>
+        <if test="'orderByType4Desc'.equals(sortType)">
+            prdt_sell_price DESC
+        </if>
+        <if test="'orderByType5Asc'.equals(sortType)">
+            lave_count ASC
+        </if>
+        <if test="'orderByType5Desc'.equals(sortType)">
+            lave_count DESC
+        </if>
+        <if test="'orderByType6Asc'.equals(sortType)">
+            pd.prdt_stat_code ASC
+        </if>
+        <if test="'orderByType6Desc'.equals(sortType)">
+            pd.prdt_stat_code DESC
+        </if>
+        <if test="'orderByType7Asc'.equals(sortType)">
+            pd.disp_yn ASC
+        </if>
+        <if test="'orderByType7Desc'.equals(sortType)">
+            pd.disp_yn DESC
+        </if>
+        <if test="'orderByType8Asc'.equals(sortType)">
+            pd.prmt_dtm ASC
+        </if>
+        <if test="'orderByType8Desc'.equals(sortType)">
+            pd.prmt_dtm DESC
+        </if>
+        <if test="sortType == null ||''.equals(sortType)">
+            pd.prmt_dtm DESC
+        </if>
+    </sql>
+    
+    <!-- 상품목록조회 팝업 검색 -->
+    <sql id="selectProductSearchCondition">
+        <if test="ctgrId !=null and !''.equals(ctgrId)">
+         AND pc.ctgr_id = #{ctgrId}
+        </if>
+        <if test="prdtEngName !=null and !''.equals(prdtEngName)">
+         AND pd.prdt_eng_name like '%' || #{prdtEngName} || '%'
+        </if>
+        <if test="prdtCode !=null and !''.equals(prdtCode)">
+         AND pd.prdt_code like '%' || #{prdtCode} || '%'
+        </if>
+        <if test="vndrCntrtId !=null and !''.equals(vndrCntrtId)">
+         AND vc.vndr_cntrt_id = #{vndrCntrtId}
+        </if>
+        <if test="brandId !=null and !''.equals(brandId)">
+         AND bd.brand_id = #{brandId}
+        </if>
+        <if test="dscntStartSellPrice !=null and !''.equals(dscntStartSellPrice)">
+         <![CDATA[AND pd.prdt_sell_price >= #{dscntStartSellPrice}]]>
+        </if>
+        <if test="dscntEndSellPrice !=null and !''.equals(dscntEndSellPrice)">
+        <![CDATA[AND pd.prdt_sell_price <= #{dscntEndSellPrice}]]>
+        </if>
+        <if test="dispYn !=null and !''.equals(dispYn) and !'A'.equals(dispYn)">
+         AND pd.disp_yn = #{dispYn}
+        </if>
+        <if test="prdtStatCodes !=null and !''.equals(prdtStatCodes)">
+         AND (pd.prdt_stat_code in
+          <foreach collection="prdtStatCodes" item="prdtStatCode" open="(" close=")" separator=",">
+              #{prdtStatCode}
+          </foreach>
+             )         
+        </if>
+        <if test="strtDt !=null and !''.equals(strtDt)">
+         <![CDATA[AND  pd.prmt_dtm >= to_date(#{strtDt}, 'YYYY.MM.DD')]]>
+        </if>
+        <if test="endDt !=null and !''.equals(endDt)">
+        <![CDATA[AND  pd.prmt_dtm <= to_date(#{endDt}, 'YYYY.MM.DD')]]>
+        </if>
+        <if test="vndrStopPrdtEscp == 'true' or ''.equals(vndrStopPrdtEscp)">
+         AND vd.vndr_join_stat_code = '02'
+         AND TO_CHAR(SYSDATE,'yyyyMMdd') BETWEEN cntrt_start_dt AND cntrt_end_dt+1
+        </if> 
+    </sql>
+   
+     <!-- <sql id="selectVndrStopPrdtEscp">
+        <if test="vndrStopPrdtEscp == 'true' or ''.equals(vndrStopPrdtEscp) or vndrStopPrdtEscp == null">
+           AND TO_CHAR(SYSDATE,'yyyyMMdd') BETWEEN cntrt_start_dt AND cntrt_end_dt
+        </if>
+    </sql> -->
+    
+    
+    <!-- 상품목록조회 -->
+    <select id="selectProductPopupList" parameterType="Product" resultType="kr.co.crewmate.ojt.model.Product">
+       /*Category.selectProductPopupList*/
+       <include refid="Base.pageHeader" />
+       SELECT   vd.vndr_join_stat_code
+              , pc.ctgr_id
+              , vc.vndr_cntrt_id
+              , pi.prdt_image_path
+              , bd.brand_name
+              , pd.prdt_code
+              , pd.prdt_kor_name
+              , pd.prdt_eng_name
+              ,( SELECT
+                  ( SELECT
+                            LISTAGG(ctgr_name, ' > ') WITHIN GROUP(
+                            ORDER BY level DESC)
+                      FROM  tb_category
+                     WHERE  prnt_ctgr_id IS NOT NULL
+                CONNECT BY  PRIOR prnt_ctgr_id = ctgr_id
+                START WITH  ctgr_id = pc.ctgr_id
+                  )
+                 FROM  tb_product p
+           INNER JOIN  tb_product_category pc ON p.prdt_code = pc.prdt_code
+                WHERE  p.prdt_code = pd.prdt_code
+                  AND  pc.std_ctgr_yn = 'Y'
+              ) AS ctgr_name
+               , pd.prdt_sell_price
+               , SUM(op.lave_count)
+               , pd.prdt_stat_code
+               , pd.disp_yn,
+      <![CDATA[CASE WHEN 0<( SELECT  COUNT(*)
+                               FROM  tb_product_ftc_info FT
+                              WHERE  ft.prdt_code = pd.prdt_code) THEN '등록'
+                                                                  ELSE'미등록'
+                                                                  END]]>AS ftc_info_yn,
+                pd.prmt_dtm                                                 
+        FROM    tb_product pd  
+        JOIN    tb_product_image pi ON( pd.prdt_code = pi.prdt_code)
+   LEFT JOIN    tb_product_option op ON ( op.prdt_code = pd.prdt_code )
+        JOIN    tb_brand  BD ON ( bd.brand_id = pd.brand_id)
+        JOIN    tb_vendor_contract VC ON (vc.vndr_cntrt_id = pd.vndr_cntrt_id)    
+        JOIN    tb_vendor VD ON(vd.vndr_id = vc.vndr_id)
+   LEFT JOIN    tb_product_category PC ON(pc.prdt_code = pd.prdt_code)
+       WHERE    pd.prmt_dtm IS NOT NULL
+         AND    pd.prdt_prmt_code = 'P'
+         AND    pi.prdt_image_code = '07'
+    
+    <include refid="selectProductSearchCondition" />
+    GROUP BY     vd.vndr_join_stat_code
+              ,  pc.ctgr_id
+              ,  vc.vndr_cntrt_id
+              ,  pi.prdt_image_path
+              ,  bd.brand_name
+              ,  lave_count
+              ,  pd.prdt_code
+              ,  pd.prdt_kor_name
+              ,  pd.prdt_eng_name
+              ,  pd.prdt_sell_price
+              ,  pd.prdt_stat_code
+              ,  pd.disp_yn
+              ,  pd.prmt_dtm
+    ORDER BY    <include refid="selectProductListOrder"/>
+    <include refid="Base.pageFooter" />
+    </select>
+       
+    <!-- 상품목록조회 수 -->
+    <select id="selectProductPopupListCount" parameterType="Product" resultType="int">
+        /*Category.selectProductPopupListCount*/
+        SELECT count(*)
+          FROM(
+                SELECT    vd.vndr_join_stat_code
+                        , pc.ctgr_id
+                        , vc.vndr_cntrt_id
+                        , pd.prdt_code
+                        , pd.prdt_kor_name
+                        , pd.prdt_eng_name
+                        , pd.prdt_sell_price
+                        , SUM(op.lave_count)
+                        , pd.prdt_stat_code
+                        , pd.disp_yn
+                        , pd.prmt_dtm                                                 
+                  FROM    tb_product PD  
+             LEFT JOIN    tb_product_option OP ON ( op.prdt_code = pd.prdt_code )
+                  JOIN    tb_brand  BD ON ( bd.brand_id = pd.brand_id )
+                  JOIN    tb_vendor_contract VC ON (vc.vndr_cntrt_id = pd.vndr_cntrt_id) 
+                  JOIN    tb_vendor VD ON(vd.vndr_id = vc.vndr_id)
+             LEFT JOIN    tb_product_category PC ON(pc.prdt_code = pd.prdt_code AND pc.std_ctgr_yn='Y')
+                 WHERE    pd.prmt_dtm IS NOT NULL
+                   AND    pd.prdt_prmt_code = 'P'
+
+    <include refid="selectProductSearchCondition" />                 
+              GROUP BY    vd.vndr_join_stat_code
+                        , pc.ctgr_id
+                        , vc.vndr_cntrt_id
+                        , pd.prdt_code
+                        , pd.prdt_kor_name
+                        , pd.prdt_eng_name
+                        , pd.prdt_sell_price
+                        , pd.prdt_stat_code
+                        , pd.disp_yn
+                        , pd.prmt_dtm)
+    </select>             
+    
+    <insert id="insertProduct" parameterType="Product">
+        /*Category.insertProduct*/
+        INSERT INTO tb_product (
+                     prdt_code
+                   , vndr_cntrt_id
+                   , brand_id
+                   , prdt_eng_name
+                   , prdt_sell_price
+                   , prdt_stat_code
+                   , optn_name
+                   , erp_color_name
+                   , mnftr_name
+                   , coo_code
+                   , rgst_dtm
+                   , prdt_prmt_code
+                   , prdt_dtl_info
+                   , cntr_prdt_use_yn
+                   , free_gift_use_yn
+                   , last_mod_admin_id
+                   , last_mod_dtm
+                   , min_buy_count
+                   , max_buy_count
+                   , prdt_kor_name
+                   , disp_yn
+                   , srch_word
+                   , prdt_style
+                   , prdt_gbn_code
+                   , prmt_dtm
+                   , sell_count
+                   , free_dlvy_yn
+
+           )VALUES(
+                   #{prdtCode}
+                 , #{vndrCntrtId}
+                 , #{brandId}
+                 , #{prdtEngName}
+                 , #{prdtSellPrice}
+                 , #{prdtStatCode}
+                 , #{optnName}
+                 , #{erpColorName}
+                 , #{mnftrName}
+                 , #{cooCode}
+                 , SYSDATE
+                 , #{prdtPrmtCode}
+                 , #{prdtDtlInfo}
+                 , #{cntrPrdtUseYn}
+                 , #{freeGiftUseYn}
+                 , #{lastModAdminId}
+                 , SYSDATE
+                 , #{minBuyCount}
+                 , #{maxBuyCount}
+                 , #{prdtKorName}
+                 , #{dispYn}
+                 , #{srchWord}
+                 , #{prdtStyle}
+                 , #{prdtGbnCode}
+                 , SYSDATE
+                 , #{sellCount}
+                 , #{freeDlvyYn}
+           )
+    </insert> 
+    
+    <select id="selectProductCodeSeq" resultType="int">
+        SELECT prdt_code_seq.nextval
+        FROM dual
+    </select>
+</mapper>

@@ -1,0 +1,135 @@
+/* iframe html, body override*/
+html, body {background: transparent;}
+/* iframe html, body override*/
+
+/* popup common */
+a, button, a:focus, button:focus, a:active, button:active {font-family: "NanumGothic";}
+body > form {height: 100%;}
+.popup-wrap {display: none; position: absolute; min-width: 318px; width: 90%; max-width: 90%; background: #fff; left: 50%; top: 50%; border: 1px solid #28b18e;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
+.popup-wrap .popup-header {color: #fff; margin: 0 10px; padding: 10px 0; background: #fff; border-bottom: 1px solid #e5e5e5; text-align: center;}
+.popup-wrap .popup-header.no-title {padding: 15px 30px;}
+.popup-wrap .popup-header.no-border {padding-bottom: 11px; border-bottom: 0;}
+.popup-wrap .popup-header .title {display: inline-block; color: #000; font-size: 1.4rem;}
+.popup-wrap .popup-header .btn-popup-close {position: absolute; height: 100%; padding: 0 2px; right: 0; top: 0;}
+.popup-wrap .popup-content-wrap {min-height: 90px; background: #fff;}
+.popup-wrap .popup-content-wrap .popup-contents {min-height: 17px; padding: 0 10px 15px; overflow-x: hidden; overflow-y: auto;}
+.popup-wrap .popup-content-wrap .popup-btn-wrap {height: 30px; padding: 0 20px 20px; text-align: center;}
+.popup-wrap .popup-content-wrap .popup-contents .sub-title {display: inline-block; color: #000; font-size: 1rem;}
+.popup-wrap .popup-content-wrap .popup-contents div + .sub-title {margin-top: 14px;}
+.popup-wrap .popup-content-wrap .popup-contents .sub-title + div {margin-top: 7px;}
+.popup-wrap .popup-contents .title {font-weight: 700;}
+.popup-contents .list-bullet li {color: #999; line-height: 1.6rem;}
+.popup-contents .table-wrap .table-list tbody tr td {color: #666; line-height: 1.2;}
+.popup-contents .ui-check, .popup-contents .ui-radio {color: #333;}
+
+
+.popup-wrap.brand-nepa {border-color: #004d43;}
+.popup-wrap.brand-isen {border-color: #f55022;}
+.popup-wrap.brand-kids {border-color: #ff8212;}
+.popup-wrap.brand-nepa .popup-header, .popup-wrap.brand-isen .popup-header, .popup-wrap.brand-kids .popup-header {margin: 0;}
+.popup-wrap.brand-nepa .popup-header .btn-popup-close, .popup-wrap.brand-isen .popup-header .btn-popup-close, .popup-wrap.brand-kids .popup-header .btn-popup-close {right: 10px;}
+.popup-wrap.brand-nepa .popup-content-wrap, .popup-wrap.brand-isen .popup-content-wrap, .popup-wrap.brand-kids .popup-content-wrap {margin-top: 10px;}
+.popup-wrap.brand-nepa .popup-header {border-bottom-color: #004d43;}
+.popup-wrap.brand-isen .popup-header {border-bottom-color: #f55022;}
+.popup-wrap.brand-kids .popup-header {border-bottom-color: #ff8212;}
+.popup-wrap.brand-nepa .popup-header .title, .popup-wrap.brand-isen .popup-header .title, .popup-wrap.brand-kids .popup-header .title {font-size: 1.6rem;}
+.popup-wrap.brand-nepa .popup-header .title {color: #004d43;}
+.popup-wrap.brand-isen .popup-header .title {color: #f55022;}
+.popup-wrap.brand-kids .popup-header .title {color: #ff8212;}
+
+.popup-wrap .popup-content-wrap .popup-contents .sub-title {color: #333; font-weight: 500;}
+
+/* popup common */
+
+/* brand popup common */
+.popup-wrap .popup-contents span.bullet-title {display: block; padding-left: 8px; background: url(/resources/images/brand_common/m_popup_title_bullet.png) no-repeat 0 5px; background-size: 3px; font-size: 1.1rem; font-weight: 500;}
+.popup-wrap.brand-nepa .popup-contents span.bullet-title {color: #004d43;}
+.popup-wrap.brand-isen .popup-contents span.bullet-title {color: #ff4612;}
+.popup-wrap.brand-kids .popup-contents span.bullet-title {color: #ff8212;}
+/* brand popup common */
+
+/* popup - 카드혜택 */
+.popup-contents.card-benefit {}
+.popup-contents.card-benefit .benefit-list-wrap {margin-top: 10px;}
+.popup-contents.card-benefit .list-bullet li {color: #666; padding-left: 3px; background-position: 0 6px; background-size: 2px; font-size: 1rem; line-height: 1.4rem;}
+.popup-contents.card-benefit .list-bullet li + li {margin-top: 2px;}
+.popup-contents.card-benefit .benefit-list-wrap span {color: #000;}
+/* popup - 카드혜택 */
+
+/* 이벤트 신청하기 팝업 */
+.popup-contents.event-apply {}
+.popup-contents.event-apply .event-form {}
+.popup-contents.event-apply .event-form .form-row div {display: block; color: #6c6c6c;}
+.popup-contents.event-apply .event-form .form-row + .form-row {margin-top: 10px;}
+.popup-contents.event-apply .event-form .form-row input[type=text] {width: 100%;}
+.popup-contents.event-apply .event-form .form-row .form-cell-phone {overflow: hidden;}
+.popup-contents.event-apply .event-form .form-row .form-cell-phone select {float: left; width: 32%;}
+.popup-contents.event-apply .event-form .form-row .form-cell-phone input[type=text] {float: left; width: 33%; margin-left: 1%;}
+.popup-contents.event-apply .event-form .form-row .form-email {}
+.popup-contents.event-apply .event-form .form-row .form-email input[type=email] {width: 100%;}
+.popup-contents.event-apply .event-form .form-row .form-email .desc {display: block; color: #777; margin-top: 5px;}
+.popup-contents.event-apply .event-form .btn-wrap {margin-top: 13px; font-size: 1.8rem;}
+.popup-contents.event-apply .event-form .btn-wrap button {color: #fff; width: 100%; height: 40px;}
+.popup-wrap.brand-nepa .popup-contents.event-apply .event-form .btn-wrap button {background: #004d43; border: 1px solid #004d43;}
+.popup-wrap.brand-isen .popup-contents.event-apply .event-form .btn-wrap button {background: #f55022; border: 1px solid #f55022;}
+.popup-wrap.brand-kids .popup-contents.event-apply .event-form .btn-wrap button {background: #ff8212; border: 1px solid #ff8212;}
+
+.popup-contents.event-apply.check-result .event-form .form-row {overflow: hidden; font-size: 1.6rem;}
+.popup-contents.event-apply.check-result .event-form .form-row label {float: left; display: inline-block; color: #aaa; width: 25%; line-height: 1.6em;}
+.popup-contents.event-apply.check-result .event-form .form-row div {float: left; color: #333; width: 75%; line-height: 1.6em;}
+.popup-contents.event-apply.check-result .event-form .btn-wrap button {background: #fff;}
+/*
+.popup-wrap.brand-nepa .popup-contents.event-apply.check-result .event-form .btn-wrap button {color: #004d43;}
+.popup-wrap.brand-isen .popup-contents.event-apply.check-result .event-form .btn-wrap button {color: #f55022;}
+.popup-wrap.brand-kids .popup-contents.event-apply.check-result .event-form .btn-wrap button {color: #ff8212;}
+*/
+/* 이벤트 신청하기 팝업 */
+
+/* 댓글 작성 도움말 팝업 */
+.popup-contents.comment-guide span {display: block; color: #333; line-height: 1.3rem;}
+.popup-contents.comment-guide .bullet-title + span, .popup-contents.comment-guide .bullet-title + ul {margin: 10px 0 0 8px;}
+.popup-contents.comment-guide div + div {margin-top: 13px; padding-top: 14px; border-top: 1px dashed #c0c0c0;}
+.popup-contents.comment-guide .bullet-title + ul span.sub-desc {margin-left: 14px;}
+.popup-contents.comment-guide .bullet-title + ul span + span {margin-top: 6px;}
+.popup-contents.comment-guide .bullet-title + ul li + li {margin-top: 10px;}
+/* 댓글 작성 도움말 팝업 */
+
+/* 사이즈 조견표 팝업 */
+.popup-contents.size-spec .table-wrap {margin-top: 14px;}
+.popup-contents.size-spec .size-noti-wrap {margin-top: 13px;}
+.popup-contents.size-spec .size-noti-wrap .list-bullet.asterisk li {color: #666; font-size: 1.1rem;}
+/* 사이즈 조견표 팝업 */
+
+/* 배송지 정보 팝업 */
+.popup-contents.address-info {margin: 0 10px 15px; padding: 0 !important;}
+.popup-contents.address-info .address-list-wrap {overflow-y: auto;}
+.popup-contents.address-info .address-list-wrap .table-list{width:100%; height:auto;}
+.popup-contents.address-info .address-list-wrap .table-list .col-size1{width:15%;}
+.popup-contents.address-info .address-list-wrap .table-list .col-auto{width:auto;}
+.popup-contents.address-info .address-list-wrap .table-list td{padding:20px 0; text-align:left;}
+.popup-contents.address-info .address-list-wrap .table-list > tbody > tr:first-child > td {border-top: 0;}
+.popup-contents.address-info .address-list-wrap .table-list tr ~ tr td{}
+.popup-contents.address-info .address-list-wrap .table-list .title{color:#666; font-size:1.25rem;}
+.popup-contents.address-info .address-list-wrap .table-list .text-address{color:#666; font-size:1.15rem; line-height:1.4rem;}
+.popup-contents.address-info .address-list-wrap .table-list .text-tel{color:#666; font-size:1.15rem;}
+.popup-contents.address-info .address-list-wrap .table-list .first{padding-left:10px;}
+.popup-contents.address-info .address-list-wrap .table-list .last{padding-right:10px; text-align:right;}
+.popup-contents.address-info .address-list-wrap .table-list button{width:41px; height:29px; padding:0 0px; font-size:1.15rem;}
+.popup-contents.address-info .address-list-wrap .table-list button ~ button{margin-top:5px;}
+.popup-contents.address-info .address-list-wrap .table-list p ~ p{margin-top:5px;}
+.popup-contents.address-info .address-list-wrap .table-list .active .title{color:#333;}
+.popup-contents.address-info .address-list-wrap .table-list tr:last-child td {border-bottom: 0;}
+.popup-contents.address-info .address-list-wrap + .btn-wrap {width: 100%; padding-top: 10px; border-top: 1px solid #ddd; bottom: 0;}
+/* 배송지 정보 팝업 */
+
+/* 브랜드 리스트 팝업 */
+.popup-contents.brand-list-wrap {}
+.popup-contents.brand-list-wrap .brand-list {}
+.popup-contents.brand-list-wrap .brand-list li {height: 36px; border: 1px solid #ddd;}
+.popup-contents.brand-list-wrap .brand-list li + li {margin-top: 5px;}
+.popup-contents.brand-list-wrap .brand-list li a {display: block; height: 100%; text-align: center; line-height: 36px;}
+.popup-contents.brand-list-wrap .brand-list li a img {height: 12px;}
+/* 브랜드 리스트 팝업 */

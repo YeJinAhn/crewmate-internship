@@ -1,0 +1,13 @@
+{
+  "vars": {},
+  "css": [
+    "tables.less",
+    "navs.less",
+    "responsive-embed.less"
+  ],
+  "js": [
+    "affix.js",
+    "scrollspy.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=93ea6d3f53d7c1f5000144873f4342c0"
+}

@@ -1,0 +1,6 @@
+@import "/resources/css/popup_front_common.css";
+/* iframe html, body override*/
+html {overflow: auto;}
+html, body {background: transparent;}
+
+/* iframe html, body override*/

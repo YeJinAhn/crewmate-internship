@@ -1,0 +1,5 @@
+@import "/resources/css/m_popup_common.css";
+
+/* iframe html, body override*/
+html, body {background: transparent;}
+/* iframe html, body override*/

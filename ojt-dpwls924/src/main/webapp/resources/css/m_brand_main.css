@@ -1,0 +1,109 @@
+section.wrap.brand-wrap section.contents-wrap .contents-inner{background-color:#fff; /* padding-bottom:25px; */}
+
+/* brand main 공통  */
+.m-main-contents{width:auto; max-width:100%; height:auto;}
+.m-main-contents ~ .m-main-contents{margin-top:40px;}
+.m-main-contents .title-text{width:auto; max-width:100%; height:auto; margin:0 10px; font-size:1.7rem; color:#000; text-align:center; text-transform:uppercase;}
+.m-main-contents .title-text ~ .sub-text{margin-top:5px;} 
+.m-main-contents .title-text ~ .link-cont{margin-top:10px;}
+.m-main-contents .title-text ~ .sns-cont{margin-top:10px;}
+.m-main-contents > .link-cont{width:auto; max-width:100%; height:auto; margin:0 10px;}
+.m-main-contents .link-cont img{width:100%;}
+.m-main-contents .sub-text{width:auto; max-width:100%; height:auto; margin:0 10px; text-align:left; font-size:1.1rem; color:#888888;}
+.m-main-contents .sub-text strong{font-weight:500; font-size:1.2rem;}
+
+.m-main-contents .sns-cont{width:auto; max-width:100%; height:auto; margin:0 10px; padding-bottom:25px;}
+.m-main-contents .sns-cont:after{content:''; display:block; width:100%; height:1px; clear:both;}
+
+/* 브랜드 네파 메인 */
+.brand-nepa .main-banner-wrap + .m-main-contents{margin-top:22px;}
+.brand-nepa .m-main-contents{}
+.brand-nepa .m-main-contents ~ .m-main-contents{margin-top:27px;/* margin-top:10px; */}
+
+.brand-nepa .contents.sub-banner-wrap {padding-bottom:25px;}
+.brand-nepa .contents.sub-banner-wrap img {width: 100%;}
+
+/* 브랜드 이젠벅 메인 */
+.brand-isen .main-banner-wrap + .m-main-contents{margin-top:33px;}
+.brand-isen .m-main-contents .sub-text strong{font-weight:500; color:#ff4612; font-size:1.2rem;}
+.brand-isen .m-main-contents .sns-cont .link-cont{float:left; width:49%; height:auto;}
+.brand-isen .m-main-contents .sns-cont .link-cont ~ .link-cont{margin-left:2%;}
+.brand-isen .m-main-contents .sns-cont .link-cont > .cont{padding-bottom:20px;}
+
+.sns-isen-cont{width:auto; max-width:100%; height:auto; padding:0 10px 25px 10px; margin-top:10px;}
+.sns-isen-cont:after{content:''; display:block; width:100%; height:1px; clear:both;}
+.sns-isen-cont .link-cont{float:left; width:49%; height:auto;}
+.sns-isen-cont .link-cont + .link-cont{margin-left:2%;}
+.sns-isen-cont .sns-cont-box{width:auto; max-width:100%; height:auto;}
+.sns-isen-cont .sns-cont-box ~ .sns-cont-box{margin-top:2rem;}
+.sns-isen-cont .sns-cont-box .img-box{}
+.sns-isen-cont .sns-cont-box .img-box img{max-width:100%;}
+.sns-isen-cont .sns-cont-box .title-box{margin-top:0.5rem; font-size:1.2rem; font-weight:500; line-height:1.7rem; word-wrap:break-word; word-break:break-all;}
+.sns-isen-cont .sns-cont-box .text-box{
+    height:auto; margin-top:1rem; line-height:1.5rem;
+    font-size:1.1rem; font-weight:400;
+    color:#666;
+}
+.sns-isen-cont .sns-cont-box .text-box a{color:#666;}
+
+.sns-isen-cont .sns-cont-box .icon-box{margin-top:10px;}
+.sns-isen-cont .sns-cont-box .icon-box img{width:20px; height:auto;}
+
+.sns-isen-cont .sns-cont-box.sns-facebook .title-box,
+.sns-isen-cont .sns-cont-box.sns-facebook .title-box a{color:#3b5998;}
+.sns-isen-cont .sns-cont-box.sns-blog .title-box,
+.sns-isen-cont .sns-cont-box.sns-blog .title-box a{color:#f86119;}
+.sns-isen-cont .sns-cont-box.sns-instargram .title-box,
+.sns-isen-cont .sns-cont-box.sns-instargram .title-box a{color:#3a4162;}
+.sns-isen-cont .sns-cont-box.sns-youtube .title-box,
+.sns-isen-cont .sns-cont-box.sns-youtube .title-box a{color:#d83434;}
+
+
+
+/* 브랜드 키즈 메인 */
+.brand-kids .main-banner-wrap + .m-main-contents{margin-top:33px;}
+.brand-kids .m-main-contents .title-text{color:#000; text-align:center;}
+.brand-kids .m-main-contents .title-text ~ .sub-text{margin-top:5px;} 
+.brand-kids .m-main-contents .title-text ~ .link-cont{margin-top:20px;}
+.brand-kids .m-main-contents .title-text ~ .sns-cont{margin-top:20px;}
+.brand-kids .m-main-contents .sub-text{text-align:center; font-size:1.1rem; color:#888888;}
+
+.brand-kids .m-main-contents .sns-cont .link-cont{width:100%; height:auto;}
+.brand-kids .m-main-contents .sns-cont .link-cont ~ .link-cont{margin-top:10px; margin-left:0;}
+
+.kids-sns-cont{ padding:0 10px 25px 10px;}
+.brand-kids-sns-list{margin-top:20px;}
+.brand-kids-sns-list .list{display:block; width:100%; height:auto; overflow:hidden;}
+.brand-kids-sns-list .list ~ .list{margin-top:10px;}
+.brand-kids-sns-list .list .img-box{width:40%; height:100%;}
+.brand-kids-sns-list .list .img-box img{max-width:100%; height:auto;}
+.brand-kids-sns-list .list .text-group{width:60%; height:100%; padding:10px 15px 10px 15px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.brand-kids-sns-list .list .text-group .text-title{font-size:1.2rem; }
+.brand-kids-sns-list .list .text-group .text-subtext, .brand-kids-sns-list .list .text-group .text-subtext a{
+    display:block; display:-webkit-box;
+    height:5.4rem; max-height:5.4rem;
+    margin-top:10px;font-size:1.2rem; line-height:1.8rem; color:#666;
+    text-overflow:ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    word-wrap:break-word;
+    overflow:hidden;
+}
+.brand-kids-sns-list .list .text-group .text-subtext a{color:#666; margin-top: 0;}
+.brand-kids-sns-list .list .text-group .icon-box{margin-top:10px;}
+.brand-kids-sns-list .list .text-group .icon-box img{width:20px;}
+
+.brand-kids-sns-list .list.align-left .img-box{float:right;}
+.brand-kids-sns-list .list.align-left .text-group{float:left;}
+.brand-kids-sns-list .list.align-right .img-box{float:left;}
+.brand-kids-sns-list .list.align-right .text-group{float:right;}
+.brand-kids-sns-list .list.sns-kakao{background-color:#f0f3f3;}
+.brand-kids-sns-list .list.sns-blog{background-color:#f4f1ed;}
+.brand-kids-sns-list .list.sns-kakao .text-title{color:#edba08;}
+.brand-kids-sns-list .list.sns-blog .text-title{color:#ff6600;}
+
+@media all and (min-width: 320px) {
+    .brand-kids-sns-list .list .img-box{width:41%;}
+    .brand-kids-sns-list .list .text-group{width:59%; padding:9px 14px 9px 14px;}
+
+}

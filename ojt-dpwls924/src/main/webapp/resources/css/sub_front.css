@@ -1,0 +1,223 @@
+@import "/resources/css/order_front.css";
+@import "/resources/css/product_front.css";
+@import "/resources/css/mypage_front.css";
+@import "/resources/css/cs_center_front.css";
+@import "/resources/css/brand_common_front.css"; /* brand common */
+@import "/resources/css/brand_sub_front.css"; /* brand sub */
+@import "/resources/vendors/swiper/swiper.min.css";/* swiper 라이브러리 css */
+
+.desc-wrap {padding-bottom: 20px; border: 1px solid #ececec; border-left: 0; border-right: 0;}
+.sub-title + .desc-wrap {margin-top: 15px;}
+.desc-wrap.term-list-wrap {padding: 0;}
+.desc-wrap.term-list-wrap .term-wrap-inner {height: auto; max-height: 210px; padding: 10px 20px; overflow-y: auto;}
+.desc-wrap.term-list-wrap .term-list {}
+.desc-wrap.term-list-wrap .term-list li {color: #666; font-size: 12px; line-height: 19px;}
+.desc-wrap.term-list-wrap .term-list > li + li {margin-top: 19px;}
+.desc-wrap.term-list-wrap .term-list > li > span {font-weight: 700;}
+.desc-wrap.term-list-wrap .term-list ol {margin-left: 21px; list-style-type: decimal;}
+.desc-wrap.term-list-wrap .term-txt{font-size:12px; line-height:1.4; color:#666;}
+
+.term-all-wrap {margin-top: 30px; padding: 20px 0; background: #f9f9f9; text-align: center;}
+.term-all-wrap label {color: #333; font-size: 14px; font-weight: 700;}
+
+.btn-term {padding-right: 17px; background-image:url(/resources/images/common/front_icon_btn_term.png); background-position:right center; background-repeat:no-repeat;}
+.btn-term.btn-card-benefit {background-image: url(/resources/images/common/front_icon_btn_term_card_benefit.png);}
+.sub-title .btn-term {margin-left: 10px; vertical-align: top;}
+.sub-title .agree-wrap {float: right;}
+.sub-title label {color: #666; font-size: 12px; font-weight: 400;}
+
+.login-tab .tab-container {margin-top: 40px;}
+
+
+
+/* join step */
+/*
+    join step1 input field size
+    join step1 select field size
+
+*/
+.tbl-input-name{width: 393px;}
+.tbl-select-year,
+.tbl-select-month,
+.tbl-select-day{width: 134px;}
+.tbl-select-phone1{width: 134px;}
+.tbl-input-phone2, .tbl-input-phone3{width: 112px;}
+
+.desc-txt{margin-top: 10px; font-size: 12px; color: #888; line-height: 1.4;}
+
+/* 휴대폰 본인인증, 아이핀(i-pin) 보인인증 */
+.confirm-wrap{width: auto; max-width: 100%; height: auto; overflow: hidden; padding: 50px 0 40px 0; border:1px solid #e2e2e2;}
+.confirm-wrap .confirm-box{float: left; width: 50%; height: auto;}
+.confirm-wrap .confirm-box + .confirm-box{background-image:url(/resources/images/join/front_img_join_confirm_vline.gif); background-repeat:no-repeat; background-position:left center;}
+.confirm-wrap .title{font-size: 24px; color: #000; text-align: center;}
+.confirm-wrap .img-box{width: 100%; height: auto; text-align: center;}
+.confirm-wrap .desc-txt1, .confirm-wrap .desc-txt2{width: 100%; height: 32px; padding-top: 30px; line-height:1.4; text-align: center; font-size:13px; color:#555;}
+.confirm-wrap .desc-txt2{line-height:32px;}
+.confirm-wrap .btn-wrap{margin-top:29px;}
+
+
+.complete-wrap{height:auto; margin-top:145px;}
+.complete-wrap .desc-title{font-size:26px; color:#333; text-align:center;}
+.complete-wrap .desc-title img{vertical-align:top; position:relative; top:4px;}
+.complete-wrap .desc-txt{text-align:center; margin-top:30px;}
+
+/* 통합회원가입 완료 배경 */
+.content-wrap.bg-join-complete{background:url(/resources/images/join/front_bg_join_complete.png) left bottom no-repeat #fff;}
+
+/* 휴면 회원 */
+.sl-member-wrap{width:auto; max-width:100%; height:auto; padding:50px 45px; background-color:#f9f9f9; border:1px solid #ececec;}
+.sl-member-wrap .text-title{font-size:26px; color:#333; text-align:center;}
+.sl-member-wrap .list-bullet li{letter-spacing:-1px;}
+.sl-member-wrap .list-bullet li + li{margin-top:5px;}
+.sl-comment-wrap{width:auto; max-width:100%; height:auto; padding:30px 28px; background-color:#fff; border:1px solid #ebebeb;}
+.sl-comment-wrap .text-info{color:#272727; font-weight:700;}
+div + .sl-comment-wrap{margin-top:50px;}
+
+
+/* login */
+.content-wrap.bg-login{background:url(/resources/images/join/front_bg_login_img.png) left bottom no-repeat #fff;}
+.content-wrap.bg-login .content-inner{background-color:transparent}
+.login-wrap{width:auto; max-width:100%; height:auto; padding:39px 0; background-color:#ffffff; border:1px solid #ebebeb;}
+.login-wrap.id-wrap{padding:67px 0;}
+.login-wrap.pw-wrap{padding:67px 0;}
+.login-form{width:540px; height:auto; margin:auto;}
+.login-form label{display:inline-block; width:69px; height:35px; line-height:35px; color:#000; font-weight:600;}
+.login-form input[type="text"], .login-form input[type="password"]{width:319px; height:33px; padding:0 10px; border:1px solid #d5d5d5;}
+.find-form label{display:inline-block; width:103px; height:35px; line-height:35px; color:#000; font-size:13px; vertical-align:middle;}
+.find-form{width:638px; height:auto; margin:auto; font-size:0;}
+.find-form.find-form-phone{margin-top:10px;}
+.find-form.find-form-email{margin-top:10px;}
+.find-form.find-form-self{/* width:535px; padding:0 0 0 103px; */width:auto; max-width:100%; height:auto; padding: 0 54px;margin-top:10px;}
+
+.find-form input{font-size:12px;}
+.find-form select{font-size:12px;}
+.find-form button{font-size:12px;}
+.find-form .input-field-name input[type="text"]{width:378px;}
+.find-form .input-field-id input[type="text"]{width:294px;}
+.find-form .input-field-id button{height:29px; margin-left:4px;}
+.find-form .input-field-phone select{width:130px;}
+.find-form .input-field-phone input{width:108px;}
+.find-form .input-field-birthday select{width:130px;}
+.find-form .input-field-email select{width:110px; margin-left:5px;}
+.find-form .input-field-email input{width:110px;}
+.find-form .gap{font-size:12px; color:#6c6c6c; padding:0 5px; vertical-align:middle;}
+.find-form .input-field-cfnumber .timer-text{display:none;}
+.find-form .input-field-cfnumber input{width:283px; margin-left:4px;}
+.find-form .input-field-cfnumber.timer input{width:147px; margin-left:4px;} 
+.find-form .input-field-cfnumber.timer .timer-text{display:inline-block; height:29px; line-height:29px; padding-left:21px; font-size:11px; color:#666; background:url(/resources/images/common/front_nepa_icon_timer.png) 5px center no-repeat; vertical-align:middle;}
+.find-form .input-field-cfnumber.timer .timer-text span{padding-left:3px;}
+.find-form label + select{margin-left:0;}
+.find-form select + select{margin-left:5px;}
+.find-form select + input{margin-left:5px;}
+.find-form input + input{margin-left:5px;}
+.find-form.find-form-self button span{display:inline-block; padding:2px 0;}
+.find-form.find-form-self button .icon-phone{padding-left:18px; line-height:44px; background:url(/resources/images/common/front_icon_btn_phone.gif) 0 center no-repeat;}
+.find-form.find-form-self button .icon-ipin{padding-left:22px; line-height:44px; background:url(/resources/images/common/front_icon_btn_ipin.gif) 0 center no-repeat;}
+.find-form.find-form-self button + button{margin-left:5px;}
+.find-form.find-form-self .input-field-id{padding-left:238px;}
+.find-form.find-form-self .input-field-id input[type=text] {width: 309px;}
+.find-form.find-form-self .btn-wrap{text-align:left; padding-left:238px;}
+.find-form.find-form-self .comment-wrap {border:0; padding:0; width:800px; margin:auto; margin-top:25px;}
+.find-form.find-form-self .comment-wrap .text-info{height:auto; color:#555; line-height:1.4; background-position:0 5px; }
+
+.order-nm-form{width:638px; height:auto; margin:auto; font-size:0;}
+.order-nm-form label{display:inline-block; width:103px; height:35px; line-height:35px; color:#000; font-size:13px; vertical-align:middle;}
+.order-nm-form select{font-size:12px; color:#6c6c6c;}
+.order-nm-form .input-field-name input[type="text"]{width:378px;}
+.order-nm-form .input-field-phone select{width:130px;}
+.order-nm-form .input-field-phone input{width:108px;}
+.order-nm-form .input-field-phone select + input{margin-left:5px;}
+.order-nm-form .input-field-phone input + input{margin-left:5px;}
+.order-nm-form .input-field-birthday select{width:130px;}
+.order-nm-form .input-field-number input[type="text"]{width:378px;}
+.order-nm-form .order-info{width:475px; height:auto;  padding:21px 14px; border-top:1px solid #e9e9e9; border-bottom:1px solid #e9e9e9;}
+.order-nm-form .order-info .text-title{color:#222; font-size:14px; font-weight:600;}
+.order-nm-form.nm-search{}
+.order-nm-form.nm-order{display:none;}
+.order-nm-form .list-bullet li{font-size:12px; color:#999;}
+
+
+.login-form .btn-login{position:absolute; z-index:1; right:0; top:0; width:121px; height:100%; background-color:#333; border:0;  color:#fff; font-weight:700; font-size:15px; cursor:pointer;}
+.find-form .btn-confirm{position:absolute; z-index:1; right:0; top:0; width:121px; height:100%; background-color:#333; border:0; color:#fff; font-weight:700; font-size:15px; cursor:pointer;}
+.order-nm-form .btn-order-search{position:absolute; z-index:1; right:0; top:0; width:121px; height:102px; background-color:#333; border:0; color:#fff; font-weight:700; font-size:15px; cursor:pointer;}
+.order-nm-form .btn-order{position:absolute; z-index:1; right:0; top:0; width:121px; height:100%; background-color:#333; border:0; color:#fff; font-weight:700; font-size:15px; cursor:pointer;}
+.login-form div + div, .find-form div + div{margin-top:9px;}
+
+.login-util{width:471px; height:auto; margin:auto; padding:0 0 0 69px;}
+.find-util{width:535px; height:auto; margin:auto; padding:0 0 0 103px;}
+.order-util{width:535px; height:auto; margin:auto; padding:0 0 0 103px;}
+.find-util label + label{margin-left:20px;}
+.order-util label + label{margin-left:72px;}
+div + .login-util{margin-top:10px;}
+.find-util + .find-form{margin-top:10px;}
+.login-util .util{position:absolute; z-index:1; right:0; top:0;}
+div + .order-nm-form{margin-top:10px;}
+
+/* 간편로그인 */
+.login-simple{width:490px;height:auto;margin:39px 0 0 272px;display:flex;justify-content: space-between;text-align: center;}
+.login-simple .btn-sp-login{width:235px;height:40px;background-color:#fff;border:1px solid #000;box-sizing: border-box;cursor: pointer;}
+.login-simple .btn-sp-login .txt{font-size:15px;font-family:"Noto Sans KR";font-weight:400;line-height:37px;display:inline-block;vertical-align: middle;}
+.login-simple .btn-sp-login:before{content:"";width:20px;height:20px;margin-right:10px;background: url(/resources/images/common/ico_simple_login.png) no-repeat;background-size:20px auto;display:inline-block;vertical-align: middle;}
+.login-simple .naver:before{background-position: 0 1px;}
+.login-simple .kakao:before{background-position: 1px -21px;}
+
+/* 회원가입 완료 */
+.sns_login_wrap{width:495px;margin:57px auto 0;padding:30px 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+.sns_login_wrap .info_txt{font-size:15px;color:#333;line-height:24px;letter-spacing:-1px;text-align:center;}
+.sns_login_wrap .btn{width:235px;margin:30px auto 0;border:none;font-size:15px;font-family:"Noto Sans KR";font-weight:400;line-height:40px;background-color:#000;color:#fff;display:block;}
+
+/* comment */
+.comment-wrap{width:auto; max-width:100%; height:auto; padding:30px 28px; background-color:#fff; border:1px solid #ebebeb;}
+.comment-wrap .text-info{color:#272727; font-weight:700;}
+.comment-wrap .text-title{font-size:14px;}
+
+div + .comment-wrap{margin-top:50px;}
+
+.comment-wrap.login-comment{background-color:transparent; background-image:url(/resources/images/common/front_bg_login_comment.png); background-repeat:repeat; background-position:0 0;}
+.comment-wrap.login-comment .text-title{font-weight:600; color:#272727;}
+.comment-wrap.login-comment .text-sub{font-size:14px; text-align:center; font-weight:600;}
+/* paging */
+.page-wrap{font-size:0; height:auto; text-align:center;}
+.page-wrap a{display:inline-block; zoom:1; *display:inline; font-size:12px; text-align:center; vertical-align:middle;}
+.page-wrap a + a{margin-left:4px;}
+.page-wrap a.btn-page-first,
+.page-wrap a.btn-page-prev,
+.page-wrap a.btn-page-next,
+.page-wrap a.btn-page-last{width:27px; height:27px;}
+.page-wrap a.btn-page-num {width: 29px !important; height: 29px !important; margin: 0; line-height: 29px;}
+.page-wrap a.btn-page-first span, 
+.page-wrap a.btn-page-prev span, 
+.page-wrap a.btn-page-next span, 
+.page-wrap a.btn-page-last span {visibility: hidden; position: absolute; z-index: 1; left: 0; top: 0; font-size: 0;}
+.page-wrap a.btn-page-first, 
+.page-wrap a.btn-page-prev, 
+.page-wrap a.btn-page-next, 
+.page-wrap a.btn-page-last {border: 1px solid #ddd; background-image: url(/resources/images/common/front_brand_btn_page2.gif);}
+.page-wrap a.btn-page-first {background-position: 0 0;}
+.page-wrap a.btn-page-prev {background-position:-27px -0px; margin-left:4px;}
+.page-wrap a.btn-page-next {background-position: -27px -27px;}
+.page-wrap a.btn-page-last {background-position: 0 -27px; margin-left:4px;}
+.page-wrap a.btn-page-num {color: #999;}
+.page-wrap a.btn-page-num:hover{color:#078f6f;}
+.page-wrap a.btn-page-num.here {font-weight: 700; color:#078f6f;}
+.page-wrap a.btn-page-num.here span{border-bottom:1px solid #078f6f;}
+.page-wrap a.btn-page-num.last {}
+.page-wrap a.btn-page-prev + a.btn-page-num, 
+.page-wrap a.btn-page-next {margin-left: 18px;}
+
+/* 기획전 */
+.cat-select-wrap{position:absolute; z-index:1; right:40px; top:0px;}
+.cat-select-wrap select{width:213px;}
+.banner-wrap{margin-top:30px; width:1020px; height:270px; overflow:hidden;}
+.wounder-banner-wrap{margin-top:30px; width:1020px; overflow:hidden;}
+.bo-contents-wrap {margin-top: 30px;}
+
+/* 인증번호 받는 시간 */
+table .timer .timer-text{display:inline-block; height:29px; line-height:29px; padding-left:21px; font-size:11px; color:#666; background:url(/resources/images/common/front_nepa_icon_timer.png) 5px center no-repeat; vertical-align:middle;}
+table .timer .timer-text span{padding-left:3px;}
+table .timer-text{display:none;}
+
+.event-list.plan-shop li {width: 498px; height: 324px;}
+.event-list.plan-shop li .img-box {height: 224px;}
+.event-list.plan-shop li.event-ing .event-progress .event-icon {background-color: #28b18e; border-color: #28b18e;}
+.event-list.plan-shop li.event-end .event-progress .event-icon {color: #28b18e; background-color: #fff; border-color: #28b18e;}

@@ -1,0 +1,75 @@
+@import "/resources/vendors/jquery/jquery-ui.min.css";
+
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(/resources/fonts/NotoSansKR-Regular.woff2) format('woff2'),
+        url(/resources/fonts/NotoSansKR-Regular.woff) format('woff'),
+        url(/resources/fonts/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: url(/resources/fonts/NotoSansKR-Bold.woff2) format('woff2'),
+        url(/resources/fonts/NotoSansKR-Bold.woff) format('woff'),
+        url(/resources/fonts/NotoSansKR-Bold.otf) format('opentype');
+ }
+
+@font-face { font-family: 'NanumGothic'; font-weight:400; src: url('/resources/fonts/NanumGothic.eot'); src: local('※'), url('/resources/fonts/NanumGothic.woff') format('woff'); }
+@font-face { font-family: 'NanumGothic'; font-style: normal; font-weight:700; src: url('/resources/fonts/NanumGothicBold.eot'); src: local('※'), url('/resources/fonts/NanumGothicBold.woff') format('woff'); }
+/*
+@font-face { font-family: 'NanumBarunGothic'; src: url('/resources/fonts/NanumGothic.eot'); src: local('※'), url('/resources/fonts/NanumGothic.woff') format('woff'); }
+@font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight:700; src: url('/resources/fonts/NanumGothicBold.eot'); src: local('※'), url('/resources/fonts/NanumGothicBold.woff') format('woff'); }
+@font-face { font-family: 'Nanum BarunGothic'; src: url('/resources/fonts/NanumBarunGothic.eot'); src: url('/resources/fonts/NanumBarunGothic.eot') format('embedded-opentype'), url('/resources/fonts/NanumBarunGothic.woff') format('woff'); }
+@font-face { font-family: 'Nanum BarunGothic'; font-style: normal; font-weight: 700; src: url('/resources/fonts/NanumBarunGothicBold.eot'); src: url('/resources/fonts/NanumBarunGothicBold.eot') format('embedded-opentype'), url('/resources/fonts/NanumBarunGothicBold.woff') format('woff'); }
+*/
+@font-face {
+  font-family: 'NEPA Bold';
+  src: url('/resources/fonts/NEPABold.eot'); /* IE9 Compat Modes */
+  src: url('/resources/fonts/NEPABold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/resources/fonts/NEPABold.woff2') format('woff2'), /* Modern Browsers */
+    url('/resources/fonts/NEPABold.woff') format('woff'), /* Modern Browsers */
+    url('/resources/fonts/NEPABold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/resources/fonts/NEPABold.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NEPA Medium';
+  src: url('/resources/fonts/NEPAMedium.eot'); /* IE9 Compat Modes */
+  src: url('/resources/fonts/NEPAMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/resources/fonts/NEPAMedium.woff2') format('woff2'), /* Modern Browsers */
+    url('/resources/fonts/NEPAMedium.woff') format('woff'), /* Modern Browsers */
+    url('/resources/fonts/NEPAMedium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/resources/fonts/NEPAMedium.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+/*! reset */
+fieldset, img {border:0}
+body, html, legend {height:100%; color:#000}
+html {background:#fff; font-size:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+article, aside, audio, blockquote, body, canvas, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, input, legend, li, mark, menu, nav, ol, p, pre, section, summary, td, textarea, th, time, ul, video {margin:0; padding:0}
+body {color: #000; height: 100%; background-color:#fff; font-size:12px; font-family: "NanumGothic","Noto Sans KR",  Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif; line-height:1}
+img {vertical-align:middle}
+button, input, select, textarea {margin:0; font-size:100%; vertical-align:middle}
+button {vertical-align: top;}
+table {border-spacing:0; border-collapse:collapse; table-layout: fixed;}
+address, caption, cite, code, dfn, em, strong, th, var {font-weight:400; font-style:normal;}
+strong {font-weight: 700;}
+ol, ul{list-style:none}
+caption, th {text-align:left}
+h1, h2, h3, h4, h5, h6 {font-weight:400; font-size:100%; line-height:1; font-family: "NanumGothic", "Noto Sans KR",  Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif; }
+caption, hr, legend {width:0; height:0; font-size:1px; text-indent:-9999em; line-height:0; margin:0; padding:0; border:0; }
+hr {display:none; }
+a, a:active, a:focus, a:hover, a:link, a:visited {color:#000; font-size:100%; text-decoration:none;}
+a, button, a:focus, button:focus, a:active, button:active{outline: 0; font-family: "NanumGothic", "Noto Sans KR", Dotum, "돋움", Gulim, "굴림", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif;}
+
+/**/
+input:focus, button:focus { outline:0 !important;/* border:none !important; */}
+input[type=text]::-ms-clear {display: none; width:0; height:0;}
+div {position: relative;}
+select:disabled {background: #EBEBE4;}

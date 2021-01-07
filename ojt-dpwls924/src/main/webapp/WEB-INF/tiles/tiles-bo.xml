@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <definition name="boCommonScript"
+        template="/WEB-INF/tiles/common/boCommonScript.jsp" />
+    <definition name="boSearchBtn"
+        template="/WEB-INF/tiles/common/boSearchBtn.jsp" />
+    <definition name="boListSizeSelect"
+        template="/WEB-INF/tiles/common/boListSizeSelect.jsp" />
+    <definition name="boDateSelect"
+        template="/WEB-INF/tiles/common/boDateSelect.jsp" />
+    <definition name="boDateTimeSelect"
+        template="/WEB-INF/tiles/common/boDateTimeSelect.jsp" />
+
+    <!-- ojt에서 사용 - 삭제예정 -->
+    <definition name="boDateSelect2"
+        template="/WEB-INF/tiles/common/boDateSelect2.jsp" />
+
+    <!-- 기본적인 base가 되는 defiinition 태그를 하나 생성. -->
+    <definition name="default"
+        template="/WEB-INF/tiles/layout/boLayout.jsp">
+        <put-attribute name="header"
+            value="/WEB-INF/tiles/layout/boHeader.jsp" />
+        <put-attribute name="left"
+            value="/WEB-INF/tiles/layout/boLeft.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer"
+            value="/WEB-INF/tiles/layout/boFooter.jsp" />
+    </definition>
+
+    <!-- 팝업전용 -->
+    <definition name="popupDefault"
+        template="/WEB-INF/tiles/layout/popup/boPopupLayout.jsp">
+        <put-attribute name="header"
+            value="/WEB-INF/tiles/layout/popup/boPopupHeader.jsp" />
+        <put-attribute name="left"
+            value="/WEB-INF/tiles/layout/popup/boPopupLeft.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer"
+            value="/WEB-INF/tiles/layout/popup/boPopupFooter.jsp" />
+    </definition>
+    
+    <!-- nepa -->
+    <definition name="nepaDefault"
+        template="/WEB-INF/tiles/layout/nepa/boLayout.jsp">
+        <put-attribute name="header"
+            value="/WEB-INF/tiles/layout/nepa/boHeader.jsp" />
+        <put-attribute name="left"
+            value="/WEB-INF/tiles/layout/nepa/boLeft.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer"
+            value="/WEB-INF/tiles/layout/nepa/boFooter.jsp" />
+    </definition>
+    
+    <definition name="/nepa/*" extends="nepaDefault">
+        <put-attribute name="body"
+            value="/WEB-INF/views/nepa/{1}.jsp" />
+    </definition>
+    
+    <definition name="/nepa/*/*" extends="nepaDefault">
+        <put-attribute name="body"
+            value="/WEB-INF/views/nepa/{1}/{2}.jsp" />
+    </definition>
+    
+
+    <definition name="/*/popup/*" extends="popupDefault">
+        <put-attribute name="body"
+            value="/WEB-INF/views/{1}/popup/{2}.jsp" />
+    </definition>
+
+    <!-- <definition name="/**/popup" extends="popupDefault"> <put-attribute 
+        name="body" value="/WEB-INF/views/{1}.jsp" /> </definition> -->
+
+    <definition name="/*/*/*/popup" extends="popupDefault">
+        <put-attribute name="body"
+            value="/WEB-INF/views/{1}/{2}/{3}.jsp" />
+    </definition>
+
+    <definition name="/*/*/popup" extends="popupDefault">
+        <put-attribute name="body"
+            value="/WEB-INF/views/{1}/{2}.jsp" />
+    </definition>
+
+    <definition name="/*/*/*" extends="default">
+        <put-attribute name="body"
+            value="/WEB-INF/views/{1}/{2}/{3}.jsp" />
+    </definition>
+
+    <definition name="/*/*" extends="default">
+        <put-attribute name="body"
+            value="/WEB-INF/views/{1}/{2}.jsp" />
+    </definition>
+
+    <definition name="/*" extends="default">
+        <put-attribute name="body" value="{1}" />
+    </definition>
+
+</tiles-definitions>

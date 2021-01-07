@@ -1,0 +1,31 @@
+.layer-popup-wrap {position: absolute; background: none; left: 0; top: 0; z-index: 200;}
+.layer-popup-wrap .popup-wrap {position: absolute; min-width: 260px; background: #fff; border: 2px solid #000;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .popup-header {color: #fff; padding: 30px 30px 15px; background: #fff; text-align: center;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .popup-header .title {display: inline-block; color: #272727; margin-bottom: 0; font-size: 24px;}
+
+.layer-popup-wrap .popup-wrap .popup-content-wrap {min-height: 78px; background: #fff;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .popup-contents {min-height: 17px; padding: 0; line-height: 1.5;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .btn-wrap {background: #888; height: 34px; margin-top: 0; padding: 0 10px; line-height: 34px; overflow: hidden;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .btn-wrap label {float: left; color: #fff; font-size: 13px;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .btn-wrap label input[type=checkbox] {margin-bottom: 2px;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .btn-wrap button {float: right; color: #fff; height: 100%; background: none; border: 0; font-size: 13px;}
+.layer-popup-wrap .popup-wrap .popup-content-wrap .btn-wrap .btn-close .icon {display: inline-block; width: 10px; height: 10px; margin-left: 7px; background: url(/resources/images/common/front_icon_layer_popup_close.png) no-repeat center;}
+
+/* 2020-02-04 DIM Popup */
+.dim-box { position: absolute; background-color: rgba(0, 0, 0, .5); display: block; width: 100%; height: 100%; top: 0; left: 0; z-index: 3000; }
+.dim-box-popup { top:12%;max-width:400px;margin:auto;background:#ffffff;z-index:1004;overflow:hidden;transform:translateY(-51%);-webkit-transform:translateY(-51%); }
+.dim-box-contents { background-color: #078F6F; color: #fff; font-size: 20px; text-align: center; padding: 30px 0; cursor:pointer; }
+.dim-box-contents div span,
+.dim-box-contents p span { color: #CCFF00; }
+.dim-download { padding: 0; border: 0; margin: 0; background: url(/resources/images/dim/download.png) no-repeat 0 0; width: 151px; height: 31px; text-indent: -9999px; }
+.dim-header { display: block; font-size: 20px; line-height: 1.5; }
+.dim-message { display: block; font-size: 18px; padding: 15px 0 20px; }
+.dim-mileage-box { display: block; background: url(/resources/images/dim/bg.png) no-repeat center top; width: 350px; height: 201px; margin: 0 auto; position: relative; padding-top: 58px; box-sizing: border-box; }
+.dim-mileage { display: block; width: 100%; font-size: 30px; padding-top: 24px; color: #019F7A; font-weight: bold; }
+.dim-footer { display: block; width: 100%; height: 30px; }
+.dim-footer button { width: 50%; height: 100%; vertical-align: middle; float: left; font-size: 14px; border: 0; appearance: none; }
+.dim-not-show { color: #fff; background-color: #183E35; }
+.dim-close { color: #fff; background-color: #1F584B; }

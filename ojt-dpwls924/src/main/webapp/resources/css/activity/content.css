@@ -1,0 +1,1705 @@
+@charset "utf-8";
+.color1 { color: #fff !important; }
+.color2 { color: #ff3333 !important; }
+.color3 { color: #e6e0d8 !important; }
+.wrap-primary .section-main header { margin: 0 0 35px; text-align: center; }
+.wrap-content header { margin: -9px 0 -2px; padding: 0 0 1.785em; border-bottom: 2px solid #173e35; }
+.wrap-primary .section-main header h1, .wrap-content header h1 { padding: 0.17em 0; font-family: Arial, NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2.57em; line-height: 1.16; color: #333; word-wrap: break-word; word-break: break-all; }
+.wrap-primary .section-main header h1.c1, .wrap-primary .section-main header p.c1, .wrap-content header h1.c1 { color: #fff; }
+.wrap-mcontent header { padding: 3.571em 0 0; }
+.wrap-mcontent header h1 { padding: 0 0 0 2.5em; color: #173e35; }
+.wrap-mcontent header h1 strong, .wrap-mcontent header h1 span { vertical-align: middle; }
+.wrap-mcontent header h1 strong { font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 3.571em; line-height: 1.12; font-weight: 800; letter-spacing: -1px; }
+.wrap-mcontent header h1 span { padding-left: 1em; font-family: Arial; font-size: 1.142em; color: #7a8985; }
+div.tit-top { margin: 0 0 25px; padding: 0 2.5em 1.785em; border-bottom: 1px solid #d9d9d9; }
+h2.tit-top { margin: 36px 0 25px; }
+.tit-top .heading, h2.tit-top { display: block; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2.857em; line-height: 1.15; color: #d2bd0b; font-weight: 800; letter-spacing: -1px; }
+.tit-top .heading-sub { margin: 0.416em 0 0; font-size: 24px; line-height: 1.25; color: #333333; }
+.tit-top .mes { display: block; margin-top: 0.857em; color: #333; }
+.tit-top .mes em { font-weight: 800; color: #173e35; }
+.section-box div.tit-top { margin: 0 -35px 25px; }
+.tit-top .step-type1 { margin-bottom: -26px; }
+div.tit-top.tit-line { padding-bottom: 0 !important; border: none !important; margin-bottom: 0 !important; }
+.tit-type1 { margin: 28px 0 0; padding: 0.5em 0; line-height: 1.5; color: #333; }
+h2.tit-type1, h3.tit-type1, .tit-type1>h2, .tit-type1>h3 { font-size: 1.4285em; font-weight: 800; }
+h2.tit-type1>span, h3.tit-type1>span, .tit-type1>h2>span, .tit-type1>h3>span { display: inline-block; margin: 0 0 0 0.5em; font-size: 0.7em; color: #999; }
+div.tit-type1 { position: relative; }
+div.tit-type1 .sub { position: absolute; right: 0; bottom: 0.75em; }
+.tit-type1.tit-line { margin-bottom: 10px; border-bottom: 2px solid #666; }
+.tit-type2 { position: relative; margin: 20px 0; padding: 0 0 0.285em; border-bottom: 1px solid #d9d9d9; }
+p.tit-type2 { padding-bottom: 1.714em; }
+h2.tit-type2, h3.tit-type2, h4.tit-type2, .tit-type2>h2, .tit-type2>h3, p.tit-type2>strong { display: block; font-size: 1.4285em; line-height: 1.5; color: #333; font-weight: 800; }
+.tit-type2 .mes { display: block; margin-top: 1.428em; }
+.tit-type2 .sub { position: absolute; right: 0; bottom: 0.5em; }
+.tit-type2.tit-line { padding: 0; border-bottom: none; }
+.section-box.half1 .tit-type2, .section-box.half2 .tit-type2 { padding-bottom: 1em; }
+.section-box>.tit-type2:first-child { margin-top: 0; }
+.btn-center + .tit-type2 { margin-top: 50px; }
+.form-type1>.tit-type2 { margin-bottom: 0; }
+.tit-top + .form-type1>.tit-type2:first-child { margin-top: 0; }
+.tit-type3 { position: relative; margin: 30px 0 25px; }
+h2.tit-type3, h3.tit-type3, .tit-type3>h2, .tit-type3>h3, p.tit-type3>strong { display: block; padding: 0 0 0.466em; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2.142em; line-height: 1.333; color: #173e35; font-weight: 800; border-bottom: 2px solid #173e35; }
+.tit-type3 .mes { display: block; margin-top: 1.25em; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.5; color: #333; }
+.tit-type4 { position: relative; margin: 18px 0 11px; }
+h2.tit-type4, h3.tit-type4, .tit-type4>h2, .tit-type4>h3 { display: block; font-family: Nepa; font-size: 1.714em; color: #c5b60e; font-weight: 800; }
+.tit-search { position: relative; overflow: hidden; margin: 24px 0 30px; padding: 1.428em 20em 1.428em 0; border-top: 2px solid #173e35; border-bottom: 1px solid #173e35; }
+.tit-search h2 { position: relative; padding: 0.35em 0; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.3; color: #333; font-weight: 800; }
+.tit-search .form { position: absolute; right: 0; top: 50%; width: 20em; margin-top: -1.428em; }
+.tit-search2 { position: relative; overflow: hidden; margin: 17px 0 0; padding: 1.214em 10em 1.214em 0; border-bottom: 1px solid #e5e5e5; }
+.tit-search2 h2 { position: relative; padding: 0.35em 0; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.285em; line-height: 1.3; color: #666; }
+.tit-search2 h2 strong { color: #c5b60e; }
+.tit-search2 .form { position: absolute; right: 0; top: 50%; width: 10em; margin-top: -1.428em; }
+@media only screen and (max-width:768px) {
+.wrap-content .section-main header h1 { padding-right: 1.66em; word-break: break-all; }
+}
+@media only screen and (max-width:767px) {
+.wrap-mcontent header { text-align: center; padding: 0; }
+.wrap-mcontent header h1 { padding: 0; }
+.wrap-mcontent header h1 strong { display: block; }
+.wrap-mcontent header h1 strong { font-size: 2.285em; line-height: 1.1875; }
+.wrap-mcontent header h1 span { padding: 0; font-size: 1em; }
+.section-box div.tit-top { margin: 0 -20px 20px; padding: 0 1.214em 1.428em; }
+.tit-top .heading, h2.tit-top { font-size: 2em; line-height: 1.25; margin: 25px 0 15px; }
+.tit-top .step-type1 { margin-bottom: -21px; }
+}
+@media only screen and (max-width:639px) {
+.tit-search, .tit-search2 { padding-right: 0; }
+.tit-search h2, .tit-search .form, .tit-search2 h2, .tit-search2 .form { display: block; width: 100%; }
+.tit-search .form, .tit-search2 .form { position: static; margin-top: 0.714em; }
+}
+@media only screen and (max-width:479px) {
+.tit-type2 .sub { position: static; }
+}
+@media only screen and (max-width:420px) {
+.wrap-primary .section-main header h1, .wrap-content header h1 { margin-bottom: 7px; font-size: 2.142em; line-height: 1.133; padding-top: 0.266em; padding-bottom: 0.166em; }
+.wrap-content header { padding-bottom: 1.25em; }
+.wrap-content .section-main header h1 { padding-right: 2em; }
+}
+.txt-type1, .txt-type1>li { padding: 0 0 0 0.857em; background: url(http://imagem.nepa.co.kr/resources/img/dot_4x5_666666.gif) no-repeat 0 0.642em; }
+.txt-type2, .txt-type2>li { padding: 0 0 0 0.857em; background: url(http://imagem.nepa.co.kr/resources/img/dot_4x4_c5b60e.gif) no-repeat 0 0.914em; line-height: 2em; }
+.txt-type2>li ul li { color: #999; }
+.txt-type3, .txt-type3>li { overflow: hidden; padding: 0 0 0 1.142em; }
+.txt-type3>span:first-child, .txt-type3>li>span:first-child { float: left; margin: 0 0 0 -1.142em; }
+.txt-type4, .txt-type4>li { padding: 0 0 0 0.857em; background: url(http://imagem.nepa.co.kr/resources/img/dot_4x4_173e35.gif) no-repeat 0 0.75em; }
+.txt-type4>li>ul { margin-top: 0.429em; }
+.txt-type4>li>ul>li { font-size: 0.857em; }
+.txt-type4>li>ul>li>strong { color: #333; }
+.txt-type4.box-type2 { padding: 1.429em 1.429em 0; background: #f5f5f5; }
+.txt-type4.box-type2>li { padding-bottom: 1.429em; }
+.txt-type4.box-type2>li>strong { color: #333; }
+ul.txt-type1, ul.txt-type2, ul.txt-type3, ol.txt-type3, ul.txt-type4 { padding: 0; background: none; }
+.txt-line { padding-bottom: 1em !important; border-bottom: 1px solid #e5e5e5; }
+.txt-sub { margin: 1.785em 0 !important; padding-left: 5%; padding-right: 5%; text-align: center; color: #333; }
+.br { content: ""; display: block; clear: both; height: 0; line-height: 1px; margin: 0 !important; padding: 0; }
+.br2 { content: ""; display: inline-block; height: 0; line-height: 1px; margin: 0 !important; padding: 0; }
+@media only screen and (max-width:640px) {
+.br { display: none; }
+}
+@media only screen and (max-width:480px) {
+.br2 { display: block; clear: both; }
+}
+.txt-star { overflow: hidden; display: inline-block; width: 0.5em; height: 1.714em; background: url(http://imagem.nepa.co.kr/resources/img/star_6x6_ff3333.png) no-repeat 50% 45%; text-indent: 0.5em; vertical-align: middle; *display:inline; *zoom:1; *background-position:0 0.571em; background-size: 0.4285em 0.4285em; }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.txt-star { background-image: url(http://imagem.nepa.co.kr/resources/img/640/star_6x6_ff3333.png); }
+}
+.mes-tag { margin-top: 20px; margin-bottom: 20px; }
+.mes-tag p { position: relative; padding: 0.142em 0 0.142em 3em; line-height: 2.4em; background: url(http://imagem.nepa.co.kr/resources/img/icon_tag.png) no-repeat 0 0; background-size: 2.45em 2.45em; height: 31px\9; }
+.mes-tag p>em { display: inline-block; margin-right: 0.2em; font-size: 0.875em; line-height: 1.666; color: #000; font-family: Nepa; font-weight: bold; }
+.mes-tag p>a:link, .mes-tag p>a:hover, .mes-tag p>a:visited, .mes-tag p>a:active { color: #999; }
+.mes-note { margin-top: 20px; margin-bottom: 20px; }
+.mes-note p { position: relative; padding: 0.142em 0 0.142em 3em; color: #999; line-height: 1.43em; background: url(http://imagem.nepa.co.kr/resources/img/icon_note.png) no-repeat 0 0.333em; background-size: 2.45em 2.45em; }
+.mes-note2 { padding: 10px 30px; *padding: 10px 29px; background-color: #ececec; color: #999; font-size: 0.857em; text-align: center; }
+.mes-note2>strong { display: block; color: #666; line-height: 2.9; *background:url(http://imagem.nepa.co.kr/resources/img/icon_error.gif) no-repeat 0 50%; }
+.mes-note2>strong:before { display: inline-block; content: ''; margin: 6px 3px 0 0; width: 21px; height: 18px; background: url(http://imagem.nepa.co.kr/resources/img/icon_error.gif) no-repeat; vertical-align: top; }
+.mes-result { margin-top: -2px; padding: 7.857em 0; border-top: 2px solid #173e35; border-bottom: 1px solid #173e35; }
+.mes-result p { padding: 4.444em 0 0; text-align: center; background: url(http://imagem.nepa.co.kr/resources/img/logo_noimg.png) no-repeat 50% 0; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.285em; line-height: 1.333; background-size: 8.428rem 4.285rem; }
+.mes-result2 { position: relative; padding: 8% 0 7%; text-align: center; border-bottom: 1px solid #173e35; }
+.mes-result2:before { display: block; width: 100%; height: 7.571em; margin: 0 0 3%; content: ''; background: url(http://imagem.nepa.co.kr/resources/img/icon_note2.png) no-repeat 50% 50%; background-size: contain; }
+.mes-result2 strong { display: block; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.714em; line-height: 1.25; color: #173e35; }
+.mes-logo { position: relative; padding: 10% 0 18%; text-align: center; *padding:22% 0 20%; *background:url(http://imagem.nepa.co.kr/resources/img/640/logo_noimg.png) no-repeat 50% 20%; }
+.mes-logo:before { display: block; width: 100%; height: 5.714em; margin: 0 0 3%; content: ''; background: url(http://imagem.nepa.co.kr/resources/img/640/logo_noimg.png) no-repeat 50% 50%; background-size: contain; }
+.mes-logo strong { display: block; margin: 0 0 0.46em; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2em; line-height: 1.214; color: #173e35; }
+.mes-end { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); text-align: center; background: url(http://imagem.nepa.co.kr/resources/img/bg_opacity_50.png)\9; z-index: 1; }
+.mes-end:after { width: 1%; height: 100%; content: ''; }
+.mes-end:after, .mes-end strong { display: inline-block; vertical-align: middle; }
+.mes-end strong { width: 80%; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2em; line-height: 1.25; color: #fff; text-shadow: 1px 1px #333; color: #fff; *padding-top:3em; }
+.mes-box { margin: 35px 0; padding: 1.785em 2.14em; border: 10px solid #f2f2f2; text-align: center; }
+.mes-box .top { margin: 0 0 1.25em; padding: 0 0 1.25em; border-bottom: 1px solid #d9d9d9; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.5; color: #333; font-weight: 800; letter-spacing: -1px; }
+.mes-box em { color: #333; font-weight: 800; font-style: normal; }
+.mes-box .result { font-weight: 800; }
+.mes-box .result strong { font-size: 2em; line-height: 1.357; color: #173e35; font-weight: 800; }
+.mes-box .result>li { display: block; margin: 0 0 0.5em; }
+.mes-box .mes { font-size: 1.285em; line-height: 1.444; color: #173e35; font-weight: 800; }
+.mes-box .tbl-type1, .mes-box .form { margin-top: 1em; }
+.mes-type1 { margin: 30px 0; border-bottom: 1px solid #d9d9d9; }
+.mes-type1>p, .mes-type1:after { display: inline-block; vertical-align: middle; }
+.mes-type1>p { width: 98%; padding: 0.5em 0; min-height: 72px\9; }
+.mes-type1:after { width: 1px; height: 6.13em; content: ''; }
+.tit-type2 + .mes-type1 { margin-top: -21px; margin-top: -20px; }
+.mes-type2 { overflow: hidden; margin: 12px 0; font-size: 0.857em; }
+.mes-type2 dt { display: block; font-weight: bold; color: #666; }
+.mes-type2 dd { display: inline-block; margin: 0 1em 0 -1em; padding: 0 1em 0 1em; background: url(http://imagem.nepa.co.kr/resources/img/bar_1x12_cccccc.png) no-repeat 0 50%; }
+.mes-type3 strong { color: #173e35; }
+.mes-type3>li { margin: 1.285em 0 0; }
+.mes-type3>li:first-child { margin: 0; }
+@media only screen and (max-width:768px) {
+.mes-tag, .mes-note { margin: 10px 0; }
+.mes-result { padding: 4.766em 0; }
+.mes-end strong { font-size: 1.285em; }
+}
+@media only screen and (max-width:767px) {
+.mes-box { margin: 15px 0; padding: 1.785em 1.428em; }
+.mes-box .top { font-size: 1.285em; line-height: 1.555; }
+.mes-box .result strong { display: block; font-size: 1.428em; line-height: 1.5; }
+.mes-box .mes { font-size: 1em; line-height: 1.714; }
+}
+@media only screen and (max-width:680px) {
+.mes-note2 { padding: 10px 20px; }
+}
+@media only screen and (max-width:479px) {
+.mes-result2:before { height: 6em; margin: 0 0 6%; }
+.mes-result2 strong { font-size: 1.285em; }
+.mes-logo:before { height: 3.571em; margin: 0 0 6%; }
+.mes-logo strong { font-size: 1.714em; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.mes-tag p { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_tag.png); }
+.mes-note p { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_note.png); }
+.mes-result p { background-image: url(http://imagem.nepa.co.kr/resources/img/640/logo_noimg.png); }
+}
+.info-sns1 { overflow: hidden; display: inline-block; margin: 0 1px; vertical-align: middle; *display:inline; *zoom:1; }
+.info-sns1 span, .info-sns1 strong { float: left; position: relative; display: inline-block; *display:inline; *zoom:1; }
+.info-sns1 span { overflow: hidden; height: 22px; height: 1.5rem; margin: 0 -1px 0 0; z-index: 1; text-indent: -9999px; background-repeat: no-repeat; background-size: 100% 100%; }
+.info-sns1 strong { padding: 0 3px; font-size: 11px; font-size: 0.785rem; line-height: 1.727; color: #333; border: 1px solid #606060; border-radius: 2px; z-index: 0; vertical-align: top; }
+.info-sns1.facebook span { width: 56px; width: 4rem; background-image: url(http://imagem.nepa.co.kr/resources/img/icon_sns1_1.png); }
+.info-sns1.tweet span { width: 69px; width: 4.93rem; background-image: url(http://imagem.nepa.co.kr/resources/img/icon_sns1_2.png); }
+.info-sns1.flickr span { width: 61px; width: 4.357rem; height: 25px; height: 1.7857rem; margin: 0; background-image: url(http://imagem.nepa.co.kr/resources/img/icon_sns1_3.png); }
+a.info-sns2, ul.info-sns2 li { overflow: hidden; position: relative; display: inline-block; width: 32px; height: 32px; width: 2.29rem; height: 2.29rem; vertical-align: top; *display:inline; *zoom:1; }
+.info-sns2 span { position: absolute; display: inline-block; left: 0; top: 0; width: 32px; height: 32px; text-indent: -9999px; background: url(http://imagem.nepa.co.kr/resources/img/icon_sns2.png) no-repeat 0 0; text-indent: -9999px; *display:inline; *zoom:1; }
+.info-sns2 span.facebook { background-position: 0 0; }
+.info-sns2 span.tweet { background-position: -32px 0; }
+.info-sns2 span.bookmark { background-position: -64px 0; }
+.info-sns2 span.heart { background-position: -96px 0; }
+.info-sns2 span.writer { background-position: -128px 0; }
+.info-sns2.c1 span.facebook, .color1 .info-sns2 span.facebook { background-position: 0 -32px; }
+.info-sns2.c1 span.tweet, .color1 .info-sns2 span.tweet { background-position: -32px -32px; }
+.info-sns2.c1 span.bookmark, .color1 .info-sns2 span.bookmark { background-position: -64px -32px; }
+.info-sns2.c1 span.heart, .color1 .info-sns2 span.heart { background-position: -96px -32px; }
+.info-sns2 span.bookmark.on, .color1 .info-sns2 span.bookmark.on { background-position: -64px -64px; }
+.info-sns2 span.heart.on, .color1 .info-sns2 span.heart.on { background-position: -96px -64px; }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.info-sns2 span { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_sns2.png); background-size: 600% auto; }
+}
+.info-rec { padding: 0 0.84em 0 0; overflow: hidden; }
+.info-rec>li { float: left; }
+.info-rec a { display: inline-block; font-size: 12px; font-size: 0.86em; line-height: 3.09; vertical-align: top; *display:inline; *zoom:1; }
+.info-rec span, .info-rec strong { display: inline-block; overflow: hidden; vertical-align: top; *display:inline; *zoom:1; }
+.info-rec span { width: 37px; height: 37px; text-indent: -9999px; *text-indent:0; *font-size:0; *line-height:0; background: url(http://imagem.nepa.co.kr/resources/img/icon_rec.png) no-repeat 0 0; }
+.info-rec strong { padding: 0 0.5em 0 0.417em; width: 2.8em; }
+.info-rec .like { background-position: 0 0; }
+.info-rec .hate { background-position: -37px 0; }
+.info-rec .like.on { background-position: 0 -37px; }
+.info-rec .hate.on { background-position: -37px -37px; }
+.icon-store { display: inline-block; padding: 0 0 0 1.714rem !important; background: url(http://imagem.nepa.co.kr/resources/img/icon_store2.png) no-repeat 0 50%; background-size: 1.428rem 1.428rem; vertical-align: top; *display:inline; *zoom:1; padding: 0 0 0 24px\9; }
+.icon-store.store { padding: 0 0 0 2.857rem !important; background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store2_3.png); background-size: 2.571rem 1.357rem; padding: 0 0 0 38px\9; }
+.icon-store.store1 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store2_1.png); }
+.icon-store.store2 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store2_2.png); }
+span.icon-store { width: 1px; text-indent: -9999px; overflow: hidden; margin-top: -2px; }
+label .icon-store { width: auto; text-indent: 0; background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store1.png); }
+label .icon-store.store { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store1_3.png); }
+label .icon-store.store1 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store1_1.png); }
+label .icon-store.store2 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store1_2.png); }
+label .icon-store.store4 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store1_4.png); }
+label.on .icon-store { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store3_3.png); }
+label.on .icon-store.store1 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store3_1.png); }
+label.on .icon-store.store2 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store3_2.png); }
+label.on .icon-store.store4 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_store3_4.png); }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.icon-store { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store2.png); }
+.icon-store.store { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store2_3.png); }
+.icon-store.store1 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store2_1.png); }
+.icon-store.store2 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store2_2.png); }
+label .icon-store { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store1.png); }
+label .icon-store.store { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store1_3.png); }
+label .icon-store.store1 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store1_1.png); }
+label .icon-store.store2 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store1_2.png); }
+label.on .icon-store { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store3_3.png); }
+label.on .icon-store.store1 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store3_1.png); }
+label.on .icon-store.store2 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_store3_2.png); }
+}
+.btn-type1 { display: inline-block; position: relative; padding: 0; vertical-align: top; background: #173e35; text-align: center; font-size: 14px; font-size: 1rem; }
+.btn-type1 a, .btn-type1 button { display: inline-block; padding: 0 2.142em; font-size: 14px; font-size: 1rem; line-height: 2.857; color: #fff; font-weight: 400; vertical-align: top; }
+.btn-type1 button { overflow: visible; height: 2.857em; margin: 0; border: none; cursor: pointer; }
+.btn-type1 a:link, .btn-type1 a:hover, .btn-type1 a:visited, .btn-type1 a:active { color: #fff; text-decoration: none; }
+.btn-type1.c1 { background: #333; }
+.btn-type1.c2 { background: #c5b60e; }
+.btn-type1.c3 { background: #666; }
+.btn-type1.shop a { padding: 0 1.428em; }
+.btn-type1.shop a:after { display: inline-block; width: 2em; height: 2.857em; background: url(http://imagem.nepa.co.kr/resources/img/icon_shop.png) no-repeat 100% 45%; content: ''; vertical-align: top; }
+.btn-type2 { display: inline-block; position: relative; padding: 0; vertical-align: top; background: #4e6c65; text-align: center; font-size: 14px; font-size: 1rem; }
+.btn-type2 a, .btn-type2 button { display: inline-block; padding: 0 1em; font-size: 14px; font-size: 1rem; line-height: 2.857; color: #fff; font-weight: 800; vertical-align: top; }
+.btn-type2 button { overflow: visible; height: 2.857em; margin: 0; border: none; cursor: pointer; }
+.btn-type2 a:link, .btn-type2 a:hover, .btn-type2 a:visited, .btn-type2 a:active { color: #fff; text-decoration: none; }
+.btn-type2.btn-spot a, .btn-type2.btn-spot button { position: relative; padding: 0 1em 0 3.57em; background: url(http://imagem.nepa.co.kr/resources/img/icon_spot.png) no-repeat 1em 50%; z-index: 1; }
+.btn-type2.btn-spot:before { position: absolute; left: 0; top: 0; display: inline-block; width: 2.857em; height: 100%; background: #173e35; content: ''; z-index: 0; }
+.btn-type3 { display: inline-block; position: relative; padding: 0; vertical-align: top; background: #666; text-align: center; font-size: 14px; font-size: 1rem; }
+.btn-type3 a, .btn-type3 button { display: inline-block; padding: 0 1.285em; font-size: 14px; font-size: 1rem; line-height: 2.357; color: #fff; font-weight: 800; vertical-align: top; }
+.btn-type3 button { overflow: visible; height: 2.357em; margin: 0; border: none; cursor: pointer; }
+.btn-type3 a:link, .btn-type3 a:hover, .btn-type3 a:visited, .btn-type3 a:active { color: #fff; text-decoration: none; }
+.btn-type4 { display: inline-block; position: relative; padding: 0; vertical-align: top; background: #f2f2f2; border: 1px solid #858585; text-align: center; font-size: 14px; font-size: 1rem; }
+.btn-type4 a, .btn-type4 button { display: inline-block; padding: 0 1.142em; font-size: 14px; font-size: 1rem; line-height: 2.714; color: #333; font-weight: 800; vertical-align: top; }
+.btn-type4 button { overflow: visible; height: 2.714em; margin: 0; border: none; cursor: pointer; }
+.btn-type4 a:link, .btn-type4 a:hover, .btn-type4 a:visited, .btn-type4 a:active { color: #333; text-decoration: none; }
+.btn-type4.c1 { background: #fff; border: 1px solid #ddd; }
+.btn-type4.c1 a, .btn-type4.c1 button { color: #666; }
+.btn-type4.c1 a:link, .btn-type4.c1 a:hover, .btn-type4.c1 a:visited, .btn-type4.c1 a:active { color: #666; }
+.btn-type5 { display: inline-block; position: relative; padding: 0; vertical-align: top; background: #929292; text-align: center; font-size: 18px; font-size: 1.29rem; }
+.btn-type5 a, .btn-type5 button { display: inline-block; padding: 0 1.6em; font-size: 18px; font-size: 1.29rem; line-height: 2.167; color: #fff; font-weight: 400; vertical-align: top; }
+.btn-type5 button { overflow: visible; height: 2.167em; margin: 0; border: none; cursor: pointer; }
+.btn-type5 a:link, .btn-type5 a:hover, .btn-type5 a:visited, .btn-type5 a:active { color: #fff; text-decoration: none; }
+.btn-type5 a>span { display: inline-block; margin-left: 0.67em; width: 1.06em; height: 0.56em; background: url(http://imagem.nepa.co.kr/resources/img/arr3_19x10_ffffff.png) no-repeat 0 0; vertical-align: middle; }
+.btn-help { display: inline-block; padding: 0 1.86em 0 0; font-size: 14px; font-size: 1rem; line-height: 2.36; vertical-align: top; background: url(http://imagem.nepa.co.kr/resources/img/icon_question.png) no-repeat right center; background-size: 1.143em 1.143em; }
+.btn-del { display: inline-block; padding: 0 1em 0 0; font-size: 12px; font-size: 0.857rem; line-height: 1.5; color: #999; background: url(http://imagem.nepa.co.kr/resources/img/close_8x8_999999.png) no-repeat 100% 55%; }
+button.btn-del { overflow: visible; height: 1.5em; margin: 0; border: none; cursor: pointer; }
+.btn-shop { overflow: hidden; display: block; width: 2.857em; height: 2.857em; background: #999 url(http://imagem.nepa.co.kr/resources/img/icon_shop.png) no-repeat 50% 50%; text-indent: -9999px; }
+.btn-detail { overflow: hidden; display: block; width: 2.857em; height: 2.857em; background: #999 url(http://imagem.nepa.co.kr/resources/img/icon_plus.png) no-repeat 50% 50%; text-indent: -9999px; }
+.btn-upphoto { display: inline-block; padding: 0 2.25em; background: #173e35; font-size: 1.285em; line-height: 3; font-weight: 800; text-align: center; border-radius: 2em; }
+.btn-upphoto span { display: inline-block; padding: 0 0 0 40px; padding: 0 0 0 2.857rem; background: url(http://imagem.nepa.co.kr/resources/img/icon_photo.png) no-repeat 0 50%; color: #fff; }
+.pop-upphoto { display: inline-block; padding: 0 2.25em; background: #173e35; font-size: 1.285em; line-height: 3; font-weight: 800; text-align: center; border-radius: 2em; }
+.pop-upphoto span { display: inline-block; padding: 0 0 0 40px; padding: 0 0 0 2.857rem; background: url(http://imagem.nepa.co.kr/resources/img/icon_photo.png) no-repeat 0 50%; color: #fff; }
+.pop_upphoto { display: inline-block; padding: 0 2.25em; background: #173e35; font-size: 1.285em; line-height: 3; font-weight: 800; text-align: center; border-radius: 2em; }
+.pop_upphoto span { display: inline-block; padding: 0 0 0 40px; padding: 0 0 0 2.857rem; background: url(http://imagem.nepa.co.kr/resources/img/icon_photo.png) no-repeat 0 50%; color: #fff; }
+.link-type1 { display: inline-block; padding: 0 0.833em 0 0; color: #173e35; font-weight: 800; background: url(http://imagem.nepa.co.kr/resources/img/arr2_6x13_173e35.png) no-repeat 100% 50%; background-size: 0.428rem 0.9285rem; }
+.link-type1:hover, .link-type1:focus, .link-type1:visited { color: #173e35; }
+.link-type2:link, .link-type2:hover, .link-type2:focus, .link-type2:visited { color: #ff0000; text-decoration: underline; }
+.btn-center { margin: 30px 0 0; text-align: center; font-size: 35px; line-height: 1; }
+.btn-center2 { margin: 12px 0 0; text-align: center; line-height: 1; }
+.btn-center2 { overflow: hidden; width: 100%; }
+.btn-center2>span { float: left; display: block; width: 32%; margin-left: 2%; *margin-right:-2px; }
+.btn-center2>span:first-child { margin-left: 0; }
+.btn-center2>span a, .btn-center2>span button { padding: 0; width: 100%; }
+.btn-left { margin: 25px 0 0; text-align: left; font-size: 35px; line-height: 1; }
+.btn-right { margin: 25px 0 0; text-align: right; font-size: 35px; line-height: 1; }
+.btn-line { padding-top: 20px; border-top: 1px solid #d9d9d9; }
+.bottom-area .btn-right { margin: -25px 0 25px; font-size: 1em; position: relative; z-index: 1; }
+.section-box .btn-center .btn-type1 button, .section-box .btn-center .btn-type1 a { min-width: 7.5em; padding: 0 1.428em; }
+.section-box .btn-center .btn-type1 button { min-width: 10.356em; }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.btn-type1.shop a:after { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_util01_06.png); background-size: 1.428em 1.428em; }
+.btn-type2 .btn-spot { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_util01_04.png); background-size: 0.785em 1.071em; }
+.btn-help { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_question.png); background-size: 1.5em 1.5em; }
+.btn-del { background-image: url(http://imagem.nepa.co.kr/resources/img/640/close_8x8_999999.png); background-size: 0.571rem 0.571rem; }
+.btn-shop { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_util01_06.png); background-size: 60% 60%; }
+.btn-upphoto span { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_photo.png); background-size: 2em 1.714em; }
+.link-type1 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr2_6x13_173e35.png); }
+}
+@media only screen and (max-width:767px) {
+.btn-left .btn-type1:only-child { display: block; }
+.btn-left .btn-type1:only-child a, .btn-left .btn-type1:only-child button, .btn-right .btn-type1:only-child { display: block; }
+.btn-right .btn-type1:only-child a, .btn-right .btn-type1:only-child button { display: block; padding: 0; }
+}
+@media only screen and (max-width:610px) {
+.btn-center2>span { display: block; float: none; width: 80%; margin: 12px auto 0; }
+.btn-center2>span:first-child { margin: 0 auto; }
+.bottom-area .btn-right { margin: 0 0 25px; }
+}
+@media only screen and (max-width:480px) {
+.btn-shop, .btn-detail { width: 2.5em; height: 2.5em; }
+}
+@media only screen and (max-width:479px) {
+.section-box .btn-center .btn-type1 { width: 48%; }
+.section-box .btn-center .btn-type1 a, .section-box .btn-center .btn-type1 button { display: inline-block; min-width: 0; width: 100%; padding: 0; margin: 0 auto; }
+.btn-center .btn-type1:only-child { display: block; width: 100%; text-align: center; }
+.btn-center .btn-type1:only-child a, .btn-center .btn-type1:only-child button { display: block; width: 100%; padding: 0; margin: 0 auto; }
+}
+.btn-more { margin: 25px 0 0 0; background-color: #fff; border: 1px solid #ddd; font-size: 0.857em; line-height: 4.166; }
+.btn-more a { display: block; text-align: center; }
+.btn-more a:link, .btn-more a:hover, .btn-more a:visited, .btn-more a:active { color: #333; text-decoration: none; font-weight: 800; }
+.btn-more a>strong { font-weight: 800; }
+.btn-more a>span { display: inline-block; margin-left: 0.67em; width: 0.6em; height: 0.34em; background: url(http://imagem.nepa.co.kr/resources/img/arr3_7x4_666666.png) no-repeat 0 0; vertical-align: middle; }
+.btn-top { position: relative; padding: 0 4.2em 0 0; }
+.btn-top a { position: absolute; top: 0; right: 0; width: 4.2em; height: 4.2em; color: #fff; background-color: #173e35; }
+.btn-top a:link, .btn-top a:hover, .btn-top a:visited, .btn-top a:active { color: #fff; text-decoration: none; }
+.btn-top a:first-child { position: static; width: 100%; color: #666; background-color: #fff; }
+.btn-page { display: block; position: absolute; top: 0; right: 0; }
+.btn-page a { display: block; text-align: center; }
+.btn-page a:link, .btn-page a:hover, .btn-page a:visited, .btn-page a:active { color: #333; text-decoration: none; font-weight: 800; }
+.paging { position: relative; width: 100%; padding: 2.857em 0 0; margin: 20px 0 0; text-align: center; }
+.paging a { position: absolute; top: 0; margin: 0 1px; }
+.paging a span { display: inline-block; padding: 0 1.5em; color: #fff; background: #173e35; line-height: 2.857em; font-weight: 800; }
+.paging a.before { right: 50%; padding-left: 1em; background: url(http://imagem.nepa.co.kr/resources/img/arr4_14x40_173e35.png) no-repeat 0 0; background-size: 1rem 2.857rem; }
+.paging a.next { left: 50%; padding-right: 1em; background: url(http://imagem.nepa.co.kr/resources/img/arr2_14x40_173e35.png) no-repeat 100% 0; background-size: 1rem 2.857rem; }
+.paging a.top { position: static; display: block; width: 47px; margin: 50px 0 -60px 870px; border-top: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5; }
+.paging a.top span { width: 45px; padding: 0 0 10px 0; color: #827561; background: #fff url(http://imagem.nepa.co.kr/resources/img/arr1_11x6_827561.png) no-repeat 50% 2.2em; background-size: 0.786rem 0.429rem; font-family: Nepa; }
+.paging-top { position: relative; margin: 0 auto; width: 47px; font-family: Nepa; z-index: 50; }
+.paging-top a { position: absolute; top: -110px; display: block; width: 100%; height: 3.500em; background: #fff; border-top: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.paging-top a span { display: block; width: 100%; line-height: 2.857em; background: url(http://imagem.nepa.co.kr/resources/img/arr1_11x6_827561.png) no-repeat 50% 2.2em; text-align: center; font-weight: 800; }
+@media only screen and (max-width:960px) {
+.paging a.top { margin: 50px 0 -60px 90%; }
+}
+@media only screen and (max-width:767px) {
+.paging-top a.top { top: -110px; }
+}
+@media only screen and (max-width:420px) {
+.paging a.top { margin: 50px 0 -60px 80%; }
+.paging-top a.top { top: -98px; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.paging a.before { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr4_14x40_173e35.png); }
+.paging a.next { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr2_14x40_173e35.png); }
+.paging a.top span { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr1_15x8_827561.png); }
+.paging-top a span { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr1_15x8_827561.png); }
+}
+input.text, textarea.textarea { padding: 10px 10px 10px; border: 1px solid #dddddd; background: #fff; border-radius: 2px; -webkit-appearance: none; *padding:11px 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+input:focus.text, textarea:focus.textarea { font-size:14px; }
+.section-box input.text, .section-box textarea.textarea, .layer-type1 input.text, .layer-type1 textarea.textarea { background-color: #fafafa; }
+.label-radio { display: inline-block; }
+.label-radio label { position: relative; display: inline-block; margin: 0 10px 0 0; padding: 0 0.714em 0 24px; background: url(http://imagem.nepa.co.kr/resources/img/form_radio.png) no-repeat 0 50%; vertical-align: middle; line-height: 2.857; }
+.label-radio label.on { background-image: url(http://imagem.nepa.co.kr/resources/img/form_radio_checked.png); }
+.label-radio .radio { position: absolute; left: -9999px; opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
+.label-check { display: inline-block; }
+.label-check label { position: relative; display: inline-block; margin: 0 0.714em 0 0; padding: 0.714em 0.714em 0.714em 24px; background: url(http://imagem.nepa.co.kr/resources/img/form_check.gif) no-repeat 0 0.857em; vertical-align: middle; line-height: 1.428; }
+.label-check label.on { background-image: url(http://imagem.nepa.co.kr/resources/img/form_checked.gif); }
+.label-check .check { position: absolute; left: -9999px; vertical-align: middle; opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
+.label-checkbox label { position: relative; display: inline-block; padding: 0 0.714em; line-height: 2.714; vertical-align: middle; border: 1px solid #dddddd; }
+.label-checkbox label.on { color: #fff; background: #c5b60e; }
+.label-checkbox .check, .label-checkbox .radio { position: absolute; left: -9999px; vertical-align: middle; opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
+.list-checkbox { padding: 0.5em 0; }
+.list-checkbox:after { content: ""; display: block; clear: both; }
+.list-checkbox li { float: left; width: 50%; margin: -0.5em 0; }
+.select { display: inline-block; padding: 11px 6px 10px; border: 1px solid #dddddd; background: #fff; border-radius: 2px; outline: none; font-size: 12px; line-height: 1.5; *display:inline; *zoom:1; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.select:focus { font-size:12px; }
+.section-box .select, .layer-type1 .select { background-color: #fafafa !important; }
+.select-radio { position: relative; display: inline-block; vertical-align: top; z-index: 0; font-weight: normal; text-align: left; *display:inline; *zoom:1; }
+.select-radio>div { position: relative; display: block; overflow: hidden; cursor: pointer; z-index: 0; }
+.select-radio>div strong { display: block; overflow: hidden; min-width: 4em; text-overflow: ellipsis; white-space: nowrap; padding: 0.5em 2em 0.5em 1em; background: #fff url(http://imagem.nepa.co.kr/resources/img/arr3_11x6_666666.png) no-repeat 90% 50%; border: 1px solid #d8d9d8; font-weight: normal !important; vertical-align: top; }
+.select-radio>ul { position: absolute; left: -9999px; top: 2.785em; background: #fff; border: 1px solid #d8d9d8; }
+.select-radio>ul li { position: relative }
+.select-radio>ul label { display: block; padding: 0.5em 2em 0.5em 1em !important; background: #fff; }
+.select-radio>ul input { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; filter: alpha(opacity=0); cursor: pointer; }
+.select-radio>ul .focus label { }
+.select-radio>ul .selected label { background: #f5f5f5; }
+.select-radio-on { z-index: 999 !important; }
+.select-radio-on>div strong { }
+.select-radio-on>ul { position: absolute; left: 0; }
+.select-radio-readonly>div { background-color: #eeeeee; }
+.select-radio-blank { }
+.select-radio.error>div strong { border-color: #e93333; }
+.input-file { position: relative; padding: 0 9.07em 0 0; z-index: 0; vertical-align: middle; *width:auto; }
+.input-file label, .input-file input { position: absolute; left: 0; top: 0; width: 100%; line-height: 2.857em; height: 2.857em; }
+.input-file label { z-index: 1; text-align: right; }
+.input-file label span { overflow: hidden; display: inline-block; width: 8.357em; height: 2.857em; background: url(http://imagem.nepa.co.kr/resources/img/btn_search.png) no-repeat 100% 100%; text-indent: 9999px; vertical-align: top; *display:inline-block; *zoom:1; width: 117px\9; height: 40px; *text-indent:0; *font:0/0 Arial; }
+.input-file input { opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); z-index: 2; cursor: pointer; }
+.input-file .file-name { overflow: hidden; display: block; height: 2.714em; line-height: 2.714em; padding: 0 0.714em; border: 1px solid #ddd; background: #fff; text-overflow: ellipsis; white-space: nowrap; z-index: 0; }
+.section-box .input-file .file-name { background: #fafafa; }
+.form-agree { margin: 15px 0 0; padding: 1.071em 0; border-top: 1px solid #e5e5e5; }
+.form-tel { width: 50%; overflow: hidden; }
+.form-tel select, .form-tel input, .form-tel span { float: left; }
+.form-tel select, .form-tel input { width: 30%; *width:28%; }
+.form-tel span { display: inline-block; width: 5%; text-align: center; line-height: 2.857; *display:inline; *zoome:1; }
+.form-email, .form-email2 { overflow: hidden; }
+.form-email select, .form-email input, .form-email span { float: left; }
+.form-email .btn-type4, .form-email2 .btn-type4 { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.form-email>input { width: 20%; }
+.form-email .unit { width: 4%; }
+.form-email select { width: 28%; margin: 0 1em; }
+.form-email2 { width: 100%; }
+.form-email2 .form1, .form-email2 .form2 { float: left; }
+.form-email2 .form1 { width: 60%; }
+.form-email2 .form1 input { display: inline-block; width: 25%; }
+.form-email2 .form1 .unit { display: inline-block; width: 4%; }
+.form-email2 .form1 select { width: 37%; margin: 0 1%; }
+.form-email2 .form2 { width: 40%; }
+.form-email2 .form2 .btn-type4 { margin: 0 0.5%; }
+.form-num>input, .form-num>span { float: left; }
+.form-num input { width: 49%; }
+.form-num input + span { margin: 0 1em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.form-date { width: 45%; overflow: hidden; width: 60%\9; }
+.form-date>select, .form-date>span { float: left; }
+.form-date>select { width: 25%; }
+.form-date>select:first-child { width: 26%; }
+.form-date>span { width: 8%; }
+.form-date2 { overflow: hidden; }
+.form-date2 .area, .form-date2 .unit { float: left; }
+.form-date2 .area { width: 48%; *width:47%; }
+.form-date2 .area input { width: 100%; }
+.form-date2 .unit { width: 4%; }
+.form-zipcode .zip-code, .form-zipcode .zip-type { display: inline-block; width: 45%; margin: 0 2% 0 0; vertical-align: top; }
+.form-zipcode .zip-code>* { float: left; }
+.form-zipcode .zip-code .text { width: 21%; margin: 0 4% 0 0; }
+.form-zipcode .zip-code #zonecode { margin: 0 2.5% 0 0; }
+.form-zipcode .zip-code #zip-code-two { width:124px; padding:0; margin:0; display:none; }
+.form-zipcode .zip-code #zip-code-two input { width:49px; }
+.form-zipcode .zip-code .text:first-child { margin: 0; }
+.form-zipcode .zip-code .unit { width: 8%; width: 6%\9; }
+.form-zipcode .zip-code .btn-type4 { width: 38%; }
+.form-zipcode .zip-code .btn-type4 a { padding: 0; width: 100%; }
+.form-zipcode>.text { clear: both; width: 60%; margin: 0.571em 0 0; }
+.form-select1 { overflow: hidden; }
+.form-select1 .select { float: left; display: inline-block; width: 49%; }
+.form-select1 .select:first-child { margin: 0 2% 0 0; }
+.form-select2 { overflow: hidden; }
+.form-select2 .label-checkbox { float: left; display: block; width: 25%; }
+.form-select2 .label-checkbox label { display: block; text-align: center; padding: 0; margin-left: -1px; }
+.form-select2 .label-checkbox:first-child { width: 25%; }
+.form-select2 .label-checkbox:first-child label { margin-left: 0; }
+.form-select3 { overflow: hidden; }
+.form-select3 .select { float: left; display: inline-block; width: 32%; margin: 0 0 0 2%; }
+.form-select3 .select:first-child { margin: 0; }
+.form-textbtn { overflow: hidden; }
+.form-textbtn .text { float: left; width: 70%; margin: 0 2% 0 0; }
+.form-textbtn>span { float: left; width: 28%; *width:27%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.form-textbtn>span a, .form-textbtn>span button { padding: 0; width: 100%; }
+.w50 { width: 50%; }
+.wrap2 .w50 { width: 100%; }
+.w100 { width: 100%; }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+input.text, textarea.textarea { padding: 11px 10px; }
+.select { padding: 10px 3.57em 10px 6px; background: #fff url(http://imagem.nepa.co.kr/resources/img/640/form_select.png) no-repeat 100% 50%; background-size: contain; -webkit-appearance: listbox; }
+.input-file label span { background-image: url(http://imagem.nepa.co.kr/resources/img/640/btn_search.png); background-size: contain; }
+}
+@media only screen and (max-width:767px) {
+.form-textbtn .text { width: 78%; margin: 0 2% 0 0; }
+.form-textbtn>span { width: 20%; }
+.form-email2 .form1, .form-email2 .form2 { float: none; width: 100%; }
+.form-email2 .form1 { margin: 0 0 2% 0; }
+.form-email2 .form1 input { width: 26%; }
+.form-email2 .form1 .unit { width: 4%; }
+.form-email2 .form1 select { width: 37%; margin: 0 1%; }
+.form-email2 .form2 .btn-type4 { float: none !important; margin: 0 1% 0 0; }
+.form-date { width: 100%; }
+.form-date>span { text-align: left !important; text-indent: 10px; }
+.form-num .mes2 { display: block; clear: both; width: 100%; }
+.form-zipcode .zip-code, .form-zipcode .zip-type { float: none; margin: 0; width: 60%; }
+.form-zipcode .zip-type { margin-top: 0.571em; }
+.form-zipcode>.text { width: 100%; }
+.w50, .w100, .form-tel { width: 100% !important; }
+}
+@media only screen and (max-width:680px) {
+.form-email input { width: 45%; margin: 0 0 0.5em; }
+.form-email .unit { width: 10%; }
+.form-email select { width: 58%; margin: 0 2% 0 0; }
+.form-email select + span { width: 40%; }
+.form-email select + span a, .form-email select + span button { padding: 0; width: 100%; }
+}
+@media only screen and (max-width:639px) {
+.list-checkbox li { display: block; width: 100%; }
+.form-select3 .select { width: 49%; margin: 0.571em 0 0 0; }
+.form-select3 .select:nth-child(2n) { margin-left: 2%; }
+.form-select3 .select:first-child, .form-select3 .select:nth-child(2) { margin-top: 0; }
+}
+@media only screen and (max-width:600px) {
+.form-num input { width: 58%; }
+.form-num input + span { width: 40%; margin: 0 0 0 2%; }
+.form-num input + span a { padding: 0; width: 100%; }
+.form-date>span { text-align: center !important; text-indent: 0; }
+}
+@media only screen and (max-width:480px) {
+.form-zipcode .zip-code, .form-zipcode .zip-type { width: 100%; }
+.form-date2 .area + .unit { margin-top: 1.5em; }
+}
+@media only screen and (max-width:420px) {
+.form-date>select, .form-date>span { margin-top: 0.571em; }
+.form-date>select { width: 80% !important; }
+.form-date>span { width: 20%; }
+.form-select3 .select { width: 100%; margin: 0.571em 0 0 0 !important; }
+.form-select3 .select:first-child { margin-top: 0 !important; }
+}
+.form-type1 { padding: 0.714em 0 1.785em; border-bottom: 1px solid #173e35; }
+.form-type1 .txt-top { margin: 0.714em 0; font-weight: 800; }
+.form-type1 .wrap { margin: 1.429em 0 0; }
+.form-type1 .label { font-weight: 800; color: #333; }
+.form-type1 .label .txt-star { margin-left: 0.214em; }
+.form-type1 .label.txt { }
+.form-type1 .form { position: relative; padding: 0.357em 0; }
+.form-type1 .form .form-txt { position: absolute; z-index: 1; left: 0; top: 1.166em; font-size: 0.857em; padding: 0 0 0 1em; font-weight: normal; color: #999; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: url(http://imagem.nepa.co.kr/resources/img/none.png); }
+.form-type1 .form .placeholder { position: relative; z-index: 0; }
+.form-type1 .form .placeholder.valueon { z-index: 2; }
+.form-type1 .form .area { position: relative; }
+.form-type1 .form .area .form-txt { top: 0.809em; }
+.form-type1 .form .unit { display: inline-block; line-height: 2.857; text-align: center; }
+.form-type1 .form .error { display: inline-block; margin: 0.571em 0 0; color: #ff3333; }
+.form-type1 .form .mes { clear: both; display: block; margin: 0.571em 0 0; color: #ff6600; }
+.form-type1 .form .mes2 { color: #999; line-height: 2.857; }
+.form-type1 .form .sub { margin: 0.571em 0 0; }
+.form-type1 .form-sub { margin-top: 1.785em; padding: 0.375em 0 0; border-top: 1px solid #e5e5e5; }
+.form-type1 .form-sub.txt-type2 { font-size: 0.857em; }
+.form-type1 .form-agree { margin-bottom: 0; padding-bottom: 0; }
+.form-type1 .wrap2 { margin: 1.429em 0 0; display: inline-block; width: 49%; vertical-align: top; }
+.form-type1 .wrap2+.wrap2 { margin-left: 1%; }
+.form-type1 .wrap-clear { margin-top: 0; }
+.form-type1 .wrap3 { margin: 1.429em 0 0; overflow: hidden; }
+.form-type1 .wrap3 .label { display: block; }
+.form-type1 .wrap3 .form-tel { float: left; width: 50%; }
+.form-type1 .wrap3 .btn-type4 { float: left; display: block; margin: 0.357em 1em; }
+.form-type1 dl.wrap .form { font-weight: 800; }
+.form-type1.form-line { margin-bottom: -0.714em; border-bottom: 1px solid #d9d9d9; }
+.form-type1.form-line2 { padding-bottom: 0; border-bottom: 0; }
+.section-box .form-type1 { border-bottom: 1px solid #d9d9d9; }
+.section-box .form-type1 .txt-top { margin-top: 0; }
+.form-type2 { margin: 0 0 -2px; padding: 1.785em 0; border-top: 2px solid #173e35; border-bottom: 2px solid #173e35; }
+.form-type2 .wrap, .form-type2 .wrap2 { overflow: hidden; width: 100%; padding: 0.357em 0; }
+.form-type2 .wrap2 { float: left; width: 50%; }
+.form-type2 .label, .form-type2 .form { float: left; vertical-align: top; }
+.form-type2 .label { width: 14%; font-weight: 600; line-height: 2.857; color: #333; }
+.form-type2 .form { width: 86%; }
+.form-type2 .wrap2 .label { width: 28%; }
+.form-type2 .wrap2 .form { width: 72%; }
+.form-type2 .btn { display: block; margin: 1em 0 0; }
+.form-type2 .btn a, .form-type2 .btn button { padding: 0; width: 100%; }
+.form-type3>.heading { padding: 1em 0; font-size: 1.142em; line-height: 1.625; color: #333; font-weight: 800; }
+.form-type3 .form { overflow: hidden; padding: 1em; border: 1px solid #d9d9d9; background: #fafafa; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.form-type3 .form .scroll { position: relative; height: 10.5em; overflow-y: scroll; height: 11.428em\9; }
+.form-type3 .form .scroll.on { overflow-y: visible; }
+.form-type3 .form .scroll>.con { font-size: 0.857em; padding: 0.428em 1em 0.428em 0.428em; color: #666; }
+.form-type3 .form .scroll>.con.con-type2 .list>li { margin: 0; }
+.form-type3 .form .scroll>.con.con-type2 li table { width: 100%; width: 97%\9; }
+.form-type3 .form .scroll>.con.con-type2 .con li strong { margin: 0.833em 0; }
+.form-type3 .form .scroll>.con.con-type2 .con li .txt-type2 { margin: 0.714em 0; }
+.form-type3 .form .scroll>.con.con-type2 .con li .txt-type2>li { margin: 0 0 0 0.714em; }
+.form-type3 .agree { text-align: right; }
+.form-type3 .agree h4 { display:inline-block; margin-right:8px; font-weight: 400; color:#333; }
+.form-type3 .bottom { display: block; margin: 1.785em 0 0; padding: 1em 0; border-top: 1px solid #d9d9d9; text-align: center; }
+.form-type3 .bottom + .btn-center { margin-top: 0; }
+.form-photo { overflow: hidden; padding: 2.142em; background: #f1f1f1; }
+.form-photo>.img, .form-photo>.form { display: inline-block; vertical-align: middle; *display:inline; *zoom:1; }
+.form-photo>.img { width: 40%; }
+.form-photo>.img span { display: block; position: relative; width: 100%; height: 0; padding: 0 0 100%; background: #fff; border: 1px solid #e5e5e5; }
+.form-photo>.img span img { position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: auto; width: auto; max-width: 100%; max-height: 100%; }
+.form-photo>.img span.imgon { background-image: none; }
+.form-photo>.form { text-align: center; }
+.form-photo>.form input { position: absolute; left: -9999px; opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
+.form-photo>.form .btn-upphoto { margin: 1.388em 0; }
+.form-photo>.img + .form { width: 50%; padding: 0 0 0 6%; }
+.layer-type1 .layer-content .form-photo { margin: 0 -2.142em; }
+.layer-type1 .layer-content .form-photo .txt-type4 { font-size: 12px; font-size: 0.857rem; line-height: 1.833; text-align: left; }
+.form-search2 { position: relative; padding: 1.428em 0; text-align: center; }
+.form-search2 .form { position: relative; display: inline-block; width: 40%; border: 1px solid #cdcdcd; }
+.form-search2 .form .form-txt { position: absolute; z-index: 1; left: 1em; top: 1.5em; font-size: 0.857em; font-weight: normal; color: #666; }
+.form-search2 .form .text { width: 100%; padding: 19px 66px 19px 20px; border: 0; *padding:19px 0; }
+.form-search2 .form .placeholder { position: relative; z-index: 0; }
+.form-search2 .form .placeholder.valueon { z-index: 2; }
+.form-search2 .form .submit { display: block; position: absolute; right: 0; top: 0; width: 66px; height: 100%; background: #fff url(http://imagem.nepa.co.kr/resources/img/icon_search2.png) no-repeat 50% 50%; text-indent: -9999px; z-index: 3; }
+.form-search2 .label-check { position: absolute; left: 70%; top: 50%; margin-top: -1.428em; margin-left: 1em; }
+.form-search2 .label-check label { color: #333; }
+.form-search3 { padding: 0 30%; }
+.form-search3 .label { color: #666; }
+.form-search3 .txt-type2 { font-size: 0.857em; }
+.form-search3 .btn-center { margin: 0.714em 0; }
+.wrap-form2 { margin: 2px 0 0; }
+.wrap-form2 .form-search2 { background: #f5f5f5; }
+.wrap-form2 .form-search3 { display: none; border: none; }
+@media only screen and (max-width:768px) {
+.wrap2 .w50 { width: 50%; }
+.form-type1 .wrap2 { display: block; width: 100%; margin-left: 0 !important; }
+.form-type1 .wrap-clear { margin: 1.429em 0 0; }
+.form-search2 .form { width: 50%; }
+.form-search2 .label-check { left: 75%; }
+.form-search3 { padding: 0 25%; }
+}
+@media only screen and (max-width:767px) {
+.form-type1 .wrap3 .form-tel { width: 60% !important; }
+.form-type2 { padding: 0.583em 0 0.916em; }
+.form-type2 .wrap, .form-type2 .wrap2 { display: block; float: none; width: 100%; padding: 0.416em 0; }
+.form-type2 .label, .form-type2 .form { display: block; width: 100% !important; }
+.form-type2 .wrap2:nth-child(2n) .label { text-indent: 0; }
+}
+@media only screen and (max-width:620px) {
+.form-photo>.form .btn-upphoto { margin: 0 0 1em; font-size: 1.142em; }
+.form-search2 .form { width: 90%; }
+.form-search2 .label-check { display: block; position: static; margin: 0 5%; text-align: left; }
+.form-search3 { padding: 0 5%; }
+header + .form-wrap1 { margin-bottom: 0; }
+.wrap-form2 .form-search2 { padding-bottom: 0; }
+}
+@media only screen and (max-width:520px) {
+.form-type1 .wrap3 .form-tel { float: none; width: 100% !important; }
+.form-type1 .wrap3 .btn-type4 { float: none; display: inline-block; margin: 0; }
+}
+@media only screen and (max-width:480px) {
+.form-type1 .form .form-txt { display: block; position: static; padding-bottom: 0.357em; padding-left: 0; font-size: 0.857em; }
+.form-type1 .form .placeholder { position: static; z-index: auto; }
+.form-type1 .form .placeholder.valueon { z-index: auto; }
+.form-photo>.img, .form-photo>.form { float: none; width: 100% !important; padding: 0 !important; }
+.form-photo>.form .btn-upphoto { margin: 1em 0; }
+}
+@media only screen and (max-width:380px) {
+.form-type1 .btn-type4 a, .form-type1 .btn-type4 button { font-size: 0.857rem; line-height: 3.364; }
+.form-type3 .agree { text-align: center; }
+.form-type3 .agree .label-radio label { margin: 0; }
+}
+.info-count { overflow: hidden; text-align: center; font-family: HelveticaNeue, Arial; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.info-count>li { float: left; width: 33.3%; font-size: 0.714em; margin: 0 -1px; border-right: 1px solid #ececec; }
+.info-count>li:first-child { margin-left: 0; border-left: 1px solid #ececec; }
+.info-count>li>span, .info-count>li>a { display: block; padding: 33px 0 0; padding: 2.357rem 0 0; }
+.info-count>li>a:hover, .info-count>li>a:focus { text-decoration: none; }
+.info-count>li strong { display: block; font-family: Verdana; font-size: 18px; font-size: 1.29rem; line-height: 1.8; color: #999; }
+.info-count>li .cnt1 { background: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c1_1.png) no-repeat 50% 0; background-size: 2.571rem 1.857rem; }
+.info-count>li .cnt2 { background: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c1_2.png) no-repeat 50% 0; background-size: 1.714rem 1.857rem; }
+.info-count>li .cnt3 { background: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c1_3.png) no-repeat 50% 0; background-size: 1.857rem 1.857rem; }
+.info-count.c1, .info-count.c1>li strong, .info-count.c1>li>a, .color1 .info-count, .color1 .info-count>li strong, .color1 .info-count>li>a { color: #fff; }
+.info-count.c1>li { border-color: #ececec; }
+.info-count.c1>li .cnt1, .color1 .info-count>li .cnt1 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c2_1.png); }
+.info-count.c1>li .cnt2, .color1 .info-count>li .cnt2 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c2_2.png); }
+.info-count.c1>li .cnt3, .color1 .info-count>li .cnt3 { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c2_3.png); }
+.info-count>li .cnt2.on { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c3_2.png); }
+.info-count>li .cnt3.on { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_set2_c3_3.png); }
+@media only screen and (max-width:767px) {
+.info-count>li { padding: 0.5rem 0; background: none !important; }
+.info-count>li>strong { line-height: 1.4; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.info-count>li .cnt1 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c1_1.png); }
+.info-count>li .cnt2 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c1_2.png); }
+.info-count>li .cnt3 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c1_3.png); }
+.info-count.c1>li .cnt1, .color1 .info-count>li .cnt1 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c2_1.png); }
+.info-count.c1>li .cnt2, .color1 .info-count>li .cnt2 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c2_2.png); }
+.info-count.c1>li .cnt3, .color1 .info-count>li .cnt3 { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c2_3.png); }
+.info-count>li .cnt2.on { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c3_2.png); }
+.info-count>li .cnt3.on { background-image: url(http://imagem.nepa.co.kr/resources/img/640/icon_set2_c3_3.png); }
+}
+.tab-type1 { overflow: hidden; margin: 40px 0 10px; text-align: center; }
+.tab-type1 li { float: left; display: block; width: 34%; vertical-align: middle; }
+.tab-type1 li a { display: block; margin: 0 0 0 10px; font-size: 1.142em; line-height: 1.375; border: 10px solid #f2f2f2; }
+.tab-type1 li a span { display: inline-block; width: 85%; vertical-align: middle; }
+.tab-type1 li a:before, .tab-type1 li a:after { display: inline-block; width: 5%; vertical-align: middle; height: 40px; content: ''; }
+.tab-type1 li a:hover { text-decoration: none; }
+.tab-type1 li a.on { border-color: #173e35; color: #173e35; }
+.tab-type1 li:first-child { width: 32%; }
+.tab-type1 li:first-child a { margin: 0; }
+.tab-type2 { overflow: hidden; margin: 20px 0 -21px; background: #f2f2f2; border: 1px solid #d9d9d9; border-bottom: 0; }
+.tab-type2 li { float: left; width: 50%; }
+.tab-type2 li a { display: block; padding: 0.895em 0 0.895em 1.458em; font-family: NanumBarunGothic, 나눔바른고딕, 'NanumBarunGothic'; font-size: 1.714em; line-height: 1.5; font-weight: 800; color: #b1b8b6; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.tab-type2 li a span { display: inline-block; background-size: contain !important; }
+.tab-type2 li a:hover { text-decoration: none; color: #173e35; }
+.tab-type2 li a.find1 span { padding-left: 2.5em; background: url(http://imagem.nepa.co.kr/resources/img/icon_find_id_off.png) no-repeat 0 50%; }
+.tab-type2 li a.find2 span { padding-left: 2.2em; background: url(http://imagem.nepa.co.kr/resources/img/icon_find_pwd_off.png) no-repeat 0 50%; }
+.tab-type2 li a.on { background-color: #fff; color: #173e35; }
+.tab-type2 li a.find1.on { border-right: 1px solid #d9d9d9; }
+.tab-type2 li a.find1.on span { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_find_id_on.png); }
+.tab-type2 li a.find2.on { border-left: 1px solid #d9d9d9; }
+.tab-type2 li a.find2.on span { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_find_pwd_on.png); }
+.tab-type3 { display: inline-block; margin: 20px 0; padding: 0.714em; background: #fff; vertical-align: top; }
+.tab-type3 li { float: left; margin: 0 0 0 0.714em; }
+.tab-type3 li:first-child { margin: 0; }
+.tab-type3 li a { display: block; padding: 0.571em 1.714em; background: #f2f2f2; font-weight: 600; }
+.tab-type3 li a:hover { text-decoration: none; }
+.tab-type3 li a.on { background: #173e35; color: #fff; }
+.tab-type4 { overflow: hidden; margin: 30px 0 14px; }
+.tab-type4 li { float: left; width: 50%; background: #f5f5f5; text-align: center; line-height: 2.857em; font-weight: 800; }
+.tab-type4 li a { display: block; color: #999; }
+.tab-type4 li a.on { background: #173e35; color: #fff; }
+.tab-select { margin: 30px auto 0; width: 40%; background: #61574a; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
+.tab-select>h3 { padding: 0 1.429em; line-height: 1.56; background: url(http://imagem.nepa.co.kr/resources/img/arr3_11x6_ffffff.png) no-repeat 92% 50%; background-size: 0.786em 0.429em; background-color: #3f372c; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; font-weight: 800; }
+.tab-select>h3.open { background: url(http://imagem.nepa.co.kr/resources/img/arr1_11x6_ffffff.png) no-repeat 92% 50%; background-size: 0.786em 0.429em; background-color: #3f372c; }
+.tab-select>h3 a { display: block; width: 100%; color: #fff; }
+.tab-select>h3 a:hover, .tab-select>h3 a:focus { text-decoration: underline; }
+.tab-select>h3 span, .tab-select>h3 strong { display: inline-block; }
+.tab-select>h3 span { font-size: 2.143em; font-family: Nepa; }
+.tab-select>h3 strong { padding: 0 1em; }
+.tab-select>ul { display: none; padding: 0.714em 1.429em; }
+.tab-select>ul>li { padding: 0.214em 0; text-align: center; }
+.tab-select>ul>li a { display: block; color: #fff; }
+.tab-scroll { overflow: hidden; position: relative; width: 100%; height: 3.571em; margin: 20px 0 30px; background: #f5f5f5; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: auto\9; }
+.tab-scroll .view { position: relative; width: 100%; height: 100%; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.tab-scroll .scroll { overflow: hidden; line-height: 3.571; }
+.tab-scroll .scroll li { float: left; min-width: 110px\9; }
+.tab-scroll .scroll li a { display: block; padding: 0 2.14em; font-weight: 800; color: #999; }
+.tab-scroll .scroll li a:hover, .tab-scroll .scroll li a:focus { text-decoration: underline; }
+.tab-scroll .scroll li.on a { color: #173e35; }
+.tab-scroll .view>div { height: 0.357em !important; }
+.tab-scroll .view>div>div { background: rgba(211,211,211,0.3) !important; border: none !important; }
+.tab-scroll>a { width: 3.571em; height: 3.571em; text-indent: -9999px; }
+.tab-scroll .btn-prev { display: none; position: absolute; left: 0; top: 0; background: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_333333.png) no-repeat 50% 50%; }
+.tab-scroll .btn-next { display: none; position: absolute; right: 0; top: 0; background: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_333333.png) no-repeat 50% 50%; }
+.tab-scroll.on { padding: 0 3.571em; padding: 0\9; overflow-x: scroll\9; overflow-y: hidden\9; }
+.tab-scroll.on>a { display: block; display: none\9; }
+.tab-scroll.c1 { margin: 2.142em 0 0; background: #173e35; }
+.tab-scroll.c1 .scroll li.on a { color: #fff; }
+.tab-scroll.c1 .btn-prev { background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_ffffff.png); }
+.tab-scroll.c1 .btn-next { background-image: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_ffffff.png); }
+.tab-scroll.c2 { margin: 2.142em 0 0; background: #fff; border-top: 1px solid #e5e5e5; }
+.tab-scroll.c2 .scroll li.on a { color: #173e35; }
+.tab-scroll.c2 .scroll li a { color: #827561; }
+.tab-scroll.c2 .btn-prev { background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_ffffff.png); background-color: #173e35; }
+.tab-scroll.c2 .btn-next { background-image: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_ffffff.png); background-color: #173e35; }
+header + .tab-scroll { margin: 30px 0 10px; }
+@media only screen and (max-width:720px) {
+.tab-type3 { overflow: hidden; display: block; }
+.tab-type3 li { width: 32%; margin: 0 0 0 2%; }
+.tab-type3 li:first-child { margin: 0; }
+.tab-type3 li a { padding-left: 0; padding-right: 0; text-align: center; }
+}
+@media only screen and (max-width:640px) {
+.tab-type1 li a { font-size: 1em; }
+.tab-type2 li a { font-size: 1.428em; }
+.tab-select { width: 100%; }
+}
+@media only screen and (max-width:639px) {
+.tab-scroll .scroll li a { padding: 0 1.071em; }
+}
+@media only screen and (max-width:478px) {
+.tab-type2 li a { font-size: 1em; }
+.tab-type3 { font-size: 0.857em; }
+}
+@media only screen and (max-width:420px) {
+.tab-type2 { margin-bottom: -16px; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.tab-scroll .btn-prev { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr4_13x25_333333.png); }
+.tab-scroll .btn-next { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr2_13x25_333333.png); }
+.tab-scroll.c1 .btn-prev { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr4_13x25_ffffff.png); }
+.tab-scroll.c1 .btn-next { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr2_13x25_ffffff.png); }
+.tab-scroll.c2 .btn-prev { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr4_13x25_ffffff.png); }
+.tab-scroll.c2 .btn-next { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr2_13x25_ffffff.png); }
+.tab-scroll>a { background-size: 0.571em 1.071em !important; }
+}
+.wrap-tab { position: relative; overflow: hidden; }
+.wrap-tab>section { float: right; overflow: hidden; margin: 28px 0 0 0; width: 49%; width: -webkit-calc(50% - 10px); width: -moz-calc(50% - 10px); width: calc(50% - 10px); }
+.wrap-tab>section:first-child, .wrap-tab .heading, .wrap-tab>section>ol { float: left; }
+.wrap-tab .heading { margin: 0; padding: 0; width: 20%; font-family: Nepa; font-size: 2.143em; font-weight: 800; }
+.wrap-tab>section>ol { width: 80%; }
+.step-type1 { width: 100%; margin: 25px 0; overflow: hidden; }
+.step-type1 li { float: left; width: 16%; padding: 0.944em 2%; background: #7a8985; font-size: 1.2em; line-height: 1.333; min-height:67px; color: #fff; }
+.step-type1 li:nth-child(2n) { background: #6d7a76; }
+.step-type1 li.on { background: #173e35; }
+.step-type1 li strong { vertical-align: top; font-weight: 200; display:block; }
+.step-type1 li span { display: block; vertical-align: top; }
+.step-type1 li span:first-child { margin: 0 0.88em 0 0; font-family: HelveticaNeue, Arial; font-size: 1.11em; line-height: 1.2; font-weight: 800; }
+@media only screen and (max-width:861px) {
+.step-type1 li { font-size: 1.1em; }
+}
+@media only screen and (max-width:800px) {
+.step-type1 li { font-size: 1em; }
+}
+@media only screen and (max-width:767px) {
+.wrap-tab { padding-top: 40px !important; margin: 40px 0 !important; }
+.wrap-tab>section, .wrap-tab>section>ol { float: none; width: 100%; margin: 0; }
+.wrap-tab .heading { float: none; position: absolute; top: 0; left: 20%; width: 15%; padding: 0; margin: 0; cursor: pointer; line-height: 2.857rem; color: #ccc; line-height: 1; }
+.wrap-tab .heading span { display: none; }
+.wrap-tab>section:first-child .heading { left: 0; border-right: 1px solid #ddd; padding: 0 0 0 0.3em; }
+.wrap-tab>section:last-child .heading { right: 0; }
+.wrap-tab .con { display: none; border-top: 0; }
+.wrap-tab>section.on .heading { color: #333; border-bottom: 0; padding-bottom: 1px; }
+.wrap-tab>section.on .con { display: block; }
+.wrap-aside .wrap-tab { margin-left: 20px !important; margin-right: 20px !important; }
+.step-type1 li { text-align: center; width: 20%; padding: 1em 0; font-size: 0.9em; min-height:50px; }
+.step-type1 li span { display: block; margin: 0 !important; }
+}
+@media only screen and (max-width:560px) {
+.step-type1 li { font-size: 0.8em; }
+}
+@media only screen and (max-width:520px) {
+.wrap-tab .heading { position: absolute; top: 0; left: 25%; width: 20%; }
+.step-type1 li { font-size: 0.75em; }
+}
+@media only screen and (max-width:481px) {
+.step-type1 li { min-height:56px; }
+}
+@media only screen and (max-width:420px) {
+.wrap-aside .wrap-tab { margin-left: 10px !important; margin-right: 10px !important; }
+}
+@media only screen and (max-width:370px) {
+.wrap-tab .heading { position: absolute; top: 0; left: 35%; width: 25%; }
+}
+.list-type1 { background-color: #fff; border: 1px solid #e5e5e5; }
+.list-type1>li { position: relative; border-top: 1px solid #dedede; }
+.list-type1>li:first-child { border-top: none; }
+.list-type1 li a { display: block; padding: 0.464em 7.142em 0.464em 0.714em; }
+.list-type1 li a:hover, .list-type1 li a:focus, .list-type1 li a:visited { text-decoration: none; }
+.list-type1 li a>strong, .list-type1 li a>span { vertical-align: top; }
+.list-type1 li a>strong { position: relative; display: block; overflow: hidden; height: 1.71em; white-space: nowrap; font-weight: normal; text-overflow: ellipsis; -o-text-overflow: ellipsis; -moz-text-overflow: ellipsis; }
+.list-type1 li a>span.num { display: block; position: absolute; top: 0.464em; right: 0.714em; white-space: nowrap; color: #999; }
+ol.list-type1, ol.list-type1 li { background: none; border: none; }
+ol.list-type1 li a { padding: 0.464em 6.785em 0.464em 2.857em; }
+ol.list-type1 li a>span:first-child { position: absolute; left: 0.714em; top: 0.607em; display: inline-block; width: 1.4em; padding: 0.214em 0; background: #666; color: #fff; line-height: 1; text-align: center; border-radius: 50%; font-family: Nepa; }
+.list-type2>li { padding: 0 0 0 3.357em; }
+.list-type2>li>span:first-child { position: relative; float: left; width: 3.357em; margin: 0 0 0 -3.357em; display: inline-block; font-weight: normal; }
+.list-type2>li>span:first-child { font-weight: bold; }
+.list-type2>li>span:first-child:after { display: block; position: absolute; right: 0.714em; top: 0.357em; width: 1px; height: 0.928em; background: #cccccc; content: ''; }
+.list-img1 { margin: 20px 0 40px 0; *zoom:1; }
+.list-img1:after { content: ""; display: block; clear: both; }
+.list-img1 li { float: left; margin-left: 3%; width: 48.5%; height: auto; }
+.list-img1 li:first-child { margin-left: 0; }
+.list-img1 li>span { position: relative; display: block; width: 100%; height: 0; *height:98px; padding: 0 0 45%; *padding:0; background: #f2f2f2; }
+.list-img1 li>span img { display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img1 li>strong { display: block; overflow: hidden; background: #173e35; line-height: 2.86em; color: #fff; text-align: center; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; -moz-text-overflow: ellipsis; }
+.list-img2 { padding: 0.72em 0; border-top: 2px solid #173e35; border-bottom: 1px solid #173e35; }
+.list-img2>li { position: relative; display: table; padding: 2.143em 0; width: 100%; border-top: 1px solid #e5e5e5; height: 185px\9; }
+.list-img2>li:first-child { border-top: none; }
+.list-img2>li .img { position: relative; display: table-cell; width: 40%; background: url(http://imagem.nepa.co.kr/resources/img/logo_noimg.png) no-repeat 50% 50%; box-shadow: 0 0 0 1px #ddd inset; vertical-align: top; *float:left; *padding:0; *height:100%; width: 280px\9; border: 1px solid #ddd\9; }
+.list-img2>li .img span, .list-img2 li .img:empty:before { display: block; position: relative; width: 100%; height: 0; padding: 0 0 66%; *padding:0; *height:185px; }
+.list-img2>li .img:empty:before { content: ''; }
+.list-img2>li .img span img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; *height:185px; }
+.list-img2>li .img .btn-store { position: absolute; left: 0; top: 0; width: 100%; height: 100%; text-indent: -9999px; background: url(http://imagem.nepa.co.kr/resources/img/icon_search.png) no-repeat 97% 95%; overflow: hidden; }
+.list-img2>li .con { display: table-cell; overflow: hidden; padding: 2.5% 2.14em 0; background: #f5f5f5; vertical-align: top; *position:relative; *margin:0 0 0 280px; *height:177px; *padding-top:10px; }
+.list-img2>li .con>strong { display: block; color: #333; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.4285em; line-height: 1.5; }
+.list-img2>li .con>strong .icon-store { float: left; }
+.list-img2>li .con>ul { margin-top: 0.643em; }
+.list-img2>li .con>ul li { border-top: none; padding: 0; }
+.list-img2>li .con>ul li:nth-child(2) { font-weight: bold; }
+.list-img2>li .con>ul li .btn-type2 { margin: 1.22em 0 0 0; }
+.list-img2>li.nodata { margin-bottom: -0.72em; }
+.list-img3 { overflow: hidden; border-bottom: 1px solid #173e35; }
+.list-img3>li { position: relative; float: left; width: 48.5%; }
+.list-img3>li:nth-child(2n) { float: right; }
+.list-img3>li .img { position: relative; width: 100%; height: 0; padding: 0 0 45%; border: 1px solid #ddd; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: url(http://imagem.nepa.co.kr/resources/img/logo_noimg.png) no-repeat 50% 50%; *width:438px; *height:220px; *padding:0; }
+.list-img3>li .img img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img3>li .con { height: 9em; padding: 1.57em 0 0; }
+.list-img3>li .con strong { display: block; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.3; color: #333; }
+.list-img3>li .btn-view { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; text-indent: -9999px; overflow: hidden; }
+.list-img3>li .btn-eventwin { position: absolute; right:0; bottom:50px; width:93px; height:32px; line-height:100%; background:#fff; border:#ccc solid 1px; font-size:12px; font-weight: 600; color:#666; }
+.list-img3>li .btn-eventwin .bul:before { content: '▶'; display: inline-block; position: relative; top:-1px; width: 9px; height: 10px; line-height:10px; padding-left:4px; color:#666; font-size:9px; font-style: normal; background-color:none; }
+.list-img3>li .btn-eventwin:hover, .list-img3>li .btn-eventwin:focus, .list-img3>li .btn-eventwin:active { color:#333; border:#9F9F9F solid 1px; }
+.list-img4 { display: table; overflow: hidden; width: 100%; margin: 24px 0; }
+.list-img4>dt, .list-img4>dd { float: left; width: 33%; margin: 0 1px 1px 0; width: -webkit-calc(33.3% - 1px); width: -moz-calc(33.3% - 1px); width: calc(33.3% - 1px); }
+.list-img4>dt { background: #ac965c; color: #fff; font-family: NanumMyeongjo, 나눔명조, 'Nanum Myeongjo'; font-size: 1.714em; line-height: 1.25; }
+.list-img4>dt>div, .list-img4>dd>div { position: relative; display: block; width: 100%; height: 0; padding: 0 0 55%; height: 168px\9; padding: 0\9; }
+.list-img4>dt>div>span { position: absolute; display: block; left: 0; top: 0; width: 100%; height: 100%; padding: 0 0.5em 0 1em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-top: 40px\9; }
+.list-img4>dt>div>span strong, .list-img4>dt>div>span:after { display: inline-block; vertical-align: middle; }
+.list-img4>dt>div>span:after { width: 1px; height: 100%; content: ''; }
+.list-img4>dt>div>span strong { overflow: hidden; width: 99%; font-weight: normal; max-height: 5em; }
+.list-img4>dt>div>span strong span { display: block; font-weight: 800; ; }
+.list-img4>dd>div img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img4>*:nth-child(3n-2) { margin-left: 0; }
+.list-img5 { position: relative; }
+.list-img5:after { content: "."; height: 0; font-size: 0; visibility: hidden; display: block; clear: both; }
+.list-img5>li { float: left; width: 220px; }
+.list-img5>li>a:hover { text-decoration: none; }
+.list-img5>li figure { position: relative; overflow: hidden; }
+.list-img5>li figure .visual { position: relative; display: block; background: #fff; }
+.list-img5>li figure .visual img { position: relative; display: block; width: 100%; z-index: 0; }
+.list-img5>li figure figcaption { padding: 1px 0 0; padding: 0 1em 1em; border-bottom: 1px solid #dbdbdb; border-right: 1px solid #dbdbdb; background: #fff; }
+.list-img5>li figure figcaption h3 { padding: 0.571em 0; color: #333; }
+.list-img5>li figure figcaption>span { display: block; padding: 10px 0 0; color:#333; line-height: 1.3em; font-weight: 800; }
+.list-img5>li figure figcaption strong { overflow: hidden; display: block; margin: 0 0 0.5em; padding: 1em 0 0.5em; color: #333; line-height: 1.428; border-bottom: 1px solid #e5e5e5; text-overflow: ellipsis; white-space: nowrap; }
+.list-img5>li figure figcaption p { margin: 0.714em 0 0.5em; padding-bottom: 1.429em; line-height: 1.3em; border-bottom: 1px solid #e5e5e5; }
+.list-img5>li figure figcaption .btn-view { overflow: hidden; position: absolute; left: 0; bottom: 0; width: 100%; height: 7.214em; display: block; text-indent: -9999px; z-index: 1; background: rgba(0,0,0,0); background: url(http://imagem.nepa.co.kr/resources/img/blank.png); }
+.list-img5>li figure figcaption .info { position: relative; padding: 0 32% 0 0; font-size: 0.857em; line-height: 1.5; }
+.list-img5>li figure figcaption .info>li { overflow: hidden; display: block; text-overflow: ellipsis; white-space: nowrap; }
+.list-img5>li figure figcaption .info>li>span:first-child { position: absolute; left: -9999px; }
+.list-img5>li figure figcaption .info>li.cmd { overflow: visible; position: absolute; right: 0; top: 0; width: 30%; height: 3em; border-left: 1px solid #e5e5e5; text-align: center; text-overflow: clip; }
+.list-img5>li figure figcaption .info>li.cmd span { position: static; display: inline-block; vertical-align: middle; line-height: 3em; *display:inline; *zoom:1; }
+.list-img5>li figure figcaption .info>li.cmd span:first-child { width: 16px; height: 15px; line-height: 1; margin: 3px 4px 0; background: url(http://imagem.nepa.co.kr/resources/img/icon_set2_s1_3.png) no-repeat 50% 50%; text-indent: -9999px; }
+.list-img5>li figure figcaption .btn-view { display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img5>li figure figcaption .info-sns2 { display: none; position: absolute; bottom: 50%; left: 0; margin-bottom: 32px; text-align: center; width: 100%; z-index: 2; }
+.list-img5>li figure figcaption .info-sns2 li { float: none; display: inline-block; *display:inline; *zoom:1; }
+.list-img5.line>li figure figcaption { margin: 0; border: none; }
+.list-img5.line>li figure figcaption .info { font-size: 1em; }
+.list-img5.line>li figure figcaption .info>li { line-height: 2.85; }
+.list-img5.line>li figure figcaption .info>li.cmd span:first-child { width: 16px; height: 12px; background: url(http://imagem.nepa.co.kr/resources/img/icon_set2_s1_1.png) no-repeat 0 0; }
+.list-img5>li figure figcaption .info-sns3 { position: relative; padding: 0 32% 0 0; line-height: 2.85; *zoom:1; }
+.list-img5>li figure figcaption .info-sns3 em { display: block; }
+.list-img5>li figure figcaption .info-sns3 ul { position: absolute; bottom: 0; right: 0; overflow: hidden; z-index: 999; }
+.list-img5>li figure figcaption .info-sns3 ul li { float: left; }
+.list-img5>li figure figcaption .info-sns3 ul li span { display: block; text-indent: -9999px; width: 39px; height: 39px; border-left: 1px solid #e5e5e5; }
+.list-img5>li figure figcaption .info-sns3 ul li .facebook { background: url(http://imagem.nepa.co.kr/resources/img/icon_sns4_1.png) no-repeat 0 0; }
+.list-img5>li figure figcaption .info-sns3 ul li .tweet { background: url(http://imagem.nepa.co.kr/resources/img/icon_sns4_2.png) no-repeat 0 0; }
+/* #playGroundList .list-img5>li:hover figure:before { display: block; position: absolute; left: 0; bottom: 5.85em; width: 100%; height: 100%; background: rgba(0,0,0,0.4); content: ''; z-index: 1; } */
+#playGroundList .list-img5>li:hover figure span.visual:before { display: block; position: absolute; left: 0; top:0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); content: ''; z-index: 1; }
+#playGroundList .list-img5>li:hover figure figcaption .info-sns2 { display: block; }
+.list-img6 { overflow: hidden; }
+.list-img6>li { float: left; width: 7.833em; height: 7.833em; margin: 0 0 0 1em; }
+.list-img6>li:first-child { margin: 0; }
+.list-img6>li>a, .list-img6>li>div { display: block; position: relative; width: 100%; height: 0; padding: 0 0 100%; background: #f2f2f2; *height:100%; *padding:0; }
+.list-img6>li img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img6>li span { position: absolute; left: 0; bottom: 0; width: 100%; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 0.5em 0.166em; background: rgba(0,0,0,0.5); color: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; *width:82px; }
+.list-img7 { overflow: hidden; position: relative; }
+.list-img7:after { content: "."; height: 0; font-size: 0; visibility: hidden; display: block; clear: both; }
+.list-img7>li { float: left; width: 23%; margin: 0 1% 20px; font-size: 0.875em; line-height: 1.5; *margin:0 0.9% 20px;
+border-bottom: 1px solid #e5e5e5; }
+.list-img7>li a:hover { text-decoration: none; }
+.list-img7>li .visual { position: relative; width: 100%; height: 0; padding: 0 0 100%; *padding:0; *height:220px }
+.list-img7>li .visual img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img7>li .cate { display: block; margin: 1px 0 0; padding: 0 1.5em; color: #fff; background: #173e35; line-height: 2.083; font-weight: 800; }
+.list-img7>li .info { overflow: hidden; overflow: hidden; position: relative; height: 10.666em; padding: 1.416em 1.25em 4em; background: #fff; }
+.list-img7>li .info strong { overflow: hidden; display: block; margin: 0 0 0.333em; font-size: 1.166em; line-height: 1.428; color: #333; max-height: 2.856em; }
+.list-img7>li .info li.writer { overflow: hidden; overflow: hidden; max-height: 1.5em; text-overflow: ellipsis; white-space: nowrap; }
+.list-img7>li .info li.txt { overflow: hidden; max-height: 4.5em; margin-top: 1.166em; }
+.list-img7>li .info li.date { position: absolute; display: block; width: 85%; left: 1.25em; bottom: 1.25em; margin-right: -1.25em; padding-top: 0.583em; line-height: 1; border-top: 1px solid #e5e5e5; }
+.list-img7>li .info li>span:first-child { position: absolute; left: -9999px; }
+.list-img7.list-new>li .cate, .list-img7.list-deps1>li .cate { background: #c5b60e; }
+.list-scroll { position: relative; width: 100%; height: 7.833em; margin: 6px 0; padding: 0 2.5em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: auto\9; padding: 0\9; }
+.list-scroll .view { overflow: hidden; position: relative; width: 100%; height: 100%; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; overflow-x: auto \9; overflow-y: hidden\9; padding: 0 0 20px\9; }
+.list-scroll .view>div>div { border: none !important; background: rgba(0,0,0,0.1) !important; }
+.list-scroll>a { overflow: hidden; display: block; position: absolute; top: 0; width: 2.5em; height: 100%; text-indent: -9999px; display: none\9; opacity: 0.3; }
+.list-scroll>a.btn-prev { left: 0; background: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_333333.png) no-repeat 0 50%; }
+.list-scroll>a.btn-next { right: 0; background: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_333333.png) no-repeat 100% 50%; }
+.list-scroll.on>a { opacity: 1; }
+.list-product { overflow: hidden; border-bottom: 1px solid #173e35; }
+.list-product>li { position: relative; float: left; width: 23.5%; margin: 0 0 20px 1.9%; background: #fff; border-bottom: 1px solid #dbdbdb; margin: 0 17px 20px 0\9; width: 218px\9; }
+.list-product>li .visual { display: block; position: relative; width: 99.5%; height: 0; padding: 0 0 100%; border: 1px solid #e5e5e5; *padding:0; *height:216px; *text-align:center; }
+.list-product>li .visual img { position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: auto; max-height: 100%; max-width: 100%; width: auto; *position:static; }
+.list-product>li>ul { padding: 1em 1em 0; height: 7em; }
+.list-product>li>ul>li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #333; }
+.list-product>li>ul>li, .list-product>li>ul>li>strong { font-weight: 800; }
+.list-product>li>ul>li:first-child { font-size: 0.857em; line-height: 1.833; color: #666; }
+.list-product>li>ul>li>span:first-child { position: absolute; left: -9999px; }
+.list-product>li:nth-child(4n-3) { margin-left: 0; }
+.list-product>li .btn-shop, .list-product>li .btn-detail { position: absolute; right: 0; bottom: 8em; }
+.list-product>li.nodata { background: none; border-bottom: 0; margin: 0; }
+.wrap-aside .list-product { border-bottom: 0; }
+.icon-color { overflow: hidden; display: inline-block; width: 10px; height: 10px; text-indent: -9999px; }
+.icon-color.white { width: 8px; height: 8px; border: 1px solid #dbdbdb; }
+.list-color .color { overflow: hidden; display: inline-block; width: 10px; height: 10px; margin: 0 6px 0 0; text-indent: -9999px; border: 1px solid #999; vertical-align: middle; }
+@media only screen and (max-width:810px) {
+.list-img4>dt { font-size: 1.428em; }
+}
+@media only screen and (max-width:768px) {
+.list-img2>li .con>strong { font-size: 1.285em; }
+.list-img2>li .con>ul { margin-top: 0.36em; }
+.list-img2>li .con>ul li .btn-type2 { margin-top: 0.71em; }
+.list-img3>li .con { padding: 1em 0 0; }
+.list-img3>li .con strong { margin: 0 0 0.5em; font-size: 1.285em; }
+.list-img3>li .img span em { font-size: 1.428em; }
+.list-img4>dt { font-size: 1.142em; }
+}
+@media only screen and (max-width:720px) {
+.list-img7>li { width: 46%; margin: 0 2% 20px; }
+}
+@media only screen and (min-width:461px) and (max-width:720px) {
+.list-product>li { width: 30.5%; margin-left: 3.5% !important; }
+.list-product>li:nth-child(3n-2) { margin-left: 0 !important; }
+}
+@media only screen and (max-width:620px) {
+.list-img2>li .con { padding: 2% 1.428em 0; }
+.list-img2>li .con>strong { font-size: 1.142em; }
+.list-img2>li .con>ul li .btn-type2 { margin-top: 0.357em; }
+}
+@media only screen and (max-width:559px) {
+.list-img2>li { display: block; }
+.list-img2>li .img, .list-img2>li .con { display: block; width: auto; padding-bottom: 2.143em; }
+.list-img2>li .img { width: 100%; width: 100%; height: 0; padding: 0 0 66%; }
+.list-img2>li .img img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-img2>li .con { padding-top: 1.428em; }
+.list-img2>li .con>ul li .btn-type2 { display: block; margin: 1.072em 0 0 0; }
+.list-img2>li .con>ul li .btn-type2 a { display: block; }
+.list-img3>li { float: none !important; width: 100%; margin: 0; }
+.list-img3>li .con { height: auto; padding: 1em 0 1.458em; }
+.list-img4>dt, .list-img4>dd { float: none; width: 100% !important; margin: 0 0 1px !important; }
+.list-img4>dt { font-size: 1.714em; }
+}
+@media only screen and (max-width:460px) {
+.list-product>li { width: 47.5%; margin-left: 4% !important; }
+.list-product>li:nth-child(2n-1) { margin-left: 0 !important; }
+}
+@media only screen and (max-width:420px) {
+.list-img7>li { width: 100%; margin: 0 0 20px; }
+}
+@media only screen and (max-width:360px) {
+.list-img1 li:first-child { margin-right: 1.5%; }
+.list-img1 li { float: none; margin: 0; padding: 0 0 1.43em 0; width: 100%; }
+}
+.list-con1>div, .list-con1>li { display: table; padding: 0.142em 0; }
+.list-con1 .tit, .list-con1 .con { display: table-cell; }
+.list-con1 .tit { min-width: 3.2em; font-weight: normal; *font-weight:bold;
+}
+.list-con1 .con .tit { min-width: 4.7em; }
+.list-con1 .list-con1>div, .list-con1 .list-con1>li { padding: 0; }
+.list-con2>div, .list-con2>li { margin: 1.785em 0 0; padding: 1.785em 0 0; border-top: 1px solid #e5e5e5; }
+.list-con2>div:first-child, .list-con2>li:first-child { border-top: 0; padding-top: 0; }
+.list-con2 .tit { margin: 0 0 0.555em; font-size: 1.285em; color: #333; }
+.list-con2>div>ul, .list-con2>li ul { font-size: 0.857em; line-height: 1.5; }
+.list-con2>div>ul strong, .list-con2>li ul strong { font-size: 1.166em; display: block; }
+.list-con2 ul>li { padding: 2.25em 0 0; }
+.list-con2 ul>li:first-child { padding-top: 0; }
+.list-timeline { overflow: hidden; max-width: 680px; margin: 0 auto; padding: 2.143em 0 1.928em; background: url(http://imagem.nepa.co.kr/resources/img/dot_1x1_999999.gif) repeat-y 50% 0; border-bottom: 1px solid #999; }
+.list-timeline .heading { margin: 0 auto 2.5em; text-align: center; font-weight: 800; }
+.list-timeline .heading span { display: inline-block; padding: 0 1.25em; font-size: 1.142em; line-height: 2.5; background: #173e35; color: #fff; }
+.list-timeline ul>li { float: left; width: 50%; margin: 2.857em 0 0; }
+.list-timeline ul>li:first-child { margin: 0; }
+.list-timeline .title { position: relative; margin: 0 -0.25em 0.714em 0; padding: 0 1.678em 0 0; text-align: left; font-weight: 800; }
+.list-timeline .title span, .list-timeline .title strong { display: inline-block; padding: 0.357em 1.07em; line-height: 2.142; color: #fff; text-align: center; font-weight: 800; }
+.list-timeline .title span { background: #173e35; }
+.list-timeline .title strong { background: #827561; }
+.list-timeline .wrap { margin: 0 -0.571em 0 0; padding: 0.571em 0 0 0; background: url(http://imagem.nepa.co.kr/resources/img/icon_history_left.png) no-repeat 100% 0%; }
+.list-timeline .wrap.right { margin: 0 0 0 -0.571em; padding: 0.571em 0 0 0; background: url(http://imagem.nepa.co.kr/resources/img/icon_history_right.png) no-repeat 0 0; background-size: 3.5rem 1.143rem; }
+.list-timeline .con { margin: 0 3.45em 0 0; padding: 1.429em; font-size: 0.857em; line-height: 1.666; background: #fff; border: 1px solid #e5e5e5; -webkit-box-shadow: 0px 2px 3px #f2f2f2; -moz-box-shadow: 0px 2px 3px #f2f2f2; box-shadow: 0px 2px 3px #f2f2f2; }
+.list-timeline .con p { }
+.list-timeline .con p em { display: block; padding: 0 0 0 0.833em; background: url(http://imagem.nepa.co.kr/resources/img/dot_4x4_c5b60e.gif) no-repeat 0 0.666em; }
+.list-timeline .con p strong { display: block; padding: 0.643em 0 0 0; font-size: 1.166em; font-weight: 800; line-height: 1.5; color: #333; }
+.list-timeline .con p span { display: block; overflow: hidden; max-height: 5em; padding: 1em 0 0; }
+.list-timeline .img { position: relative; height: 0; padding: 0 0 65%; *height:208px; *padding:0; }
+.list-timeline .img img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.list-timeline .btn { display: block; margin: 0 1.333em; padding: 0.5em 0; border-top: 1px solid #e5e5e5; }
+.list-timeline .visual .con { position: relative; padding-top: 2.25em; padding-bottom: 0; background: none; }
+.list-timeline .visual .con p { padding: 0; }
+.list-timeline .visual .con p em { position: absolute; left: 0; top: 0; }
+.list-timeline .visual .con p strong { position: relative; overflow: hidden; margin-top: -3.5em; padding: 0 1em; height: 3.5em; line-height: 3.5; color: #fff; background: url(http://imagem.nepa.co.kr/resources/img/bg_opacity_50.png); text-overflow: ellipsis; white-space: nowrap; border: none; }
+.list-timeline .visual .img { border: 1px solid #e5e5e5; border-bottom: 0; }
+.list-timeline .visual .btn { margin-left: 0; margin-right: 0; border: 0; }
+.list-timeline .photo .con { padding: 0.916em 0.916em 0; }
+.list-timeline .photo .con p { padding: 1.333em 0 1em; }
+.list-timeline .photo .btn { margin: 0; }
+.list-timeline .movie .img:after { position: absolute; display: block; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3) url(http://imagem.nepa.co.kr/resources/img/icon_movie.png) no-repeat 50% 50%; content: ''; background: url(http://imagem.nepa.co.kr/resources/img/icon_movie.png) no-repeat 50% 50%\9; }
+.list-timeline ul>li.right { float: right; }
+.list-timeline ul>li.right .title { text-align: left; margin: 0 0 0.714em -0.25em; padding: 0 0 0 0.25em; background-position: 0 50%; }
+.list-timeline ul>li.right .title:after { left: 1.178em; margin-left: 0; background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_7x8_173e35.png); }
+.list-timeline ul>li.right .con { margin: 0 0 0 3.45em; }
+.list-timeline ul>li.nodata { background: #fff; margin: 0 0 -1.928em; border-top: 0; }
+@media only screen and (max-width:520px) {
+.list-timeline { background: none; }
+.list-timeline .wrap, .list-timeline .wrap.right { margin: 0; padding: 0; background: none; }
+.list-timeline ul>li { clear: both; position: relative; float: none !important; width: 100% !important; padding: 0; }
+.list-timeline .con { margin: 0 !important; }
+}
+.visual-img { text-align: center; margin: 30px 0 0; }
+.visual-img img { width: auto; max-width: 100%; }
+.visual-img1 { max-width: 680px; margin: 30px auto 0; }
+.visual-img1 img { width: 100%; }
+.visual-img1.line { max-width: 678px; border: 1px solid #dddddd; }
+.wrap-primary .section-main .visual-img1 { max-width: 920px; }
+.wrap-primary .section-main .visual-img1.line { max-width: 918px; }
+.visual-img2 { position: relative; width: 100%; margin: 30px auto 0; max-width: 680px; }
+.visual-img2 .slides img { width: 100%; }
+.visual-img2 .flex-control-paging { padding: 1em 0 0; text-align: center; }
+.visual-img2 .flex-control-paging>li { display: inline-block; margin: 0 0.2em; *display:inline; *zoome:1; }
+.visual-img2 .flex-control-paging>li a { overflow: hidden; display: inline-block; width: 0.785em; height: 0.785em; border-radius: 1em; border: 1px solid #ddd; background: #d8d9d8; text-indent: -9999px; vertical-align: top; }
+.visual-img2 .flex-control-paging>li a.flex-active { background-color: #c5b60e; border-color: #c5b60e; }
+.visual-img2.visual-thum .slides { overflow: hidden; }
+.visual-img2.visual-thum .flex-control-paging { text-align: left; }
+.visual-img2.visual-thum .flex-control-paging li { margin: 0 10px 10px 0; }
+.visual-img2.visual-thum .flex-control-paging li a { width: 4.571em; height: 3.142em; border: 8px solid #fff; border-radius: 0; background: #fff; background-size: 100% 100% !important; }
+.visual-img2.visual-thum .flex-control-paging>li a.flex-active { }
+.visual-img3 { margin: 30px auto 25px; padding: 7.5% 1.43em; max-width: 680px; text-align: center; background: #f5f5f5; }
+.visual-img3 .img1 { display: block; margin: 0 auto; width: auto; max-width: 100%; max-height: 153px; }
+.visual-img4 { margin: 20px 0 0; }
+.visual-img4 figcaption { margin: 1em 0 0; font-size: 0.857em; line-height: 1.5; }
+.visual-img4.w-auto img { width: auto; max-width: 100%; }
+.visual-img4.caption { position: relative; width: 100%; }
+.visual-img4.caption figcaption { position: absolute; left: 0; bottom: 0; width: 100%; padding: 0.75em 1em 0.666em; background: rgba(0,0,0,0.7); text-align: center; color: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: url(http://imagem.nepa.co.kr/resources/img/bg_opacity_50.png) repeat\9; *padding:0.75em 5% 0.666em; *width:90%; }
+.visual-img5 { margin: 20px 0; }
+.visual-img5>.box { background: #5c5031; padding: 1.785em 2.142em; color: #fff; }
+.visual-img5>.box>p:first-child { margin-top: 0; }
+.visual-img6 { overflow: hidden; margin: 20px 0 0; }
+.visual-img6>img { float: right; width: 67%; }
+.visual-img6>.box { float: left; width: 33%; padding: 2.642em 2em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color: #fff; text-align: left; width: 26%\9; }
+.visual-img6>.box strong { font-size: 1.285em; line-height: 1.3; font-weight: normal; }
+.visual-img6>.box p { margin: 1.5em 0 0; }
+.visual-img6>.box p:first-child { margin: 0; }
+.visual-img6.visual-ratio>img, .visual-img6.visual-ratio>.box { width: 50%; }
+.visual-img6.visual-ratio>img { float: left; }
+.visual-img6.visual-ratio>.box { float: right; width: 50%; padding: 2.642em 4%; *width:42%; }
+.visual-img6.bg1 { background: #6699cc; }
+.visual-img6.bg2 { background: #141414; }
+.visual-thum { position: relative; }
+.visual-thum .detail { position: relative; width: 100%; height: 0; margin: 0 auto; padding: 0 0 100%; background: #fff; *height:450px; *padding:0; *text-align:center; }
+.visual-thum .detail img { position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: auto; max-width: 100%; max-height: 100%; *width:100%; *height:100%; }
+.visual-thum .thum { position: relative; margin: 0.714em 0 0; padding: 0 61px 0 0; background: #fff; padding: 0\9; }
+.visual-thum .view { position: relative; overflow: hidden; }
+.visual-thum .view li { float: left; width: 64px; border-left: 1px solid #f2f2f2; background: #fff; width: 63px\9; }
+.visual-thum .view li:first-child { border: 0; }
+.visual-thum .view li a { display: block; position: relative; width: 100%; height: 0; padding: 0 0 100%; *height:64px; *padding:0; *text-align:center; }
+.visual-thum .view li a img { position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: auto; max-width: 100%; max-height: 100%; }
+.visual-thum .view>div>div { border: none !important; background: rgba(0,0,0,0.1) !important; }
+.visual-thum .btn-next { display: block; position: absolute; bottom: 0; width: 60px; height: 64px; text-indent: -9999px; right: 0; background: #fff url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_333333.png) no-repeat 50% 50%; border-left: 1px solid #f2f2f2; display: none\9; }
+.visual-sub { position: relative; margin: 0 0 40px 0; width: 100%; zoom: 1; }
+.visual-sub .slides { overflow: hidden; width: 100%; margin: 0; padding: 0; zoom: 1; }
+.visual-sub .slides li { position: relative; width: 100%; height: 580px; overflow: hidden; text-align: center; }
+.visual-sub .slides li:after { display: inline-block; width: 1px; height: 100%; vertical-align: middle; content: ''; }
+.visual-sub .slides li a { display: block; text-decoration: none; height: 100%; }
+.visual-sub .slides li img { display: block; position: absolute; left: 50%; top: 0; margin-left: -960px; width: 1920px; height: 100%; z-index: 1; }
+.visual-sub .flex-direction-nav li>a { display: block; position: absolute; top: 45%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; background: #fff; width: 4.286em; height: 4.286em; text-indent: -9999px; }
+.visual-sub .flex-direction-nav .flex-prev { left: 15%; background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_60x60_000000.png); }
+.visual-sub .flex-direction-nav .flex-next { right: 15%; background-image: url(http://imagem.nepa.co.kr/resources/img/arr2_60x60_000000.png); }
+.visual-sub:hover .flex-prev { opacity: 1; left: 15%; }
+.visual-sub:hover .flex-next { opacity: 1; right: 15%; }
+.visual-sub:hover .flex-next:hover, .visual-sub:hover .flex-prev:hover { opacity: 1; }
+.sub-img { overflow: hidden; }
+.sub-img .flex-viewport, .sub-img2 .flex-viewport { margin: 0 auto; padding: 0 15px; width: 650px !important; overflow: visible !important; }
+.sub-img .slides li { margin: 0; width: 650px; height: 376px; }
+.sub-img .slides li a { display: block; height: 100%; }
+.sub-img .slides li img { left: 10px; width: 100%; height: auto; margin: 0; }
+.sub-img2 { overflow: hidden; }
+.sub-img2 .slides li { overflow: hidden; margin: 0; width: 660px; height: 390px; text-align: left; }
+.sub-img2 .slides li a { display: block; height: 100%; margin: 0 7px 0 8px; color: #333; background: #fff; }
+.sub-img2 .slides li img { left: 0; width: 100%; height: auto; margin: 0; }
+.sub-img2 .slides li figure { position: relative; overflow: hidden; }
+.sub-img2 .slides li .visual { position: relative; display: block; height: auto; }
+.sub-img2 .slides li .visual:after { position: absolute; bottom: 0; left: 7%; width: 1.357em; height: 0.714em; content: ''; background: url(http://imagem.nepa.co.kr/resources/img/arr1_10x19_ffffff.png) no-repeat 0 0; }
+.sub-img2 .slides li .visual img { position: relative; display: block; width: 100%; z-index: 0; }
+.sub-img2 .slides li h2 { padding: 1.214em 2.143em 0; }
+.sub-img2 .slides li strong { overflow: hidden; display: block; padding: 0 1.250em 0; font-size: 1.714em; font-weight: 800; line-height: 1.428; text-overflow: ellipsis; white-space: nowrap; }
+.sub-img2 .slides li p { margin: 0.714em 2.143em 1.07em; padding-bottom: 0.714em; line-height: 1.3em; }
+.visual-movie1 { position: relative; width: 100%; max-width: 920px; height: 0; margin: 30px auto; padding: 0 0 56.30%; *height:518px; *padding:0; }
+.visual-movie1 iframe { position: absolute; left: 0; top: 0; width: 100%; height: 100%; border: 0; outline: none; *position:static; }
+.visual-movie2 { position: relative; width: 100%; margin: 0 auto; height: 0; padding: 0 0 56.30%; *height:auto; *padding:0; background: #000; }
+.visual-movie2 iframe { position: absolute; left: 0; top: 0; width: 100%; height: 100%; border: 0; outline: none; *position:static; }
+.visual-map { width: 100%; min-height: 435px; margin: 20px 0 0; }
+.visual-gallery { margin: 30px 0; background: #fff; }
+.visual-gallery .view { position: relative; width: 100%; }
+.visual-gallery .view ul li span { display: block; position: relative; width: 100%; height: 0; padding: 0 0 60%; *height:585px; *padding:0; *text-align:center; }
+.visual-gallery .view ul li span img { position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: auto; max-width: 100%; max-height: 100%; *position:static; }
+.visual-gallery .view .flex-direction-nav a, .visual-gallery .view .flex-pauseplay a { position: absolute; overflow: hidden; display: block; text-indent: -9999px; }
+.visual-gallery .view .flex-direction-nav a { top: 50%; width: 60px; height: 60px; margin-top: -30px; background: #173e35; background-position: 50% 50%; background-repeat: no-repeat; }
+.visual-gallery .view .flex-direction-nav .flex-prev { left: 0; background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_ffffff.png); background-repeat: no-repeat }
+.visual-gallery .view .flex-direction-nav .flex-next { right: 0; background-image: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_ffffff.png); background-repeat: no-repeat }
+.visual-gallery .view .flex-pauseplay a { right: 20px; bottom: 20px; width: 38px; height: 38px; border: 1px solid #ddd; background: #fff; background-position: 50% 50%; background-repeat: no-repeat; }
+.visual-gallery .view .flex-pauseplay .flex-pause { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_play_stop.png); }
+.visual-gallery .view .flex-pauseplay .flex-play { background-image: url(http://imagem.nepa.co.kr/resources/img/icon_play_start.png); }
+.visual-gallery-sub { margin-top: -2.142em; margin-bottom: 2.142em; padding: 2.142em 1.428em; background: #fff; border-top: 1px solid #f2f2f2; }
+.visual-gallery-sub .form-type2 { border-top: 0; padding-top: 0; }
+@media only screen and (max-width:767px) {
+.visual-gallery .view ul li span { padding-bottom: 100%; }
+.visual-gallery .view .flex-pauseplay a { right: 0.5em; bottom: 0.5em; }
+.visual-gallery-sub { padding: 1.428em; }
+.visual-img6>img, .visual-img6>.box { float: none !important; display: block !important; width: 100% !important; }
+.visual-img6>.box { padding: 1.785em 2.142em; }
+.visual-img6>.box strong { font-size: 1.142em; }
+.visual-sub .slides li { overflow: hidden; margin: 0; width: 100%; height: 400px; }
+.visual-sub .slides li img { margin-left: -640px; width: 1280px; }
+.wrap-index { background-size: auto 620px !important }
+.sub-img .slides li, .sub-img2 .slides li { height: 321px }
+.sub-img .slides li img, .sub-img2 .slides li img { margin-left: 0; width: 100%; }
+.sub-img2 .flex-viewport { width: 472px !important; }
+.sub-img2 .slides li figure figcaption h2 { margin: 0; }
+.sub-img2 .slides li figure figcaption strong { font-size: 1em; padding: 0 2.143em; }
+}
+@media only screen and (max-width:640px) {
+.sub-img2 .flex-direction-nav li>a { top: 20%; }
+.visual-sub .flex-direction-nav .flex-prev { opacity: 1; left: 0; }
+.visual-sub .flex-direction-nav .flex-next { opacity: 1; right: 0; }
+.sub-img .flex-viewport, .sub-img2 .flex-viewport { margin: 0; padding-left: 0; width: 100% !important; overflow: hidden !important; }
+.sub-img .slides li img { left: 0; }
+.sub-img2 .slides li a { margin: 0; }
+.visual-img4 img { width: 100%; }
+.sub-img2 .slides li { height: 370px }
+.sub-img, .sub-img2 { margin: 0 0 30px; width: auto; }
+}
+@media only screen and (max-width:480px) {
+.visual-img img { width: 100%; }
+.visual-gallery .view .flex-direction-nav a { width: 2.5em; height: 5em; margin-top: -2.5em; }
+.visual-gallery .view .flex-pauseplay a { width: 2.5em; height: 2.5em; }
+.visual-img5>.box, .visual-img6>.box { padding: 0.857em 1em; }
+.sub-img .slides li { height: 187px }
+.sub-img2 .slides li { height: 320px }
+}
+@media only screen and (max-width:370px) {
+.sub-img2 .slides li { height: 280px }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.visual-sub .flex-direction-nav li>a { width: 50px; height: 50px; background-size: 100%; }
+.visual-gallery .view .flex-direction-nav .flex-prev { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr4_13x25_ffffff.png); background-size: 13px 25px; }
+.visual-gallery .view .flex-direction-nav .flex-next { background-image: url(http://imagem.nepa.co.kr/resources/img/640/arr2_13x25_ffffff.png); background-size: 13px 25px; }
+}
+.tbl-type1 { width: 100%; margin: 20px 0; border-left: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5; }
+.tbl-type1 th, .tbl-type1 td { padding: 0.392em 1.5em; border-right: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; }
+.tbl-type1 thead th { text-align: center; }
+.tbl-type1 tbody th { width: 5.5em; *width:auto; }
+.tbl-type1.tbl-list th, .tbl-type1.tbl-list td { text-align: center; }
+.tbl-type1.tbl-list th { background: #f5f5f5; }
+.tbl-type1.tbl-list .zipcode td a { display: block; text-align: left; }
+.tbl-type1.tagree { margin: 0 0 20px; }
+.tbl-type1.tagree td { text-align: left; }
+.board-view .view-area .tbl-type1 { width: 100%; }
+.board-view .view-area .tbl-type1 th, .board-view .view-area .tbl-type1 td { padding: 0.392em 0.5em; }
+@media only screen and (max-width:767px) {
+.tbl-type1 th, .tbl-type1 td { padding-left: 1em; padding-right: 1em; }
+.tbl-type1 tbody th { width: 8em; }
+}
+@media only screen and (max-width:480px) {
+.tbl-type1 { font-size: 0.857rem; }
+.tbl-type1 th, .tbl-type1 td { padding-left: 0.5em; padding-right: 0.5em; }
+.tbl-type1 tbody th { width: 5.8em; }
+}
+.board-list { margin: 0 0 10px; border-top: 2px solid #173e35; border-bottom: 1px solid #173e35; }
+.board-list>li { position: relative; padding: 1.714em 0 1.785em 5em; border-top: 1px solid #e5e5e5; *min-width:610px;
+}
+.board-list>li:first-child { border-top: 0; }
+.board-list>li>em:first-child { position: absolute; left: 0; top: 2.142em; width: 3.571em; line-height: 3.571em; background: #173e35; color: #fff; text-align: center; }
+.board-list>li>em:first-child span { display: none; }
+.board-list>li>strong { overflow: hidden; display: inline-block; padding: 0.2em 0; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.3; color: #333; vertical-align: top; }
+.board-list>li>strong>em:first-child { display: inline-block; margin: 0 0.4em 0 0; padding: 0 0.6em 0 0; border-right: 2px solid #333; line-height: 1; }
+.board-list>li>strong+em { display: inline-block; margin: 0.357em 0 0 0.5em; padding: 0.333em 0.642em 0.416em; background: #173e35; color: #fff; font-size: 0.857em; line-height: 1; vertical-align: middle; }
+.board-list>li>strong+em.end { background: #999; }
+.board-list>li>span:not(.visual) { margin: 0.714em 0 0; display: block; overflow: hidden; max-height: 5.14em; }
+.board-list>li>.info { overflow: hidden; margin: 0.5em 0 0; }
+.board-list>li>.info li { float: left; display: inline-block; padding: 0 0.714em 0 0; }
+.board-list>li>.info li>span { font-weight: bold; }
+.board-list>li>.info li.dday { color: #173e35; }
+.board-list>li>a { overflow: hidden; display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; text-indent: -9999px; }
+.board-list.board-state>li>strong { max-width: 90%; text-overflow: ellipsis; white-space: nowrap; }
+.board-list.board-data>li { padding-right: 10em }
+.board-list.board-data>li>strong { margin: 0; }
+.board-list.board-data>li .info .value { position: absolute; right: 0; top: 50%; margin-top: -0.857em; }
+.board-list.board-data>li .info .value>span { font-weight: normal; }
+.board-list.board-data>li .info .value strong { color: #173e35; font-weight: 600; font-size: 1.285em; line-height: 1.333; }
+.board-list.board-data>li .info .value strong.use { color: #ff0000; }
+.board-list.board-select>li { padding-left: 11.428em; }
+.board-list.board-select>li .visual { float: left; width: 6.357em; height: 6.357em; margin: 0 1.357em 1em -9em; }
+.board-list.board-select>li .visual img { width: 100%; height: 100%; }
+.board-list.board-select>li .label-check { position: absolute; left: 0; top: 2.857em; }
+.board-list.board-select>li .label-check label { text-indent: -9999px; }
+.board-list.board-select>li>strong { margin: 0; text-overflow: ellipsis; white-space: nowrap; }
+.board-list.board-select>li>strong a { color: #333; }
+.board-list.board-select>li>strong, .board-list.board-select>li>span { display: block; margin-right: 11em; }
+.board-list.board-select>li .info { margin: 0; overflow: hidden; }
+.board-list.board-select>li .info li { float: right; padding: 0; }
+.board-list.board-select>li .info li:first-child { float: none; position: relative; width: auto; }
+.board-list.board-select>li .btn { position: absolute; right: 0; bottom: 1.714em; overflow: hidden; }
+.board-list.board-select>li .btn li { display: inline-block; padding-left: 2em; vertical-align: middle; }
+.board-list.board-select>li .btn li:first-child { padding: 0; }
+.board-list.board-search>li { padding-left: 11em; min-height: 9.428em; }
+.board-list.board-search>li .visual { position: absolute; left: 0; top: 50%; width: 10em; height: 9.428em; margin-top: -4.714em; background: #f5f5f5 url(http://imagem.nepa.co.kr/resources/img/logo_header.png) no-repeat 50% 50%; }
+.board-list.board-search>li .visual img { width: 100%; height: 100%; }
+.board-list.board-search>li>strong { display: block; }
+.board-list.board-search>li>.info li { margin-right: 10px; background: url(http://imagem.nepa.co.kr/resources/img/bar_1x12_cccccc.png) no-repeat 100% 50%; }
+.board-list.board-search>li>.info li:last-child { margin: 0; background: none; }
+.board-list.board-search>li>.info li>span:first-child { display: none; }
+.board-list.board-search mark { color: #c5b60e; }
+@media screen\9 {
+.board-list.board-select>li .label-check label { display: block; }
+.board-list.board-select>li { min-width: auto; width: 520px !important; }
+.board-list.board-select>li.nodata { width: 100% !important; }
+.board-list.board-select>li .btn { width: 200px; }
+.board-list.board-select>li .btn li { display: inline; }
+}
+.board-form>.form { margin: 2px 0 0; border-bottom: 1px solid #e5e5e5; }
+.board-form>.form .label-check label { padding-left: 2.142em; }
+.board-form>.form + .board-list { border-top: 0; }
+.board-qna { overflow: hidden; margin: 0 0 10px; border-bottom: 1px solid #173e35; }
+.board-qna>li { position: relative; border-top: 1px solid #e5e5e5; *min-width:630px;
+}
+.board-qna>li:first-child { border-top: 0; }
+.board-qna>li .heading { position: relative; display: block; padding: 0 3.571em 0 0; }
+.board-qna>li .heading>h3 { padding: 2.142em 0; }
+.board-qna>li .heading>h3>span, .board-qna li .heading>h3>em { display: inline-block; vertical-align: middle; }
+.board-qna>li .heading>h3>em { width: 5.714em; margin: 0 1.428em 0 0; padding: 0.9285em 0; background: #173e35; color: #fff; text-align: center; }
+.board-qna>li .heading>h3>span { width: 80%; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.25; font-weight: 800; color: #333; }
+.board-qna>li .heading>a { overflow: hidden; display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; text-indent: -9999px; }
+.board-qna>li .heading>a span { display: block; position: absolute; right: 10px; top: 50%; width: 50px; height: 50px; margin-top: -25px; background: url(http://imagem.nepa.co.kr/resources/img/arr_qna_open.png) no-repeat 100% 50%; }
+.board-qna>li .heading>span, .board-qna>li .heading>em { display: inline-block; vertical-align: middle; }
+.board-qna>li .answer { display: none; }
+.board-qna>li.open .heading { }
+.board-qna>li.open .heading>a span { background-image: url(http://imagem.nepa.co.kr/resources/img/arr_qna_close.png); }
+.board-qna>li.open .answer { display: block; padding: 0 0 1.785em; }
+.board-view { margin: 0 0 10px; padding: 0 0 2.142em; border-top: 2px solid #173e35; border-bottom: 1px solid #173e35; }
+.board-view>h2, .board-view .header h2 { padding: 0.75em 0; border-bottom: 1px solid #e5e5e5; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.428em; line-height: 1.5; color: #333; }
+.board-view>h2>em:first-child, .board-view .header h2>em:first-child { display: inline-block; margin: 0 0.4em 0 0; padding: 0 0.6em 0 0; border-right: 2px solid #333; line-height: 1; }
+.board-view .header { position: relative; padding: 0.75em 4.642em 0.75em 0; border-bottom: 1px solid #e5e5e5; *width:auto; *padding-right:65px; }
+.board-view .header h2 { padding: 0; border: 0; }
+.board-view .header p strong { display: inline-block; padding: 0 3em; background: #173e35; color: #fff; line-height: 2.5; *display:inline; *zoom:1; }
+.board-view .header p span { display: block; margin: 1em 0 0.285em; padding: 0 0 0 0.857em; background: url(http://imagem.nepa.co.kr/resources/img/dot_4x4_c5b60e.gif) no-repeat 0 0.714em; }
+.board-view .header .info-sns1 { position: absolute; right: 0; bottom: 0.75em; }
+.board-view>.info { overflow: hidden; }
+.board-view>.info>li { float: left; padding: 0.571em 0.714em 0.571em 0; }
+.board-view>.info>li.sub, .board-view .info>li.sub2 { float: right; padding-right: 0; padding-left: 0.571em; }
+.board-view>.info>li.dday { color: #173e35; }
+.board-view>.info>li>span { font-weight: bold; }
+.board-view>.info>li .info-sns2 { margin: -0.285em 0; }
+.board-view>.info>li .info-sns2 li { width: 26px; height: 26px; }
+.board-view>.info>li .info-sns2 li span.facebook { background-position: 0 -96px }
+.board-view>.info>li .info-sns2 li span.tweet { background-position: -32px -96px }
+.board-view>.info>li .info-sns2 li span.bookmark { background-position: -64px -96px }
+.board-view .view-area { position: relative; margin: 0 0 2.142em; padding: 2.5em 0; border-top: 2px solid #173e35; border-bottom: 1px solid #e5e5e5; *width:100%; }
+.board-view .view-area .visual-img, .board-view .view-area .visual-img1 { margin: 0 auto; }
+.board-view .view-area .visual-img2 { margin: 0 auto 0.714em; }
+.board-view .view-area .info-file { position: relative; overflow: hidden; margin: 2.142em 0 0; padding: 0 4.428em; border: 1px solid #e5e5e5; line-height: 4; }
+.board-view .view-area .info-file dt, .board-view .view-area .info-file dd.del { position: absolute; display: block; height: 100%; text-indent: -9999px; }
+.board-view .view-area .info-file dt { left: 0; top: 0; width: 4.285em; background: #fff url(http://imagem.nepa.co.kr/resources/img/icon_download.png) no-repeat 50% 50%; border-right: 1px solid #e5e5e5; }
+.board-view .view-area .info-file dd { overflow: hidden; display: block; text-overflow: ellipsis; white-space: nowrap; padding: 0 1.5em; }
+.board-view .view-area .info-file dd.del { right: 0; top: 0; width: 4em; padding: 0 0 0 1px; ; background: url(http://imagem.nepa.co.kr/resources/img/bar_1x18_e5e5e5.gif) no-repeat 0 50%; }
+.board-view .view-area .info-file dd.del a { display: block; width: 100%; height: 100%; background: #fff url(http://imagem.nepa.co.kr/resources/img/close_14x14_666666.png) no-repeat 50% 50%; }
+.board-view .answer-area { position: relative; margin: 0; border-top: 2px solid #173e35; }
+.board-view .answer-area h3 { padding: 0.571em 9.28em 0.571em 0; color: #333; border-bottom: 1px solid #e5e5e5; }
+.board-view .answer-area .info { position: absolute; right: 0; top: 0; }
+.board-view .answer-area .answer { padding: 2.5em 0 0; }
+.board-view .view-area + .answer-area { margin-top: -2.214em; }
+.board-view2 { padding: 0 2.142em; }
+.board-view2 .info-area { margin: 0 -2.142em 2em; padding: 1em 2.142em; overflow: hidden; border-bottom: 1px solid #d9d9d9; }
+.board-view2 .info-area .info { overflow: hidden; }
+.board-view2 .info-area .info>li { float: left; padding: 0 0 0 1.428em; line-height: 2.285; }
+.board-view2 .info-area .info>li:first-child { padding: 0 1.428em 0 0; background: url(http://imagem.nepa.co.kr/resources/img/bar_1x13_cecece.gif) no-repeat 100% 50%; color: #333; }
+.board-view2 .info-area .info>li>span:first-child { position: absolute; left: -9999px; }
+.board-view2 .info-area .info>li.sub { float: right; }
+.board-view2 .bottom-area { margin: 4em -2.142em 0; padding: 0 2.142em; border-top: 1px solid #d9d9d9; }
+.board-view2 h2 { margin: 0 0 0.66em; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.714em; line-height: 1.25; color: #000; }
+.board-view2 .visual-area { position: relative; }
+.board-view2 .visual-area .btn { display: block; position: absolute; top: 50%; width: 3.571em; height: 3.571em; margin-top: -1.785em; background: #173e35 url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_ffffff.png) no-repeat 50% 50%; text-indent: -9999px; }
+.board-view2 .visual-area .btn.btn-prev { left: -4.285em; }
+.board-view2 .visual-area .btn.btn-next { right: -4.285em; background-image: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_ffffff.png); }
+.board-view2 .visual-area .visual-img { margin: 4em auto; }
+.board-view3 { margin: 0 0 10px; padding: 0 0 2.142em; border-top: 2px solid #173e35; border-bottom: 1px solid #173e35; }
+.board-view3 .header { position: relative; }
+.board-view3 .header p { padding: 0.93em 0; color: #827561; font-weight: 800; line-height: 1; border-bottom: 1px solid #e5e5e5; }
+.board-view3 .header p strong { display: inline-block; font-size: 3.571em; font-family: Nepa; }
+.board-view3 .header p span { display: inline-block; font-size: 1.429em; padding: 0 1em; }
+.board-view3 .header h2 { padding: 0.75em 0; width: 70%; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 1.429em; line-height: 1.5; color: #333; }
+.board-view3 .header .info-sns { position: absolute; right: 0; bottom: 1em; }
+.board-view3>.info { padding: 0.714em 0; color: #333; font-weight: bold; border-top: 1px solid #e5e5e5; border-bottom: 2px solid #173e35; }
+.icon-cmd1, .icon-cmd2, .icon-cmd3 { overflow: hidden; display: block; width: 55px; height: 55px; width: 3.928rem; height: 3.928rem; text-indent: -9999px; *vertical-align:top; }
+.icon-cmd1 { background: url(http://imagem.nepa.co.kr/resources/img/icon_cmd1_1.png) no-repeat 50% 50%; }
+.icon-cmd2 { background: url(http://imagem.nepa.co.kr/resources/img/icon_cmd1_2.png) no-repeat 50% 50%; }
+.icon-cmd3 { background: url(http://imagem.nepa.co.kr/resources/img/icon_cmd1_3.png) no-repeat 50% 50%; }
+.form-cmd { position: relative; height: 3.571em; margin: 14px 0 10px; padding: 0.857em 0.5em 0.857em 7.5em; border: 1px solid #dadbda; background: #fff; *z-index:1; }
+.form-cmd .mes { display: table; margin: -0.857em 0 -0.857em -7.5em; height: 5.285em; padding: 0 0 0 6.357em; background: url(http://imagem.nepa.co.kr/resources/img/icon_cmd1_1.png) no-repeat 0.5em 50%; }
+.form-cmd .mes strong { position: relative; display: table-cell; padding: 0 1em; font-weight: normal; line-height: 1.5; vertical-align: middle; *display:inline-block; *border-left:1px solid #d8d9d8; *line-height:5.285em; }
+.form-cmd .mes strong:before { position: absolute; left: -1.5em; top: 0; width: 1.5em; height: 5.285em; margin-left: 1px; content: ''; background: url(http://imagem.nepa.co.kr/resources/img/arr3_11x6_666666.png) no-repeat 0 50%; border-right: 1px solid #d8d9d8; }
+.form-cmd .select-radio { position: absolute; left: 0; top: 0; width: 8.142em; margin: -1px; }
+.form-cmd .select-radio>div strong { min-width: 0; padding: 0 1.5em 0 0.5em; }
+.form-cmd .select-radio>div strong span { height: 5.285em; line-height: 5.285; background-position: 50% 50%; }
+.form-cmd .select-radio>ul { top: 5.285em; margin-top: 1px; }
+.form-cmd .select-radio>ul label { line-height: 5.285; padding-left: 0.5em !important; }
+.form-cmd .select-radio>ul label span { *background-position:50% 0; }
+.form-cmd .label { position: absolute; left: 7.5em; top: 0.642em; z-index: 1; }
+.form-cmd .textarea { display: block; border: none; position: relative; width: 100%; height: 3.571em; padding: 0; z-index: 0; background: #fff; }
+.form-cmd .textarea.valueon { z-index: 2; }
+.board-cmd .btn { margin: 14px 0; text-align: right; }
+.board-cmd .btn strong { display: inline-block; padding: 0 0.714em 0 0; line-height: 2.857; vertical-align: top; }
+.board-cmd .btn .label-check { vertical-align: top; }
+.board-cmd .btn .label-check label { margin: 0; }
+.list-cmd>li { position: relative; padding: 1em 15em 1em 4.428em; border-top: 1px solid #e5e5e5; *width:648px; }
+.list-cmd>li>strong { float: left; margin: 0 0 0 -4.428em; padding: 0 1em 0 0.5em; overflow: hidden; display: block; width: 36px; height: 36px; background: url(http://imagem.nepa.co.kr/resources/img/icon_cmd2.png) no-repeat 0 0; }
+.list-cmd>li>p { line-height: 1.5; }
+.list-cmd>li>.info { overflow: hidden; margin: 1em 0 0; color: #999; font-size: 0.857em; line-height: 1.5; }
+.list-cmd>li>.info li { position: relative; float: left; margin: 0 1.666em 0 -1px; }
+.list-cmd>li>.info li:before { position: absolute; left: -0.833em; top: 50%; display: block; width: 1px; height: 1em; margin-top: -0.4em; content: ''; background: #999; }
+.list-cmd>li>.info li:first-child { padding: 0; }
+.list-cmd>li>.info li:first-child:before { display: none; }
+.list-cmd>li>.info em { color: #666; font-weight: 800; }
+.list-cmd .icon-cmd1 { background-position: 0 0; }
+.list-cmd .icon-cmd2 { background-position: 0 -36px; }
+.list-cmd .icon-cmd3 { background-position: 0 -72px; }
+.list-cmd .info-rec { position: absolute; right: 0; top: 50%; margin-top: -1.32em; }
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.board-view .info>li .info-sns2 li span { background-size: 487.5% auto; }
+.board-view .info>li .info-sns2 li span.facebook { background-position: 0 0; }
+.board-view .info>li .info-sns2 li span.tweet { background-position: -26px 0; }
+.board-view .info>li .info-sns2 li span.bookmark { background-position: -52px 0; }
+}
+@media only screen and (max-width:767px) {
+.board-list>li { padding: 1.125em 0; }
+.board-list>li>em:first-child { display: inline-block; position: static; width: auto; height: auto; margin: 0 0 0.624em; line-height: 1.71; background: none; color: #173e35; font-weight: bold; }
+.board-list>li>em:first-child span { display: inline-block; }
+.board-list>li>strong { display: block; }
+.board-list>li>strong+em { position: absolute; right: 0; top: 1.125em; }
+.board-list.board-state>li>strong { max-width: 100%; }
+.board-list.board-select>li>strong, .board-list.board-select>li>span { margin-right: 0; }
+.board-list.board-select>li .info li { float: none; display: block; }
+.board-list.board-select>li .btn { position: static; overflow: hidden; margin: 1em 0 0; }
+.board-list.board-select>li .btn li { float: left; }
+.board-list.board-select>li .btn li:last-child { float: right; }
+.board-view .info>li { float: left !important; padding-left: 0 !important; padding-right: 0.571em !important; }
+.board-view .info>li.sub2 { float: right !important; padding-left: 0.571em !important; padding-right: 0 !important; }
+.board-view .answer-area h3 { padding-right: 0; padding-bottom: 0; border: none; }
+.board-view .answer-area .info { position: static; border-bottom: 1px solid #e5e5e5; }
+.board-view2 .info-area .info > li.sub { float: none; clear: both; padding: 1em 0 0; }
+.board-view2 .visual-area .visual-img { margin: 2em 0; }
+.board-view2 .bottom-area { margin-top: 2em; }
+.board-qna>li .heading>h3 { padding: 1.166em 0; }
+.board-qna>li .heading>h3>span, .board-qna li .heading>h3>em { display: block; width: auto; }
+.board-qna>li .heading>h3>em { width: auto; margin: 0 0 0.624em; padding: 0; background: none; color: #173e35; text-align: left; }
+.board-qna>li .heading>h3>span { }
+.board-qna>li .heading>a span { right: 0; }
+.list-cmd>li { padding: 4.428em 0 1em; }
+.list-cmd>li>strong { position: absolute; left: 0; top: 1em; float: none; margin: 0; }
+.list-cmd .info-rec { top: 1em; margin: 0; }
+.list-cmd>li>.info li { padding: 0.25em 0 !important; }
+}
+@media only screen and (max-width:640px) {
+.board-cmd .btn .btn-type3 { display: block; margin: 0.5em 0 0 }
+.board-cmd .btn .btn-type3 button { display: block; padding: 0; width: 100%; }
+.board-list.board-search>li .visual { top: 1.125em; margin: 0; }
+}
+@media only screen and (max-width:479px) {
+.board-list.board-data>li { padding-right: 6em; }
+.board-list.board-data>li .info .value { text-align: center; }
+.board-list.board-data>li .info .value strong { display: block; }
+.board-list.board-select>li { padding-left: 2.285em; }
+.board-list.board-select>li .visual { float: none; display: block; margin: 0 0 1em; width: 100%; height: auto; }
+.board-list.board-select>li .visual img { width: 100%; height: auto; }
+.board-view2 { padding-left: 1em; padding-right: 1em; }
+.board-view2 .info-area { margin-left: -1em; margin-right: -1em; padding-left: 1em; padding-right: 1em; }
+.board-view2 .info-area .info>li { float: left; padding: 0 0.5em 0 0; }
+.board-view2 .info-area .info>li:first-child { float: none; display: block; padding: 0; background: none; }
+.board-view2 .info-area .info>li.sub { float: right; clear: none; padding: 0; }
+.board-view2 .bottom-area { margin-left: -1em; margin-right: -1em; padding-left: 1em; padding-right: 1em; }
+.board-view2 .visual-area .btn { width: 2.5em; }
+.board-view2 .visual-area .btn.btn-prev { left: -2.5em; }
+.board-view2 .visual-area .btn.btn-next { right: -2.5em; }
+}
+@media only screen and (max-width:420px) {
+.board-view2 .visual-area .btn { width: 1.785em; }
+.board-view2 .visual-area .btn.btn-prev { left: -1.785em; }
+.board-view2 .visual-area .btn.btn-next { right: -1.785em; }
+}
+@media only screen and (max-width:360px) {
+.board-list.board-search>li { padding-left: 0; }
+.board-list.board-search>li .visual { position: static; display: block; width: 100%; height: auto; margin: 0 0 1em; }
+.board-list.board-search>li .visual img { width: 100%; height: auto; }
+.board-list.board-search>li .visual:empty { display: none; }
+}
+@media only screen and (max-width:340px) {
+.board-view2 .info-area .info > li:nth-child(3) { clear: left; }
+.board-view2 .visual-area .visual-img { margin: 2em 0; }
+}
+.board-other { overflow: hidden; }
+.board-other li { float: right; width: 448px; width: 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; text-align: right; background: #fff; }
+.board-other li>a, .board-other li>div { position: relative; display: block; border: 1px solid #e5e5e5; padding: 0 4.29em 0 0; background: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_333333.png) no-repeat 412px 1.43em; background-position: -webkit-calc(100% - 1.71em) 1.43em; background-position: -moz-calc(100% - 1.71em) 1.43em; background-position: calc(100% - 1.71em) 1.43em; *width:auto;
+}
+.board-other li>a:hover, .board-other li>a:focus { text-decoration: none; }
+.board-other li .con { position: relative; display: block; padding: 0.678em 1em; z-index: 1; border-right: 1px solid #e5e5e5; *width:auto;
+overflow: hidden; }
+.board-other li .con em { display: block; font-family: HelveticaNeue, Arial; font-weight: bold; color: #333; line-height: 1.571; }
+.board-other li .con strong { display: block; overflow: hidden; height: 1.71em; text-overflow: ellipsis; white-space: nowrap; font-weight: normal; }
+.board-other li .thum { display: none; position: absolute; right: 0; top: 0; width: 4.64em; height: 4.57em; background: #e5e5e5 url(http://imagem.nepa.co.kr/resources/img/noimg_board.png) no-repeat 50% 50%; ; z-index: 0; }
+.board-other li .thum img { display: block; width: 100%; height: 100%; }
+.board-other li:first-child { float: left; text-align: left; }
+.board-other li:first-child>a, .board-other li:first-child>div { padding: 0 0 0 4.29em; background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_333333.png); background-position: 1.71em 1.43em; }
+.board-other li:first-child .con { border-left: 1px solid #e5e5e5; border-right: 0; }
+.board-other li:first-child .thum { left: 0; }
+.board-other.other-thum { margin-top: 20px; }
+.board-other.other-thum li>a, .board-other.other-thum li>div { padding: 0 4.64em 0 0; background-position: 340px 1.43em; background-position: -webkit-calc(100% - 5.79em) 1.43em; background-position: -moz-calc(100% - 5.79em) 1.43em; background-position: calc(100% - 5.79em) 1.43em; background-position: 82% 1.43em\9; }
+.board-other.other-thum li:first-child>a { padding: 0 0 0 4.64em; background-position: 5.79em 1.43em; }
+.board-other.other-thum li .con { padding: 0.678em 3.07em 0.678em 1em; }
+.board-other.other-thum li:first-child .con { padding: 0.678em 1em 0.678em 3.07em; }
+.board-other.other-thum li .thum { display: block; }
+.board-view .board-other { margin-top: 30px; }
+.board-view .board-other li { float: none; margin-top: -1px; width: 100%; text-align: left; }
+.board-view .board-other li:first-child { margin: 0; *vertical-align:top; }
+.board-view .board-other li>a, .board-view .board-other li>div { padding: 0 0 0 4.29em; background: url(http://imagem.nepa.co.kr/resources/img/arr3_25x13_333333.png) no-repeat 1.285em 50% !important; }
+.board-view .board-other li .con { position: relative; padding: 1.178em 1em 1.178em 8.571em; border: 0; border-left: 1px solid #e5e5e5; }
+.board-view .board-other li .con em { position: absolute; left: 2em; top: 50%; margin-top: -0.785em; display: inline-block; vertical-align: top; }
+.board-view .board-other li .con strong { vertical-align: top; }
+.board-view .board-other li:first-child>a, .board-view .board-other li:first-child>div { background-image: url(http://imagem.nepa.co.kr/resources/img/arr1_13x25_333333.png) !important; }
+@media only screen and (max-width:767px) {
+.board-other li { display: block; width: 100%; text-align: left; }
+.board-other li>a, .board-other li>div { padding: 0 0 0 4.29em !important; background: url(http://imagem.nepa.co.kr/resources/img/arr2_13x25_333333.png) no-repeat 1.71em 1.43em !important; }
+.board-other li .con { margin: 0 !important; padding: 0.678em 1em !important; border: 0; border-left: 1px solid #e5e5e5; }
+.board-other li .con em { position: static !important; margin: 0 !important; display: block !important; }
+.board-other li .thum { display: none !important; }
+.board-other li:first-child { margin: 0 0 -1px; }
+.board-other li:first-child>a, .board-other li:first-child>div { background-image: url(http://imagem.nepa.co.kr/resources/img/arr4_13x25_333333.png) !important; }
+}
+.nodata { clear: both !important; float: none !important; width: 100% !important; height: auto !important; min-height: 0 !important; padding: 0 !important; text-align: center; border-top: 1px solid #e5e5e5; line-height: 50px; line-height: 3.571rem; }
+.box-type1 { width: 100%; margin: 60px 0 0; padding: 1.785em 2.142em; border: 1px solid #cccccc; *width:auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.box-type2 { margin: 2.142em 0; padding: 1.785em 2.5em; background: #f5f5f5; }
+.tit-type1 + .box-type2 { margin-top: 0; }
+.box-banner1 { margin: 40px 0; padding: 1em; background: #282f6c; }
+.box-banner1 .banner { float: left; margin: -1em 1em -1em -1em; max-width: 17.142em; }
+.box-banner1 p { overflow: hidden; color: #fff; height: 3.783em; }
+.box-info1 { padding: 0.928em 2.142em; background: #fff; }
+.box-info1 .heading { margin: 0.166em 0 0.1em; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2.142em; line-height: 1.2; color: #333; font-weight: 800; }
+.box-info1 .top { margin: -0.928em -2.142em 1em; padding: 0.928em 2.142em; border-bottom: 1px solid #e5e5e5; color: #333; font-weight: 800; }
+.box-info1 .info1>li >span:first-child { display: none; }
+.box-info1 .info1>li strong { text-decoration: underline; color: #333; }
+.box-info1 .info2>span:first-child { display: none; }
+.box-info1 .info2 strong { font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; color: #173e35; font-size: 1.428em; }
+.box-info2 { overflow: hidden; margin: 20px 0; border: 1px solid #dfdfdf; font-size: 0.857em; line-height: 1.5; background: #f9f8f5; }
+.box-info2 .info1, .box-info2 .info2 { float: left; width: 50%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.box-info2 .info1 { position: relative; min-height: 11.833em; padding: 1.083em 1.583em 1.083em 11.5em; background: url(http://imagem.nepa.co.kr/resources/img/noimg_writer.png) no-repeat 1.583em 1.583em; *width:300px; }
+.box-info2 .info1 .heading { display: none; }
+.box-info2 .info1>ul { overflow: hidden; }
+.box-info2 .info1>ul>li { padding: 0.25em 0 0.25em 3em; }
+.box-info2 .info1>ul>li>span:first-child { display: inline-block; float: left; width: 3em; margin: 0 0 0 -3em; color: #333; font-weight: 600; }
+.box-info2 .info1>ul>li.photo { position: absolute; left: 1.583em; top: 1.583em; width: 104px; height: 104px; padding: 0; }
+.box-info2 .info1>ul>li.photo img { width: 100%; height: 100%; }
+.box-info2 .info1>.link { margin: 0.75em 0 0; padding: 0 0 0 3em; }
+.box-info2 .info2 { position: relative; padding: 1.083em 1.5em 1.083em 1.583em; *width:420px; }
+.box-info2 .info2 .heading { color: #262626; font-weight: 800; margin: 0 0 0.5em; padding-left: 2.5em; }
+.box-info2 .info-sns2 { width: 20px; height: 20px; }
+.box-info2 .info-sns2 span { width: 20px; height: 20px; }
+.box-info2 .info-sns2 span.facebook { background-position: 0 -122px; }
+.box-info2 .info-sns2 span.tweet { background-position: -32px -122px; }
+.box-info2 .info-sns2 span.blog { background-position: -160px -122px; }
+.box-info2.info2-1 .info1 { float: none; width: 100%; }
+.box-info2.info2-1 .info2 { display: none; }
+.box-info3 p { margin: 0 !important; }
+.box-info3 .tit { display: block; margin: 0 0 0.714em; color: #333; font-size: 1em; line-height: 1.71; text-decoration: none; font-weight: 600; }
+.box-info3 .photo { display: block; width: 80px; height: 80px; margin: 0 0 1.785em; }
+.box-info3 q { quotes: "" ""; }
+.box-info3.box { position: relative; margin: 2.142em 0 0; padding: 1.083em 1.583em; background: #e3c795; }
+.box-info3.box .photo { position: absolute; left: 1.583em; top: 1.583em; }
+.box-info3.box .photo+p { padding-left: 7em; }
+.box-toggle1 .tit { position: relative; display: block; margin: 5px 0 1px; padding: 0.928em 2.142em; background: #fff; font-family: Arial; font-weight: bold; color: #666; text-decoration: none; }
+.box-toggle1 .tit .btn { overflow: hidden; position: absolute; display: block; right: 0; top: 0; width: 3.571em; height: 100%; border-left: 1px solid #f2f2f2; background: url(http://imagem.nepa.co.kr/resources/img/arr3_9x5_666666.png) no-repeat 50% 50%; text-indent: -9999px; }
+.box-toggle1 .con { display: none; padding: 1em 2.142em; background: #fff; color: #999; line-height: 1.571; }
+.box-toggle1 .open .tit .btn { background-image: url(http://imagem.nepa.co.kr/resources/img/arr1_9x5_666666.png); }
+.box-toggle1 .open .con { display: block !important; }
+.box-mes1 { margin: 10px 0; padding: 1.571em 1em 2.142em; font-size: 1.285em; line-height: 1.333; text-align: center; background: #173e35; color: #fff; }
+.box-mes1 strong { display: block; margin: 0 0 0.357em; font-size: 1.555em; line-height: 1.214; color: #dac800; }
+.box-mes1.c1 { background: #c95243; }
+.box-mes1.c1 strong { color: #ffff66; }
+.wrap-content .box-mes1:first-child { margin-top: -31px; }
+.box-mes2 { background: rgba(0,0,0,0.7); padding: 1.428em !important; color: #fff; background: url(http://imagem.nepa.co.kr/resources/img/bg_opacity_50.png) repeat\9; }
+.box-mes2 p:first-child { margin-top: 0; }
+@media only screen and (max-width:767px) {
+.box-info2 .info1, .box-info2 .info2 { float: none; width: 100%; }
+.box-info2 .info2 .heading { padding: 0; }
+}
+@media only screen and (max-width:730px) {
+.box-banner1 p { line-height: 1.261; }
+}
+@media only screen and (max-width:639px) {
+.box-type1 { margin-top: 2.142em; padding: 1.428em 1.428em; }
+.box-type2 { padding: 1.428em 1.071em; }
+}
+@media only screen and (max-width:590px) {
+.box-banner1 { padding: 0; }
+.box-banner1 .banner { float: none; margin: 0 auto; max-width: none; width: 100%; }
+.box-banner1 p { height: auto; padding: 1em; line-height: 1.5; }
+}
+@media only screen and (max-width:420px) {
+.box-info1 { padding-left: 1em; padding-right: 1em; }
+.box-info1 .top { margin-left: -1em; margin-right: -1em; padding-left: 1em; padding-right: 1em; }
+.box-toggle1 .tit, .box-toggle1 .con { padding-left: 1em; padding-right: 1em; }
+.box-mes2 { padding: 1em !important; }
+}
+@media only screen and (max-width:360px) {
+.box-info3.box { padding: 1.083em 1.583em; }
+.box-info3.box .tit img { position: static; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+.box-info2 .info-sns2 span.facebook { background-position: 0 0; }
+.box-info2 .info-sns2 span.tweet { background-position: -20px 0; }
+.box-info2 .info-sns2 span.blog { background-position: -100px 0; }
+}
+.con-type1 { margin: 60px 0 0; padding: 0 0 45px; border-bottom: 1px solid #173e35; }
+.con-type1 .heading { position: relative; margin: 22px 0 30px; padding: 24px 0 30px; font-size: 1.429em; line-height: 1.5; color: #000; *background:url(http://imagem.nepa.co.kr/resources/img/bar_53x6_000000.gif) no-repeat 0 100%; font-weight: normal; }
+.con-type1 .heading:after { display: block; position: absolute; left: 0; bottom: 0; width: 80px; height: 9px; background: #000; content: ''; }
+.con-type1 .heading>span { display: block; }
+.con-type1 .tit-sub { display: block; margin: 40px 0 15px; font-size: 1.429em; line-height: 1.5; color: #333; font-weight: normal; }
+.con-type1 .sub1 { display: block; margin: 18px 0; color: #ff6600; text-decoration: underline; font-size: 1.285em; line-height: 1.333; font-weight: normal; }
+.con-type1 p { margin: 20px 0 0; }
+.con-type1>p:first-child { margin-top: 0; }
+.con-type1 .heading + .tit-sub { margin-top: 0; }
+.con-type1.font1 .heading, .con-type1.font1 .tit-sub { font-size: 1.714em; line-height: 1.25; }
+.con-type1.font1 .tit-sub { color: #000; }
+.con-type2 .txt-top { margin: 0 0 2.14em; color: #333; }
+.con-type2 .tit1 { font-size: 1.142em; color: #333; font-weight: 800; }
+.con-type2 .tit2 { display: inline-block; margin: 2.5em 0 1.78em; padding: 0.142em 1em; color: #333; background: #c5b60e; color: #fff; font-weight: 800; *display:inline; *zoom:1; }
+.con-type2 .tit3 { margin: 0 0 1.071em; padding: 0 0 0.357em; border-bottom: 1px solid #e5e5e5; }
+.con-type2 .list>li { margin: 1.64em 0 0; }
+.con-type2 .list>li:first-child { margin: 0 !important; }
+.con-type3 { padding: 2.571em 0 2.571em 0; }
+.con-type3 .heading { float: left; width: 30%; margin: 0 0 0 0; color: #827561; font-family: Nepa; font-size: 3.571em; line-height: 1; font-weight: 800; letter-spacing: -2px; text-align: center; }
+.con-type3 .txt-type3 { width: 60%; }
+.con-type3 .txt-type3>li { overflow: hidden; padding: 0 0 0 2em; }
+.con-type3 .txt-type3>li>span:first-child { font-weight: bold; margin-left: -2em; color: #827561; }
+.wrap-toggle .con-type3 { min-height: 3.428em; }
+.con-type4 { padding: 0 0 1.785em; border-bottom: 1px solid #173e35; }
+.con-type4 .heading { margin: 2.142em 0 1.071em; padding: 0.357em 0; border-bottom: 1px solid #e5e5e5; }
+.con-type5 { padding: 0 0 1.785em; border-bottom: 1px solid #173e35; }
+.con-type5 >.heading { margin: 2.142em 0 -1px; font-size: 1.1428em; line-height: 2.1875; color: #333; font-weight: 800; border-bottom: 1px solid #e5e5e5; }
+.con-type5 .tit-sub { margin: 1.857em 0 0.714em; font-weight: 800; }
+.con-type6 { padding-bottom: 40px; padding-bottom: 2.86rem; border-bottom: 1px solid #173e35; font-size: 0; }
+.con-type6>div { display: inline-block; margin: 1.429em 3.6% 0 0; width: 48.2%; vertical-align: top; width: 48%\9; margin: 1.429em 1%\9; *display:inline; *zoom:1; font-size: 14px; font-size: 1rem; }
+.con-type6>div:nth-child(2n) { margin: 1.429em 0 0 -4px; }
+.con-type6 .tit { padding-top: 0.7em; padding-bottom: 0.8em; font-size: 1.429em; line-height: 1.5; color: #333; }
+.con-type6 .con { padding: 1.786em 2.143em !important; min-height: 192px; background: #f5f5f5 !important; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.con-type7 { padding-bottom: 0.72em; border-bottom: 1px solid #173e35; }
+.con-type7>h2, .con-type7>p, .con-type7>ul li strong { text-align: center; }
+.con-type7>h2 { margin: 1.34em 0 1em 0; font-family: NanumBarunGothic, 나눔바른고딕, 'Nanum BarunGothic'; font-size: 2.857em; line-height: 1.07; font-weight: 800; color: #333333; }
+.con-type7>h2>strong { display: block; margin-top: 0.325em; color: #c5b60e; font-family: HelveticaNeue, Arial; font-weight: 800; }
+.con-type7>p { padding: 1.786em 6%; border-top: 1px solid #999; border-bottom: 1px solid #999; color: #333; font-size: 1.286em; }
+.con-type7>p>strong { font-weight: 600; }
+.con-type7 .wrap { padding-top: 3.58em; }
+.con-type7 .wrap>li { margin-bottom: 1.428em; }
+.con-type7 .wrap>li strong { display: block; padding: 0.5em 0; font-size: 1.143em; line-height: 1.5; font-weight: 800; }
+.con-type7 .wrap>li>strong { margin-bottom: 1px; background: #173e35; color: #fff; }
+.con-type7 .wrap>li>strong.c1 { background: #c5b60e; }
+.con-type7 .wrap>li>strong.c2 { background: #858585; }
+.con-type7 .wrap>li li strong { margin-bottom: 0.571em; color: #333; text-align: left; }
+.con-type7 .wrap .con { padding: 1.714em 2.143em; border: 1px solid #dcdcdc; *padding:1.714em 2em; }
+.con-type7 .wrap .con2 { padding: 0 0 25px 30px; padding: 0 0 1.786rem 2.143rem; font-size: 0; }
+.con-type7 .wrap .con2>li { display: inline-block; padding: 3.8% 1% 0 0; width: 48%; vertical-align: top; font-size: 14px; font-size: 1rem; width: 196px\9; *display:inline; *zoom:1; }
+.con-type7 ol.wrap>li { position: relative; display: table; overflow: hidden; width: 100%; }
+.con-type7 ol.wrap>li:first-child { padding-top: 0; background: none; }
+.con-type7 ol.wrap>li>strong { display: table-cell; width: 6.77em; vertical-align: middle; text-align: center; *display:block; *float:left; }
+.con-type7 ol.wrap>li>strong>span { display: inline-block; overflow: hidden; min-width: 4.714em; padding-top: 3.357em; *margin-top:10px; *height:5em; vertical-align: middle; }
+.con-type7 ol.wrap .con { display: table-cell; height: 4.5em; *float:left; *width:513px; *height:108px; }
+.con-type8 { margin: 20px 0 0; padding: 40px 0 0; border-top: 2px solid #000; }
+.con-type8>.heading { padding: 0.7em 0; text-align: center; font-size: 1.714em; line-height: 1.25; color: #000; }
+.con-type8>.heading span { display: block; }
+.con-type8>ul { overflow: hidden; width: 100%; }
+.con-type8>ul>li { overflow: hidden; float: left; width: 32.6%; margin: 0 1% 10px 0; padding: 1.714em 2%; background: #f7f7f7; border: 1px solid #e5e5e5; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 30%\9; padding: 1.714em 1%\9; }
+.con-type8>ul>li:nth-child(3n) { margin-right: 0; }
+.con-type8>ul>li>span { display: block; height: 7.571em; overflow: hidden; }
+.con-type8>ul>li strong { display: block; font-weight: 800; margin: 0 0 0.714em; color: #333; }
+.con-type9 { padding-top: 1.5em; padding-bottom: 1.5em; }
+.con-type9 .heading { margin: 0 0 0.625em; font-family: Arial; font-size: 1.714em; color: #333333; }
+.con-type9 .tit { margin: 1em 0 0; font-size: 1.285em; line-height: 1.333; color: #333333; }
+.con-type9 .heading + .wrap-box2 { margin-top: 0; }
+.con-type9 .tip-con { margin: 1em 0 0; padding-left: 7.142em; padding-bottom: 1em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.con-type9 .tip-con p { margin: 1.714em 0 0; }
+.con-type9 .icon-tip1 { background: url(http://imagem.nepa.co.kr/resources/img/icon_set3_1.png) no-repeat 0 0; }
+.con-type9 .icon-tip2 { background: url(http://imagem.nepa.co.kr/resources/img/icon_set3_2.png) no-repeat 0 0; }
+.con-type10, .con-type10 li { padding: 0 0 0.714em; }
+.con-type10 li, .con-type10 > p { float: left; width: 22%; margin: 0 0 0 3.5%; }
+.con-type10 li:first-child, .con-type10 > p:first-child { margin: 0; }
+.con-type10 .tit { display: block; padding-top: 1.071em; border-top: 1px solid #d9d9d9; font-weight: 700; color: #333333; }
+ul.con-type10 { padding: 0; overflow: hidden; }
+.wrap-toggle { position: relative; border: 1px solid #e5e5e5; }
+.wrap-toggle .btn-toggle { display: block; text-align: center; height: 2.85; line-height: 2.85em; }
+.wrap-toggle .btn-toggle .txt { display: inline-block; color: #333; padding: 0 1.928em 0 0; background: url(http://imagem.nepa.co.kr/resources/img/arr3_7x4_666666.png) no-repeat 100% 50%; *display:inline; *zoom:1; }
+.wrap-toggle.open { padding: 0 0 2.86em; }
+.wrap-toggle.open .btn-toggle { position: absolute; left: 0; bottom: 0; width: 100%; border-top: 1px solid #e5e5e5; }
+.wrap-toggle.open .btn-toggle .txt { background-image: url(http://imagem.nepa.co.kr/resources/img/arr1_7x4_666666.png); }
+.wrap-form1 { text-align: center; margin: 20px 0; }
+.wrap-form2 { background: #eeeeee; margin-top: 2px; }
+header + .wrap-form1 { margin-top: -0.714em; }
+.wrap-box1 { width: 100%; overflow: hidden; }
+.wrap-box1>.left { float: left; width: 49%; width: -webkit-calc(50% - 10px); width: -moz-calc(50% - 10px); width: calc(50% - 10px); }
+.wrap-box1>.right { float: right; width: 49%; width: -webkit-calc(50% - 10px); width: -moz-calc(50% - 10px); width: calc(50% - 10px); }
+.wrap-box2 { width: 100%; overflow: hidden; }
+.wrap-box2>.con1 { float: left; width: 48%; width: -webkit-calc(50% - 20px); width: -moz-calc(50% - 20px); width: calc(50% - 20px); }
+.wrap-box2>.con2 { float: right; width: 48%; width: -webkit-calc(50% - 20px); width: -moz-calc(50% - 20px); width: calc(50% - 20px); }
+.wrap-box2.wrap2-txt1>.con1 { margin: 0 40px 0.5em 0; }
+.wrap-box2.wrap2-txt1>.con2 { float: none; position: relative; width: auto; }
+.wrap-box2.wrap2-txt2>.con1 { float: none; position: relative; width: auto; }
+.wrap-box2.wrap2-txt2>.con2 { margin: 0 0 0.5em 40px; }
+.wrap-box3 { width: 100%; overflow: hidden; }
+.wrap-box3>.con1 { float: left; width: 32%; width: -webkit-calc(33% - 20px); width: -moz-calc(33% - 20px); width: calc(33% - 20px); }
+.wrap-box3>.con2 { float: right; width: 64%; width: -webkit-calc(67% - 20px); width: -moz-calc(67% - 20px); width: calc(67% - 20px); }
+.wrap-box4 { width: 100%; overflow: hidden; }
+.wrap-box4>.con1 { float: left; width: 64%; width: -webkit-calc(67% - 20px); width: -moz-calc(67% - 20px); width: calc(67% - 20px); }
+.wrap-box4>.con2 { float: right; width: 32%; width: -webkit-calc(33% - 20px); width: -moz-calc(33% - 20px); width: calc(33% - 20px); }
+.wrap-box2>.con1>*:first-child, .wrap-box2>.con2>*:first-child, .wrap-box3>.con1>*:first-child, .wrap-box3>.con2>*:first-child, .wrap-box4>.con1>*:first-child, .wrap-box4>.con2>*:first-child { margin-top: 20px\9; }
+.wrap-box2>div>img:first-child, .wrap-box3>div>img:first-child, .wrap-box4>div>img:first-child { margin-top: 20px; }
+.wrap2-box1 { width: 100%; overflow: hidden; display: table; }
+.wrap2-box1>.con { float: left; display: block; width: 31%; margin: 0 0 0 3.5%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.wrap2-box1>.con:first-child { margin: 0; }
+.wrap2-box1>.con:empty { padding: 1em 0; }
+.wrap2-box1>.con>*:first-child { margin-top: 20px; }
+@media only screen and (min-width:920px) {
+.wrap-box3>.con1>*:first-child, .wrap-box3>.con2>*:first-child, .wrap-box4>.con1>*:first-child, .wrap-box4>.con2>*:first-child { margin-top: 20px; }
+}
+@media only screen and (min-width:640px) {
+.wrap-box2>.con1>*:first-child, .wrap-box2>.con2>*:first-child { margin-top: 20px; }
+.tit-sub + .wrap-box2, .tit-sub + .wrap-box3, .tit-sub + .wrap-box4 { margin-top: -12px; }
+}
+@media only screen and (max-width:919px) {
+.con-type8>ul>li { width: 49%; margin: 0 1% 10px 0 !important; }
+.con-type8>ul>li:nth-child(2n) { float: right; margin-right: 0 !important; }
+.wrap-box2.wrap2-block .con1, .wrap-box2.wrap2-block .con2, .wrap-box3>.con1, .wrap-box3>.con2, .wrap-box4>.con1, .wrap-box4>.con2 { float: none; width: 100%; }
+}
+@media only screen and (max-width:719px) {
+.wrap-box1>.left, .wrap-box1>.right { float: none; width: 100%; margin: 1em 0 0; }
+.con-type10 li, .con-type10 > p { width: 48%; }
+.con-type10 li:nth-child(2n-1), .con-type10 > p:nth-child(2n-1) { margin: 0; }
+}
+@media only screen and (max-width:639px) {
+.con-type1 { margin-top: 30px; padding-bottom: 20px; }
+.con-type2 .txt-top { margin: 0 0 1.785em; }
+.con-type2 .tit2 { margin: 2em 0 1.428em; }
+.con-type2 ol.num>li { margin: 1.285em 0 0; }
+.con-type3 { padding: 1.428em 0em; }
+.con-type3 .heading { float: none; width: 100%; margin: 0 0 0.23em; font-size: 2.5em; text-align: center; }
+.con-type3 .txt-type3 { width: 90%; margin: 0 auto; }
+.con-type6>div { display: block; width: 100%; vertical-align: top; }
+.con-type6 .con { min-height: 0; }
+.con-type7 .wrap .con2>li { display: block; vertical-align: top; width: 100%; }
+.con-type7 ol.wrap>li>strong, .con-type7 ol.wrap .con { display: block; }
+.con-type7 ol.wrap>li>strong { width: 100%; padding: 1em 0; }
+.con-type7 ol.wrap .con { height: auto; }
+.wrap-box2>.con1, .wrap-box2>.con2 { float: none !important; width: 100% !important; margin-left: 0 !important; }
+.tit-sub + .wrap-box2, .tit-sub + .wrap-box3, .tit-sub + .wrap-box4 { margin-top: -15px; }
+.wrap2-box1>.con { display: block; width: 100%; margin: 0 0 1em !important; }
+.wrap2-box1>.con:empty { padding: 0; margin: 0 !important; }
+}
+@media only screen and (max-width:619px) {
+.con-type7>h2 { font-size: 2.143em; }
+.con-type7>p { font-size: 1em; }
+.con-type8>ul>li { float: none; clear: both; width: 100%; margin: 0 0 10px !important; }
+.con-type8>ul>li>span { height: auto; }
+}

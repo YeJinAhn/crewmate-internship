@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="User">
+
+    <!-- 엑셀용 출력리스트 -->
+    <select id="selectAddr" resultType="kr.co.crewmate.ojt.model.Addr">
+        SELECT   addr_no
+               , user_no
+               , addr_nm
+               , recv_nm
+               , hp
+               , zipcode
+               , address
+               , address_detail
+               , default_yn
+               , reg_dt
+         FROM    addr
+    </select>
+
+    <select id="selectJoinYnCheck" parameterType="Users" resultType="int">
+        SELECT  COUNT(*)
+          FROM  users
+         WHERE  user_nm = #{userNm}
+           AND  hp = #{hp}  
+    </select>
+
+
+    <select id="selectIdCheck" parameterType="Users" resultType="int">
+        SELECT COUNT(*)
+          FROM users
+         WHERE user_id = #{userId}
+    </select>
+
+    <insert id="insertUser" parameterType="Users">
+       INSERT INTO users(
+                   user_no
+                 , user_id
+                 , user_pw
+                 , user_group
+                 , cus_cd
+                 , black_consumer_yn
+                 , user_stat
+                 , last_login_dt
+                 , last_pw_change_dt
+                 , withdraw_desc
+                 , memo
+                 , hp
+                 , reg_dt
+                 , withdraw_dt
+                 , mod_no
+                 , mod_dt
+                 , sms_yn
+                 , mail_yn
+                 , add_info_yn
+                 , marketing_yn
+                 , user_nm
+                 , black_consumer_type
+                 , refund_nm
+                 , refund_vact_bankcode
+                 , refund_num
+                 , user_pw_init_yn
+                 , update_type
+                 , black_consumer_desc
+                 , m_no_npc
+                 , m_no_ibk
+                 , wedding_yn
+                 , wedding_dt
+                 , mail_addr
+                 , birth_dt
+                 , solar_yn
+                 , sex
+       )VALUES(
+                  user_seq.NEXTVAL
+                , #{userId}
+                , #{userPw}
+                , #{userGroup}
+                , #{cusCd}
+                , #{blackConsumerYn}
+                , #{userStat}
+                , #{lastLoginDt}
+                , #{lastPwChangeDt}
+                , #{withdrawDesc}
+                , #{memo}
+                , #{hp}
+                , #{regDt}
+                , #{withdrawDt}
+                , user_seq.CURRVAL
+                , #{modDt}
+                , #{smsYn}
+                , #{mailYn}
+                , #{addInfoYn}
+                , #{marketingYn}
+                , #{userNm}
+                , #{blackConsumerType}
+                , #{refundNm}
+                , #{refundVactBankcode}
+                , #{refundNum}
+                , #{userPwInitYn}
+                , #{updateType}
+                , #{blackConsumerDesc}
+                , #{mNoNpc}
+                , #{mNoIbk}
+                , #{weddingYn}
+                , #{weddingDt}
+                , #{mailAddr}
+                , #{birthDt}
+                , #{solarYn}
+                , #{sex}
+       )
+    </insert>
+    
+    <select id="selectUserNo" resultType="int">
+        SELECT user_seq.CURRVAL
+        FROM dual
+    </select>
+    
+    <insert id="insertAddr" parameterType="Addr">
+        INSERT INTO addr(
+                addr_no
+              , user_no
+              , addr_nm
+              , recv_nm
+              , tel
+              , hp
+              , zipcode
+              , address
+              , address_detail
+              , default_yn
+              , reg_dt
+        )VALUES(
+                addr_seq.NEXTVAL
+              , #{userNo}
+              , #{addrNm}
+              , #{recvNm}
+              , #{tel}
+              , #{hp}
+              , #{zipcode}
+              , #{address}
+              , #{addressDetail}
+              , #{defaultYn}
+              , TO_CHAR(SYSDATE, 'YYYYmmddHHmmss')
+        )
+    </insert>
+    
+    <select id="selectCodeMapFromCode" parameterType="Code" resultType="kr.co.crewmate.ojt.model.Code">
+        SELECT  code_group
+              , code
+              , name AS code_desc
+          FROM  code
+         WHERE  name=#{name}
+    </select>
+    
+    <insert id="insertUserCodeMap" parameterType="UserCodeMap">
+        INSERT INTO user_code_map(
+                    user_no
+                  , code_group
+                  , code
+                  , code_desc
+                    
+        )VALUES(
+                   #{userNo}
+                 , #{codeGroup}
+                 , #{code}
+                 , #{codeDesc}
+        
+        )
+    </insert>
+</mapper>

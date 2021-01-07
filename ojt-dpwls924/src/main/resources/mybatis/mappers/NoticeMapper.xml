@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Notice">
+
+    <sql id="selectNotice">
+        notc_seq
+      , notc_title
+      , notc_cont
+      , rgst_dtm
+      , hit
+      , fixed_yn
+      , board_code
+      , last_mod_dtm
+      , write_admin_id
+      , last_mod_admin_id
+      , notc_class_code
+    </sql>
+    
+    <sql id="selectNoticeSearchCondition">
+        <!-- <if test="strtDt !=null and !''.equals(strtDt)">
+           <![CDATA[AND rgst_dtm >= to_date(#{strtDt}, 'YYYY.MM.DD')]]>
+        </if>
+        <if test="endDt !=null and !''.equals(endDt)">
+        <![CDATA[AND  rgst_dtm <= to_date(#{endDt}, 'YYYY.MM.DD')]]>
+        </if> -->
+        <if test="(strtDt != null and !''.equals(strtDt)) and (endDt != null and !''.equals(endDt))">
+         AND  rgst_dtm between to_date(#{strtDt}, 'yyyy-mm-dd') and to_date(#{endDt}, 'yyyy-mm-dd')+1 
+        </if>
+        <if test="fixedYn !=null and !''.equals(fixedYn)">
+         AND fixed_yn = #{fixedYn}
+        </if>
+        <if test="notcClassCode !=null and !''.equals(notcClassCode)">
+         AND notc_class_code = #{notcClassCode}
+        </if>
+        <if test="boardCode !=null and !''.equals(boardCode)">
+         AND board_code = #{boardCode}
+        </if>
+        <if test="searchWord !=null and !''.equals(searchWord) and 'ALL'.equals(condition)">
+         AND (notc_title LIKE '%'||#{searchWord}||'%'
+          OR  notc_cont LIKE '%'||#{searchWord}||'%')
+        </if>
+        <if test="searchWord !=null and !''.equals(searchWord) and 'TITL'.equals(condition)">
+         AND notc_title LIKE '%'||#{searchWord}||'%' 
+        </if>
+        <if test="searchWord !=null and !''.equals(searchWord) and 'CONT'.equals(condition)">
+         AND notc_cont LIKE '%'||#{searchWord}||'%'
+        </if>
+    </sql>
+
+    <select id="selectNoticeList" parameterType="Notice" resultType="kr.co.crewmate.ojt.model.Notice">
+        /* Notice.selectNoticeList */
+        <include refid="Base.pageHeader" />
+        SELECT  <include refid="selectNotice" />
+          FROM  tb_notice_board
+         WHERE  notc_seq IS NOT NULL
+                <include refid="selectNoticeSearchCondition" />
+         ORDER  BY rgst_dtm DESC
+        <include refid="Base.pageFooter" />
+    </select>
+
+    <select id="selectNoticeListCount" parameterType="Notice" resultType="int">
+        /* Notice.selectNoticeListCount */
+        SELECT  count(*)
+          FROM  tb_notice_board
+         WHERE  notc_seq IS NOT NULL
+                <include refid="selectNoticeSearchCondition" />
+    </select>
+    
+    
+    <select id="selectNoticeOne" parameterType="int" resultType="kr.co.crewmate.ojt.model.Notice">
+        /* Notice.selectNoticeOne */
+        SELECT <include refid="selectNotice"/>
+          FROM tb_notice_board
+         WHERE notc_seq = #{data}
+    </select>
+    
+    <update id="updateNoticeHits" parameterType="Notice">
+        /* Notice.updateNoticeHits */
+        UPDATE tb_notice_board
+           SET hit = hit +1
+         WHERE notc_seq = #{notcSeq} 
+    </update>
+    
+    <insert id="insertNoticeReply" parameterType="notice">
+        /* Notice.insertNoticeReply */
+        INSERT INTO tb_notice_board (
+            notc_seq
+          , notc_title
+          , notc_cont
+          , rgst_dtm
+          , hit
+          , fixed_yn
+          , board_code
+          , last_mod_dtm
+          , write_admin_id
+          , last_mod_admin_id
+          , notc_class_code
+        ) VALUES(
+            NOTICE_BOARD_SEQ.NEXTVAL
+          , #{notcTitle}
+          , #{notcCont}
+          , SYSDATE
+          , #{hit}
+          , #{fixedYn}
+          , #{boardCode}
+          , CURRENT_DATE
+          , #{writeAdminId}
+          , #{lastModAdminId}
+          , #{notcClassCode}  
+        ) 
+    </insert>
+    
+    <update id="updateNotice" parameterType="Notice">
+        /* Notice.updateNotice */
+        UPDATE   tb_notice_board 
+           SET   fixed_yn = #{fixedYn}
+               , board_code = #{boardCode}
+               , notc_class_code = #{notcClassCode}
+               , notc_title = #{notcTitle}
+               , notc_cont = #{notcCont}
+               , last_mod_admin_id = #{lastModAdminId}
+               , last_mod_dtm = SYSDATE
+         WHERE   notc_seq = #{notcSeq}
+    </update>
+    
+    <delete id="deleteNotice" parameterType="int">
+        /* Notice.deleteNotice */
+        DELETE FROM tb_notice_board
+        WHERE notc_seq = #{notcSeq}
+    </delete>
+
+</mapper>

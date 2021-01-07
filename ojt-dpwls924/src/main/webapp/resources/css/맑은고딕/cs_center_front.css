@@ -1,0 +1,247 @@
+.cs-wrap .content-inner{overflow:hidden; height:auto;}
+.cs-wrap .content-inner .cs-content-left{float:left; width:194px; height:400px; margin-top:30px;}
+.cs-wrap .content-inner .cs-content-right{float:right; width:796px; height:auto; margin-top:30px;}
+
+.cs-header{width:auto; max-width:100%; height:auto; padding:40px 0; background-color:#46b498; border:1px solid #3ea88d;}
+.cs-header p.title{font-size:24px !important; font-weight:400; color:#fff !important; text-align:center;}
+.cs-header p.subtext{margin-top:10px; font-size:15px; font-weight:400; color:#fff; text-align:center;}
+
+.cs-left-menu{width:auto; max-width:100%; height:auto; padding:0 15px; border:1px solid #dcdcdc;}
+.cs-left-menu .left-menu{}
+.cs-left-menu .left-menu li{padding:15px 0; border-bottom:1px solid #dcdcdc;}
+.cs-left-menu .left-menu li a{font-size:13px; font-weight:700; color:#666;} 
+.cs-left-menu .left-menu li:hover a{color:#46b498;}
+.cs-left-menu .left-menu li.here a{color:#46b498;}
+.cs-left-menu .left-menu li.last{border-bottom:0;}
+
+.cs-content-right > .title{font-size:22px !important; font-weight:700; text-align:left !important;}
+
+/* 대리점 개설 안내  */
+.cs-content-wrap{width:auto; max-width:100%; height:auto; }
+.cs-content-wrap + .cs-content-wrap{margin-top:30px;}
+
+.cs-title{padding-left:12px; font-size:16px; color:#000; background-image:url(/resources/images/common/front_blt_cs_title.png); background-repeat:no-repeat; background-position:0 3px;}
+.cs-content-wrap .cs-title + .cs-step-box{margin-top:15px;}
+.cs-content-wrap .cs-title + .list-bullet{margin-top:15px;}
+.cs-content-wrap .cs-title + .table-wrap{margin-top:15px;}
+.cs-content-wrap .cs-title + div{margin-top:15px;}
+
+.cs-content-wrap .cs-tab{overflow:hidden; height:auto;}
+.cs-content-wrap .cs-tab .tab{float:left; width:33%; height:auto; text-align:center; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;}
+.cs-content-wrap .cs-tab .tab a{display:block; width:auto; max-width:100%; height:42px; line-height:42px; font-size:13px; color:#333; text-align:center; border-right:1px solid #e3e3e3;}
+.cs-content-wrap .cs-tab .tab.first a{border-left:1px solid #e3e3e3;}
+
+.cs-content-wrap .cs-tab .tab.here{border-top:1px solid #46b498; border-bottom:1px solid #46b498;}
+.cs-content-wrap .cs-tab .tab.here a{color:#fff; font-weight:700; background-color:#46b498; border-right:1px solid #46b498;}
+.cs-content-wrap .cs-tab .tab.first.here a{border-left:1px solid #46b498; border-right:1px solid #46b498;}
+.cs-content-wrap .cs-tab .tab.last{width:34%;}
+
+.cs-content-wrap .cs-tab.tab-size2 .tab{width:50%;}
+
+/* 대리점 개설 절차 */
+.cs-step-box{width:auto; max-width:100%; height:auto; border:1px solid #e3e3e3; border-left:0; border-right:0;}
+.cs-step-box ul{overflow:hidden; height:auto;}
+.cs-step-box ul li{float:left; display:block; width:119px; height:auto; padding:25px 41px 25px 0; background-image:url(/resources/images/common/front_icon_cs_step.png); background-repeat:no-repeat; background-position:right center;}
+.cs-step-box ul li.first{width:139px;}
+.cs-step-box ul li.last{padding-right:0; background-image:none;}
+.cs-step-box ul li .step-img{display:block; width:100%; height:auto; text-align:center;}
+.cs-step-box ul li .step-text{display:block; width:100%; height:auto; text-align:center; margin-top:15px; font-size:15px; font-weight:700; color:#333;}
+
+/* 대리점 개설 문의 */
+.cs-content-wrap .list-bullet{padding-left:10px;}
+.cs-content-wrap .list-bullet li{color:#666;}
+.cs-content-wrap .btn-wrap .btn-xmd{min-width:auto; height:50px; padding:0 20px; font-size:16px; font-weight:700; color:#fff;}
+
+/* 상담 및 문의처 */
+.cs-content-wrap .table-wrap .table-form td{line-height:20px; font-size:12px; color:#666;}
+.contact-info-box{width:auto; max-width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.contact-info-box .contact-info{float:left; width:351px; height:257px; padding:0 20px; margin-bottom:10px; border:1px solid #e3e3e3;}
+.contact-info-box .contact-info.odd-info + .contact-info{float:right; }
+
+.contact-info-box.nepa-contact .contact-info{height:257px;}
+.contact-info-box.isen-contact .contact-info{height:148px;}
+.contact-info-box.kids-contact .contact-info{width: 754px; height:148px;}
+
+.contact-info .contact-title{padding:20px 0; border-bottom:1px solid #e3e3e3; font-size:13px; font-weight:700; color:#46b498;}
+.contact-info .contact-table{margin-top:20px;}
+.contact-table th{height:25px; padding-left:11px; background-image:url(/resources/images/common/front_icon_list_bullet.png); background-repeat:no-repeat; background-position:0 5px; font-size:13px; font-weight:700; color:#333; text-align:left; vertical-align:top;}
+.contact-table td{font-size:13px; color:#333; font-weight:400; vertical-align:top;}
+.contact-table td ul li{}
+.contact-table td ul li + li{margin-top:5px;}
+.contact-table .col-w124{width:124px;}
+.contact-table .col-auto{width:auto;}
+
+.cs-comment-box {width:auto; max-width:100%; height:auto;}
+.cs-comment-box ul li{font-size:13px; color:#666;}
+.cs-comment-box ul li + li{margin-top:10px;}
+
+/* FAQ */
+.faq-search-wrap { margin-top: 30px; border: 1px solid #e7e7e7; border-left: 0; border-right: 0; padding: 30px; background: url(/resources/images/cs_center/front_cs_faq_search_bg.png) left bottom no-repeat #fff; text-align: center; background-size:cover; -webkit-background-size:cover; -moz-background-size:cover;}
+.faq-search-wrap input[type=text] {width: 420px; height: 26px; border-color: #cfcfcf;}
+.faq-search-wrap button {width: 92px; height: 42px; font-size: 16px; font-weight: 700;}
+
+.faq-type-list-wrap {margin-top: 30px;}
+.faq-type-list-wrap .faq-type-list {overflow: hidden; border-top:1px solid #e3e3e3; border-left:1px solid #e3e3e3;}
+.faq-type-list-wrap .faq-type-list li{float: left; width:25%; height:auto; border-bottom:1px solid #e3e3e3;}
+.faq-type-list-wrap .faq-type-list li a{display:block; width:auto; max-width:100%; height:42px; line-height:42px; color:#333; text-align: center; font-size: 13px; border-right:1px solid #e3e3e3;}
+.faq-type-list-wrap .faq-type-list li.here a {color: #fff; background: #46b498; border-color: #46b498; font-weight: 700;}
+
+.faq-type-list-wrap + .faq-list-wrap {margin-top: 30px;}
+.faq-list-wrap .faq-type-name {font-size: 16px; font-weight: 700;}
+.faq-list-wrap .faq-search-result {color: #333;}
+.faq-list-wrap .faq-list-wrap-inner {margin-top: 9px; border: 1px solid #929292; border-left: 0; border-right: 0;}
+
+.faq-list-wrap .faq-list-wrap-inner dt {background-image:url(/resources/images/common/front_faq_icon_q.png); background-repeat:no-repeat; background-position:20px 0px;}
+.faq-list-wrap .faq-list-wrap-inner dt a {display: block; color: #666; border-top: 1px solid #e5e5e5; padding: 20px 20px 20px 50px;}
+.faq-list-wrap .faq-list-wrap-inner dt:first-child a {border-top: 0;}
+.faq-list-wrap .faq-list-wrap-inner dd {display: none; color: #333; background: #f7f7f7;
+background-image: url(/resources/images/common/front_faq_icon_a.png); background-repeat: no-repeat; background-position: 20px 15px;
+border-top: 1px solid #e5e5e5; padding: 16px 20px 16px 50px; line-height: 1.5;}
+.faq-list-wrap .faq-list-wrap-inner dt.opened{ background-position:20px -52px;}
+.faq-list-wrap .faq-list-wrap-inner dt.opened + dd {display: block;}
+/* FAQ */
+
+
+/* gift card */
+.cs-gift-wrap{width:auto; max-width:100%; height:auto; margin-top:20px;}
+.gift-card-box{}
+.gift-card-box:after{position:absolute; z-index:1; left:-26px; top:87px; display:block; width:26px; height:55px; background-image:url(/resources/images/common/front_img_giftcard_deco.png); background-repeat:no-repeat; background-position:0 0; content:'';}
+.cs-gift-wrap + div{margin-top:40px;}
+
+
+/* */
+.buying-group-wrap{overflow:hidden;}
+.buying-group-icon{float:left; width:90px; height:90px;}
+.buying-group-text{float:right; width:682px; height:auto;}
+.buying-group-text .title-text{font-size:16px; color:#333; line-height:23px;}
+.buying-group-text .sub-text{margin-top:5px; font-size:13px; color:#666; line-height:20px;}
+
+/* 단체 구매 안내 */
+.manager-text-group{width:auto; max-width:100%; height:auto; padding:30px; border:1px solid #e3e3e3; overflow:hidden;}
+.manager-text-group .manager-title{width:20%; float:left; font-size:18px; color:#000;}
+.manager-text-group .manager-contact{width:76%; float:left; padding-left:3%;}
+.manager-text-group .manager-contact{border-left:1px solid #e3e3e3;}
+.manager-text-group .manager-contact ul li {color:#666; font-size:16px;}
+.manager-text-group .manager-contact ul li + li{margin-top:10px;}
+.manager-text-group .manager-contact ul li a{text-decoration:underline; color:#46b498;}
+
+
+/* 멤버십 카드 안내 */
+.cs-membership-card + .list-bullet{margin-top:20px;}
+.table-membership-info{border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; margin-top:15px; }
+.table-membership-info .col-size1{width:160px;}
+.table-membership-info tr th{color:#46b498; font-weight:700; font-size:16px; text-align:center; padding:25px 0;}
+.table-membership-info tr td{padding:25px 0;}
+.table-membership-info tr th p{margin-top:10px;}
+.table-membership-info tr + tr td{}
+.table-membership-info tr + tr th,
+.table-membership-info tr + tr td{border-top:1px solid #e3e3e3;}
+
+
+/* 멤버십 카드 혜택 */
+.table-membership-benifits{border-top:1px solid #bfbfbf; border-bottom:1px solid #bfbfbf;}
+.table-membership-benifits .col-size1{width:98px;}
+.table-membership-benifits .col-size2{width:64px;}
+.table-membership-benifits .col-size3{width:146px;}
+.table-membership-benifits .col-auto{width:auto;}
+.table-membership-benifits thead th{height:45px; background-color:#fbfbfb; border-bottom:1px solid #e3e3e3; font-size:12px; font-weight:700; color:#666; text-align:center;}
+.table-membership-benifits tbody td{padding:30px 0;}
+.table-membership-benifits tbody td + td{border-left:1px solid #e3e3e3;}
+.table-membership-benifits tbody tr + tr td{border-top:1px solid #e3e3e3;}
+
+.table-membership-benifits tbody td{color:#666;}
+.table-membership-benifits tbody td p{text-align:center;line-height:20px;}
+.table-membership-benifits tbody td p + p{margin-top:10px; }
+.table-membership-benifits tbody .grade{text-align:center;}
+.table-membership-benifits tbody .grade + td{text-align:center;}
+.table-membership-benifits tbody .grade p{margin-top:10px;}
+.table-membership-benifits tbody .cont {padding:30px 20px;}
+
+.table-membership-benifits table{width:100%; height:auto; border-bottom:1px solid #e3e3e3; border-top:1px solid #e3e3e3;}
+.table-membership-benifits table th{height:37px;}
+.table-membership-benifits table td{padding:15px 0; text-align:center;}
+
+/* 멤버십 서비스 약관 */
+.cs-content-wrap .desc-wrap.term-list-wrap {border: 0;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-wrap-inner {height: auto; max-height: inherit; padding: 0 15px;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-wrap-inner .term-list {}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-wrap-inner .term-list > li > span {color: #000; font-size: 14px;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-wrap-inner .term-list li {color: #333; font-size: 13px; line-height: 22px;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-wrap-inner .term-list li li + li {margin-top: 4px;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-list ul, .cs-content-wrap .desc-wrap.term-list-wrap .term-list ol {margin-top: 5px;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-list ol {margin-left: 14px;}
+.cs-content-wrap .desc-wrap.term-list-wrap .term-wrap-inner.privacy-wrap{padding:0 0;}
+
+.term-list.privacy-list ol{margin-left:20px !important;}
+.term-list.privacy-list ol li{line-height:20px !important;}
+.term-list.privacy-list ol li + li{margin-top:0 !important;} 
+
+.term-list.privacy-list .sub-column-group{margin-top:2px !important;}
+.term-list.privacy-list .sub-column-group li{font-size:12px !important; font-weight:400; color:#666 !important; line-height:18px !important;}
+.term-list.privacy-list .sub-column-group li ul ul{margin-top:2px !important; margin-left:0px;}
+.term-list.privacy-list .sub-column-group li ul ul ul{margin-top:2px !important; margin-left:10px;}
+.term-list.privacy-list .sub-column-group li + li{margin-top:2px !important;}
+.term-list.privacy-list .sub-column-title{display:block; color:#777; font-weight:700; font-size:12px;}
+.term-list.privacy-list .sub-text-darkgray12{font-size:12px !important; font-weight:400; color:#333 !important; line-height:18px !important;}
+.term-list.privacy-list .sub-text-darkgray13{font-size:13px !important; font-weight:400; color:#333 !important; line-height:20px !important;}
+.term-list.privacy-list .sub-text-gray12{font-size:12px !important; font-weight:400; color:#666 !important; line-height:18px !important;}
+.term-list.privacy-list .sub-text-gray13{font-size:13px !important; font-weight:400; color:#666 !important; line-height:20px !important;}
+.term-list.privacy-list li.sub-text-gray12 + li{margin-top:0 !important;}
+.term-list.privacy-list li + li.sub-text-darkgray13{margin-top:5px !important;}
+.term-list.privacy-list span + ul{margin-top:0 !important;}
+.term-list.privacy-list span + ol{margin-top:0 !important;}
+.term-list.privacy-list .sub-column{}
+.term-list.privacy-list .sub-column > li + li{margin-top:10px !important;}
+.term-list.privacy-list .sub-column > li span + ul{margin-top:0 !important;}
+
+
+
+/* 매장 찾기 */
+.cs-store-find-wrap{width:auto; max-width:100%; height:auto; padding:20px 0; text-align:center; background-color:#f8f8f8;}
+.cs-store-find-wrap select{height:33px;}
+.cs-store-find-wrap input[type="text"]{height:17px;}
+.cs-store-find-wrap .btn-sm{min-width: 64px; height: 33px; font-size: 14px; line-height: inherit;}
+
+.cs-result-wrap{width:auto; max-width:100%; height:auto; overflow:hidden; margin-top:30px;}
+.store-result{float:left; width:260px; height:auto;}
+.store-result-information{float:right; width:740px; height:auto; padding-top:26px;}
+
+.rs-count{width:auto; max-width:100%; height:26px; padding-left:17px; background:url(/resources/images/common/front_icon_cs_title_gps.png) 0 0 no-repeat; font-size:15px; color:#333; font-weight:700;}
+.rs-type-count{width:auto; max-width:100%; height:auto;}
+.rs-type-count ul{}
+.rs-type-count ul li{display:block; float:left; width:33%; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;}
+.rs-type-count ul li a{display:block; width:auto; max-width:100%; height:42px; border-right:1px solid #e3e3e3; font-size:12px; font-weight:400; color:#333;}
+.rs-type-count ul li a span{display:block; width:100%; height:auto; text-align:center;}
+.rs-type-count ul li a .brand{padding-top:8px;}
+.rs-type-count ul li a .total{margin-top:2px;}
+.rs-type-count ul li.first a{border-left:1px solid #e3e3e3;}
+.rs-type-count ul li.last{width:34%;}
+.rs-type-count ul li.active{border-top:1px solid #46b498; border-bottom:1px solid #46b498;}
+.rs-type-count ul li.active a{color:#fff; font-weight:700; background-color:#46b498; border-right:1px solid #46b498;}
+.rs-type-count ul li.first.active a{border-left:1px solid #46b498;}
+
+
+.rs-list{width:100%; height:575px; max-height:575px; overflow-x:hidden; overflow-y:auto; border-bottom:0px solid #e3e3e3;}
+.rs-list ul {}
+.rs-list ul li{height:auto; padding:25px 8px 24px 8px; border-bottom:1px solid #e3e3e3;}
+.rs-list ul li .store-name,
+.rs-list ul li .store-address{display:block;}
+.rs-list ul li .store-name{font-size:14px; color:#333;}
+.rs-list ul li .store-address{font-size:13px; color:#333; margin-top:5px;}
+.rs-list ul li.active a span{color:#46b498;}
+.rs-list ul li + li{border-top:0px solid #e3e3e3;}
+
+
+.store-result-information .store-info{width:auto; max-width:100%; height:auto; padding:14px; border:1px solid #e3e3e3; overflow:hidden;}
+.store-result-information .store-info .store-img{float:left; width:189px; height:106px; overflow:hidden;}
+.store-result-information .store-info .store-img img{max-width:100%; height:auto;}
+.store-result-information .store-info .store-addr{float:left; width:500px; height:auto; margin-left:15px; }
+.store-result-information .store-info .store-addr .text-title{font-size:14px; font-weight:700; color:#333;}
+.store-result-information .store-info .store-addr .text-title ~ p{width:auto; max-width:100%; min-height:21px; padding-left:21px; background-repeat:no-repeat;  color:#666; font-size:13px; font-weight:400; line-height: 1.6;}
+.store-result-information .store-info .store-addr .text-title + p{margin-top:10px;}
+.store-result-information .store-info .store-addr .text-addr{background-image:url(/resources/images/common/front_icon_cs_store1.png); background-position:0 5px;}
+.store-result-information .store-info .store-addr .text-tel {background-image:url(/resources/images/common/front_icon_cs_store2.png); background-position:0 5px;}
+.store-result-information .store-info .store-addr .text-open{background-image:url(/resources/images/common/front_icon_cs_store3.png); background-position:0 3px;}
+.store-result-information .store-info .store-addr .text-park{background-image:url(/resources/images/common/front_icon_cs_store4.png); background-position:0 3px;}
+
+.store-result-information .store-map{width:auto; max-width:100%; height:470px; margin-top:10px; border:1px solid #ebebeb;}

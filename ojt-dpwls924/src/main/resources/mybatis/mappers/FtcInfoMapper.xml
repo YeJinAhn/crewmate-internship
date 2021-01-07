@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="FtcInfo">
+
+    <insert id="insertProductFtcInfo" parameterType="ProductFtcInfo">
+        /*FtcInfo.insertProductFtcInfo*/
+        INSERT INTO tb_product_ftc_info(
+                prdt_code
+              , ftc_info_seq
+              , info_notc_cont
+              , disp_yn
+              , rgst_dtm
+              , admin_id )
+        VALUES(
+               #{prdtCode}
+             , #{ftcInfoSeq}
+             , #{infoNotcCont}
+             , #{dispYn}
+             , SYSDATE
+             , #{adminId}
+               )
+    </insert>
+</mapper>

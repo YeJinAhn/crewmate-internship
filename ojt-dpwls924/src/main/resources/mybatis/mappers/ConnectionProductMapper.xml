@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ConnectionProduct">
+
+    <insert id="insertConnectionProdcut" parameterType="ConnectionProduct">
+        /*ConnectionProduct.insertConnectionProdcut*/
+        INSERT INTO tb_connection_product(
+                  cntr_prdt_mstr_code
+                , cntr_prdt_code)
+        VALUES(
+                  #{cntrPrdtMstrCode}
+                , #{cntrPrdtCode}
+               )
+    </insert>
+</mapper>

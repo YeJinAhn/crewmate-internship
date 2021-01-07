@@ -1,0 +1,35 @@
+section.wrap section.contents-wrap .contents-inner{background-color:#e7e7e7;}
+
+/* mall main */
+/* tv cf */
+.m-mallmain-product-wrap{background-color:#fff;}
+.m-mallmain-product-wrap ~ .m-mallmain-product-wrap{margin-top:10px;}
+.m-mallmain-product-wrap .product-info-tvcf{}
+.m-mallmain-product-wrap .product-info-tvcf img{width:100%; height:auto;}
+.m-mallmain-product-wrap .product-info-list{}
+.m-mallmain-product-wrap .product-wrap{width:auto; max-width:100%; height:auto; padding:10px; background-color:#f1f1f1;  border-bottom:1px solid #ddd;}
+
+/* 상단 리스트(3개짜리) */
+.m-mallmain-product-wrap .product-list-tvcf {padding: 18px 10px 20px 10px;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list {width:100%; height:auto; overflow:hidden; padding-bottom:1px;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li {float:left; width:33%;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li ~ li{margin-left:0.5%;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li .prod-img-wrap img {width: 100%;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li .prod-detail-wrap {margin-top: 5px; text-align: center;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li .text-brand {font-size: 0.7rem;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li .item-name {display: -webkit-box !important; margin-top: 6px; font-size: 0.9rem; overflow: hidden; word-wrap: break-word; text-overflow: ellipsis; height: 2.4rem; max-height: 2.4rem; line-height: 1.2rem; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li .price-wrap {display: inline-block; margin-top: 11px; padding: 0; font-size: 1.2rem; font-weight: 700;}
+.m-mallmain-product-wrap .product-list-tvcf .relation-list li .price-wrap .unit {font-size: 0.9rem; font-weight: 400;}
+.m-mallmain-product-wrap .relation-prod-wrap .title{padding-left:20px; background-image:url(/resources/images/main/m_mallmain_icon_best.png); background-position:left center; background-repeat:no-repeat; background-size:17px auto;}
+/* 몰 메인  기획전 */
+.exhibition-tab{width:auto; max-width:100%; height:auto;}
+.exhibition-tab:after{content:''; display:block; width:100%; height:1px; clear:both;}
+.exhibition-tab .btn-exhibition-tab{float:left; width:33%; height:auto; padding:10px 0; font-size:1.1rem; color:#fff; font-weight:500; background-color:#5b5b5b; border:0; outline:0;}
+.exhibition-tab .btn-exhibition-tab ~ .btn-exhibition-tab{width:33.5%; border-left:1px solid #fff;}
+.exhibition-tab .btn-exhibition-tab:nth-child(1).active{background-color:#163e34;}
+.exhibition-tab .btn-exhibition-tab:nth-child(2).active{background-color:#163e34;}
+.exhibition-tab .btn-exhibition-tab:nth-child(3).active{background-color:#ff8212;}
+
+.exhibition-tab-content{}
+.exhibition-tab-content .content-box{}
+.exhibition-tab-content .content-box img{width:100%; height:auto;}

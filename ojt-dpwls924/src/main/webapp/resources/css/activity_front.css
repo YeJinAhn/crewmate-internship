@@ -1,0 +1,9 @@
+/* 기존 Activity CSS Override */
+a:hover {text-decoration: none;}
+@media only screen and (min-width: 980px){
+	html {
+	    overflow-y: visible;
+	}	
+}
+
+body {font-family: "맑은 고딕", "Noto Sans KR", Dotum, 돋움, Gulim, 굴림, "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif;}

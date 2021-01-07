@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <tlib-version>1.0</tlib-version>
+    <short-name>core</short-name>
+    <uri>/crewmate/core</uri>
+
+    <tag>
+        <description>프로퍼티 정보를 반환함.</description>
+        <name>prop</name>
+        <tag-class>kr.co.crewmate.ojt.web.taglib.PropTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>프로퍼티 키값</description>
+            <name>key</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>프로퍼티 기본값</description>
+            <name>defaultValue</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>운영환경 체크 여부</description>
+            <name>machine</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <description>페이징 처리</description>
+        <name>pagination</name>
+        <tag-class>kr.co.crewmate.ojt.web.taglib.PaginationTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>ListResult 객체명</description>
+            <name>listResultName</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>템플릿 파일명</description>
+            <name>template</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>페이지번호 파라미터 이름</description>
+            <name>paramPage</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>목록개수 파라미터 이름</description>
+            <name>paramListSize</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>추가파라미터</description>
+            <name>addParam</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>함수호출 이름</description>
+            <name>function</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <description>MASK 처리</description>
+        <name>mask</name>
+        <tag-class>kr.co.crewmate.ojt.web.taglib.MaskTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>pattern</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <description>파라미터를 그대로 전달할 경우 사용하는 태그</description>
+        <name>param</name>
+        <tag-class>kr.co.crewmate.ojt.web.taglib.ParamTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>
+                파라미터 문자열에서 스킵할 항목이름.
+                콤마로구분하여 복수개 지정가능.
+            </description>
+            <name>skip</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>추가로 전달할 파라미터 문자열 정보</description>
+            <name>addParamStr</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>구성된 파라미터를 URL Encoding을 처리해야 하는 경우 사용. 기본값은 false임</description>
+            <name>encode</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <function>
+        <description>Object to Json</description>
+        <name>toJson</name>
+        <function-class>kr.co.crewmate.ojt.util.StringUtil</function-class>
+        <function-signature>java.lang.String getJsonStr(java.lang.Object)</function-signature>
+    </function>
+</taglib>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

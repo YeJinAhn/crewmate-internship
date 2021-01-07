@@ -1,0 +1,27 @@
+.brand-wrap.brand-nepa header section:not(.title-wrap) button {background-color: #173e35;}
+.brand-wrap.brand-isen header section:not(.title-wrap) button {background-color: #f55022;}
+.brand-wrap.brand-kids header section:not(.title-wrap) button {background-color: #ff8212;}
+
+.brand-wrap header section:not(.title-wrap) button.btn-menu {background-image: url(/resources/images/common/m_header_btn_menu_w.png);}
+.brand-wrap header section:not(.title-wrap) button.btn-prev {background-image: url(/resources/images/common/m_header_btn_prev_w.png);}
+.brand-wrap header section:not(.title-wrap) button.btn-search {background-image: url(/resources/images/common/m_header_btn_search_w.png);}
+.brand-wrap header section:not(.title-wrap) button.btn-cart {background-image: url(/resources/images/common/m_header_btn_cart_w.png);}
+
+section.wrap.brand-wrap section.contents-wrap .contents-inner {background: #f1f1f1}
+
+.brand-wrap > footer nav button {width: 25%;}
+.brand-wrap footer .btn-mall {background-image: url(/resources/images/common/m_footer_btn_06.png); background-size: 50px;}
+.brand-wrap.brand-nepa footer .btn-home.active {background-image: url(/resources/images/common/m_footer_btn_01_active_nepa.png);}
+.brand-wrap.brand-nepa footer .footer-btn-shop.active {background-image: url(/resources/images/common/m_footer_btn_03_active_nepa.png);}
+.brand-wrap.brand-nepa footer .btn-brand.active {background-image: url(/resources/images/common/m_footer_btn_05_active_nepa.png);}
+.brand-wrap.brand-nepa footer .btn-mall.active {background-image: url(/resources/images/common/m_footer_btn_06_active_nepa.png);}
+
+.brand-wrap.brand-isen footer .btn-home.active {background-image: url(/resources/images/common/m_footer_btn_01_active_isen.png);}
+.brand-wrap.brand-isen footer .footer-btn-shop.active {background-image: url(/resources/images/common/m_footer_btn_03_active_isen.png);}
+.brand-wrap.brand-isen footer .btn-brand.active {background-image: url(/resources/images/common/m_footer_btn_05_active_isen.png);}
+.brand-wrap.brand-isen footer .btn-mall.active {background-image: url(/resources/images/common/m_footer_btn_06_active_isen.png);}
+
+.brand-wrap.brand-kids footer .btn-home.active {background-image: url(/resources/images/common/m_footer_btn_01_active_kids.png);}
+.brand-wrap.brand-kids footer .footer-btn-shop.active {background-image: url(/resources/images/common/m_footer_btn_03_active_kids.png);}
+.brand-wrap.brand-kids footer .btn-brand.active {background-image: url(/resources/images/common/m_footer_btn_05_active_kids.png);}
+.brand-wrap.brand-kids footer .btn-mall.active {background-image: url(/resources/images/common/m_footer_btn_06_active_kids.png);}
